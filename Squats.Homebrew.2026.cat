@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="zea7-8ed3-c70a-bf06" name="Squats (Homebrew 2026)" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="zea7-8ed3-c70a-bf06" name="Squats (Homebrew 2026)" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="b8d5-0b01-5913-545e" name="Mobile Artillery" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -93,7 +93,7 @@
         <categoryLink id="z3f5-709e-e637-1b09" name="New CategoryLink" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="zcfc-d7a2-ccd7-33c8" name="Bikers" hidden="false" collective="false" import="true" targetId="z350-ec8f-4b7c-761c" type="selectionEntry">
+    <entryLink id="zcfc-d7a2-ccd7-33c8" name="Guild Bikers" hidden="false" collective="false" import="true" targetId="z350-ec8f-4b7c-761c" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="zf45-e961-b920-a7a5" name="New CategoryLink" hidden="false" targetId="34e2-d53c-28ab-44cf" primary="true"/>
       </categoryLinks>
@@ -174,9 +174,24 @@
         <categoryLink id="c24c-c58e-dc8d-0dcb" name="New CategoryLink" hidden="false" targetId="6d25-b346-c314-6911" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="fe83-50e1-07f1-21dc" name="Guild Attack Gyrocopter" hidden="false" collective="false" import="true" targetId="5ec1-10cc-6838-347b" type="selectionEntry">
+    <entryLink id="fe83-50e1-07f1-21dc" name="Guild Gyrocopter" hidden="false" collective="false" import="true" targetId="5ec1-10cc-6838-347b" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="e482-815d-ad92-7287" name="New CategoryLink" hidden="false" targetId="34e2-d53c-28ab-44cf" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="96e8-b5e7-cc79-2070" name="Exo-Armour Hearthkin" hidden="false" collective="false" import="true" targetId="fd57-4b3c-941c-0e22" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1063-8ca4-bfd6-c638" name="New CategoryLink" hidden="false" targetId="6d25-b346-c314-6911" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5e25-bfe5-44c2-fcb4" name="Exo-armour Warlord on Trike" hidden="false" collective="false" import="true" targetId="1ced-ff5e-5053-df5f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ba95-20d2-32e6-40d8" name="New CategoryLink" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4186-51a2-d529-e1d0" name="Cyberslayers" hidden="false" collective="false" import="true" targetId="05dd-d3c8-87fd-23b1" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9354-9234-1a49-f920" name="New CategoryLink" hidden="false" targetId="34e2-d53c-28ab-44cf" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -979,7 +994,7 @@
             <selectionEntry id="a63e-ef65-fe3c-0547" name="Champion" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c70-2a8f-fb5f-4c76" type="max"/>
-                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0cb-fa3d-cfa8-9f12" type="min"/>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6702-6100-4a24-cd44" type="min"/>
               </constraints>
               <infoLinks>
                 <infoLink id="c72c-6d87-2a93-30c5" name="Exo-Armour Champion" hidden="false" targetId="6668-f1a3-7a28-2047" type="profile"/>
@@ -990,6 +1005,9 @@
                 <infoLink id="c487-a635-5fde-33ea" name="Power Weapon" hidden="false" targetId="5774-7187-2616-dd8a" type="profile"/>
                 <infoLink id="0529-127f-8e3a-14b9" name="Boltgun" hidden="false" targetId="60bf-18fd-f6e6-6eb4" type="profile"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="f355-2e5d-b5d2-8def" name="Squat Armoury" hidden="false" collective="false" import="true" targetId="zd0d-4eda-dd9a-e3ee" type="selectionEntryGroup"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="52.0"/>
               </costs>
@@ -2585,7 +2603,6 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
         <infoLink id="fea7-35db-f62b-e6f3" name="Targeter" hidden="false" targetId="0a02-59d7-63e7-b752" type="rule"/>
         <infoLink id="d03d-6eda-5cdf-b2e4" name="Slow and Purposeful" hidden="false" targetId="b113-c6dc-bbcd-aa83" type="rule"/>
         <infoLink id="d8d9-685e-2351-0010" name="Exo-Armour" hidden="false" targetId="zb31-e90f-dae3-6887" type="rule"/>
-        <infoLink id="58b4-dce0-a462-0a0b" name="Slow and Purposeful" hidden="false" targetId="b113-c6dc-bbcd-aa83" type="rule"/>
         <infoLink id="2212-a8b9-5a04-44d9" name="Independent Character" hidden="false" targetId="4a60-7f7e-c37f-a4d6" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
@@ -2691,6 +2708,172 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="45.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="fd57-4b3c-941c-0e22" name="Exo-Armour Hearthkin" hidden="false" collective="false" import="true" type="unit">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="060b-1d64-772d-bc2e" name="Hearthkin" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="931d-e6a4-aa7a-569d" name="Champion" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d750-2c07-fd37-fd18" type="max"/>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf69-6f87-ef2e-d99c" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="7a69-6d1c-27d1-a2b3" name="Exo-Armour Champion" hidden="false" targetId="6668-f1a3-7a28-2047" type="profile"/>
+                <infoLink id="a9d8-8857-bf63-edfe" name="Exo-Armour" hidden="false" targetId="zb31-e90f-dae3-6887" type="rule"/>
+                <infoLink id="366a-8b95-c980-b80a" name="Slow and Purposeful" hidden="false" targetId="b113-c6dc-bbcd-aa83" type="rule"/>
+                <infoLink id="fe86-a101-d30d-7945" name="True Grit" hidden="false" targetId="0c1f-0e87-fbfe-a78e" type="rule"/>
+                <infoLink id="44b4-e742-ae64-7f72" name="Targeter" hidden="false" targetId="0a02-59d7-63e7-b752" type="rule"/>
+                <infoLink id="99da-80b9-0f09-e205" name="Power Weapon" hidden="false" targetId="5774-7187-2616-dd8a" type="profile"/>
+                <infoLink id="ecb4-a244-7756-0df8" name="Boltgun" hidden="false" targetId="60bf-18fd-f6e6-6eb4" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="42.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1ced-ff5e-5053-df5f" name="Exo-armour Warlord on Trike" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="ddb7-2908-2fce-587f" name="Targeter" hidden="false" targetId="0a02-59d7-63e7-b752" type="rule"/>
+        <infoLink id="b3b7-d083-736e-9cd4" name="Exo-Armour" hidden="false" targetId="zb31-e90f-dae3-6887" type="rule"/>
+        <infoLink id="960c-2d20-53fe-6812" name="Independent Character" hidden="false" targetId="4a60-7f7e-c37f-a4d6" type="rule"/>
+        <infoLink id="116b-31be-37a1-6b7f" name="Bikes" hidden="false" targetId="6bd6-e738-e144-6db9" type="rule"/>
+        <infoLink id="acbf-3369-c434-1354" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+        <infoLink id="0c47-1c57-4b00-8c98" name="Boltgun" hidden="false" targetId="60bf-18fd-f6e6-6eb4" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="Twin-Linked Bolter"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="108d-befc-a307-b6f1" name="Rank" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="067f-1b73-36d0-3b56" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8832-0818-428a-a5f3" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d208-5ba9-8b62-1d90" name="Champion" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="6adf-fcab-3d0c-8ed4" name="Exo-Armour Champion" hidden="false" targetId="6668-f1a3-7a28-2047" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="e5f6-94c4-de8c-5fa8" value="4(6)"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="90.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7315-18bd-0b54-0817" name="Hero" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="76e3-67ab-6091-d3a7" name="Exo-Armour Hero" hidden="false" targetId="8acc-3402-3157-d28a" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="e5f6-94c4-de8c-5fa8" value="5(7)"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="120.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="15d1-e5b6-66b8-cc1a" name="Mighty Hero" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="bb1d-1a9d-3b04-2d77" name="Exo-Armour Mighty Hero" hidden="false" targetId="692e-7833-b557-9378" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="e5f6-94c4-de8c-5fa8" value="5(7)"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="150.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4af9-c3b5-4e4d-91cd" name="Exo-Armour Hearthguard" hidden="false" collective="false" import="true" targetId="462a-c328-b279-1c70" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c41b-a847-1710-b41e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3f3a-edb8-d1ae-5002" name="Squat Armoury" hidden="false" collective="false" import="true" targetId="zd0d-4eda-dd9a-e3ee" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="05dd-d3c8-87fd-23b1" name="Cyberslayers" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d9c7-10bf-4dd8-70ff" name="Squad Leader" hidden="false" collective="false" import="true" defaultSelectionEntryId="83db-b25b-f9dd-df4b">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1cb-ebee-5e24-d420" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5a6-50fa-6ca0-495a" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="83db-b25b-f9dd-df4b" name="Squad Leader" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d9c-5e74-815e-4b9f" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="b972-3b6b-7561-e51d" name="Cyberslayer" hidden="false" targetId="e843-b1b3-03d1-7e86" type="profile"/>
+                <infoLink id="f3eb-c3bf-623a-3518" name="Bolt Pistol" hidden="false" targetId="e9ac-c779-51bb-3c9a" type="profile"/>
+                <infoLink id="68dd-bcc2-01ce-25b7" name="Power Weapon" hidden="false" targetId="5774-7187-2616-dd8a" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="32.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2f3f-7dd6-f29b-96bf" name="Champion" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3c7-f3eb-91fd-6254" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="1a19-1dc9-9106-b696" name="Cyberslayer Champion" hidden="false" targetId="06d2-357d-5117-2dc4" type="profile"/>
+                <infoLink id="48a8-03af-624f-09d7" name="Bolt Pistol" hidden="false" targetId="e9ac-c779-51bb-3c9a" type="profile"/>
+                <infoLink id="efa7-9706-030c-1a30" name="Power Weapon" hidden="false" targetId="5774-7187-2616-dd8a" type="profile"/>
+              </infoLinks>
+              <entryLinks>
+                <entryLink id="a24b-426d-6bea-aa25" name="Squat Armoury" hidden="false" collective="false" import="true" targetId="zd0d-4eda-dd9a-e3ee" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="52.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="9004-06a8-5413-2665" name="Cyberslayers" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="f76f-c5fd-8287-1d75" name="Cyberslayers" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a813-32f1-e53f-b738" type="max"/>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54d5-0772-75c8-e454" type="min"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="92cc-27d9-dc9e-70b8" name="Squat" hidden="false" targetId="za9e-21c5-1ed9-72c9" type="profile"/>
+                <infoLink id="480d-1c0d-1784-8257" name="Power Weapon" hidden="false" targetId="5774-7187-2616-dd8a" type="profile"/>
+                <infoLink id="f2e6-56ff-e1bc-f5f8" name="Frag Grenades" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
+                <infoLink id="5034-93b7-6b3a-77bd" name="Krak Grenades" hidden="false" targetId="9c1b-bf93-059b-27f5" type="profile"/>
+                <infoLink id="660e-f916-1362-eb70" name="Bolt Pistol" hidden="false" targetId="e9ac-c779-51bb-3c9a" type="profile"/>
+                <infoLink id="a8e1-c319-5c4e-44e5" name="Fearless" hidden="false" targetId="b137-13a1-eb97-c5e5" type="rule"/>
+                <infoLink id="f1df-a4fe-bbf8-be2f" name="Fleet of Foot" hidden="false" targetId="6f0a-684d-7a67-2dd6" type="rule"/>
+                <infoLink id="dd68-3ccd-7408-53c0" name="Cyber-Enhancement" hidden="false" targetId="627d-af3d-810d-5a41" type="rule"/>
+                <infoLink id="de31-7d22-6613-88ec" name="Furious Charge" hidden="false" targetId="8539-2da3-3348-8a67" type="rule"/>
+                <infoLink id="456b-cddf-384b-fcc9" name="Bionics" hidden="false" targetId="a5a1-c9f5-36b8-b3ee" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="32.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="z0d9-bab4-0b9a-9d1a" name="One-Handed Weapons" hidden="false" collective="false" import="true">
@@ -2698,9 +2881,14 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
         <selectionEntry id="z8b1-60ae-e104-37fe" name="Laspistol" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f192-6c72-e677-f087" type="instanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="462a-c328-b279-1c70" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f192-6c72-e677-f087" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -2716,9 +2904,14 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
         <selectionEntry id="z750-5998-23b9-e42e" name="Close Combat Weapon" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f192-6c72-e677-f087" type="instanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="462a-c328-b279-1c70" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f192-6c72-e677-f087" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -2734,9 +2927,15 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
         <selectionEntry id="z425-0289-98af-4e9b" name="Power Weapon" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="4ed5-2f92-9abc-2870" value="0.0">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f192-6c72-e677-f087" type="instanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="462a-c328-b279-1c70" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f192-6c72-e677-f087" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="05dd-d3c8-87fd-23b1" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -2752,9 +2951,14 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
         <selectionEntry id="z967-d181-f9af-fbdf" name="Power Fist" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="4ed5-2f92-9abc-2870" value="10.0">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f192-6c72-e677-f087" type="instanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="462a-c328-b279-1c70" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f192-6c72-e677-f087" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -2770,9 +2974,14 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
         <selectionEntry id="zf80-aa8b-43d2-8712" name="Plasma Pistol" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f192-6c72-e677-f087" type="instanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="462a-c328-b279-1c70" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f192-6c72-e677-f087" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -2788,14 +2997,24 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
         <selectionEntry id="94e5-1076-2ffd-f0d2" name="Bolt Pistol" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f192-6c72-e677-f087" type="instanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="462a-c328-b279-1c70" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f192-6c72-e677-f087" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
             <modifier type="set" field="4ed5-2f92-9abc-2870" value="0.0">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="z349-c2d0-1862-8f80" type="instanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="z349-c2d0-1862-8f80" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="05dd-d3c8-87fd-23b1" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -2811,9 +3030,14 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
         <selectionEntry id="b7f6-3f0d-3c6d-2ed4" name="Hand Flamer" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f192-6c72-e677-f087" type="instanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="462a-c328-b279-1c70" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f192-6c72-e677-f087" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -2842,6 +3066,30 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
           </infoLinks>
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9d39-9515-e4fb-0ab0" name="Power Lance" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1ced-ff5e-5053-df5f" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da7a-6e8f-5681-6e31" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="11de-7ef2-6213-2be2" name="Power Weapon" hidden="false" targetId="5774-7187-2616-dd8a" type="profile">
+              <modifiers>
+                <modifier type="set" field="name" value="Power Lance"/>
+                <modifier type="set" field="492d-1f80-b777-26f2" value="Furious Charge"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="ac29-6dc6-200d-02d5" name="Furious Charge" hidden="false" targetId="8539-2da3-3348-8a67" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2932,6 +3180,18 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
       </constraints>
       <selectionEntries>
         <selectionEntry id="z8ae-78f0-7e58-717f" name="Lasgun" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="462a-c328-b279-1c70" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f192-6c72-e677-f087" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="z19d-8c52-d0c8-9850" type="max"/>
           </constraints>
@@ -2943,6 +3203,18 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
           </costs>
         </selectionEntry>
         <selectionEntry id="z5bf-5421-ec47-5d26" name="Shotgun" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="462a-c328-b279-1c70" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f192-6c72-e677-f087" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="z10e-d9ec-a7c0-cf71" type="max"/>
           </constraints>
@@ -3005,9 +3277,14 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
         <selectionEntry id="1a5c-c5a7-f9e7-04c7" name="Bolter" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="4ed5-2f92-9abc-2870" value="0.0">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f192-6c72-e677-f087" type="instanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="462a-c328-b279-1c70" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f192-6c72-e677-f087" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -3347,9 +3624,14 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
         <selectionEntry id="1e79-0592-432b-fa55" name="Conversion Field" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b26f-b1ce-289d-9a4d" type="instanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b26f-b1ce-289d-9a4d" type="instanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a63e-ef65-fe3c-0547" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -3726,6 +4008,32 @@ In addition, Squats may choose to move using the Slow and Purposeful universal s
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e843-b1b3-03d1-7e86" name="Cyberslayer" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
+      <characteristics>
+        <characteristic name="WS" typeId="c704-6128-f143-935a">5</characteristic>
+        <characteristic name="BS" typeId="7928-3a9b-6080-ed95">2</characteristic>
+        <characteristic name="S" typeId="df03-6292-d3f5-f778">4</characteristic>
+        <characteristic name="T" typeId="e5f6-94c4-de8c-5fa8">4</characteristic>
+        <characteristic name="W" typeId="4dc2-c603-0bc5-0561">1</characteristic>
+        <characteristic name="I" typeId="eeda-4fb4-901e-b70d">3</characteristic>
+        <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
+        <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
+        <characteristic name="Sv" typeId="b309-5233-122f-82bb">6++</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="06d2-357d-5117-2dc4" name="Cyberslayer Champion" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
+      <characteristics>
+        <characteristic name="WS" typeId="c704-6128-f143-935a">6</characteristic>
+        <characteristic name="BS" typeId="7928-3a9b-6080-ed95">3</characteristic>
+        <characteristic name="S" typeId="df03-6292-d3f5-f778">4</characteristic>
+        <characteristic name="T" typeId="e5f6-94c4-de8c-5fa8">4</characteristic>
+        <characteristic name="W" typeId="4dc2-c603-0bc5-0561">1</characteristic>
+        <characteristic name="I" typeId="eeda-4fb4-901e-b70d">4</characteristic>
+        <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
+        <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
+        <characteristic name="Sv" typeId="b309-5233-122f-82bb">6++</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
