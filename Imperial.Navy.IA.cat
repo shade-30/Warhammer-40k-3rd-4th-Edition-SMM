@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="98b1-cfd4-3349-79ad" name="Imperial Navy" revision="1" battleScribeVersion="2.03" library="true" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry id="7525-0f6e-647b-f492" name="Vulture (IA)" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3261-6601-5bfe-f5d0" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="3154-2c09-0942-efb9" name="VTOL Hover Mode" hidden="false" targetId="c28e-05cc-afdf-32d0" type="rule"/>
+        <infoLink id="43a4-873e-b0ba-7f4d" name="Flyers" hidden="false" targetId="3f21-57bb-fb07-54c5" type="rule"/>
+        <infoLink id="90bb-255a-b4b0-fdb3" name="Skimmer" hidden="false" targetId="e111-c9c6-72de-1626" type="rule"/>
+        <infoLink id="b4d6-059d-8192-919d" name="Vulture Gunship" hidden="false" targetId="2dd9-9ee5-9e28-6db6" type="profile"/>
+        <infoLink id="cc11-5daa-8678-a939" name="Heavy Bolter" hidden="false" targetId="b9aa-366b-bd62-4692" type="profile"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5c78-c7a3-507a-f99b" name="Hardpoint 1" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6d8-74af-30c6-3980" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="48c7-efcf-fb1e-e1a5" name="Twin-Linked Multi-laser" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="21a1-e700-5ffe-ff27" name="Multi-laser" hidden="false" targetId="63ed-7ae2-0dce-e02e" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Twin-Linked Multi-laser"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="2908-20c4-dc55-a000" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a755-2546-da61-937a" name="Twin-Linked Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="dc8a-9423-7a7d-b1b7" name="Missle Launcher (frag)" hidden="false" targetId="aa04-2d5e-da7e-2d25" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Twin-Linked Missile Launcher (frag)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="b00b-b51b-4144-03cc" name="Missle Launcher (krak)" hidden="false" targetId="4e6c-7b62-ba6d-05cf" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Twin-Linked Missile Launcher (krak)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="1fab-926b-313e-721f" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="45.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4f4f-1205-5b03-de4b" name="Twin-Linked Autocannon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="77bf-bedc-cde1-221c" name="Autocannon" hidden="false" targetId="6128-e2af-037e-4d1a" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Twin-Linked Autocannon"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="4bde-a83a-cf09-8b21" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="eb18-41af-fbd1-5b77" name="Twin-Linked Las-Cannon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="cf33-0e0d-4798-39d2" name="Lascannon" hidden="false" targetId="a160-d79e-e7a9-2e9c" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Twin-Linked Lascannon"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="c69c-1a2d-cd03-7de9" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="45.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="736e-943f-ff2e-f008" name="2x Multiple Rocket Pods" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="ae97-c968-a03f-fcb3" name="Multiple Rockit Pods" hidden="false" targetId="e434-66a1-6cb9-9e3d" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="2x Multiple Rockit Pods"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="50.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d675-6088-d9a2-f454" name="Hardpoint 2" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cc4-15ad-2591-b4d4" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="214d-8918-4b6f-e49e" name="2x Heavy Bomb Racks" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="f9b5-dde4-476b-9d49" name="Big Bomb" hidden="false" targetId="52ac-16f1-b437-6d96" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="6x Heavy Bombs"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="60.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0311-12ec-7bb9-4530" name="2x Heavy Smark Bomb Racks" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="541a-d382-4d2f-33db" name="Multiple Rockit Pods" hidden="false" targetId="e434-66a1-6cb9-9e3d" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="6x Heavy Smart Bombs"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="90.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="770c-481f-3ffc-3aa4" name="2x Missle Racks" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="5483-78c4-a227-026b" name="Hunter-killer Missile" hidden="false" targetId="86d5-c5a0-fc04-7f5a" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="6x Hunter-killer Missiles"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="60.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4dcb-96b4-ca80-6e30" name="2x Multiple Rocket Pods" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="b0a4-f03e-4a2d-79c1" name="Multiple Rockit Pods" hidden="false" targetId="e434-66a1-6cb9-9e3d" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="2x Multiple Rockit Pods"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d940-0b67-26f9-d0f6" name="2x Hellstrike Missiles" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="8d4b-0217-338f-284d" name="Rockits" hidden="false" targetId="8128-a576-6e0a-07da" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="2x Hellstrike Missiles"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4c39-878a-eaf1-1070" name="Navy Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="a74d-decd-82c8-0407" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="15fa-a2a9-33a2-7a5e" name="Valkyrie (IA)" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3261-6601-5bfe-f5d0" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule id="55cc-0405-d1e0-1319" name="Heavy Lift" hidden="false">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4327-dfbf-b706-1f69" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <description>A Valkyrie can cary a Tarantula Sentry Gun or Cyclops Demolition Vehicle if it is not armed with Hellstrike Missiles or Multiple Rocket Pods</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="30db-2b9f-3393-1ac3" name="Flyers" hidden="false" targetId="3f21-57bb-fb07-54c5" type="rule"/>
+        <infoLink id="4188-8ee9-5714-c1d5" name="Skimmer" hidden="false" targetId="e111-c9c6-72de-1626" type="rule"/>
+        <infoLink id="be3b-aecd-0b60-73cb" name="VTOL Hover Mode" hidden="false" targetId="c28e-05cc-afdf-32d0" type="rule"/>
+        <infoLink id="6d6c-3446-c1c9-b7dd" name="Valkyrie" hidden="false" targetId="fa4b-5358-51ff-94a1" type="profile"/>
+        <infoLink id="d643-7357-5a9a-6a2d" name="Multi-laser" hidden="false" targetId="63ed-7ae2-0dce-e02e" type="profile"/>
+        <infoLink id="3711-ae29-8218-3016" name="Heavy Bolter" hidden="false" targetId="b9aa-366b-bd62-4692" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="2x Door Mounted Heavy Bolters"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4327-dfbf-b706-1f69" name="Hardpoint" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9984-8ae2-2f96-ac16" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="2723-821b-2752-f9bc" name="2x Multiple Rocket Pods" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="95a8-7410-f4d1-5e5d" name="Multiple Rockit Pods" hidden="false" targetId="e434-66a1-6cb9-9e3d" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="2x Multiple Rockit Pods"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="de9e-a324-64fd-a02c" name="2x Hellstrike Missiles" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="2738-6414-b500-5661" name="Rockits" hidden="false" targetId="8128-a576-6e0a-07da" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="2x Hellstrike Missiles"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="cd77-db99-6f9e-2405" name="Navy Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="a74d-decd-82c8-0407" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="140.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="416c-65a1-3ce3-3cce" name="Marauder Bomber (IA)" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3261-6601-5bfe-f5d0" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="afe8-9463-4da9-72f2" name="Marauder" hidden="false" targetId="90b9-8a91-2866-be9f" type="profile"/>
+        <infoLink id="3403-0b4b-7e8b-86bc" name="Flyers" hidden="false" targetId="3f21-57bb-fb07-54c5" type="rule"/>
+        <infoLink id="164f-0ade-8c87-82cc" name="Super-Heavy Flyer" hidden="false" targetId="7ca6-da5f-a87c-f49b" type="rule"/>
+        <infoLink id="3e14-6b55-f660-76dd" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+        <infoLink id="25a4-0341-ba22-67fa" name="Lascannon" hidden="false" targetId="a160-d79e-e7a9-2e9c" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="Twin-Linked Lascannon"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="c578-a34f-fd45-9522" name="Heavy Bolter" hidden="false" targetId="b9aa-366b-bd62-4692" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="Dorsal Turret Twin-Linked Heavy Bolter"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="8d07-79fc-5dd5-5ded" name="Heavy Bolter" hidden="false" targetId="b9aa-366b-bd62-4692" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="Tail Turret Twin-Linked Heavy Bolter"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3e0f-77f5-16fd-f7a0" name="Bombbay Payload" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="5eb5-20a8-2791-1cdb" name="Bombs" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="2b5c-1a96-a6d7-1179" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="45d6-fe31-10f7-25c0" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b5c-1a96-a6d7-1179" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="f372-f6b6-e7ae-e796" name="Bomb" hidden="false" targetId="8fab-1e56-f345-a884" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="45d6-fe31-10f7-25c0" name="Heavy Bombs" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="dddb-97ab-9ae6-6bd6" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5eb5-20a8-2791-1cdb" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dddb-97ab-9ae6-6bd6" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="d88f-f4bd-174b-f6c7" name="Bomb" hidden="false" targetId="8fab-1e56-f345-a884" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="f8d3-1e15-e39a-fb10" name="Wing Pylon Payload" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="d5bc-7b45-ec1d-db9d" name="Bombs" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50fa-926c-5105-c639" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="bf71-6c7a-436d-8d6a" name="Bomb" hidden="false" targetId="8fab-1e56-f345-a884" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4cfc-9ed1-6bd5-58d6" name="Navy Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="a74d-decd-82c8-0407" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="395.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8be0-47e5-6a5a-a2bf" name="Marauder Destroyer (IA)" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3261-6601-5bfe-f5d0" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="f4f3-feb5-99a3-b0a0" name="Super-Heavy Flyer" hidden="false" targetId="7ca6-da5f-a87c-f49b" type="rule"/>
+        <infoLink id="ac8f-a54f-7c08-cec0" name="Flyers" hidden="false" targetId="3f21-57bb-fb07-54c5" type="rule"/>
+        <infoLink id="2d54-d0ee-1f02-c72d" name="Marauder" hidden="false" targetId="90b9-8a91-2866-be9f" type="profile"/>
+        <infoLink id="2aaa-8618-162b-bae2" name="Autocannon" hidden="false" targetId="6128-e2af-037e-4d1a" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="3x Twin-Linked Autocannons"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="ea11-b80f-212c-277f" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+        <infoLink id="ea14-f0b2-f188-4b6c" name="Heavy Bolter" hidden="false" targetId="b9aa-366b-bd62-4692" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="Dorsal Turret Twin-Linked Heavy Bolter"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="82e5-a405-e692-ca91" name="Assault Cannon" hidden="false" targetId="3f9c-e7c1-c442-3b7c" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="Tail Mounted Twin-Linked Assault Cannon"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="a663-a886-be93-3709" name="Hellstrike Missile Payload" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdfb-b74e-7bce-ff38" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="e505-eba8-98f0-6126" name="Rockits" hidden="false" targetId="8128-a576-6e0a-07da" type="profile">
+              <modifiers>
+                <modifier type="set" field="name" value="Hellstrike Missile"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="da68-f944-50bd-92f7" name="Bomb Payload" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="742e-ecfb-02a4-5738" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="e01f-6e53-57b5-caa2" name="Bomb" hidden="false" targetId="8fab-1e56-f345-a884" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="cd35-79d6-934c-cd22" name="Navy Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="a74d-decd-82c8-0407" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="425.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="97f5-b08e-fd2e-8440" name="Lightning (IA)" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3261-6601-5bfe-f5d0" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="5177-29e1-65b4-9089" name="Flyers" hidden="false" targetId="3f21-57bb-fb07-54c5" type="rule"/>
+        <infoLink id="55ac-c6f7-e45b-b9ef" name="Lightning" hidden="false" targetId="9783-d170-540c-e6be" type="profile"/>
+        <infoLink id="690a-e300-786f-e810" name="Lascannon" hidden="false" targetId="a160-d79e-e7a9-2e9c" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="2x Lascannon"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="431a-5cd1-6b52-b543" name="Long Barrelled Autocannon" hidden="false" targetId="48dc-47d4-5d34-3078" type="profile">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="95f9-9806-2627-18a7" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="62d8-0e84-685c-38b0" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+        <infoLink id="960c-fa2c-000a-2ed6" name="Rockits" hidden="false" targetId="8128-a576-6e0a-07da" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="2x Hellstrike Missiles"/>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="95f9-9806-2627-18a7" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="95f9-9806-2627-18a7" name="Strike Variant" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8f5-5746-4132-0749" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ac52-b19c-8a3e-acbd" name="Wing Mounted Hellstrike Missiles" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8de-b455-fc7b-0323" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="2ed3-6449-f4cb-49cf" name="Rockits" hidden="false" targetId="8128-a576-6e0a-07da" type="profile">
+              <modifiers>
+                <modifier type="set" field="name" value="Hellstrike Missiles"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="f057-221e-521f-aade" name="Navy Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="a74d-decd-82c8-0407" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="145.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4916-2143-0b47-d951" name="Thunderbolt (IA)" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3261-6601-5bfe-f5d0" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="3740-c05b-b1fb-d569" name="Flyers" hidden="false" targetId="3f21-57bb-fb07-54c5" type="rule"/>
+        <infoLink id="fbf3-8eb7-a565-38d8" name="Lascannon" hidden="false" targetId="a160-d79e-e7a9-2e9c" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="Twin-Linked Lascannon"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="3844-bc5c-0407-7426" name="Autocannon" hidden="false" targetId="6128-e2af-037e-4d1a" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="2x Twin-Linked Autocannon"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="a49f-7f4a-c15f-ab6e" name="Thunderbolt" hidden="false" targetId="84b9-fc45-5c2d-2d46" type="profile"/>
+        <infoLink id="ddfe-e11b-0a5d-7083" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="73aa-accb-780d-657b" name="Wing Mount Payload" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="2e69-72a5-128f-f55e" name="Bombs" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="901f-4919-6290-fac1" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2350-82a1-b310-4552" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="901f-4919-6290-fac1" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="90d1-8552-f4c0-f578" name="Bomb" hidden="false" targetId="8fab-1e56-f345-a884" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2350-82a1-b310-4552" name="Hellstrike Missiles" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="4080-bf22-9cc3-dc89" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2e69-72a5-128f-f55e" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4080-bf22-9cc3-dc89" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="10b6-95cf-5f28-b344" name="Rockits" hidden="false" targetId="8128-a576-6e0a-07da" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Hellstrike Missiles"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="3f2f-e5cb-6f3a-7ab3" name="Navy Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="a74d-decd-82c8-0407" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="180.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="82c5-8065-6903-5174" name="Tarantula Sentry Gun (IA)" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3261-6601-5bfe-f5d0" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule id="457d-031e-dee8-439a" name="Firing Modes" hidden="false">
+          <description>At deployment, you must select a firing mode. It cannot be changed once the game begins.
+
+Point Defence Mode: Choose a fixed 90 degree arc. The gun will engage enemy targets up to 24&quot; away within the arc.
+
+Sentry Mode: The gun will fire at the nearest enemy target within 12&quot; that it can see.</description>
+        </rule>
+        <rule id="6edd-e4b7-7a52-bc64" name="Targetting Priority" hidden="false">
+          <description>A heavy bolter Sentry gun will fire at the nearest non-vehicle unit it can hit. A lascannon Sentry gun will fire at the closest enemy vehicle it can hit. If no preferred target can be hit they will shoot at non-preferred targets. </description>
+        </rule>
+        <rule id="cef1-13fc-bbae-7952" name="Damage" hidden="false">
+          <description>A Tarantula is destroyed by any glancing or penetrating hit.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="82fa-2808-beab-15b4" name="Immobile" hidden="false" targetId="de3d-c21c-3d4f-5259" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="645d-88e4-aa03-303e" name="Sentry Gun" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="939f-ae17-19df-2ce7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="679f-4592-8b99-6bc3" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="3d68-3819-d531-5600" name="Weapon Plaform" hidden="false" targetId="a6bb-7a68-e3e4-d388" type="profile">
+              <modifiers>
+                <modifier type="set" field="b109-f88e-dcc7-8a24" value="2"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="b18f-73b0-4c94-d32d" name="Weapon" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="96da-d7d0-f45b-52eb" name="Twin-Linked Heavy Bolter" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="e2a4-5925-2323-d33f" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+                    <infoLink id="a725-6ef2-21f7-b715" name="Heavy Bolter" hidden="false" targetId="b9aa-366b-bd62-4692" type="profile">
+                      <modifiers>
+                        <modifier type="set" field="name" value="Twin-Linked Heavy Bolter"/>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="b1b5-89e8-0c75-fc62" name="Twin-Linked Lascannon" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="2892-d6ce-53b2-6339" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+                    <infoLink id="7c06-fd8d-0a75-67e3" name="Lascannon" hidden="false" targetId="a160-d79e-e7a9-2e9c" type="profile">
+                      <modifiers>
+                        <modifier type="set" field="name" value="Twin-Linked Lascannon"/>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="a74d-decd-82c8-0407" name="Navy Vehicle Upgrades" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="b626-19af-1918-4be2" name="Ejector Seats" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="4ed5-2f92-9abc-2870" value="20.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8be0-47e5-6a5a-a2bf" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="416c-65a1-3ce3-3cce" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0b6-3f0b-a3d8-8fa2" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="4281-0e09-c0ac-7c7e" name="Ejector Seats" hidden="false">
+              <description>If the aircraft is destroyed roll a D6. On a 1-3 nothing happens. On a 4+ the crewman successfully ejects. Roll a Scatter Dice and 4D6&quot; for the direction and distance from the aircraft the crewman lands. Each crewman counts a single Guardsman with a laspistol. They are considered to be below half strength for the purposes of moral checks, claiming table quarters, etc. If any crew survice the aircraft will only count as damaged for the purposes of Victory Points at the end of the game.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="411f-3144-a505-a2db" name="Flare/Chaff Launcher" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8477-b4af-459f-715d" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="10b2-6b3d-21fc-a1b3" name="Flare/Chaff Launcher" hidden="false">
+              <description>One use only. If the vehicle takes the Immobilised damage result then re-roll the result. </description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="df2d-0504-d6bb-d7a2" name="Armoured Cockpit" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbae-8376-7d6a-0411" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="b82b-d795-c81f-80e3" name="Armoured Cockpit" hidden="false">
+              <description>If the aircraft takes the Crew Shaken, Crew Stunned, or Pilot Shaken result, then roll a D6. On a 4+ the result is ignored.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0e5c-833d-fb5d-a72f" name="Infrared Targeting" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41c0-998f-6ea5-6d72" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="e473-e870-79de-574a" name="Infrared Targeting" hidden="false">
+              <description>The aircraft can re-roll the dice for the distance it can engage enemiers during a Night Fighting mission. </description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ce35-8dfd-f475-f9ad" name="Illum Flare" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ba2-0a4d-e10b-9c36" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="9012-d784-8bfc-db43" name="Illum Flare" hidden="false">
+              <description>This flare is used in missions where the Night Fighting rules are in effect. They allow one enemy unit spotted by the aircraft to be fired at in the next turn by any other ground forces in range and that have line of sight.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="46a6-3673-2835-876d" name="Nose Art" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ee8-92d0-dbf5-ff61" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="9a34-663e-614a-060f" name="Nose Art" hidden="false">
+              <description>In the player&apos;s own turn, after the aircraft has attacked in the opponent&apos;s turn, the first unit to fail a Moral test may re-roll the test.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="c28e-05cc-afdf-32d0" name="VTOL Hover Mode" hidden="false">
+      <description>Rather than leave the table as per normal, the flyer may choose to engage is VTOL Hover mode to remain on the table. It remains stationary, but can turn in any direction to bring its weapons to bear. It may fire all of its weapons.
+For the purposes of being fired at, the vehicle counts as a moving Skimmer. It can therefore be fired at using the firer&apos;s normal BS. All hits are treated as glancing hits. It can only be attack in close combat by attackers that can fly or have jump packs, in which case it is treated as a moving vehicle.
+If the vehicle is immobilised the model is destroyed.
+At the end of its own turn, the vehicle may disengage VTOL. It not reverts to being a flyer. It cannot return in the enemy turn immediately afer it leaves the table.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="fa4b-5358-51ff-94a1" name="Valkyrie" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">11</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">11</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2dd9-9ee5-9e28-6db6" name="Vulture Gunship" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">11</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">11</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="84b9-fc45-5c2d-2d46" name="Thunderbolt" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">10</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9783-d170-540c-e6be" name="Lightning" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">10</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="90b9-8a91-2866-be9f" name="Marauder" hidden="false" typeId="36b6-ef06-48e4-cd45" typeName="Super Heavy Vehicle">
+      <characteristics>
+        <characteristic name="Front Armor" typeId="85f4-de3e-abeb-67f7">10</characteristic>
+        <characteristic name="Side Armor" typeId="8ec2-d2f2-3bed-35ef">10</characteristic>
+        <characteristic name="Rear Armor" typeId="b276-1b4e-26d8-0a08">10</characteristic>
+        <characteristic name="BS" typeId="de63-2aba-c18c-6d47">3</characteristic>
+        <characteristic name="Structure Points" typeId="a817-7301-451c-20c9">3</characteristic>
+        <characteristic name="Capacity" typeId="e1d2-e9ec-26d6-1f11"/>
+      </characteristics>
+    </profile>
+    <profile id="a6bb-7a68-e3e4-d388" name="Weapon Plaform" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">10</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
