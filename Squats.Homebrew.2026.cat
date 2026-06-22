@@ -194,6 +194,11 @@
         <categoryLink id="9354-9234-1a49-f920" name="New CategoryLink" hidden="false" targetId="34e2-d53c-28ab-44cf" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="e850-3801-d28c-61c5" name="Iron Eagle Gyrocopter" hidden="false" collective="false" import="true" targetId="2530-bdce-c4ed-6b36" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="29be-668a-3fb4-9912" name="New CategoryLink" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="z4cf-ab79-c089-09f4" name="Guildmaster" hidden="false" collective="false" import="true" type="unit">
@@ -2598,7 +2603,7 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="75.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f192-6c72-e677-f087" name="Exo-armour Warlord" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="f192-6c72-e677-f087" name="Exo-Armour Warlord" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="fea7-35db-f62b-e6f3" name="Targeter" hidden="false" targetId="0a02-59d7-63e7-b752" type="rule"/>
         <infoLink id="d03d-6eda-5cdf-b2e4" name="Slow and Purposeful" hidden="false" targetId="b113-c6dc-bbcd-aa83" type="rule"/>
@@ -2737,7 +2742,7 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1ced-ff5e-5053-df5f" name="Exo-armour Warlord on Trike" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="1ced-ff5e-5053-df5f" name="Exo-Armour Warlord on Trike" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="ddb7-2908-2fce-587f" name="Targeter" hidden="false" targetId="0a02-59d7-63e7-b752" type="rule"/>
         <infoLink id="b3b7-d083-736e-9cd4" name="Exo-Armour" hidden="false" targetId="zb31-e90f-dae3-6887" type="rule"/>
@@ -2751,7 +2756,7 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
         </infoLink>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="108d-befc-a307-b6f1" name="Rank" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="108d-befc-a307-b6f1" name="Rank" hidden="false" collective="false" import="true" defaultSelectionEntryId="d208-5ba9-8b62-1d90">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="067f-1b73-36d0-3b56" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8832-0818-428a-a5f3" type="max"/>
@@ -2797,11 +2802,6 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="4af9-c3b5-4e4d-91cd" name="Exo-Armour Hearthguard" hidden="false" collective="false" import="true" targetId="462a-c328-b279-1c70" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c41b-a847-1710-b41e" type="max"/>
-          </constraints>
-        </entryLink>
         <entryLink id="3f3a-edb8-d1ae-5002" name="Squat Armoury" hidden="false" collective="false" import="true" targetId="zd0d-4eda-dd9a-e3ee" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
@@ -2854,8 +2854,13 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
                 <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a813-32f1-e53f-b738" type="max"/>
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54d5-0772-75c8-e454" type="min"/>
               </constraints>
+              <rules>
+                <rule id="3814-d87d-c83e-c555" name="Deathblow" hidden="false">
+                  <description>When a model with deathblow is killed while in close combat, if it has not yet fought this combat, place it on its side and it may make a single attack at the end of combat before combat result is calculated.</description>
+                </rule>
+              </rules>
               <infoLinks>
-                <infoLink id="92cc-27d9-dc9e-70b8" name="Squat" hidden="false" targetId="za9e-21c5-1ed9-72c9" type="profile"/>
+                <infoLink id="92cc-27d9-dc9e-70b8" name="Cyberslayer" hidden="false" targetId="e843-b1b3-03d1-7e86" type="profile"/>
                 <infoLink id="480d-1c0d-1784-8257" name="Power Weapon" hidden="false" targetId="5774-7187-2616-dd8a" type="profile"/>
                 <infoLink id="f2e6-56ff-e1bc-f5f8" name="Frag Grenades" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
                 <infoLink id="5034-93b7-6b3a-77bd" name="Krak Grenades" hidden="false" targetId="9c1b-bf93-059b-27f5" type="profile"/>
@@ -2874,6 +2879,32 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
+    <selectionEntry id="2530-bdce-c4ed-6b36" name="Iron Eagle Gyrocopter" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="b2ec-9c04-47de-2db6" name="Jammed!" hidden="false">
+          <description>If a double is ever rolled when determining the amount of shots the Rotary Cannon fires, the feed system has jammed up and it counts as being destroyed for the rest of the game.</description>
+        </rule>
+        <rule id="d7e6-8fac-0be4-fe1f" name="Tail Gunner" hidden="false">
+          <description>The twin-linked rotary cannon may fire at a different target than the lascannon.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="4876-adae-9b53-739d" name="Battle Cannon" hidden="false" targetId="3a2e-94e4-b9a3-bb11" type="profile"/>
+        <infoLink id="a64f-1981-f3b3-32d3" name="Iron Eagle Gyrocopter" hidden="false" targetId="b920-06d4-6549-e1c6" type="profile"/>
+        <infoLink id="dc40-c36a-bbd6-506c" name="Skimmer" hidden="false" targetId="e111-c9c6-72de-1626" type="rule"/>
+        <infoLink id="0b94-28dc-652c-4149" name="Lascannon" hidden="false" targetId="a160-d79e-e7a9-2e9c" type="profile"/>
+        <infoLink id="46d4-e394-0e04-fd81" name="Autocannon" hidden="false" targetId="6128-e2af-037e-4d1a" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="Twin-linked Rotary Cannon"/>
+            <modifier type="set" field="d3f6-19e8-ac9e-ae13" value="Heavy 2D6"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="687e-bd19-b863-e78f" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="265.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="z0d9-bab4-0b9a-9d1a" name="One-Handed Weapons" hidden="false" collective="false" import="true">
@@ -2886,6 +2917,7 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="462a-c328-b279-1c70" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f192-6c72-e677-f087" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1ced-ff5e-5053-df5f" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -2933,6 +2965,7 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="462a-c328-b279-1c70" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f192-6c72-e677-f087" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="05dd-d3c8-87fd-23b1" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1ced-ff5e-5053-df5f" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -2956,6 +2989,7 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="462a-c328-b279-1c70" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f192-6c72-e677-f087" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1ced-ff5e-5053-df5f" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -2979,6 +3013,7 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="462a-c328-b279-1c70" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f192-6c72-e677-f087" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1ced-ff5e-5053-df5f" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -3002,6 +3037,7 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="462a-c328-b279-1c70" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f192-6c72-e677-f087" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1ced-ff5e-5053-df5f" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -3035,6 +3071,7 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="462a-c328-b279-1c70" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f192-6c72-e677-f087" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1ced-ff5e-5053-df5f" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -3089,7 +3126,7 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
             <infoLink id="ac29-6dc6-200d-02d5" name="Furious Charge" hidden="false" targetId="8539-2da3-3348-8a67" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3170,9 +3207,14 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
     <selectionEntryGroup id="z380-0446-35ce-aa4a" name="Two-Handed Weapons" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="z349-c2d0-1862-8f80" type="instanceOf"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2f3f-7dd6-f29b-96bf" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="z349-c2d0-1862-8f80" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -3187,6 +3229,7 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="462a-c328-b279-1c70" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f192-6c72-e677-f087" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1ced-ff5e-5053-df5f" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -3210,6 +3253,7 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="462a-c328-b279-1c70" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f192-6c72-e677-f087" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1ced-ff5e-5053-df5f" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -3282,6 +3326,7 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
                   <conditions>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="462a-c328-b279-1c70" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f192-6c72-e677-f087" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1ced-ff5e-5053-df5f" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -3494,6 +3539,13 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
           </costs>
         </selectionEntry>
         <selectionEntry id="zdd7-8869-ce5b-a202" name="Bionics" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2f3f-7dd6-f29b-96bf" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ze2a-9908-c9fb-bc19" type="max"/>
           </constraints>
@@ -3508,7 +3560,7 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
         </selectionEntry>
         <selectionEntry id="z22a-6fb6-a524-3263" name="Master-Crafted Weapon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="za08-7a82-7ffd-e267" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="za08-7a82-7ffd-e267" type="max"/>
           </constraints>
           <rules>
             <rule id="z257-0761-f5d7-a207" name="Master-crafted Weapons" hidden="false">
@@ -3524,6 +3576,8 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
             <modifier type="set" field="hidden" value="true">
               <conditions>
                 <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f192-6c72-e677-f087" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="462a-c328-b279-1c70" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1ced-ff5e-5053-df5f" type="instanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -3629,6 +3683,7 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
                   <conditions>
                     <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b26f-b1ce-289d-9a4d" type="instanceOf"/>
                     <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a63e-ef65-fe3c-0547" type="instanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2f3f-7dd6-f29b-96bf" type="instanceOf"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -3651,6 +3706,8 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
             <modifier type="set" field="hidden" value="true">
               <conditions>
                 <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f192-6c72-e677-f087" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1ced-ff5e-5053-df5f" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="462a-c328-b279-1c70" type="instanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -3887,7 +3944,7 @@ In addition, Squats may choose to move using the Slow and Purposeful universal s
         <characteristic name="Side Armor" typeId="bcca-0b51-9187-2e4e">14</characteristic>
         <characteristic name="Rear Armor" typeId="929b-c9cc-001b-3705">14</characteristic>
         <characteristic name="BS" typeId="ae25-5be4-5470-2204">3</characteristic>
-        <characteristic name="Capacity" typeId="ec07-2d55-2ba5-6080">10 Infantry or 5 Exo-suits</characteristic>
+        <characteristic name="Capacity" typeId="ec07-2d55-2ba5-6080">10 Infantry or 5 Exo-armours</characteristic>
       </characteristics>
     </profile>
     <profile id="6ada-395d-ad97-b945" name="Rhino" hidden="false" typeId="5535-2b48-81ee-04ce" typeName="Transport">
@@ -4017,7 +4074,7 @@ In addition, Squats may choose to move using the Slow and Purposeful universal s
         <characteristic name="S" typeId="df03-6292-d3f5-f778">4</characteristic>
         <characteristic name="T" typeId="e5f6-94c4-de8c-5fa8">4</characteristic>
         <characteristic name="W" typeId="4dc2-c603-0bc5-0561">1</characteristic>
-        <characteristic name="I" typeId="eeda-4fb4-901e-b70d">3</characteristic>
+        <characteristic name="I" typeId="eeda-4fb4-901e-b70d">2</characteristic>
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">6++</characteristic>
@@ -4030,10 +4087,18 @@ In addition, Squats may choose to move using the Slow and Purposeful universal s
         <characteristic name="S" typeId="df03-6292-d3f5-f778">4</characteristic>
         <characteristic name="T" typeId="e5f6-94c4-de8c-5fa8">4</characteristic>
         <characteristic name="W" typeId="4dc2-c603-0bc5-0561">1</characteristic>
-        <characteristic name="I" typeId="eeda-4fb4-901e-b70d">4</characteristic>
+        <characteristic name="I" typeId="eeda-4fb4-901e-b70d">3</characteristic>
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">6++</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b920-06d4-6549-e1c6" name="Iron Eagle Gyrocopter" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">14</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">14</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">14</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
