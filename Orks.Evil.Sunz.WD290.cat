@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="d099-df05-eb19-1fcf" name="Orks - Evil Sunz (WD#290)" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="3643-1a1b-604e-9de4" name="&apos;Ard Boyz" hidden="false" collective="false" import="true" targetId="c4f1-e2d7-cc90-9cfb" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="aee2-6a9a-972f-34d9" name="Evil Sunz Clan" hidden="false" targetId="3a55-5e57-853a-b9ef" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6662-d293-84bd-c7de" name="Battle Fortress (IA)" hidden="false" collective="false" import="true" targetId="e2e8-e321-6af7-930b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8d4f-7ff1-57e7-af49" name="Evil Sunz Clan" hidden="false" targetId="3a55-5e57-853a-b9ef" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7bb6-d446-f049-b6d0" name="Battlewagon" hidden="false" collective="false" import="true" targetId="edb7-4d2e-35fd-21b2" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6300-8e79-6cb1-a4a3" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="32cf-d2af-3586-4640" name="Heavy Support" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+        <categoryLink id="eafb-ded0-7711-863c" name="Evil Sunz Clan" hidden="false" targetId="3a55-5e57-853a-b9ef" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0532-8da8-c5da-7e2c" name="Big Gunz Battery" hidden="false" collective="false" import="true" targetId="9be4-cf9e-97b6-02f0" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="197f-349f-70e1-5cdb" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7d83-733b-c0ac-dabb" name="Heavy Support" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+        <categoryLink id="5be2-38d2-f220-74d0" name="Evil Sunz Clan" hidden="false" targetId="3a55-5e57-853a-b9ef" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d419-8f1f-3052-959d" name="Big Mek" hidden="false" collective="false" import="true" targetId="fdd0-6bc8-710f-4b77" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0060-3aa8-64e1-26bb" name="HQ" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="true"/>
+        <categoryLink id="0991-4486-b4a9-aaa0" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="13cf-fe63-0978-2c57" name="Independent Character" hidden="false" targetId="3c96-248b-affd-e504" primary="false"/>
+        <categoryLink id="3be6-4749-60e4-3103" name="Evil Sunz Clan" hidden="false" targetId="3a55-5e57-853a-b9ef" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4dc7-28fd-18cf-7330" name="Bommer (IA)" hidden="false" collective="false" import="true" targetId="2488-6a18-2432-f920" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="18a5-b5dc-2293-75a4" name="Evil Sunz Clan" hidden="false" targetId="3a55-5e57-853a-b9ef" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="cef3-c58e-f4cc-2700" name="Burna Boyz" hidden="false" collective="false" import="true" targetId="541f-ccfc-684a-de6f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2a22-99c1-7fe1-47a9" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="c78e-da4c-554c-2db8" name="New CategoryLink" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
+        <categoryLink id="e668-b2b3-e850-d219" name="Evil Sunz Clan" hidden="false" targetId="3a55-5e57-853a-b9ef" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="af97-f60f-4103-6cc5" name="Fighta-Bommer (IA)" hidden="false" collective="false" import="true" targetId="c5cb-7e0f-0338-db0d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="950f-b0e6-dfe8-8bbc" name="Evil Sunz Clan" hidden="false" targetId="3a55-5e57-853a-b9ef" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="dbf9-4b7d-7c00-9597" name="Flash Gitz" hidden="false" collective="false" import="true" targetId="24cc-91ab-7f7a-8653" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="61c5-ddb6-63b3-b15d" name="New CategoryLink" hidden="false" targetId="6d25-b346-c314-6911" primary="true"/>
+        <categoryLink id="1080-ec93-7141-042a" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="9d72-6f5c-b8dc-aadf" name="Evil Sunz Clan" hidden="false" targetId="3a55-5e57-853a-b9ef" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0a8a-e1ec-d84c-a9ed" name="Gargantuan Squiggoth (IA)" hidden="false" collective="false" import="true" targetId="f012-dffc-9e6f-00f4" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18b8-b30a-1aca-207c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="67d7-e172-2db6-aac3" name="New CategoryLink" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+        <categoryLink id="f919-2ab0-bde0-b932" name="Evil Sunz Clan" hidden="false" targetId="3a55-5e57-853a-b9ef" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="53a2-c68e-d701-d873" name="Gretchin Mobz" hidden="false" collective="false" import="true" targetId="d0d3-94d0-bd7c-4592" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa0d-6d2d-b90a-e238" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="12b3-1a2b-3f14-260e" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="27fa-ba31-5d10-e7d8" name="New CategoryLink" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
+        <categoryLink id="db82-9d0b-0501-1ac0" name="Evil Sunz Clan" hidden="false" targetId="3a55-5e57-853a-b9ef" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="333a-9381-ba4f-2b80" name="Grot Bomb Launcha (IA)" hidden="false" collective="false" import="true" targetId="4d7b-5a0c-e271-a9b9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="cf86-00ab-cde5-1607" name="Evil Sunz Clan" hidden="false" targetId="3a55-5e57-853a-b9ef" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="df2d-0601-155b-fad3" name="Gunwagon (IA)" hidden="false" collective="false" import="true" targetId="6371-229b-5720-03f6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4b45-3213-0fa6-1554" name="Evil Sunz Clan" hidden="false" targetId="3a55-5e57-853a-b9ef" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1c81-be8e-0548-2cc6" name="Killer Kanz" hidden="false" collective="false" import="true" targetId="e34b-7a81-e4da-b497" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9b8-2c3b-c1ef-3366" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3b6b-058c-a38a-6d04" name="Heavy Support" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+        <categoryLink id="c36a-a314-c31b-e37f" name="Evil Sunz Clan" hidden="false" targetId="3a55-5e57-853a-b9ef" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1858-875a-8e12-5060" name="Kommandos" hidden="false" collective="false" import="true" targetId="94c0-0e84-8e2c-99fb" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bcf-2dc5-b8dd-3d87" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4848-5fbd-5901-d023" name="Elites" hidden="false" targetId="6d25-b346-c314-6911" primary="true"/>
+        <categoryLink id="e82f-ef53-5a5c-fe09" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="0a05-790d-f349-4af8" name="Evil Sunz Clan" hidden="false" targetId="3a55-5e57-853a-b9ef" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b73c-8bc3-333e-826d" name="Lootas" hidden="false" collective="false" import="true" targetId="8b9b-622e-a912-7e44" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce82-65dd-cb9a-b683" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="67cd-15e8-7599-c4b0" name="Heavy Support" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+        <categoryLink id="bf8e-ac51-206a-afa2" name="Evil Sunz Clan" hidden="false" targetId="3a55-5e57-853a-b9ef" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6cc8-a59a-a368-f6c5" name="Looted Vehicle" hidden="false" collective="false" import="true" targetId="b563-0f4e-01c7-07a0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f31b-d6b8-a8e7-8efd" name="Heavy Support" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+        <categoryLink id="9ca7-9dc9-2275-cd0a" name="Evil Sunz Clan" hidden="false" targetId="3a55-5e57-853a-b9ef" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8f97-776f-073b-aa20" name="Ork Deadnought" hidden="false" collective="false" import="true" targetId="f2f9-3e63-0705-0d93" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7611-556c-def8-f76d" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7258-da12-93db-f2cd" name="Heavy Support" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+        <categoryLink id="d2a3-7fcc-d335-7aab" name="Evil Sunz Clan" hidden="false" targetId="3a55-5e57-853a-b9ef" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="910b-6620-eb7c-cd3e" name="Painboss" hidden="false" collective="false" import="true" targetId="ec58-4077-cd77-559c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3a4d-11c9-31b6-e707" name="New CategoryLink" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="true"/>
+        <categoryLink id="5500-a08a-28a9-dcbf" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="4081-2184-12a1-52b2" name="Independent Character" hidden="false" targetId="3c96-248b-affd-e504" primary="false"/>
+        <categoryLink id="0635-594e-3d4a-3232" name="Evil Sunz Clan" hidden="false" targetId="3a55-5e57-853a-b9ef" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d4c5-8a63-aaab-bd18" name="Shoota Boyz" hidden="false" collective="false" import="true" targetId="89ec-0742-328f-2510" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7d6c-1f18-14f1-b74e" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="578e-dcd8-3c90-72fb" name="New CategoryLink" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
+        <categoryLink id="f557-e3c3-81a0-7f76" name="Evil Sunz Clan" hidden="false" targetId="3a55-5e57-853a-b9ef" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b921-6c93-3698-afaf" name="Skarboyz" hidden="false" collective="false" import="true" targetId="4f6d-3a61-ad00-60a4" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5eae-37e4-a5f4-0bbf" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a0e3-602f-01b7-3c32" name="Elites" hidden="false" targetId="6d25-b346-c314-6911" primary="true"/>
+        <categoryLink id="6914-2b06-2b44-1bf7" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="8d36-2e12-c03c-a25c" name="Evil Sunz Clan" hidden="false" targetId="3a55-5e57-853a-b9ef" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="43c4-731c-5deb-a001" name="Slugga Boyz" hidden="false" collective="false" import="true" targetId="285b-4446-6152-f35f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b7c8-ea31-bfd1-9a64" name="New CategoryLink" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
+        <categoryLink id="9f97-cd8f-ee47-098c" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="91b5-bed1-ffaa-9723" name="Evil Sunz Clan" hidden="false" targetId="3a55-5e57-853a-b9ef" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="499b-c6a5-b807-5c0f" name="Stikk Bommas" hidden="false" collective="false" import="true" targetId="8af2-a75e-84d4-f4f9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ea0d-0e29-dcfc-a1dc" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="d40f-1cfa-bfd3-7bde" name="New CategoryLink" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
+        <categoryLink id="6360-eeaa-c043-bd56" name="Evil Sunz Clan" hidden="false" targetId="3a55-5e57-853a-b9ef" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="dacc-164f-4e2b-fefb" name="Tankbustas" hidden="false" collective="false" import="true" targetId="094b-2b8c-7290-bc19" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8336-7ec1-8dcd-6d66" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="6c41-4402-fbc5-bfbe" name="New CategoryLink" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
+        <categoryLink id="9156-7aab-6120-0239" name="Evil Sunz Clan" hidden="false" targetId="3a55-5e57-853a-b9ef" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f98c-4b43-088b-d682" name="Stormboyz" hidden="false" collective="false" import="true" targetId="89ad-7891-8c63-1cbd" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3a2a-f488-c485-c4f1" name="New CategoryLink" hidden="false" targetId="6d25-b346-c314-6911" primary="true"/>
+        <categoryLink id="5d4b-1e09-8d65-76d4" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="7571-bf21-d284-2f96" name="Evil Sunz Clan" hidden="false" targetId="3a55-5e57-853a-b9ef" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="77ad-454e-e497-591e" name="Trukk Boyz" hidden="false" collective="false" import="true" targetId="ac36-01bb-d582-7960" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a392-c443-57a3-0679" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="e19e-913c-6b40-9a12" name="New CategoryLink" hidden="false" targetId="34e2-d53c-28ab-44cf" primary="true"/>
+        <categoryLink id="aafe-b683-65d9-7383" name="Evil Sunz Clan" hidden="false" targetId="3a55-5e57-853a-b9ef" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9b60-e422-ac47-9e1a" name="Warbike Mobz" hidden="false" collective="false" import="true" targetId="7fe1-5292-1d58-9196" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="bac8-3d35-0af9-0045" name="Fast Attack" hidden="false" targetId="34e2-d53c-28ab-44cf" primary="true"/>
+        <categoryLink id="d2c4-a4d9-1d2e-300d" name="Bikes" hidden="false" targetId="86cf-31f2-e698-7a81" primary="false"/>
+        <categoryLink id="3e82-b67b-f282-3901" name="Evil Sunz Clan" hidden="false" targetId="3a55-5e57-853a-b9ef" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="56cd-8c97-bf8e-9fc7" name="Evil Sunz Warboss on Warbike" hidden="false" collective="false" import="true" targetId="6eea-6739-3967-d3c0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="bfa8-896c-3cf1-9e55" name="New CategoryLink" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="true"/>
+        <categoryLink id="75ed-31d8-9813-1bab" name="Independent Character" hidden="false" targetId="3c96-248b-affd-e504" primary="false"/>
+        <categoryLink id="8f9c-e3e3-9af2-9220" name="Evil Sunz Clan" hidden="false" targetId="3a55-5e57-853a-b9ef" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="004d-22cc-bc19-20b2" name="Warbuggies" hidden="false" collective="false" import="true" targetId="fa6d-a3e1-88db-a566" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="eadb-cf7a-084d-60f5" name="Vehicle" hidden="false" targetId="ca5d-3c3b-217c-c72d" primary="false"/>
+        <categoryLink id="decc-d462-98d1-d347" name="Fast Attack" hidden="false" targetId="34e2-d53c-28ab-44cf" primary="true"/>
+        <categoryLink id="ab48-c43e-a91d-6305" name="Evil Sunz Clan" hidden="false" targetId="3a55-5e57-853a-b9ef" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8be1-e120-c0d8-93bf" name="Evil Sunz Warboss" hidden="false" collective="false" import="true" targetId="4fb1-38f1-ec55-337c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1add-ac32-4a5b-58be" name="Evil Sunz Clan" hidden="false" targetId="3a55-5e57-853a-b9ef" primary="false"/>
+        <categoryLink id="d884-4766-527d-851b" name="New CategoryLink" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="true"/>
+        <categoryLink id="940c-04e0-f420-2217" name="Independent Character" hidden="false" targetId="3c96-248b-affd-e504" primary="false"/>
+        <categoryLink id="46d6-862b-d8c9-f989" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6c16-20ab-6f31-864a" name="Warbike Mobz" hidden="false" collective="false" import="true" targetId="7ccb-c544-84da-c19c" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87db-bf95-1bf9-ae1c" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a87a-8304-9287-f8ee" name="Bikes" hidden="false" targetId="86cf-31f2-e698-7a81" primary="false"/>
+        <categoryLink id="a380-1e20-62f0-ddc4" name="Evil Sunz Clan" hidden="false" targetId="3a55-5e57-853a-b9ef" primary="false"/>
+        <categoryLink id="7d78-85a6-0506-8d9f" name="New CategoryLink" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="7ccb-c544-84da-c19c" name="Warbike Mobz" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="7eb7-0a7a-45a9-7e77" name="The Power of the WAAAGH!" hidden="false" targetId="7bb4-34ca-51f3-bb8c" type="rule"/>
+        <infoLink id="9fcd-c57d-7c42-7c6e" name="Bikes" hidden="false" targetId="6bd6-e738-e144-6db9" type="rule"/>
+        <infoLink id="7814-effd-8d33-e5ef" name="Short Ranged" hidden="false" targetId="1487-add8-d98b-7898" type="rule"/>
+        <infoLink id="f224-25de-54f1-9497" name="Hard to Hit" hidden="false" targetId="d2e0-6a69-f681-96f4" type="rule"/>
+        <infoLink id="2c27-c91d-1393-ea75" name="Speed Freeks" hidden="false" targetId="8495-8dc4-d36b-5f4e" type="rule"/>
+        <infoLink id="f6f9-1279-9e63-2400" name="Psycho Blastas" hidden="false" targetId="2502-cef3-ea93-ab5d" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8abb-d537-d146-c293" name="Warbike Boyz" hidden="false" collective="false" import="true" defaultSelectionEntryId="e92d-924d-62bc-ade6">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e32c-e695-bde3-6b0e" type="min"/>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ade8-eb0d-1d46-45f0" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e92d-924d-62bc-ade6" name="Warbike w/ Twin-linked Big Shoota" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="1604-7977-a187-23ab" name="Warbike Boyz" hidden="false" targetId="2604-db72-5cea-d73f" type="profile"/>
+                <infoLink id="fb7f-5771-7c4b-f28a" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+                <infoLink id="6662-3bb6-1932-541a" name="Big Shoota" hidden="false" targetId="b467-e518-11c9-c23a" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Twin-Linked Big Shoota"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7ef9-6305-baee-dbda" name="Warbike w/ Slugga and Choppa" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="6284-f8cf-1952-710a" name="Choppa" hidden="false" targetId="3d19-a53f-85b3-6cf3" type="profile"/>
+                <infoLink id="bd05-6ec9-ee48-8dd9" name="Slugga" hidden="false" targetId="1aaa-4805-c346-107e" type="profile"/>
+                <infoLink id="76ac-6f99-c1ea-140a" name="Warbike Boyz" hidden="false" targetId="2604-db72-5cea-d73f" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="8149-17e5-e53a-8a87" name="Leader" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67d1-90c8-2d35-2097" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="1487-e0bb-94c2-1948" name="Mekboy" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6e9-65ef-6997-10cb" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="3ae6-3c93-7488-487e" name="Warbike Mekboy" hidden="false" targetId="0fc5-7188-3147-1764" type="profile"/>
+                    <infoLink id="17b8-28f5-2fb9-fd84" name="Ork Mob Rule!" hidden="false" targetId="1586-dbe5-3b2e-7590" type="rule"/>
+                    <infoLink id="2679-b86c-c309-3396" name="The Power of the WAAAGH!" hidden="false" targetId="7bb4-34ca-51f3-bb8c" type="rule"/>
+                  </infoLinks>
+                  <categoryLinks>
+                    <categoryLink id="6151-1cef-e6f2-e050" name="Mek" hidden="false" targetId="7c1d-7cdb-4549-5e87" primary="false"/>
+                  </categoryLinks>
+                  <entryLinks>
+                    <entryLink id="5a92-0324-6a93-cef8" name="Ork Armoury" hidden="false" collective="false" import="true" targetId="3fb8-65fc-3904-2e54" type="selectionEntryGroup"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="e90e-07ed-2bad-37ce" name="Nob w/ Twin-linked Big Shoota" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b815-cf3d-0448-ea7a" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="08a8-faf9-0d9d-c3fd" name="Warbike Nob" hidden="false" targetId="43cb-5180-9280-9962" type="profile"/>
+                    <infoLink id="473c-a6db-1879-4290" name="Big Shoota" hidden="false" targetId="b467-e518-11c9-c23a" type="profile">
+                      <modifiers>
+                        <modifier type="set" field="name" value="Twin-linked Big Shoota"/>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink id="bd17-9495-d6be-a38c" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+                    <infoLink id="ec43-28ca-65d6-118f" name="Ork Mob Rule!" hidden="false" targetId="1586-dbe5-3b2e-7590" type="rule"/>
+                    <infoLink id="6760-576c-769d-9b26" name="The Power of the WAAAGH!" hidden="false" targetId="7bb4-34ca-51f3-bb8c" type="rule"/>
+                  </infoLinks>
+                  <categoryLinks>
+                    <categoryLink id="df7e-f7ee-8ed8-b651" name="Nob" hidden="false" targetId="9e88-0867-6d7c-3258" primary="false"/>
+                  </categoryLinks>
+                  <entryLinks>
+                    <entryLink id="7604-9dce-d672-9c4a" name="Ork Armoury" hidden="false" collective="false" import="true" targetId="3fb8-65fc-3904-2e54" type="selectionEntryGroup"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="52.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="a2be-932e-b504-8a68" name="Mekboy w/ Twin-linked Big Shoota" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2837-d450-6285-6b58" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="4079-f4dc-9f4e-c4fb" name="Big Shoota" hidden="false" targetId="b467-e518-11c9-c23a" type="profile">
+                      <modifiers>
+                        <modifier type="set" field="name" value="Twin-linked Big Shoota"/>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink id="e19f-325b-d328-9535" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+                    <infoLink id="3048-c81e-e56f-58e8" name="Ork Mob Rule!" hidden="false" targetId="1586-dbe5-3b2e-7590" type="rule"/>
+                    <infoLink id="0c8f-2e3e-1d5b-4aca" name="The Power of the WAAAGH!" hidden="false" targetId="7bb4-34ca-51f3-bb8c" type="rule"/>
+                    <infoLink id="0adb-381d-be18-9e58" name="Warbike Mekboy" hidden="false" targetId="0fc5-7188-3147-1764" type="profile"/>
+                  </infoLinks>
+                  <categoryLinks>
+                    <categoryLink id="a106-aa78-b9fe-6f9b" name="Mek" hidden="false" targetId="7c1d-7cdb-4549-5e87" primary="false"/>
+                  </categoryLinks>
+                  <entryLinks>
+                    <entryLink id="c126-1813-695a-4a23" name="Ork Armoury" hidden="false" collective="false" import="true" targetId="3fb8-65fc-3904-2e54" type="selectionEntryGroup"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="40.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="7801-3c30-60c4-f403" name="Nob" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d058-c62f-966e-dd6f" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="7ea3-39a2-dbe7-814b" name="Warbike Nob" hidden="false" targetId="43cb-5180-9280-9962" type="profile"/>
+                    <infoLink id="4467-0c70-4528-87be" name="Ork Mob Rule!" hidden="false" targetId="1586-dbe5-3b2e-7590" type="rule"/>
+                    <infoLink id="d516-bc2a-7ea7-b2cd" name="The Power of the WAAAGH!" hidden="false" targetId="7bb4-34ca-51f3-bb8c" type="rule"/>
+                  </infoLinks>
+                  <categoryLinks>
+                    <categoryLink id="bee5-53c4-599f-eb63" name="Nob" hidden="false" targetId="9e88-0867-6d7c-3258" primary="false"/>
+                  </categoryLinks>
+                  <entryLinks>
+                    <entryLink id="81c3-da3d-b8c5-bd58" name="Ork Armoury" hidden="false" collective="false" import="true" targetId="3fb8-65fc-3904-2e54" type="selectionEntryGroup"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="42.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6eea-6739-3967-d3c0" name="Evil Sunz Warboss on Warbike" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="39fc-c95f-3337-db1c" name="Evil Sunz Warboss" hidden="false" targetId="4cfe-58d2-2ff1-addb" type="profile"/>
+        <infoLink id="18b8-9f5a-4168-f3b3" name="Big Shoota" hidden="false" targetId="b467-e518-11c9-c23a" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="Twin-linked Big Shoota"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="9727-1296-df58-f8a3" name="Bikes" hidden="false" targetId="6bd6-e738-e144-6db9" type="rule"/>
+        <infoLink id="4d25-12f8-c9f1-c309" name="Hard to Hit" hidden="false" targetId="d2e0-6a69-f681-96f4" type="rule"/>
+        <infoLink id="e5c1-2d1a-775e-3db6" name="Psycho Blastas" hidden="false" targetId="2502-cef3-ea93-ab5d" type="rule"/>
+        <infoLink id="402c-86d1-4f8d-be0b" name="Short Ranged" hidden="false" targetId="1487-add8-d98b-7898" type="rule"/>
+        <infoLink id="e199-9550-af4e-246b" name="Speed Freeks" hidden="false" targetId="8495-8dc4-d36b-5f4e" type="rule"/>
+        <infoLink id="c850-7021-a1c6-3a54" name="The Power of the WAAAGH!" hidden="false" targetId="7bb4-34ca-51f3-bb8c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="98b7-f6c5-3121-cf98" name="Independent Character" hidden="false" targetId="3c96-248b-affd-e504" primary="false"/>
+        <categoryLink id="a115-1ed1-d4cc-af04" name="Bikes" hidden="false" targetId="86cf-31f2-e698-7a81" primary="false"/>
+        <categoryLink id="cc7d-6719-f0fe-7a47" name="Warboss" hidden="false" targetId="f86e-9066-de2e-bf53" primary="false"/>
+        <categoryLink id="639f-0b5b-8677-1c3d" name="Evil Sunz Clan" hidden="false" targetId="3a55-5e57-853a-b9ef" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4ef9-db73-0a8c-1de9" name="Nobz Bodyguard" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d57-f840-9588-f546" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="6354-adfa-4c65-bf1b" name="Bikes" hidden="false" targetId="86cf-31f2-e698-7a81" primary="false"/>
+          </categoryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="9cdb-82ce-3aab-a2f8" name="Nobz" hidden="false" collective="false" import="true" defaultSelectionEntryId="5a51-c920-b14c-4f3a">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16cc-6ef8-23a2-5a8c" type="min"/>
+                <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bd8-248c-025a-2dc0" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="5a51-c920-b14c-4f3a" name="Nob" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7532-bd72-c6b2-e26e" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="74d6-3f11-6c00-732b" name="Warbike Nob" hidden="false" targetId="43cb-5180-9280-9962" type="profile"/>
+                    <infoLink id="9df6-e225-e566-bd92" name="Big Shoota" hidden="false" targetId="b467-e518-11c9-c23a" type="profile">
+                      <modifiers>
+                        <modifier type="set" field="name" value="Twin-linked Big Shoota"/>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink id="aaea-3418-2264-b1f3" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+                    <infoLink id="7d89-65f6-42ea-ba39" name="Ork Mob Rule!" hidden="false" targetId="1586-dbe5-3b2e-7590" type="rule"/>
+                    <infoLink id="0c4c-12fd-14d8-d0ad" name="The Power of the WAAAGH!" hidden="false" targetId="7bb4-34ca-51f3-bb8c" type="rule"/>
+                    <infoLink id="3318-cb16-a682-b7f9" name="Bikes" hidden="false" targetId="6bd6-e738-e144-6db9" type="rule"/>
+                    <infoLink id="1719-49d9-b36e-fd4f" name="Hard to Hit" hidden="false" targetId="d2e0-6a69-f681-96f4" type="rule"/>
+                    <infoLink id="0d3b-a944-0ed4-af29" name="Psycho Blastas" hidden="false" targetId="2502-cef3-ea93-ab5d" type="rule"/>
+                    <infoLink id="7a03-8b96-6fa5-bd20" name="Short Ranged" hidden="false" targetId="1487-add8-d98b-7898" type="rule"/>
+                  </infoLinks>
+                  <categoryLinks>
+                    <categoryLink id="d802-20c3-9027-e079" name="Nob" hidden="false" targetId="9e88-0867-6d7c-3258" primary="false"/>
+                  </categoryLinks>
+                  <entryLinks>
+                    <entryLink id="f833-3428-6838-72ff" name="Ork Armoury" hidden="false" collective="false" import="true" targetId="3fb8-65fc-3904-2e54" type="selectionEntryGroup"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="45.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="31a9-f592-4fd2-9811" name="Ork Armoury" hidden="false" collective="false" import="true" targetId="3fb8-65fc-3904-2e54" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="105.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4fb1-38f1-ec55-337c" name="Evil Sunz Warboss" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12a5-9eb3-da24-e071" type="max">
+          <comment>Per Q&amp;A Chapter Approved 2001</comment>
+        </constraint>
+      </constraints>
+      <infoLinks>
+        <infoLink id="21b5-49d8-4533-902d" name="Warboss" hidden="false" targetId="ff24-2716-f53f-8b78" type="profile"/>
+        <infoLink id="7579-eba0-788a-7aa1" name="The Power of the WAAAGH!" hidden="false" targetId="7bb4-34ca-51f3-bb8c" type="rule"/>
+        <infoLink id="3c4e-67d0-647a-64e1" name="Ork Mob Rule!" hidden="false" targetId="1586-dbe5-3b2e-7590" type="rule"/>
+        <infoLink id="d903-af28-6f33-2ada" name="Independent Character" hidden="false" targetId="4a60-7f7e-c37f-a4d6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f9b4-d0ec-2f7a-5b36" name="HQ" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="false"/>
+        <categoryLink id="806b-90d3-944a-b380" name="Independent Character" hidden="false" targetId="3c96-248b-affd-e504" primary="false"/>
+        <categoryLink id="5417-ef93-0d14-d9fa" name="Warboss" hidden="false" targetId="f86e-9066-de2e-bf53" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e987-f840-fbf5-e83f" name="Transport" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efb9-e30c-0f17-d603" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c502-7022-5d7c-fa38" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="61f4-e215-2f38-12d1" name="Wartrukk" hidden="false" collective="false" import="true" targetId="54fe-3f68-d142-362b" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3ece-9eb9-c164-cf78" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="1f30-78a8-e68b-3c9c" name="Battlewagon" hidden="false" collective="false" import="true" targetId="edb7-4d2e-35fd-21b2" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="fb6f-e0ed-5800-2d68" name="Ork Armoury" hidden="false" collective="false" import="true" targetId="3fb8-65fc-3904-2e54" type="selectionEntryGroup"/>
+        <entryLink id="da6b-0907-2091-cf3f" name="Warboss&apos;s Bodyguard" hidden="false" collective="false" import="true" targetId="3ece-9eb9-c164-cf78" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="60.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile id="4cfe-58d2-2ff1-addb" name="Evil Sunz Warboss" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
+      <characteristics>
+        <characteristic name="WS" typeId="c704-6128-f143-935a">5</characteristic>
+        <characteristic name="BS" typeId="7928-3a9b-6080-ed95">2</characteristic>
+        <characteristic name="S" typeId="df03-6292-d3f5-f778">5</characteristic>
+        <characteristic name="T" typeId="e5f6-94c4-de8c-5fa8">4(5)</characteristic>
+        <characteristic name="W" typeId="4dc2-c603-0bc5-0561">3</characteristic>
+        <characteristic name="I" typeId="eeda-4fb4-901e-b70d">4</characteristic>
+        <characteristic name="A" typeId="abbf-0d11-fd86-d938">4</characteristic>
+        <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
+        <characteristic name="Sv" typeId="b309-5233-122f-82bb">6+/5+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0fc5-7188-3147-1764" name="Warbike Mekboy" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
+      <characteristics>
+        <characteristic name="WS" typeId="c704-6128-f143-935a">4</characteristic>
+        <characteristic name="BS" typeId="7928-3a9b-6080-ed95">2</characteristic>
+        <characteristic name="S" typeId="df03-6292-d3f5-f778">3</characteristic>
+        <characteristic name="T" typeId="e5f6-94c4-de8c-5fa8">4(5)</characteristic>
+        <characteristic name="W" typeId="4dc2-c603-0bc5-0561">1</characteristic>
+        <characteristic name="I" typeId="eeda-4fb4-901e-b70d">2</characteristic>
+        <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
+        <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">7</characteristic>
+        <characteristic name="Sv" typeId="b309-5233-122f-82bb">6+</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <catalogueLinks>
+    <catalogueLink id="10c3-1736-7e4f-092e" name="Orks (1999)" targetId="a32b-2b78-118a-10a5" type="catalogue" importRootEntries="false"/>
+  </catalogueLinks>
+</catalogue>

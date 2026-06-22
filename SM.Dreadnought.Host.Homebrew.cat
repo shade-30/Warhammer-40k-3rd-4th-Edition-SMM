@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="3146-f806-bbbd-64d4" name="SM - Dreadnought Host (Homebrew)" revision="1" battleScribeVersion="2.03" authorName="Simon Sultan" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>Dreadnoughts only force</comment>
+  <entryLinks>
+    <entryLink id="8659-08c3-396a-5f9e" name="Chaplain Dreadnought (IA)" hidden="false" collective="false" import="true" targetId="32ad-4748-060f-d149" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="289f-d035-1014-1d43" name="New CategoryLink" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="14ba-5bd7-b3e0-d825" name="Contemptor Dreadnought (VDR)" hidden="false" collective="false" import="true" targetId="9042-1a04-ca8a-4f29" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="bab6-e215-b6e3-e933" name="New CategoryLink" hidden="false" targetId="6d25-b346-c314-6911" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7769-c5a1-317f-4bb8" name="Dreadnought Squadron" hidden="false" collective="false" import="true" targetId="324a-0240-a6f3-e3be" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5d3a-91b5-5d1c-5926" name="New CategoryLink" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3e5a-ca1b-9a83-98f7" name="Furioso Dreadnought Squadron" hidden="false" collective="false" import="true" targetId="ce28-690f-4113-bdf3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a25b-4669-6a8f-0e9c" name="New CategoryLink" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="454d-0142-9d52-abdf" name="Mortis Dreadnought Squadron" hidden="false" collective="false" import="true" targetId="8450-579f-5f1b-8881" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2695-1464-37d1-3bd5" name="New CategoryLink" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e77b-8197-0f71-e3a4" name="Siege Dreadnought Squadron" hidden="false" collective="false" import="true" targetId="1c6b-17a8-39df-88a6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="62db-9ded-0458-6a44" name="New CategoryLink" hidden="false" targetId="6d25-b346-c314-6911" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ceb4-2151-72ad-7c31" name="Venerable Dreadnought (IA)" hidden="false" collective="false" import="true" targetId="784e-79ec-558e-26ee" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1da7-4c74-85bf-f1cf" name="New CategoryLink" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c97c-608a-724f-7e0c" name="Leviathan Siege Dreadnought (Homebrew)" hidden="false" collective="false" import="true" targetId="e661-8b8e-688e-52db" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ea6d-f709-ae70-7a3a" name="New CategoryLink" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3289-72ff-f0cb-ae50" name="Librarian Dreadnought (Homebrew)" hidden="false" collective="false" import="true" targetId="1b32-fefe-a98f-c7e8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="be2c-aa64-ddc9-4758" name="New CategoryLink" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6efe-4a1b-75d1-beac" name="Force Commander Leviathan Dreadnought (Homebrew)" hidden="false" collective="false" import="true" targetId="d4f7-a90c-47c6-382a" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acdd-ebfd-a0d8-5b9b" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="95ef-2bf9-66e6-04ec" name="New CategoryLink" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f86d-692a-3205-6a33" name="Ironclad Dreadnought Squadron" hidden="false" collective="false" import="true" targetId="bc28-385e-b8d4-2c72" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="cc38-1e4b-6d55-bd06" name="New CategoryLink" hidden="false" targetId="6d25-b346-c314-6911" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="324a-0240-a6f3-e3be" name="Dreadnought Squadron" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a205-09af-985c-1876" name="Dreadnoughts" hidden="false" collective="false" import="true" defaultSelectionEntryId="bd86-7312-ba12-4532">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddeb-86a5-294e-f0f8" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d305-009e-bbbf-c032" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="bd86-7312-ba12-4532" name="Dreadnought" hidden="false" collective="false" import="true" targetId="3f7e-ad94-b024-1a57" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ce28-690f-4113-bdf3" name="Furioso Dreadnought Squadron" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="fd8a-1d7d-517e-e780" name="Dreadnoughts" hidden="false" collective="false" import="true" defaultSelectionEntryId="c7b1-09a9-3d41-f0fa">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4779-d337-04ee-987c" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3798-942b-4ada-54bd" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="c7b1-09a9-3d41-f0fa" name="Furioso Dreadnought (IA)" hidden="false" collective="false" import="true" targetId="8ae8-dc88-bee4-5350" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1c6b-17a8-39df-88a6" name="Siege Dreadnought Squadron" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="be2a-67c5-3680-2f64" name="Dreadnoughts" hidden="false" collective="false" import="true" defaultSelectionEntryId="6c7e-5529-d9e3-b19b">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4b6-61a0-874b-6e5a" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea31-0684-bc01-92a7" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="6c7e-5529-d9e3-b19b" name="Siege Dreadnought (IA)" hidden="false" collective="false" import="true" targetId="680d-c069-2586-c77b" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8450-579f-5f1b-8881" name="Mortis Dreadnought Squadron" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8dae-dab0-000c-6a3b" name="Dreadnoughts" hidden="false" collective="false" import="true" defaultSelectionEntryId="3a3e-8036-5ad3-507d">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f677-6e0c-2ea3-d188" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ae8-0511-0622-4692" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="3a3e-8036-5ad3-507d" name="Mortis Dreadnought (IA)" hidden="false" collective="false" import="true" targetId="3522-f266-43b2-859b" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d4f7-a90c-47c6-382a" name="Force Commander Leviathan Dreadnought (Homebrew)" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="16fe-3807-38b8-22a7" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="dbc0-7fbb-536e-b820" name="Reinforced Atomantic Shielding" hidden="false" typeId="7279-038a-b87a-ed0c" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="a08a-36f8-2fd3-b843">A Leviathan Dreadnought has a 4+ Invulnerable save. In addition, if the Leviathan suffers a Vehicle Explodes damage result, add D3 Str and D3&quot; to the radius of the blast.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="f1b7-d6f8-3392-af22" name="Death-hold" hidden="false">
+          <description>If the Force Commander Leviathan Dreadnought successfully wounds a non-vehicle model in close combat, and it is not killed, the Force Commander Leviathan Dreadnought may attempt grab it in a death-hold. Roll a D6; on a 2+ it is successfully caught in the death-hold and the Force Commander Leviathan Dreadnought may immediately fire their heavy bolter at the caught model twice, hitting automatically but rolling to wound as normal. Afterwards the Heavy Bolter (or Death-hold) may not be used for the rest of the game.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="b220-1fbf-d67d-a079" name="Leviathan Siege Dreadnought" hidden="false" targetId="62e9-1e5a-347f-6150" type="profile">
+          <modifiers>
+            <modifier type="set" field="bb33-7ddf-2296-174e" value="3"/>
+            <modifier type="set" field="2870-c64f-81e5-a118" value="8(10)"/>
+            <modifier type="set" field="name" value="Force Commander Leviathan Dreadnought"/>
+            <modifier type="set" field="695a-ba63-65d1-3ce5" value="5"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="cf76-11eb-937e-e2db" name="Reinforced Armour" hidden="false" targetId="493d-27e6-bb71-bb5b" type="rule"/>
+        <infoLink id="7aa6-2e74-a86c-a5c6" name="Frag Grenades" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
+        <infoLink id="a2fc-0f3a-52df-3950" name="Heavy Flamer" hidden="false" targetId="6d36-2c09-dfc3-f257" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="2x Heavy Flamer"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d952-7986-2bd6-173d" name="Walkers" hidden="false" targetId="8f6c-e0de-fded-2875" primary="false"/>
+        <categoryLink id="71ca-104b-9d07-eeb9" name="Dreadnought" hidden="false" targetId="8dd2-2313-fb9d-0368" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="dc86-5b0b-cac1-1150" name="Arm Weapon Left" hidden="false" collective="false" import="true" defaultSelectionEntryId="1637-65a7-e4e2-5242">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7423-408c-6d07-80e4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e178-f1a4-4163-337c" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1637-65a7-e4e2-5242" name="Twin-linked Assault Cannon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="04fe-f1bf-2152-7adf" name="Assault Cannon" hidden="false" targetId="3f9c-e7c1-c442-3b7c" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Twin-Linked Assault Cannon"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="0d02-69d5-97f4-b4a8" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="66f5-f6df-08ff-35d6" name="Arm Weapon Right" hidden="false" collective="false" import="true" defaultSelectionEntryId="d377-17ce-f74c-ae20">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21aa-4d19-9095-a604" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b115-319b-7c11-8c4e" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d377-17ce-f74c-ae20" name="Leviathan Close Combat Weapon w/ Heavy Bolter" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d88a-9537-bb5d-107d" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="f4fe-da59-462a-f9af" name="Leviathan Close Combat Weapons" hidden="false" targetId="276d-720e-752f-8778" type="profile"/>
+                <infoLink id="e862-6f7c-7519-7efc" name="Heavy Bolter" hidden="false" targetId="b9aa-366b-bd62-4692" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="3ce2-a415-2292-57c8" name="Space Marine Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="93a4-c4f2-3183-a640" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="300.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bc28-385e-b8d4-2c72" name="Ironclad Dreadnought Squadron" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3055-0f89-4c50-086c" name="Dreadnoughts" hidden="false" collective="false" import="true" defaultSelectionEntryId="1b62-3814-fc88-e7da">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7919-65b9-8580-163a" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1407-ea60-5ce9-9757" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1b62-3814-fc88-e7da" name="Ironclad Dreadnought (Homebrew)" hidden="false" collective="false" import="true" targetId="9851-2098-4f5a-e7b1" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink id="ea86-4ee5-1b2c-9be5" name="Space Marines (1998)" targetId="9d6b-d195-877e-09cb" type="catalogue" importRootEntries="false"/>
+  </catalogueLinks>
+</catalogue>

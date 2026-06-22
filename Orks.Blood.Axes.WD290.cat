@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="e380-9265-3a3c-d995" name="Orks - Blood Axes (WD#290)" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="3643-1a1b-604e-9de4" name="&apos;Ard Boyz" hidden="false" collective="false" import="true" targetId="c4f1-e2d7-cc90-9cfb" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5880-a85b-afe3-b954" name="Blood Axes Clan" hidden="false" targetId="adda-b8d0-e218-1df6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0532-8da8-c5da-7e2c" name="Big Gunz Battery" hidden="false" collective="false" import="true" targetId="9be4-cf9e-97b6-02f0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7d83-733b-c0ac-dabb" name="Heavy Support" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+        <categoryLink id="4af2-65fd-41df-8646" name="Blood Axes Clan" hidden="false" targetId="adda-b8d0-e218-1df6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d419-8f1f-3052-959d" name="Big Mek" hidden="false" collective="false" import="true" targetId="fdd0-6bc8-710f-4b77" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0060-3aa8-64e1-26bb" name="HQ" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="true"/>
+        <categoryLink id="0991-4486-b4a9-aaa0" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="13cf-fe63-0978-2c57" name="Independent Character" hidden="false" targetId="3c96-248b-affd-e504" primary="false"/>
+        <categoryLink id="06a2-bf02-28e4-0c2e" name="Blood Axes Clan" hidden="false" targetId="adda-b8d0-e218-1df6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4dc7-28fd-18cf-7330" name="Bommer (IA)" hidden="false" collective="false" import="true" targetId="2488-6a18-2432-f920" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4837-2f79-2f7a-718c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8654-8137-eaa0-b7e7" name="Blood Axes Clan" hidden="false" targetId="adda-b8d0-e218-1df6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="cef3-c58e-f4cc-2700" name="Burna Boyz" hidden="false" collective="false" import="true" targetId="541f-ccfc-684a-de6f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2a22-99c1-7fe1-47a9" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="c78e-da4c-554c-2db8" name="New CategoryLink" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
+        <categoryLink id="0c71-e79b-c1f3-a016" name="Blood Axes Clan" hidden="false" targetId="adda-b8d0-e218-1df6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="af97-f60f-4103-6cc5" name="Fighta-Bommer (IA)" hidden="false" collective="false" import="true" targetId="c5cb-7e0f-0338-db0d" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97b4-69e6-749b-da6a" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="cd7b-69bc-f1bd-e5a3" name="Blood Axes Clan" hidden="false" targetId="adda-b8d0-e218-1df6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="dbf9-4b7d-7c00-9597" name="Flash Gitz" hidden="false" collective="false" import="true" targetId="24cc-91ab-7f7a-8653" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="61c5-ddb6-63b3-b15d" name="New CategoryLink" hidden="false" targetId="6d25-b346-c314-6911" primary="true"/>
+        <categoryLink id="1080-ec93-7141-042a" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="1f58-d293-c7e2-eda8" name="Blood Axes Clan" hidden="false" targetId="adda-b8d0-e218-1df6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="53a2-c68e-d701-d873" name="Gretchin Mobz" hidden="false" collective="false" import="true" targetId="d0d3-94d0-bd7c-4592" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="12b3-1a2b-3f14-260e" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="27fa-ba31-5d10-e7d8" name="New CategoryLink" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
+        <categoryLink id="d44d-0feb-96dc-a980" name="Blood Axes Clan" hidden="false" targetId="adda-b8d0-e218-1df6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="333a-9381-ba4f-2b80" name="Grot Bomb Launcha (IA)" hidden="false" collective="false" import="true" targetId="4d7b-5a0c-e271-a9b9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1df6-8f0b-aaf5-c084" name="Blood Axes Clan" hidden="false" targetId="adda-b8d0-e218-1df6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="df2d-0601-155b-fad3" name="Gunwagon (IA)" hidden="false" collective="false" import="true" targetId="6371-229b-5720-03f6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="07e0-fda2-bde2-e6e0" name="Blood Axes Clan" hidden="false" targetId="adda-b8d0-e218-1df6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1c81-be8e-0548-2cc6" name="Killer Kanz" hidden="false" collective="false" import="true" targetId="e34b-7a81-e4da-b497" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3b6b-058c-a38a-6d04" name="Heavy Support" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+        <categoryLink id="2536-92f1-06c7-9c7d" name="Blood Axes Clan" hidden="false" targetId="adda-b8d0-e218-1df6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1858-875a-8e12-5060" name="Kommandos" hidden="false" collective="false" import="true" targetId="94c0-0e84-8e2c-99fb" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ac3-ccc0-a451-dc81" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4848-5fbd-5901-d023" name="Elites" hidden="false" targetId="6d25-b346-c314-6911" primary="true"/>
+        <categoryLink id="e82f-ef53-5a5c-fe09" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="2534-b36c-124a-3b27" name="Blood Axes Clan" hidden="false" targetId="adda-b8d0-e218-1df6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b73c-8bc3-333e-826d" name="Lootas" hidden="false" collective="false" import="true" targetId="8b9b-622e-a912-7e44" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="67cd-15e8-7599-c4b0" name="Heavy Support" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+        <categoryLink id="af37-5a6b-693f-ee78" name="Blood Axes Clan" hidden="false" targetId="adda-b8d0-e218-1df6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6cc8-a59a-a368-f6c5" name="Looted Vehicle" hidden="false" collective="false" import="true" targetId="b563-0f4e-01c7-07a0" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="f94b-d062-d548-c5a1" value="-1.0"/>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="f31b-d6b8-a8e7-8efd" name="Heavy Support" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+        <categoryLink id="b9ca-c491-6a64-7eff" name="Blood Axes Clan" hidden="false" targetId="adda-b8d0-e218-1df6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8f97-776f-073b-aa20" name="Ork Deadnought" hidden="false" collective="false" import="true" targetId="f2f9-3e63-0705-0d93" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7258-da12-93db-f2cd" name="Heavy Support" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+        <categoryLink id="35b9-367e-95eb-e2a9" name="Blood Axes Clan" hidden="false" targetId="adda-b8d0-e218-1df6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="910b-6620-eb7c-cd3e" name="Painboss" hidden="false" collective="false" import="true" targetId="ec58-4077-cd77-559c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3a4d-11c9-31b6-e707" name="New CategoryLink" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="true"/>
+        <categoryLink id="5500-a08a-28a9-dcbf" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="4081-2184-12a1-52b2" name="Independent Character" hidden="false" targetId="3c96-248b-affd-e504" primary="false"/>
+        <categoryLink id="49a0-5255-f3a4-e02b" name="Blood Axes Clan" hidden="false" targetId="adda-b8d0-e218-1df6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d4c5-8a63-aaab-bd18" name="Shoota Boyz" hidden="false" collective="false" import="true" targetId="89ec-0742-328f-2510" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7d6c-1f18-14f1-b74e" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="578e-dcd8-3c90-72fb" name="New CategoryLink" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
+        <categoryLink id="d6e9-11b1-5e5f-c514" name="Blood Axes Clan" hidden="false" targetId="adda-b8d0-e218-1df6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b921-6c93-3698-afaf" name="Skarboyz" hidden="false" collective="false" import="true" targetId="4f6d-3a61-ad00-60a4" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a0e3-602f-01b7-3c32" name="Elites" hidden="false" targetId="6d25-b346-c314-6911" primary="true"/>
+        <categoryLink id="6914-2b06-2b44-1bf7" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="43c4-731c-5deb-a001" name="Slugga Boyz" hidden="false" collective="false" import="true" targetId="285b-4446-6152-f35f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b7c8-ea31-bfd1-9a64" name="New CategoryLink" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
+        <categoryLink id="9f97-cd8f-ee47-098c" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="8561-1a84-90d0-aa1c" name="Blood Axes Clan" hidden="false" targetId="adda-b8d0-e218-1df6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="499b-c6a5-b807-5c0f" name="Stikk Bommas" hidden="false" collective="false" import="true" targetId="8af2-a75e-84d4-f4f9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ea0d-0e29-dcfc-a1dc" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="d40f-1cfa-bfd3-7bde" name="New CategoryLink" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
+        <categoryLink id="afee-88d1-4e6a-6dcc" name="Blood Axes Clan" hidden="false" targetId="adda-b8d0-e218-1df6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="dacc-164f-4e2b-fefb" name="Tankbustas" hidden="false" collective="false" import="true" targetId="094b-2b8c-7290-bc19" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8336-7ec1-8dcd-6d66" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="6c41-4402-fbc5-bfbe" name="New CategoryLink" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
+        <categoryLink id="3260-d71c-a02e-22d0" name="Blood Axes Clan" hidden="false" targetId="adda-b8d0-e218-1df6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f98c-4b43-088b-d682" name="Stormboyz" hidden="false" collective="false" import="true" targetId="89ad-7891-8c63-1cbd" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="163e-0b37-f979-7d8e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3a2a-f488-c485-c4f1" name="New CategoryLink" hidden="false" targetId="6d25-b346-c314-6911" primary="true"/>
+        <categoryLink id="5d4b-1e09-8d65-76d4" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="bab1-46f5-ed18-06bb" name="Blood Axes Clan" hidden="false" targetId="adda-b8d0-e218-1df6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="77ad-454e-e497-591e" name="Trukk Boyz" hidden="false" collective="false" import="true" targetId="ac36-01bb-d582-7960" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87bb-461b-8100-77cf" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a392-c443-57a3-0679" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="e19e-913c-6b40-9a12" name="New CategoryLink" hidden="false" targetId="34e2-d53c-28ab-44cf" primary="true"/>
+        <categoryLink id="94c9-c425-f91e-fc16" name="Blood Axes Clan" hidden="false" targetId="adda-b8d0-e218-1df6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9b60-e422-ac47-9e1a" name="Warbike Mobz" hidden="false" collective="false" import="true" targetId="7fe1-5292-1d58-9196" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="bac8-3d35-0af9-0045" name="Fast Attack" hidden="false" targetId="34e2-d53c-28ab-44cf" primary="true"/>
+        <categoryLink id="d2c4-a4d9-1d2e-300d" name="Bikes" hidden="false" targetId="86cf-31f2-e698-7a81" primary="false"/>
+        <categoryLink id="6d12-6383-2c4c-94da" name="Blood Axes Clan" hidden="false" targetId="adda-b8d0-e218-1df6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="56cd-8c97-bf8e-9fc7" name="Blood Axes Warboss" hidden="false" collective="false" import="true" targetId="a9ce-5e20-6454-7060" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="bfa8-896c-3cf1-9e55" name="New CategoryLink" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="true"/>
+        <categoryLink id="452b-8b96-d9c2-a23d" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="75ed-31d8-9813-1bab" name="Independent Character" hidden="false" targetId="3c96-248b-affd-e504" primary="false"/>
+        <categoryLink id="09f6-ce41-5742-16c8" name="Blood Axes Clan" hidden="false" targetId="adda-b8d0-e218-1df6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="004d-22cc-bc19-20b2" name="Warbuggies" hidden="false" collective="false" import="true" targetId="fa6d-a3e1-88db-a566" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="eadb-cf7a-084d-60f5" name="Vehicle" hidden="false" targetId="ca5d-3c3b-217c-c72d" primary="false"/>
+        <categoryLink id="decc-d462-98d1-d347" name="Fast Attack" hidden="false" targetId="34e2-d53c-28ab-44cf" primary="true"/>
+        <categoryLink id="2ad3-fa01-9e9b-3b9f" name="Blood Axes Clan" hidden="false" targetId="adda-b8d0-e218-1df6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a0b1-353b-d4c8-8463" name="Kommandos" hidden="false" collective="false" import="true" targetId="8da5-dbb0-fd2a-66c7" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c7f-54f8-2d78-a5a9" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="bbfa-6141-140b-9d49" name="Blood Axes Clan" hidden="false" targetId="adda-b8d0-e218-1df6" primary="false"/>
+        <categoryLink id="0d57-91bc-6da3-dc28" name="New CategoryLink" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="8da5-dbb0-fd2a-66c7" name="Kommandos" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="83ab-a3af-c21d-5dde" name="Ork Mob Rule!" hidden="false" targetId="1586-dbe5-3b2e-7590" type="rule"/>
+        <infoLink id="34c9-1e01-d469-f954" name="The Power of the WAAAGH!" hidden="false" targetId="7bb4-34ca-51f3-bb8c" type="rule"/>
+        <infoLink id="68b7-30b6-61b6-f8de" name="Slippery" hidden="false" targetId="60e6-4b60-c541-3afb" type="rule"/>
+        <infoLink id="24c5-0355-1c22-40ad" name="Infiltrate" hidden="false" targetId="b4ea-750c-d9a4-e398" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5feb-8e1c-26b6-6aab" name="Blood Axes Clan" hidden="false" targetId="adda-b8d0-e218-1df6" primary="false"/>
+        <categoryLink id="39fa-0a0c-6abe-fc42" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0443-8066-a9d9-85c1" name="Frag Stikkbombz" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="increment" field="4ed5-2f92-9abc-2870" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="872c-6a30-de0e-ceb3" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4b4-c035-ba18-d244" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="42ac-a88d-1be3-ea09" name="Frag Grenades" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="98b6-2184-a5ff-960c" name="Krak Stikkbombz" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="increment" field="4ed5-2f92-9abc-2870" value="2.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="872c-6a30-de0e-ceb3" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcae-3471-c9e3-c166" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="3b67-34cb-38e9-3159" name="Krak Grenades" hidden="false" targetId="9c1b-bf93-059b-27f5" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9507-bcb3-83fa-c8e6" name="Smoke Grenades (Chapter Approved)" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="increment" field="4ed5-2f92-9abc-2870" value="2.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="872c-6a30-de0e-ceb3" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="680e-2cf0-46a7-754f" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="3bff-7408-7790-87b2" name="Smoke &amp; Blind Grenades" hidden="false" targetId="0f7e-d79a-ce04-7d3d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d5e8-e443-6b0a-81cf" name="Tankbusta Bombz" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="increment" field="4ed5-2f92-9abc-2870" value="3.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="872c-6a30-de0e-ceb3" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e5c-d4aa-79eb-434e" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f950-e695-5cdc-c7a9" name="Special Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08b6-c5bd-6528-8ebf" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1a9b-dc98-87b8-cbdf" name="Big Shoota" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="169b-23fd-99e2-ac1c" name="Big Shoota" hidden="false" targetId="b467-e518-11c9-c23a" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="8.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8c98-3269-487d-89f5" name="Rokkit Launcha" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="9b72-0d5b-aa08-99c8" name="Rokkit Launcha" hidden="false" targetId="56b9-9d7d-bfdf-0ef7" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="475e-b737-fe52-ef82" name="Burna" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="b8b9-2213-8231-033c" name="Burna" hidden="false" targetId="958b-1f4c-9991-cbcc" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="6.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="872c-6a30-de0e-ceb3" name="Kommandos" hidden="false" collective="false" import="true" defaultSelectionEntryId="8f18-e26f-3cf1-3ac0">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a16e-dafb-c4cb-380a" type="min"/>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ae7-153f-b9e3-6e5d" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="2b77-152b-9224-854d" name="Kommando w/ Shoota" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="4dab-0916-4635-5559" name="Kommandos" hidden="false" targetId="826d-a280-06cd-4ce3" type="profile"/>
+                <infoLink id="ca26-2ebe-c937-fabb" name="Shoota" hidden="false" targetId="894f-1760-04e4-77c4" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8f18-e26f-3cf1-3ac0" name="Kommando w/ Slugga and Choppa" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="5da7-e245-87e8-53a0" name="Choppa" hidden="false" targetId="3d19-a53f-85b3-6cf3" type="profile"/>
+                <infoLink id="903d-85c4-bd2d-ebd4" name="Slugga" hidden="false" targetId="1aaa-4805-c346-107e" type="profile"/>
+                <infoLink id="3952-67c4-315d-d70e" name="Kommandos" hidden="false" targetId="826d-a280-06cd-4ce3" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="c76d-f8e7-d2d9-2d22" name="Leader" hidden="false" collective="false" import="true">
+              <comment>Blood Axes</comment>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe8e-d02c-5182-5e75" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="746d-0803-dcd7-acbf" name="Bad Moons Clan" hidden="false" targetId="3d49-e480-4b50-6ff6" primary="false"/>
+              </categoryLinks>
+              <selectionEntries>
+                <selectionEntry id="a1d8-ce2c-88c0-7659" name="Nob" hidden="false" collective="false" import="true" type="model">
+                  <infoLinks>
+                    <infoLink id="a74f-ff2e-900a-27b1" name="Ork Mob Rule!" hidden="false" targetId="1586-dbe5-3b2e-7590" type="rule"/>
+                    <infoLink id="d9b2-2816-8782-11d6" name="The Power of the WAAAGH!" hidden="false" targetId="7bb4-34ca-51f3-bb8c" type="rule"/>
+                    <infoLink id="03cb-bef6-ae45-3706" name="Nob" hidden="false" targetId="cf8b-0d62-1066-d16e" type="profile">
+                      <modifiers>
+                        <modifier type="set" field="b309-5233-122f-82bb" value="-"/>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  <entryLinks>
+                    <entryLink id="31b4-55b7-543b-0fe7" name="Ork Armoury" hidden="false" collective="false" import="true" targetId="3fb8-65fc-3904-2e54" type="selectionEntryGroup"/>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="21.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink id="bafa-002e-a2da-1b7e" name="Mad Dok" hidden="false" collective="false" import="true" targetId="011a-8595-ccba-4e6e" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8867-5713-8a21-1d11" type="max"/>
+                  </constraints>
+                  <categoryLinks>
+                    <categoryLink id="3498-35a4-edfc-f437" name="Blood Axes Clan" hidden="false" targetId="adda-b8d0-e218-1df6" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="89fa-bb22-f441-3c5c" name="Mekboy" hidden="false" collective="false" import="true" targetId="b4e1-5f13-9303-52ad" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2806-1364-38f0-72a4" type="max"/>
+                  </constraints>
+                  <categoryLinks>
+                    <categoryLink id="416f-974d-c20e-f9a4" name="Blood Axes Clan" hidden="false" targetId="adda-b8d0-e218-1df6" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a9ce-5e20-6454-7060" name="Blood Axes Warboss" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77dd-a540-507b-98b6" type="max">
+          <comment>Per Q&amp;A Chapter Approved 2001</comment>
+        </constraint>
+      </constraints>
+      <infoLinks>
+        <infoLink id="1c04-efb2-d9d8-f6ff" name="Warboss" hidden="false" targetId="ff24-2716-f53f-8b78" type="profile"/>
+        <infoLink id="b109-aad0-8a8e-875e" name="The Power of the WAAAGH!" hidden="false" targetId="7bb4-34ca-51f3-bb8c" type="rule"/>
+        <infoLink id="464b-efec-980b-935c" name="Ork Mob Rule!" hidden="false" targetId="1586-dbe5-3b2e-7590" type="rule"/>
+        <infoLink id="5d03-8a26-3241-d3c8" name="Independent Character" hidden="false" targetId="4a60-7f7e-c37f-a4d6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0417-82bf-0dc5-01c3" name="HQ" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="false"/>
+        <categoryLink id="2ea8-fdf6-0d6b-2904" name="Independent Character" hidden="false" targetId="3c96-248b-affd-e504" primary="false"/>
+        <categoryLink id="e373-f827-cb20-40a5" name="Blood Axes Clan" hidden="false" targetId="adda-b8d0-e218-1df6" primary="false"/>
+        <categoryLink id="1e26-afa7-ccd8-0937" name="Warboss" hidden="false" targetId="f86e-9066-de2e-bf53" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ae7e-1bc5-4619-4bbc" name="Transport" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2aaa-5a23-564a-da91" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa3f-e3b4-7a9b-6b81" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1d31-5a89-75de-3129" name="Wartrukk" hidden="false" collective="false" import="true" targetId="54fe-3f68-d142-362b" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3ece-9eb9-c164-cf78" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="0321-9599-6593-08fa" name="Looted Chimera" hidden="false" collective="false" import="true" targetId="3549-12b7-2a39-dfc1" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="11.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3ece-9eb9-c164-cf78" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="094c-2443-79ac-f464" name="Ork Armoury" hidden="false" collective="false" import="true" targetId="3fb8-65fc-3904-2e54" type="selectionEntryGroup"/>
+        <entryLink id="112d-59bd-7731-1a13" name="Warboss&apos;s Bodyguard" hidden="false" collective="false" import="true" targetId="3ece-9eb9-c164-cf78" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="60.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink id="10c3-1736-7e4f-092e" name="Orks (1999)" targetId="a32b-2b78-118a-10a5" type="catalogue" importRootEntries="false"/>
+  </catalogueLinks>
+</catalogue>

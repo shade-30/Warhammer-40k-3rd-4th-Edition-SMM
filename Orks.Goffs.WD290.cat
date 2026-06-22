@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="8c75-b3b5-08ba-186d" name="Orks - Goffs (WD#290)" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="3643-1a1b-604e-9de4" name="&apos;Ard Boyz" hidden="false" collective="false" import="true" targetId="c4f1-e2d7-cc90-9cfb" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e6a2-1632-4349-8324" name="Goffs Clan" hidden="false" targetId="2a97-0361-ee17-0dd6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6662-d293-84bd-c7de" name="Battle Fortress (IA)" hidden="false" collective="false" import="true" targetId="e2e8-e321-6af7-930b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5e1a-e447-c942-bfd8" name="Goffs Clan" hidden="false" targetId="2a97-0361-ee17-0dd6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7bb6-d446-f049-b6d0" name="Battlewagon" hidden="false" collective="false" import="true" targetId="edb7-4d2e-35fd-21b2" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc7c-57a7-28a2-38a3" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="32cf-d2af-3586-4640" name="Heavy Support" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+        <categoryLink id="a2da-f7ee-ba98-1b7c" name="Goffs Clan" hidden="false" targetId="2a97-0361-ee17-0dd6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0532-8da8-c5da-7e2c" name="Big Gunz Battery" hidden="false" collective="false" import="true" targetId="9be4-cf9e-97b6-02f0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7d83-733b-c0ac-dabb" name="Heavy Support" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+        <categoryLink id="7ed5-47ba-2cfd-a036" name="Goffs Clan" hidden="false" targetId="2a97-0361-ee17-0dd6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d419-8f1f-3052-959d" name="Big Mek" hidden="false" collective="false" import="true" targetId="fdd0-6bc8-710f-4b77" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0060-3aa8-64e1-26bb" name="HQ" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="true"/>
+        <categoryLink id="0991-4486-b4a9-aaa0" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="13cf-fe63-0978-2c57" name="Independent Character" hidden="false" targetId="3c96-248b-affd-e504" primary="false"/>
+        <categoryLink id="8432-3bca-9fc8-e16b" name="Goffs Clan" hidden="false" targetId="2a97-0361-ee17-0dd6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4dc7-28fd-18cf-7330" name="Bommer (IA)" hidden="false" collective="false" import="true" targetId="2488-6a18-2432-f920" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7491-00a5-0aaa-0c3a" name="Goffs Clan" hidden="false" targetId="2a97-0361-ee17-0dd6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="cef3-c58e-f4cc-2700" name="Burna Boyz" hidden="false" collective="false" import="true" targetId="541f-ccfc-684a-de6f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2a22-99c1-7fe1-47a9" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="c78e-da4c-554c-2db8" name="New CategoryLink" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
+        <categoryLink id="c1e8-723b-f085-203e" name="Goffs Clan" hidden="false" targetId="2a97-0361-ee17-0dd6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="af97-f60f-4103-6cc5" name="Fighta-Bommer (IA)" hidden="false" collective="false" import="true" targetId="c5cb-7e0f-0338-db0d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4751-be86-6e42-1b7d" name="Goffs Clan" hidden="false" targetId="2a97-0361-ee17-0dd6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="dbf9-4b7d-7c00-9597" name="Flash Gitz" hidden="false" collective="false" import="true" targetId="24cc-91ab-7f7a-8653" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="61c5-ddb6-63b3-b15d" name="New CategoryLink" hidden="false" targetId="6d25-b346-c314-6911" primary="true"/>
+        <categoryLink id="1080-ec93-7141-042a" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="6dbe-0d34-2672-5299" name="Goffs Clan" hidden="false" targetId="2a97-0361-ee17-0dd6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0a8a-e1ec-d84c-a9ed" name="Gargantuan Squiggoth (IA)" hidden="false" collective="false" import="true" targetId="f012-dffc-9e6f-00f4" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="67d7-e172-2db6-aac3" name="New CategoryLink" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+        <categoryLink id="7bec-aca3-20b2-eb65" name="Goffs Clan" hidden="false" targetId="2a97-0361-ee17-0dd6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="53a2-c68e-d701-d873" name="Gretchin Mobz" hidden="false" collective="false" import="true" targetId="d0d3-94d0-bd7c-4592" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="12b3-1a2b-3f14-260e" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="27fa-ba31-5d10-e7d8" name="New CategoryLink" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
+        <categoryLink id="f4a1-b102-8c41-a86e" name="Goffs Clan" hidden="false" targetId="2a97-0361-ee17-0dd6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="333a-9381-ba4f-2b80" name="Grot Bomb Launcha (IA)" hidden="false" collective="false" import="true" targetId="4d7b-5a0c-e271-a9b9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6bde-b823-dfbc-bf8d" name="Goffs Clan" hidden="false" targetId="2a97-0361-ee17-0dd6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="df2d-0601-155b-fad3" name="Gunwagon (IA)" hidden="false" collective="false" import="true" targetId="6371-229b-5720-03f6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c4a7-434f-a9d1-4f8c" name="Goffs Clan" hidden="false" targetId="2a97-0361-ee17-0dd6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1c81-be8e-0548-2cc6" name="Killer Kanz" hidden="false" collective="false" import="true" targetId="e34b-7a81-e4da-b497" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3b6b-058c-a38a-6d04" name="Heavy Support" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+        <categoryLink id="ab5b-bbd8-eaee-3802" name="Goffs Clan" hidden="false" targetId="2a97-0361-ee17-0dd6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1858-875a-8e12-5060" name="Kommandos" hidden="false" collective="false" import="true" targetId="94c0-0e84-8e2c-99fb" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af55-6fe3-74cc-0b5f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4848-5fbd-5901-d023" name="Elites" hidden="false" targetId="6d25-b346-c314-6911" primary="true"/>
+        <categoryLink id="e82f-ef53-5a5c-fe09" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="6dc3-b0e3-068f-fde5" name="Goffs Clan" hidden="false" targetId="2a97-0361-ee17-0dd6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b73c-8bc3-333e-826d" name="Lootas" hidden="false" collective="false" import="true" targetId="8b9b-622e-a912-7e44" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d19e-dfb5-c890-b619" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="67cd-15e8-7599-c4b0" name="Heavy Support" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+        <categoryLink id="9ff7-03b6-f38f-1ad3" name="Goffs Clan" hidden="false" targetId="2a97-0361-ee17-0dd6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8f97-776f-073b-aa20" name="Ork Deadnought" hidden="false" collective="false" import="true" targetId="f2f9-3e63-0705-0d93" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7258-da12-93db-f2cd" name="Heavy Support" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+        <categoryLink id="1cfb-5da2-4d33-096d" name="Goffs Clan" hidden="false" targetId="2a97-0361-ee17-0dd6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="910b-6620-eb7c-cd3e" name="Painboss" hidden="false" collective="false" import="true" targetId="ec58-4077-cd77-559c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3a4d-11c9-31b6-e707" name="New CategoryLink" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="true"/>
+        <categoryLink id="5500-a08a-28a9-dcbf" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="4081-2184-12a1-52b2" name="Independent Character" hidden="false" targetId="3c96-248b-affd-e504" primary="false"/>
+        <categoryLink id="6291-4af4-a6c5-09c1" name="Goffs Clan" hidden="false" targetId="2a97-0361-ee17-0dd6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d4c5-8a63-aaab-bd18" name="Shoota Boyz" hidden="false" collective="false" import="true" targetId="89ec-0742-328f-2510" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7d6c-1f18-14f1-b74e" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="578e-dcd8-3c90-72fb" name="New CategoryLink" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
+        <categoryLink id="ee1a-c034-1fb2-c93d" name="Goffs Clan" hidden="false" targetId="2a97-0361-ee17-0dd6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b921-6c93-3698-afaf" name="Skarboyz" hidden="false" collective="false" import="true" targetId="4f6d-3a61-ad00-60a4" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f15d-ff59-5285-2da7" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a0e3-602f-01b7-3c32" name="Elites" hidden="false" targetId="6d25-b346-c314-6911" primary="true"/>
+        <categoryLink id="6914-2b06-2b44-1bf7" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="0ba4-26e8-46c0-8c70" name="Goffs Clan" hidden="false" targetId="2a97-0361-ee17-0dd6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="43c4-731c-5deb-a001" name="Slugga Boyz" hidden="false" collective="false" import="true" targetId="285b-4446-6152-f35f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b7c8-ea31-bfd1-9a64" name="New CategoryLink" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
+        <categoryLink id="9f97-cd8f-ee47-098c" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="099b-d10b-cb29-0b54" name="Goffs Clan" hidden="false" targetId="2a97-0361-ee17-0dd6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="499b-c6a5-b807-5c0f" name="Stikk Bommas" hidden="false" collective="false" import="true" targetId="8af2-a75e-84d4-f4f9" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12ee-c45c-598b-cada" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ea0d-0e29-dcfc-a1dc" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="d40f-1cfa-bfd3-7bde" name="New CategoryLink" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
+        <categoryLink id="cdfa-642a-2ef8-1839" name="Goffs Clan" hidden="false" targetId="2a97-0361-ee17-0dd6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="dacc-164f-4e2b-fefb" name="Tankbustas" hidden="false" collective="false" import="true" targetId="094b-2b8c-7290-bc19" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8336-7ec1-8dcd-6d66" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="6c41-4402-fbc5-bfbe" name="New CategoryLink" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
+        <categoryLink id="d923-519e-079a-f086" name="Goffs Clan" hidden="false" targetId="2a97-0361-ee17-0dd6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f98c-4b43-088b-d682" name="Stormboyz" hidden="false" collective="false" import="true" targetId="89ad-7891-8c63-1cbd" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3a2a-f488-c485-c4f1" name="New CategoryLink" hidden="false" targetId="6d25-b346-c314-6911" primary="true"/>
+        <categoryLink id="5d4b-1e09-8d65-76d4" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="eed8-eaea-d2af-aeb9" name="Goffs Clan" hidden="false" targetId="2a97-0361-ee17-0dd6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="77ad-454e-e497-591e" name="Trukk Boyz" hidden="false" collective="false" import="true" targetId="ac36-01bb-d582-7960" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b816-84e0-dfb9-9e19" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a392-c443-57a3-0679" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="e19e-913c-6b40-9a12" name="New CategoryLink" hidden="false" targetId="34e2-d53c-28ab-44cf" primary="true"/>
+        <categoryLink id="b032-5126-c6b5-6892" name="Goffs Clan" hidden="false" targetId="2a97-0361-ee17-0dd6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9b60-e422-ac47-9e1a" name="Warbike Mobz" hidden="false" collective="false" import="true" targetId="7fe1-5292-1d58-9196" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e46a-a147-dce2-7fa7" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="bac8-3d35-0af9-0045" name="Fast Attack" hidden="false" targetId="34e2-d53c-28ab-44cf" primary="true"/>
+        <categoryLink id="d2c4-a4d9-1d2e-300d" name="Bikes" hidden="false" targetId="86cf-31f2-e698-7a81" primary="false"/>
+        <categoryLink id="bae0-4e96-c569-a914" name="Goffs Clan" hidden="false" targetId="2a97-0361-ee17-0dd6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="56cd-8c97-bf8e-9fc7" name="Goffs Warboss" hidden="false" collective="false" import="true" targetId="c013-bf1c-f953-ba6e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="bfa8-896c-3cf1-9e55" name="New CategoryLink" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="true"/>
+        <categoryLink id="452b-8b96-d9c2-a23d" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="75ed-31d8-9813-1bab" name="Independent Character" hidden="false" targetId="3c96-248b-affd-e504" primary="false"/>
+        <categoryLink id="29e8-b30e-1444-5457" name="Goffs Clan" hidden="false" targetId="2a97-0361-ee17-0dd6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="004d-22cc-bc19-20b2" name="Warbuggies" hidden="false" collective="false" import="true" targetId="fa6d-a3e1-88db-a566" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7d9-3014-9ba0-6444" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="eadb-cf7a-084d-60f5" name="Vehicle" hidden="false" targetId="ca5d-3c3b-217c-c72d" primary="false"/>
+        <categoryLink id="decc-d462-98d1-d347" name="Fast Attack" hidden="false" targetId="34e2-d53c-28ab-44cf" primary="true"/>
+        <categoryLink id="6cc9-ff5b-ede3-673e" name="Goffs Clan" hidden="false" targetId="2a97-0361-ee17-0dd6" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6375-79a7-ca22-7ac7" name="Skarboyz" hidden="false" collective="false" import="true" targetId="e45a-3413-b097-dcb0" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff76-826d-502e-1b3c" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c9e7-b2b7-da05-1005" name="Goffs Clan" hidden="false" targetId="2a97-0361-ee17-0dd6" primary="false"/>
+        <categoryLink id="62ed-844d-2ea2-b681" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="c203-627e-ae41-67f7" name="New CategoryLink" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="c013-bf1c-f953-ba6e" name="Goffs Warboss" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef75-4c22-e6d0-9800" type="max">
+          <comment>Per Q&amp;A Chapter Approved 2001</comment>
+        </constraint>
+      </constraints>
+      <infoLinks>
+        <infoLink id="e4eb-1e69-a71f-928f" name="Warboss" hidden="false" targetId="ff24-2716-f53f-8b78" type="profile"/>
+        <infoLink id="7abc-b4cf-8895-66a6" name="The Power of the WAAAGH!" hidden="false" targetId="7bb4-34ca-51f3-bb8c" type="rule"/>
+        <infoLink id="b714-1a5c-0758-61be" name="Ork Mob Rule!" hidden="false" targetId="1586-dbe5-3b2e-7590" type="rule"/>
+        <infoLink id="fbc3-5ea8-1616-496d" name="Independent Character" hidden="false" targetId="4a60-7f7e-c37f-a4d6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5fd1-6cd7-9082-3208" name="HQ" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="false"/>
+        <categoryLink id="aba9-3566-fe94-5fe4" name="Independent Character" hidden="false" targetId="3c96-248b-affd-e504" primary="false"/>
+        <categoryLink id="23ce-c31a-f880-6356" name="Warboss" hidden="false" targetId="f86e-9066-de2e-bf53" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f7e5-6ee6-cfd9-d39f" name="Transport" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d70c-d638-5696-9f8e" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44f4-ec54-68fc-ced7" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="e73f-bf93-3ffc-ac68" name="Wartrukk" hidden="false" collective="false" import="true" targetId="54fe-3f68-d142-362b" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3ece-9eb9-c164-cf78" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="a6bc-85d1-faf6-6d0b" name="Ork Armoury" hidden="false" collective="false" import="true" targetId="3fb8-65fc-3904-2e54" type="selectionEntryGroup"/>
+        <entryLink id="894a-6e0d-d1cb-2a81" name="Warboss&apos;s Bodyguard" hidden="false" collective="false" import="true" targetId="3ece-9eb9-c164-cf78" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e45a-3413-b097-dcb0" name="Skarboyz" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="48fa-b715-ea9f-9207" name="Ork Mob Rule!" hidden="false" targetId="1586-dbe5-3b2e-7590" type="rule"/>
+        <infoLink id="46e1-8a5a-99b9-ead8" name="The Power of the WAAAGH!" hidden="false" targetId="7bb4-34ca-51f3-bb8c" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="0b4e-6dc7-008b-9cf4" name="Frag Stikkbombz" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="increment" field="4ed5-2f92-9abc-2870" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7347-32e7-0eda-f603" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54f7-7b63-7fbc-e8e8" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="daee-98e3-69c8-9b04" name="Frag Grenades" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8c9b-395e-8e1f-a826" name="Krak Stikkbombz" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="increment" field="4ed5-2f92-9abc-2870" value="2.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7347-32e7-0eda-f603" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b97-a509-5429-7c31" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="6fa2-8858-5e07-7e6e" name="Krak Grenades" hidden="false" targetId="9c1b-bf93-059b-27f5" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0ef7-427e-19a3-3156" name="Special Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4ca-6a2f-593e-2722" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d253-f80b-fb0a-fdfd" name="Big Shoota" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="5f4c-fd6d-0e51-dd20" name="Big Shoota" hidden="false" targetId="b467-e518-11c9-c23a" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="8.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c2f1-5dc8-83e7-dae0" name="Burna" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="1912-956b-d3b9-19c9" name="Burna" hidden="false" targetId="958b-1f4c-9991-cbcc" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="558a-b3e9-a26b-cbac" name="Rokkit Launcha" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="cde4-a77a-244e-1c66" name="Rokkit Launcha" hidden="false" targetId="56b9-9d7d-bfdf-0ef7" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="7347-32e7-0eda-f603" name="Skarboyz" hidden="false" collective="false" import="true" defaultSelectionEntryId="54f9-f92f-88d3-302a">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b046-261d-7372-bc6d" type="min"/>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd0b-03ad-f5fe-5add" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="acfc-a098-a163-b59b" name="Skarboyz" hidden="false" targetId="0193-4f24-afb8-060a" primary="false"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="82d0-4873-d39f-1078" name="Skarboy w/ Shoota" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="2c0c-478f-fa71-4eb4" name="Skarboyz" hidden="false" targetId="0dca-d410-85db-8f66" type="profile"/>
+                <infoLink id="bb35-8967-ae4d-22f4" name="Shoota" hidden="false" targetId="894f-1760-04e4-77c4" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="11.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="54f9-f92f-88d3-302a" name="Skarboy w/ Slugga and Choppa" hidden="false" collective="false" import="true" type="model">
+              <infoLinks>
+                <infoLink id="d64e-df47-f872-44d2" name="Choppa" hidden="false" targetId="3d19-a53f-85b3-6cf3" type="profile"/>
+                <infoLink id="393b-b8ae-2b3b-680a" name="Slugga" hidden="false" targetId="1aaa-4805-c346-107e" type="profile"/>
+                <infoLink id="bed8-c9cc-c2ea-8dc8" name="Skarboyz" hidden="false" targetId="0dca-d410-85db-8f66" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="11.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="bffe-c6be-007c-70d3" name="Nob" hidden="false" collective="false" import="true" targetId="f8fb-7699-1ead-bc0d" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fab7-d9cc-c2a5-c0e3" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5ca3-ddc0-ac6c-8be3" name="Transport" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3cf-725d-8f56-8d15" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5be7-3b61-6635-6c25" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="fd36-2da8-6c00-e6e4" name="Wartrukk" hidden="false" collective="false" import="true" targetId="54fe-3f68-d142-362b" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="9af8-15e0-a576-24ee" name="Battlewagon" hidden="false" collective="false" import="true" targetId="edb7-4d2e-35fd-21b2" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink id="10c3-1736-7e4f-092e" name="Orks (1999)" targetId="a32b-2b78-118a-10a5" type="catalogue" importRootEntries="false"/>
+  </catalogueLinks>
+</catalogue>

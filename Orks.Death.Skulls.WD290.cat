@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="461f-c8a1-95b8-4c0d" name="Orks - Death Skullz (WD#290)" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="3643-1a1b-604e-9de4" name="&apos;Ard Boyz" hidden="false" collective="false" import="true" targetId="c4f1-e2d7-cc90-9cfb" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a090-f6bd-4bde-bf96" name="Death Skulls Clan" hidden="false" targetId="dc29-2ff6-f0ee-06bf" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6662-d293-84bd-c7de" name="Battle Fortress (IA)" hidden="false" collective="false" import="true" targetId="e2e8-e321-6af7-930b" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fdd-940a-f407-b81a" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2774-bd8d-2879-70f1" name="Death Skulls Clan" hidden="false" targetId="dc29-2ff6-f0ee-06bf" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7bb6-d446-f049-b6d0" name="Battlewagon" hidden="false" collective="false" import="true" targetId="edb7-4d2e-35fd-21b2" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc7c-57a7-28a2-38a3" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="32cf-d2af-3586-4640" name="Heavy Support" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+        <categoryLink id="2cc7-e414-9584-264f" name="Death Skulls Clan" hidden="false" targetId="dc29-2ff6-f0ee-06bf" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0532-8da8-c5da-7e2c" name="Big Gunz Battery" hidden="false" collective="false" import="true" targetId="9be4-cf9e-97b6-02f0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7d83-733b-c0ac-dabb" name="Heavy Support" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+        <categoryLink id="8630-dcfa-9d74-9c2a" name="Death Skulls Clan" hidden="false" targetId="dc29-2ff6-f0ee-06bf" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d419-8f1f-3052-959d" name="Big Mek" hidden="false" collective="false" import="true" targetId="fdd0-6bc8-710f-4b77" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0060-3aa8-64e1-26bb" name="HQ" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="true"/>
+        <categoryLink id="0991-4486-b4a9-aaa0" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="13cf-fe63-0978-2c57" name="Independent Character" hidden="false" targetId="3c96-248b-affd-e504" primary="false"/>
+        <categoryLink id="def9-5d89-51a3-dde8" name="Death Skulls Clan" hidden="false" targetId="dc29-2ff6-f0ee-06bf" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="cef3-c58e-f4cc-2700" name="Burna Boyz" hidden="false" collective="false" import="true" targetId="541f-ccfc-684a-de6f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2a22-99c1-7fe1-47a9" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="c78e-da4c-554c-2db8" name="New CategoryLink" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
+        <categoryLink id="c2b5-4f8d-e82a-6c6c" name="Death Skulls Clan" hidden="false" targetId="dc29-2ff6-f0ee-06bf" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="af97-f60f-4103-6cc5" name="Bommer (IA)" hidden="false" collective="false" import="true" targetId="2488-6a18-2432-f920" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="77c9-98ad-ab04-0f81" name="Death Skulls Clan" hidden="false" targetId="dc29-2ff6-f0ee-06bf" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="dbf9-4b7d-7c00-9597" name="Flash Gitz" hidden="false" collective="false" import="true" targetId="24cc-91ab-7f7a-8653" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e852-512a-72c7-cd78" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="61c5-ddb6-63b3-b15d" name="New CategoryLink" hidden="false" targetId="6d25-b346-c314-6911" primary="true"/>
+        <categoryLink id="1080-ec93-7141-042a" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="ba36-31cd-e27a-d0da" name="Death Skulls Clan" hidden="false" targetId="dc29-2ff6-f0ee-06bf" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0a8a-e1ec-d84c-a9ed" name="Gargantuan Squiggoth (IA)" hidden="false" collective="false" import="true" targetId="f012-dffc-9e6f-00f4" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="206b-7c32-8a17-cb1d" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="67d7-e172-2db6-aac3" name="New CategoryLink" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+        <categoryLink id="fb5b-acac-e1bc-099f" name="Death Skulls Clan" hidden="false" targetId="dc29-2ff6-f0ee-06bf" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="53a2-c68e-d701-d873" name="Gretchin Mobz" hidden="false" collective="false" import="true" targetId="d0d3-94d0-bd7c-4592" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="12b3-1a2b-3f14-260e" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="27fa-ba31-5d10-e7d8" name="New CategoryLink" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
+        <categoryLink id="a8f7-81bd-2808-a084" name="Death Skulls Clan" hidden="false" targetId="dc29-2ff6-f0ee-06bf" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="333a-9381-ba4f-2b80" name="Grot Bomb Launcha (IA)" hidden="false" collective="false" import="true" targetId="4d7b-5a0c-e271-a9b9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3175-39a1-11c4-6caa" name="Death Skulls Clan" hidden="false" targetId="dc29-2ff6-f0ee-06bf" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="df2d-0601-155b-fad3" name="Gunwagon (IA)" hidden="false" collective="false" import="true" targetId="6371-229b-5720-03f6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="61c1-3c63-a45e-4420" name="Death Skulls Clan" hidden="false" targetId="dc29-2ff6-f0ee-06bf" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1c81-be8e-0548-2cc6" name="Killer Kanz" hidden="false" collective="false" import="true" targetId="e34b-7a81-e4da-b497" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3b6b-058c-a38a-6d04" name="Heavy Support" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+        <categoryLink id="21cf-654d-4386-e350" name="Death Skulls Clan" hidden="false" targetId="dc29-2ff6-f0ee-06bf" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1858-875a-8e12-5060" name="Kommandos" hidden="false" collective="false" import="true" targetId="94c0-0e84-8e2c-99fb" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21c9-9191-5066-bfd4" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4848-5fbd-5901-d023" name="Elites" hidden="false" targetId="6d25-b346-c314-6911" primary="true"/>
+        <categoryLink id="e82f-ef53-5a5c-fe09" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="8d6d-82d4-7586-ed8f" name="Death Skulls Clan" hidden="false" targetId="dc29-2ff6-f0ee-06bf" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b73c-8bc3-333e-826d" name="Lootas" hidden="false" collective="false" import="true" targetId="8b9b-622e-a912-7e44" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d46-4a4f-07a8-8bf0" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="67cd-15e8-7599-c4b0" name="Heavy Support" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+        <categoryLink id="360f-12d3-0ac9-7e69" name="Death Skulls Clan" hidden="false" targetId="dc29-2ff6-f0ee-06bf" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6cc8-a59a-a368-f6c5" name="Looted Vehicle" hidden="false" collective="false" import="true" targetId="b563-0f4e-01c7-07a0" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d231-8fe7-e4b1-fe9c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="f31b-d6b8-a8e7-8efd" name="Heavy Support" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+        <categoryLink id="81a6-ca2d-edf2-36a3" name="Death Skulls Clan" hidden="false" targetId="dc29-2ff6-f0ee-06bf" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8f97-776f-073b-aa20" name="Ork Deadnought" hidden="false" collective="false" import="true" targetId="f2f9-3e63-0705-0d93" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7258-da12-93db-f2cd" name="Heavy Support" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+        <categoryLink id="0138-d4c6-071b-aa92" name="Death Skulls Clan" hidden="false" targetId="dc29-2ff6-f0ee-06bf" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="910b-6620-eb7c-cd3e" name="Painboss" hidden="false" collective="false" import="true" targetId="ec58-4077-cd77-559c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3a4d-11c9-31b6-e707" name="New CategoryLink" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="true"/>
+        <categoryLink id="5500-a08a-28a9-dcbf" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="4081-2184-12a1-52b2" name="Independent Character" hidden="false" targetId="3c96-248b-affd-e504" primary="false"/>
+        <categoryLink id="c95e-94ed-2969-5879" name="Death Skulls Clan" hidden="false" targetId="dc29-2ff6-f0ee-06bf" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d4c5-8a63-aaab-bd18" name="Shoota Boyz" hidden="false" collective="false" import="true" targetId="89ec-0742-328f-2510" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7d6c-1f18-14f1-b74e" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="578e-dcd8-3c90-72fb" name="New CategoryLink" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
+        <categoryLink id="3df5-f109-2f09-4850" name="Death Skulls Clan" hidden="false" targetId="dc29-2ff6-f0ee-06bf" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b921-6c93-3698-afaf" name="Skarboyz" hidden="false" collective="false" import="true" targetId="4f6d-3a61-ad00-60a4" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62bb-b42b-d41f-5327" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a0e3-602f-01b7-3c32" name="Elites" hidden="false" targetId="6d25-b346-c314-6911" primary="true"/>
+        <categoryLink id="6914-2b06-2b44-1bf7" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="f2ca-b900-b0a5-9225" name="Death Skulls Clan" hidden="false" targetId="dc29-2ff6-f0ee-06bf" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="43c4-731c-5deb-a001" name="Slugga Boyz" hidden="false" collective="false" import="true" targetId="285b-4446-6152-f35f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b7c8-ea31-bfd1-9a64" name="New CategoryLink" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
+        <categoryLink id="9f97-cd8f-ee47-098c" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="b3b3-3375-2afc-e027" name="Death Skulls Clan" hidden="false" targetId="dc29-2ff6-f0ee-06bf" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="499b-c6a5-b807-5c0f" name="Stikk Bommas" hidden="false" collective="false" import="true" targetId="8af2-a75e-84d4-f4f9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ea0d-0e29-dcfc-a1dc" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="d40f-1cfa-bfd3-7bde" name="New CategoryLink" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
+        <categoryLink id="1111-a2e3-ab90-a4c0" name="Death Skulls Clan" hidden="false" targetId="dc29-2ff6-f0ee-06bf" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="dacc-164f-4e2b-fefb" name="Tankbustas" hidden="false" collective="false" import="true" targetId="094b-2b8c-7290-bc19" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8336-7ec1-8dcd-6d66" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="6c41-4402-fbc5-bfbe" name="New CategoryLink" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
+        <categoryLink id="420d-dba5-6e56-4222" name="Death Skulls Clan" hidden="false" targetId="dc29-2ff6-f0ee-06bf" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f98c-4b43-088b-d682" name="Stormboyz" hidden="false" collective="false" import="true" targetId="89ad-7891-8c63-1cbd" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3a2a-f488-c485-c4f1" name="New CategoryLink" hidden="false" targetId="6d25-b346-c314-6911" primary="true"/>
+        <categoryLink id="5d4b-1e09-8d65-76d4" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="f0dd-4d53-0cc5-ef55" name="Death Skulls Clan" hidden="false" targetId="dc29-2ff6-f0ee-06bf" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="77ad-454e-e497-591e" name="Trukk Boyz" hidden="false" collective="false" import="true" targetId="ac36-01bb-d582-7960" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a392-c443-57a3-0679" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="e19e-913c-6b40-9a12" name="New CategoryLink" hidden="false" targetId="34e2-d53c-28ab-44cf" primary="true"/>
+        <categoryLink id="8eab-6902-8134-750d" name="Death Skulls Clan" hidden="false" targetId="dc29-2ff6-f0ee-06bf" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9b60-e422-ac47-9e1a" name="Warbike Mobz" hidden="false" collective="false" import="true" targetId="7fe1-5292-1d58-9196" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="bac8-3d35-0af9-0045" name="Fast Attack" hidden="false" targetId="34e2-d53c-28ab-44cf" primary="true"/>
+        <categoryLink id="d2c4-a4d9-1d2e-300d" name="Bikes" hidden="false" targetId="86cf-31f2-e698-7a81" primary="false"/>
+        <categoryLink id="72c0-54bf-c1c0-ead0" name="Death Skulls Clan" hidden="false" targetId="dc29-2ff6-f0ee-06bf" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="56cd-8c97-bf8e-9fc7" name="Warboss" hidden="false" collective="false" import="true" targetId="b32d-5cad-2d37-2401" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="bfa8-896c-3cf1-9e55" name="New CategoryLink" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="true"/>
+        <categoryLink id="452b-8b96-d9c2-a23d" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="75ed-31d8-9813-1bab" name="Independent Character" hidden="false" targetId="3c96-248b-affd-e504" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="004d-22cc-bc19-20b2" name="Warbuggies" hidden="false" collective="false" import="true" targetId="fa6d-a3e1-88db-a566" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="eadb-cf7a-084d-60f5" name="Vehicle" hidden="false" targetId="ca5d-3c3b-217c-c72d" primary="false"/>
+        <categoryLink id="decc-d462-98d1-d347" name="Fast Attack" hidden="false" targetId="34e2-d53c-28ab-44cf" primary="true"/>
+        <categoryLink id="8f59-a1f1-237f-fee4" name="Death Skulls Clan" hidden="false" targetId="dc29-2ff6-f0ee-06bf" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="51ca-189f-6e60-defb" name="Lootas" hidden="false" collective="false" import="true" targetId="a27a-c7fe-0bc7-7c3e" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69c9-9ded-42b3-043b" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9c86-daac-6c4e-9414" name="Death Skulls Clan" hidden="false" targetId="dc29-2ff6-f0ee-06bf" primary="false"/>
+        <categoryLink id="c7be-776f-f6ef-7887" name="New CategoryLink" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="fbfa-4819-0edf-34cb" name="Fighta-Bommer (IA)" hidden="false" collective="false" import="true" targetId="c5cb-7e0f-0338-db0d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="13f8-69af-3828-4e59" name="Death Skulls Clan" hidden="false" targetId="dc29-2ff6-f0ee-06bf" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="cd87-0e0b-688f-d26b" name="Death Skulls Warboss" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45f9-56b6-5f6e-b50b" type="max">
+          <comment>Per Q&amp;A Chapter Approved 2001</comment>
+        </constraint>
+      </constraints>
+      <infoLinks>
+        <infoLink id="5ac4-b9d6-3fa2-d6e7" name="Warboss" hidden="false" targetId="ff24-2716-f53f-8b78" type="profile"/>
+        <infoLink id="858e-31eb-4ee2-41c5" name="The Power of the WAAAGH!" hidden="false" targetId="7bb4-34ca-51f3-bb8c" type="rule"/>
+        <infoLink id="7f7d-5c11-778e-e9eb" name="Ork Mob Rule!" hidden="false" targetId="1586-dbe5-3b2e-7590" type="rule"/>
+        <infoLink id="ec62-9fbf-3f90-b890" name="Independent Character" hidden="false" targetId="4a60-7f7e-c37f-a4d6" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5365-25f4-ee4e-b126" name="HQ" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="false"/>
+        <categoryLink id="6c57-5f10-7fb7-17ae" name="Independent Character" hidden="false" targetId="3c96-248b-affd-e504" primary="false"/>
+        <categoryLink id="2ed0-c10a-d6d1-0048" name="Warboss" hidden="false" targetId="f86e-9066-de2e-bf53" primary="false"/>
+        <categoryLink id="4b0d-e97f-0d7c-ece7" name="Warboss" hidden="false" targetId="f86e-9066-de2e-bf53" primary="false"/>
+        <categoryLink id="b3dd-7bff-6563-a220" name="Death Skulls Clan" hidden="false" targetId="dc29-2ff6-f0ee-06bf" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c983-48cc-1222-5385" name="Transport" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84d6-c4bb-d16e-7ea8" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1278-1dc8-0345-28c4" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="94e3-2c9d-1368-c6c1" name="Wartrukk" hidden="false" collective="false" import="true" targetId="54fe-3f68-d142-362b" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3ece-9eb9-c164-cf78" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f1f6-a52e-417d-93f3" name="Ork Armoury" hidden="false" collective="false" import="true" targetId="3fb8-65fc-3904-2e54" type="selectionEntryGroup"/>
+        <entryLink id="9c60-7fa8-a8f1-e317" name="Warboss&apos;s Bodyguard" hidden="false" collective="false" import="true" targetId="3ece-9eb9-c164-cf78" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a27a-c7fe-0bc7-7c3e" name="Lootas" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="c712-7d45-72bb-3594" name="Ork Mob Rule!" hidden="false" targetId="1586-dbe5-3b2e-7590" type="rule"/>
+        <infoLink id="d510-fe8f-a736-1245" name="The Power of the WAAAGH!" hidden="false" targetId="7bb4-34ca-51f3-bb8c" type="rule"/>
+        <infoLink id="3556-bfb5-b427-7578" name="Looted Weapons" hidden="false" targetId="61d8-84e4-5a1f-6657" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7002-283d-26cb-779a" name="Lootas" hidden="false" collective="false" import="true" defaultSelectionEntryId="0bb1-e731-b474-4586">
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30d7-35a9-521a-0a35" type="max"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e76-b331-a0f9-9a30" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="0bb1-e731-b474-4586" name="Loota" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="935e-bf9b-a0d2-67c6" name="Loota" hidden="false" targetId="e5bb-e403-26f8-0101" type="profile"/>
+                <infoLink id="000b-23ed-9693-5316" name="Shoota" hidden="false" targetId="894f-1760-04e4-77c4" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="001d-be57-52ba-d858" name="Leader" hidden="false" collective="false" import="true">
+              <comment>Death Skulls</comment>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c54-477e-8433-61e2" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="6067-ceed-6868-03b8" name="Death Skulls Clan" hidden="false" targetId="dc29-2ff6-f0ee-06bf" primary="false"/>
+              </categoryLinks>
+              <entryLinks>
+                <entryLink id="7c9a-53d6-724e-7eb1" name="Mekboy" hidden="false" collective="false" import="true" targetId="b4e1-5f13-9303-52ad" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b26-f3b4-6d70-d766" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="9ccc-3cbe-3587-2dd9" name="Mekboy" hidden="false" targetId="a15b-0bed-c3da-918f" type="profile">
+                      <modifiers>
+                        <modifier type="set" field="b309-5233-122f-82bb" value="5+"/>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="9.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="bc4d-9be4-56cf-067c" name="Nob" hidden="false" collective="false" import="true" targetId="f8fb-7699-1ead-bc0d" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3871-729b-1070-8691" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="8a98-0ad6-2e57-9463" name="Nob" hidden="false" targetId="cf8b-0d62-1066-d16e" type="profile">
+                      <modifiers>
+                        <modifier type="set" field="b309-5233-122f-82bb" value="5+"/>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="f007-aa13-9dfc-ba40" name="Looted Unit" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7813-0cc0-698f-70e4" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="87af-1483-da91-86f8" name="Imperial Guard Anti-Tank Squad" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="e6fb-c23b-482e-7b98" name="Imperial Guard Anti-tank Squad" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7629-7d49-738f-7b45" type="max"/>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7954-e05b-3940-30a7" type="min"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="4058-9d96-a691-2bcc" name="Lascannon" hidden="false" collective="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="d6d7-678b-47cb-1d6e" name="Lascannon" hidden="false" targetId="a160-d79e-e7a9-2e9c" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="a4e0-947c-cbb1-68af" name="Missle Launcher" hidden="false" collective="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="688e-82e2-ec39-0836" name="Missle Launcher (frag)" hidden="false" targetId="aa04-2d5e-da7e-2d25" type="profile"/>
+                        <infoLink id="0645-2682-2845-9b0f" name="Missle Launcher (krak)" hidden="false" targetId="4e6c-7b62-ba6d-05cf" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8e65-2dc7-fe68-fd5a" name="Imperial Guard Fire Support Squad" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="deea-cccc-89e5-e7ef" name="Imperial Guard Fire Support Squad" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3304-efe6-2917-3407" type="max"/>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="254c-b78a-fbf5-03a0" type="min"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="687d-14bb-e20a-e068" name="Heavy Bolter" hidden="false" collective="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="3123-e4ac-3e28-005f" name="Heavy Bolter" hidden="false" targetId="b9aa-366b-bd62-4692" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="c679-555e-4277-1c7e" name="Autocannon" hidden="false" collective="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="644a-d116-3eac-69dc" name="Big Shoota" hidden="false" targetId="b467-e518-11c9-c23a" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d8ff-645d-3b89-4bfc" name="Imperial Guard Infantry Squad" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="948e-17cf-beeb-aebc" name="Imperial Guard Infantry Squad" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="0d03-2cc6-8b12-c2dc" name="Frag Grenades" hidden="false" collective="false" import="true" type="upgrade">
+                      <modifiers>
+                        <modifier type="increment" field="4ed5-2f92-9abc-2870" value="1.0">
+                          <repeats>
+                            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7002-283d-26cb-779a" repeats="1" roundUp="false"/>
+                          </repeats>
+                        </modifier>
+                      </modifiers>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5c2-87d5-761a-3059" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="2e4f-deb7-84b8-0198" name="Frag Grenades" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="0dc8-d6b2-790e-5058" name="Special Weapon" hidden="false" collective="false" import="true">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b87a-150f-3c2e-8d25" type="max"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry id="0e5c-1ae3-6af1-7acc" name="Plasma Gun" hidden="false" collective="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink id="f2fb-791c-dd54-4425" name="Plasma Gun" hidden="false" targetId="112a-baea-9eeb-b1b5" type="profile"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="cadb-a6af-feeb-7aff" name="Meltagun" hidden="false" collective="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink id="0e90-4a61-0746-15fa" name="Meltagun" hidden="false" targetId="737d-c7ef-4cb5-e6fa" type="profile"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="624f-b10e-9ece-6028" name="Grenade Launcher" hidden="false" collective="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink id="4083-19bf-cfaf-2b9c" name="Grenade Launcher (krak)" hidden="false" targetId="d236-a268-4f05-49f0" type="profile"/>
+                            <infoLink id="a07a-77ab-9f57-d68f" name="Grenade Launcher (frag)" hidden="false" targetId="edff-5743-8a17-916e" type="profile"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="8.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="268a-d8b9-abf9-e564" name="Flamer" hidden="false" collective="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink id="0aac-2a2d-469e-20f4" name="Flamer" hidden="false" targetId="9177-ce8a-92e3-157e" type="profile"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="6.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup id="9445-168d-de20-8c33" name="Heavy Weapon" hidden="false" collective="false" import="true">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="879a-fc54-0db3-cd41" type="max"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry id="499e-e653-2b43-379a" name="Lascannon" hidden="false" collective="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink id="938b-3189-f293-d6cb" name="Lascannon" hidden="false" targetId="a160-d79e-e7a9-2e9c" type="profile"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="f78c-726c-9241-35f8" name="Missle Launcher" hidden="false" collective="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink id="fc79-d1f7-63f6-27af" name="Missle Launcher (frag)" hidden="false" targetId="aa04-2d5e-da7e-2d25" type="profile"/>
+                            <infoLink id="66f6-b2ea-70f4-36b0" name="Missle Launcher (krak)" hidden="false" targetId="4e6c-7b62-ba6d-05cf" type="profile"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="3420-fe57-4c8e-521c" name="Autocannon" hidden="false" collective="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink id="8bc5-15be-06e2-91de" name="Big Shoota" hidden="false" targetId="b467-e518-11c9-c23a" type="profile"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="5ffd-84e8-07c6-e985" name="Heavy Bolter" hidden="false" collective="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink id="cc56-28ce-8c6a-4c45" name="Heavy Bolter" hidden="false" targetId="b9aa-366b-bd62-4692" type="profile"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="71b4-6f52-9619-1b15" name="Mortar" hidden="false" collective="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink id="cbd9-7f48-25cc-e144" name="Mortar" hidden="false" targetId="57eb-e5dd-c986-ffaa" type="profile"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bc80-be78-3b8b-03e7" name="Space Marine Devastator Squad" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="9463-1cce-d195-7020" name="Space Marine Devastator Squad" hidden="false" collective="false" import="true">
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="ae7b-6e59-cedf-cac7" name="Heavy Weapon" hidden="false" collective="false" import="true">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13a4-aa5d-1244-a4e8" type="max"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry id="8efc-2990-648f-b294" name="Heavy Bolter" hidden="false" collective="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink id="7b97-99f3-7b3a-98be" name="Heavy Bolter" hidden="false" targetId="b9aa-366b-bd62-4692" type="profile"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="6556-c92b-acaa-317c" name="Missle Launcher" hidden="false" collective="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink id="3e9b-276a-794c-f054" name="Missle Launcher (frag)" hidden="false" targetId="aa04-2d5e-da7e-2d25" type="profile"/>
+                            <infoLink id="75a0-dac8-4f19-98af" name="Missle Launcher (krak)" hidden="false" targetId="4e6c-7b62-ba6d-05cf" type="profile"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="0ccd-d60f-a77a-b2dc" name="Multi-Melta" hidden="false" collective="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink id="1376-ec38-cde5-ff40" name="Multi-melta" hidden="false" targetId="7077-4e34-5c92-5320" type="profile"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="35.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="6e8b-a3d0-c0b4-aec1" name="Lascannon" hidden="false" collective="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink id="e4be-4928-f993-f249" name="Lascannon" hidden="false" targetId="a160-d79e-e7a9-2e9c" type="profile"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="35.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="567a-ac27-c7a4-c4eb" name="Plasma Cannon" hidden="false" collective="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink id="10e5-2c7f-cfa0-e3a0" name="Big Shoota" hidden="false" targetId="b467-e518-11c9-c23a" type="profile"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="35.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4b83-5e10-4de7-1e63" name="Space Marine Scout Squad" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="432b-2472-afb3-6f96" name="Space Marine Scout Squad" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="9989-b9a8-dc3d-2384" name="Sniper Rifle" hidden="false" collective="false" import="true" type="upgrade">
+                      <modifiers>
+                        <modifier type="increment" field="4ed5-2f92-9abc-2870" value="1.0">
+                          <repeats>
+                            <repeat field="selections" scope="a27a-c7fe-0bc7-7c3e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7002-283d-26cb-779a" repeats="1" roundUp="false"/>
+                          </repeats>
+                        </modifier>
+                        <modifier type="decrement" field="d8eb-8d87-301c-599e" value="5.0"/>
+                      </modifiers>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8eb-8d87-301c-599e" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="4de3-4351-5d7a-0736" name="Frag Grenades" hidden="false" collective="false" import="true" type="upgrade">
+                      <modifiers>
+                        <modifier type="increment" field="4ed5-2f92-9abc-2870" value="1.0">
+                          <repeats>
+                            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7002-283d-26cb-779a" repeats="1" roundUp="false"/>
+                          </repeats>
+                        </modifier>
+                      </modifiers>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ef5-95fe-7ea3-8eda" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="a2d5-7b73-165d-dbc1" name="Frag Grenades" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="8364-3063-26d4-94d6" name="Krak Grenades" hidden="false" collective="false" import="true" type="upgrade">
+                      <modifiers>
+                        <modifier type="increment" field="4ed5-2f92-9abc-2870" value="2.0">
+                          <repeats>
+                            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7002-283d-26cb-779a" repeats="1" roundUp="false"/>
+                          </repeats>
+                        </modifier>
+                      </modifiers>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e388-b335-2488-7239" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="eb8c-b932-4b33-8a09" name="Krak Grenades" hidden="false" targetId="9c1b-bf93-059b-27f5" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="c04c-07c4-b742-b89b" name="Heavy Weapon" hidden="false" collective="false" import="true">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fee-d8d9-db16-44d6" type="max"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry id="811f-2706-34c6-e61a" name="Heavy Bolter" hidden="false" collective="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink id="ba41-5889-130d-2d1f" name="Heavy Bolter" hidden="false" targetId="b9aa-366b-bd62-4692" type="profile"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="82b9-41dc-4731-882c" name="Missle Launcher" hidden="false" collective="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink id="6405-358c-a212-23b2" name="Missle Launcher (frag)" hidden="false" targetId="aa04-2d5e-da7e-2d25" type="profile"/>
+                            <infoLink id="f0a4-3932-5c6a-6e5c" name="Missle Launcher (krak)" hidden="false" targetId="4e6c-7b62-ba6d-05cf" type="profile"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="1e33-3c2a-21ea-2a21" name="Autocannon" hidden="false" collective="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink id="bd27-a496-7c90-85f1" name="Big Shoota" hidden="false" targetId="b467-e518-11c9-c23a" type="profile"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9cf8-d843-2d75-84bf" name="Space Marine Tactical Squad" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="6df6-ca1e-7ac4-f1ed" name="Space Marine Tactical Squad" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="0c96-9722-43d0-bfe0" name="Frag Grenades" hidden="false" collective="false" import="true" type="upgrade">
+                      <modifiers>
+                        <modifier type="increment" field="4ed5-2f92-9abc-2870" value="1.0">
+                          <repeats>
+                            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7002-283d-26cb-779a" repeats="1" roundUp="false"/>
+                          </repeats>
+                        </modifier>
+                      </modifiers>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72f7-00bb-6c53-0ef9" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="96cd-0b48-d389-5891" name="Frag Grenades" hidden="false" targetId="9dd4-e950-2419-5934" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="629b-3f50-02ad-9e34" name="Krak Grenades" hidden="false" collective="false" import="true" type="upgrade">
+                      <modifiers>
+                        <modifier type="increment" field="4ed5-2f92-9abc-2870" value="2.0">
+                          <repeats>
+                            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7002-283d-26cb-779a" repeats="1" roundUp="false"/>
+                          </repeats>
+                        </modifier>
+                      </modifiers>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a6e-601d-3d4f-c867" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="a58b-cc35-dc9d-050b" name="Krak Grenades" hidden="false" targetId="9c1b-bf93-059b-27f5" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="8902-f0cf-59d4-5b1e" name="Heavy Weapon" hidden="false" collective="false" import="true">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1a6-19e7-23ac-6b8b" type="max"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry id="f89a-a2c5-12ca-841e" name="Heavy Bolter" hidden="false" collective="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink id="32a2-df18-d2b1-85c1" name="Heavy Bolter" hidden="false" targetId="b9aa-366b-bd62-4692" type="profile"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="da34-997c-eb3f-6123" name="Missle Launcher" hidden="false" collective="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink id="c4bb-616a-d2e8-0037" name="Missle Launcher (frag)" hidden="false" targetId="aa04-2d5e-da7e-2d25" type="profile"/>
+                            <infoLink id="8f52-16a9-e7b7-b6a4" name="Missle Launcher (krak)" hidden="false" targetId="4e6c-7b62-ba6d-05cf" type="profile"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="344c-bb74-b521-da92" name="Lascannon" hidden="false" collective="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink id="0baa-fef8-22c0-f9b1" name="Lascannon" hidden="false" targetId="a160-d79e-e7a9-2e9c" type="profile"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup id="4b3c-9fec-2cd8-76d0" name="Special Weapon" hidden="false" collective="false" import="true">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea06-88c2-7ef1-ea5b" type="max"/>
+                      </constraints>
+                      <selectionEntries>
+                        <selectionEntry id="9390-bd08-9b44-c6d4" name="Plasma Gun" hidden="false" collective="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink id="ddc6-0f9a-5384-d8f5" name="Plasma Gun" hidden="false" targetId="112a-baea-9eeb-b1b5" type="profile"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="6.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="dc9d-6c80-e8bb-cd16" name="Meltagun" hidden="false" collective="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink id="4499-e482-a502-efa8" name="Meltagun" hidden="false" targetId="737d-c7ef-4cb5-e6fa" type="profile"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+                          </costs>
+                        </selectionEntry>
+                        <selectionEntry id="bea4-cdbc-a2eb-98b5" name="Flamer" hidden="false" collective="false" import="true" type="upgrade">
+                          <infoLinks>
+                            <infoLink id="ae56-3827-77a6-c135" name="Flamer" hidden="false" targetId="9177-ce8a-92e3-157e" type="profile"/>
+                          </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="6.0"/>
+                          </costs>
+                        </selectionEntry>
+                      </selectionEntries>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink id="10c3-1736-7e4f-092e" name="Orks (1999)" targetId="a32b-2b78-118a-10a5" type="catalogue" importRootEntries="false"/>
+  </catalogueLinks>
+</catalogue>

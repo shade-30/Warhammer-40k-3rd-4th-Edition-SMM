@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="6e27-d899-de69-a9d5" name="Eldar - Iyanden Ghost Warriors (2000)" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="2040-fab1-aded-8eed" name="Phoenix Lord" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d2f-7b6f-80bf-a2b9" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="6edd-6b61-2d70-01b9" name="Asurmen" hidden="false" collective="false" import="true" targetId="7f19-b30b-de19-562f" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="b3b3-e7fd-ffa5-f1ea" name="New CategoryLink" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="true"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="0e81-78b1-8603-e2d8" name="Baharroth" hidden="false" collective="false" import="true" targetId="e142-9643-5d4f-f943" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="b5ab-d7a7-dfae-1466" name="New CategoryLink" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="true"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="1cde-1735-1952-d251" name="Fuegan" hidden="false" collective="false" import="true" targetId="70c8-3226-8d38-ef01" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="6ce5-ab8f-4a92-c320" name="New CategoryLink" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="true"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="7e85-f6eb-33f5-a566" name="Jain Zar" hidden="false" collective="false" import="true" targetId="389c-d69a-9e4c-4613" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="23ea-f282-f2bd-e788" name="New CategoryLink" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="true"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="b469-52be-3f84-cf71" name="Karandras" hidden="false" collective="false" import="true" targetId="ffca-c633-331c-db01" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="1ecb-511a-c435-d707" name="New CategoryLink" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="true"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="2c16-9f5f-3505-3611" name="Maugan Ra" hidden="false" collective="false" import="true" targetId="120a-242e-a90d-4bfe" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="991e-75fd-81ed-ac92" name="New CategoryLink" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="true"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="871b-5a2c-1337-1406" name="Iyanna Arienal, Spiritseer of Iyandan" hidden="false" collective="false" import="true" targetId="89c0-c22f-a947-63e0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9ffd-4584-8b6c-13da" name="Iyanden" hidden="false" targetId="5271-ffb6-46ff-8c2e" primary="false"/>
+        <categoryLink id="c85e-e68e-f5ed-519b" name="New CategoryLink" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="65b8-25c7-5729-ad98" name="Avatar of the Bloody-Handed God" hidden="false" collective="false" import="true" targetId="a4ef-a5f7-1009-a021" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0f7d-f6ea-a066-73a6" name="Iyanden" hidden="false" targetId="5271-ffb6-46ff-8c2e" primary="false"/>
+        <categoryLink id="50f4-7557-b947-811c" name="New CategoryLink" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6b2d-c85d-0e4b-4eb2" name="Cobra (IA)" hidden="false" collective="false" import="true" targetId="8b22-5a58-01b5-dab3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4395-9645-f2dd-182b" name="Iyanden" hidden="false" targetId="5271-ffb6-46ff-8c2e" primary="false"/>
+        <categoryLink id="f0fa-035d-5c2c-4c22" name="New CategoryLink" hidden="false" targetId="6b90-dc9c-1a49-3fdc" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0d5c-35c2-c01b-24cd" name="Dark Reapers" hidden="false" collective="false" import="true" targetId="5fe4-0c62-cde4-77c4" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b3a8-f7c4-518e-ea43" name="Iyanden" hidden="false" targetId="5271-ffb6-46ff-8c2e" primary="false"/>
+        <categoryLink id="52db-469f-3132-9c98" name="New CategoryLink" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="85e9-ebd0-d06a-003d" name="Dire Avengers" hidden="false" collective="false" import="true" targetId="6027-1393-de68-29de" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="777f-6a39-9d61-7cb1" name="New CategoryLink" hidden="false" targetId="6d25-b346-c314-6911" primary="true"/>
+        <categoryLink id="8c21-85ba-1920-2193" name="Iyanden" hidden="false" targetId="5271-ffb6-46ff-8c2e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="002b-a90f-41d1-8f55" name="Falcon" hidden="false" collective="false" import="true" targetId="f054-8d9e-24b2-66ed" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7be6-5e2e-5df1-754f" name="Iyanden" hidden="false" targetId="5271-ffb6-46ff-8c2e" primary="false"/>
+        <categoryLink id="305c-8a0f-a039-200e" name="New CategoryLink" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6432-6495-aa88-7d65" name="Farseer" hidden="false" collective="false" import="true" targetId="cc6c-88bb-a192-34d4" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="626f-4926-a32d-e215" name="Iyanden" hidden="false" targetId="5271-ffb6-46ff-8c2e" primary="false"/>
+        <categoryLink id="03d5-b91c-beba-ffde" name="New CategoryLink" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="71a6-e500-c70d-9a81" name="Fire Dragons" hidden="false" collective="false" import="true" targetId="3185-c1b2-d3e6-ab7e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f5a4-c3ea-553e-0498" name="Iyanden" hidden="false" targetId="5271-ffb6-46ff-8c2e" primary="false"/>
+        <categoryLink id="335e-d356-b817-a43d" name="New CategoryLink" hidden="false" targetId="6d25-b346-c314-6911" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ae50-71df-ac85-c9f2" name="Fire Prism" hidden="false" collective="false" import="true" targetId="23de-7753-fcb1-a747" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="32da-f64a-d8ef-d40e" name="Iyanden" hidden="false" targetId="5271-ffb6-46ff-8c2e" primary="false"/>
+        <categoryLink id="ee99-647a-206e-443b" name="New CategoryLink" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7159-1cf1-1706-f068" name="Guardian Defender Squad" hidden="false" collective="false" import="true" targetId="3331-9e91-18c4-3976" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="03b8-fc09-cc9c-ad7d" name="New CategoryLink" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+        <categoryLink id="86d0-c1fb-c6dd-2a04" name="Iyanden" hidden="false" targetId="5271-ffb6-46ff-8c2e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="bab7-4b89-3de3-f691" name="Guardian Jetbike Squadron" hidden="false" collective="false" import="true" targetId="9a65-700b-d909-e56a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3738-210a-1171-7170" name="Iyanden" hidden="false" targetId="5271-ffb6-46ff-8c2e" primary="false"/>
+        <categoryLink id="4e68-4697-73d8-997e" name="New CategoryLink" hidden="false" targetId="34e2-d53c-28ab-44cf" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="cf4e-c427-3ca0-52de" name="Guardian Storm Squad" hidden="false" collective="false" import="true" targetId="165b-56e9-5ba9-0a7e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f6d2-cdbc-b768-32c0" name="New CategoryLink" hidden="false" targetId="34e2-d53c-28ab-44cf" primary="true"/>
+        <categoryLink id="4eee-0f62-6e12-be7e" name="Iyanden" hidden="false" targetId="5271-ffb6-46ff-8c2e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d352-1d84-b1d1-7470" name="Howling Banshees" hidden="false" collective="false" import="true" targetId="31ab-d862-386d-b35c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="80fa-e069-6f97-0a57" name="Iyanden" hidden="false" targetId="5271-ffb6-46ff-8c2e" primary="false"/>
+        <categoryLink id="1ab7-237e-2e67-2427" name="New CategoryLink" hidden="false" targetId="6d25-b346-c314-6911" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="fe42-12db-20c0-0341" name="Night Spinner (IA)" hidden="false" collective="false" import="true" targetId="a3c7-1513-ecb5-1cb2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="340d-50be-741a-9674" name="Iyanden" hidden="false" targetId="5271-ffb6-46ff-8c2e" primary="false"/>
+        <categoryLink id="31ae-75ef-574f-1a7e" name="New CategoryLink" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="043c-c9b8-c703-c555" name="Nightwing (IA)" hidden="false" collective="false" import="true" targetId="4071-07cc-a2b7-d555" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ca69-5048-2d43-e511" name="Iyanden" hidden="false" targetId="5271-ffb6-46ff-8c2e" primary="false"/>
+        <categoryLink id="3916-c50a-5b4c-ed80" name="New CategoryLink" hidden="false" targetId="34e2-d53c-28ab-44cf" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0053-57ec-86ff-47fb" name="Phoenix (IA)" hidden="false" collective="false" import="true" targetId="66f2-0ddd-90f0-daf5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0549-a837-571e-26e0" name="Iyanden" hidden="false" targetId="5271-ffb6-46ff-8c2e" primary="false"/>
+        <categoryLink id="bbfe-6a5d-fe51-506f" name="New CategoryLink" hidden="false" targetId="34e2-d53c-28ab-44cf" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7026-f0ec-cb2d-4535" name="Rangers" hidden="false" collective="false" import="true" targetId="9217-1abc-0930-901a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e801-7dae-7d55-7833" name="New CategoryLink" hidden="false" targetId="6d25-b346-c314-6911" primary="true"/>
+        <categoryLink id="804c-8045-f421-4076" name="Iyanden" hidden="false" targetId="5271-ffb6-46ff-8c2e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a3e4-b129-970f-5ade" name="Scorpion (IA)" hidden="false" collective="false" import="true" targetId="d431-bb95-c1e1-fe66" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ec50-a731-5ae0-0c15" name="Iyanden" hidden="false" targetId="5271-ffb6-46ff-8c2e" primary="false"/>
+        <categoryLink id="a647-4987-f1c9-8909" name="New CategoryLink" hidden="false" targetId="6b90-dc9c-1a49-3fdc" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b3e9-67c9-8925-a889" name="Shining Spears" hidden="false" collective="false" import="true" targetId="ac77-965d-6973-5c3a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="85a2-ed90-d34c-b9d1" name="Iyanden" hidden="false" targetId="5271-ffb6-46ff-8c2e" primary="false"/>
+        <categoryLink id="fbb0-6297-c5eb-d31c" name="New CategoryLink" hidden="false" targetId="34e2-d53c-28ab-44cf" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="77e6-6c31-408d-8db6" name="Striking Scorpions" hidden="false" collective="false" import="true" targetId="73e4-d8c2-e526-c837" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3e2a-2a0f-3047-ba06" name="Iyanden" hidden="false" targetId="5271-ffb6-46ff-8c2e" primary="false"/>
+        <categoryLink id="e078-3765-d057-de48" name="New CategoryLink" hidden="false" targetId="6d25-b346-c314-6911" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d7fb-290e-3ff7-30e7" name="Support Weapon Battery" hidden="false" collective="false" import="true" targetId="bd5c-e29b-e6c4-9757" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="bc46-59fa-68cb-4c6f" name="Iyanden" hidden="false" targetId="5271-ffb6-46ff-8c2e" primary="false"/>
+        <categoryLink id="a733-b0be-189e-70f4" name="New CategoryLink" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e7d5-c23a-121a-fcb6" name="Swooping Hawks" hidden="false" collective="false" import="true" targetId="0770-49ae-3aa2-2303" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1311-e684-1574-f2a9" name="Iyanden" hidden="false" targetId="5271-ffb6-46ff-8c2e" primary="false"/>
+        <categoryLink id="8b41-3639-9b76-34c3" name="New CategoryLink" hidden="false" targetId="34e2-d53c-28ab-44cf" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="abbb-0a76-a079-879f" name="Vampire Hunter (IA)" hidden="false" collective="false" import="true" targetId="3e81-6444-edc0-185d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="dbdf-09cb-cb9e-779b" name="Iyanden" hidden="false" targetId="5271-ffb6-46ff-8c2e" primary="false"/>
+        <categoryLink id="ea4e-880d-fb61-ff3f" name="New CategoryLink" hidden="false" targetId="6b90-dc9c-1a49-3fdc" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e108-d961-8ffa-b8a9" name="Vampire Raider (IA)" hidden="false" collective="false" import="true" targetId="15be-6f70-5785-eec5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ef26-ea7c-8d7a-c565" name="Iyanden" hidden="false" targetId="5271-ffb6-46ff-8c2e" primary="false"/>
+        <categoryLink id="ae12-129d-7491-bd20" name="New CategoryLink" hidden="false" targetId="6b90-dc9c-1a49-3fdc" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2bd9-f5ff-3622-a462" name="Void Dragon Phoenix (IA)" hidden="false" collective="false" import="true" targetId="cb1a-bfbb-b7a1-4d76" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4ef9-1a5e-1a0d-4a18" name="Iyanden" hidden="false" targetId="5271-ffb6-46ff-8c2e" primary="false"/>
+        <categoryLink id="b875-d28d-9500-a66f" name="New CategoryLink" hidden="false" targetId="34e2-d53c-28ab-44cf" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3c2b-f647-b18a-ecf9" name="Vyper Squadron" hidden="false" collective="false" import="true" targetId="7dbe-8d04-8340-79dc" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="230b-4725-6feb-8030" name="Iyanden" hidden="false" targetId="5271-ffb6-46ff-8c2e" primary="false"/>
+        <categoryLink id="5ecd-7f4f-8978-6a6b" name="New CategoryLink" hidden="false" targetId="34e2-d53c-28ab-44cf" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c24d-2d80-af36-242a" name="War Walker Squadron" hidden="false" collective="false" import="true" targetId="c8fd-b632-f353-4c46" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c00e-b61d-a538-437f" name="Iyanden" hidden="false" targetId="5271-ffb6-46ff-8c2e" primary="false"/>
+        <categoryLink id="c2b2-10a7-ef63-9060" name="New CategoryLink" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e700-910b-f04e-2801" name="Warp Spiders" hidden="false" collective="false" import="true" targetId="b4c8-4720-f8da-ea8f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3e97-6eb3-95eb-c559" name="Iyanden" hidden="false" targetId="5271-ffb6-46ff-8c2e" primary="false"/>
+        <categoryLink id="5920-7d27-9b62-7532" name="New CategoryLink" hidden="false" targetId="6d25-b346-c314-6911" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c395-2ac7-2f87-faf6" name="Wraithguard" hidden="false" collective="false" import="true" targetId="28b2-329c-ceb4-2957" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8a39-02a9-3863-7909" name="New CategoryLink" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
+        <categoryLink id="da2e-25b2-5252-2caa" name="Iyanden" hidden="false" targetId="5271-ffb6-46ff-8c2e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="73be-9105-3e70-963b" name="Wraithlord (Homebrew)" hidden="true" collective="false" import="true" targetId="8f01-0d76-2aa6-7fea" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="a280-268b-ad38-4a83" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="28b2-329c-ceb4-2957" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="16fe-3807-38b8-22a7" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="a280-268b-ad38-4a83" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4192-a473-2414-1dcb" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a280-268b-ad38-4a83" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="44a7-4abf-4de5-b337" name="New CategoryLink" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
+        <categoryLink id="3d2f-2fea-99da-9744" name="Iyanden" hidden="false" targetId="5271-ffb6-46ff-8c2e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="96da-5be4-2132-a600" name="Wraithlord" hidden="true" collective="false" import="true" targetId="306f-835e-d786-a8e3" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="16fe-3807-38b8-22a7" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="ec07-349a-9cdd-6752" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="28b2-329c-ceb4-2957" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="increment" field="ec07-349a-9cdd-6752" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4192-a473-2414-1dcb" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec07-349a-9cdd-6752" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2d02-6bec-45e8-9a45" name="Troops" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
+        <categoryLink id="1780-057e-e250-3b2a" name="Iyanden" hidden="false" targetId="5271-ffb6-46ff-8c2e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="94ee-8aa7-5b1d-3f10" name="Ghost-Warriors (Homebrew)" hidden="false" collective="false" import="true" targetId="4192-a473-2414-1dcb" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b29d-bc36-bbf5-b8b1" name="New CategoryLink" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="ced3-4a4b-cf07-cff1" name="New CategoryLink" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
+        <categoryLink id="471e-4daa-54f2-fbe9" name="Iyanden" hidden="false" targetId="5271-ffb6-46ff-8c2e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2312-a996-abb8-b519" name="Wraithseer (Homebrew)" hidden="false" collective="false" import="true" targetId="fabe-4057-a282-d52d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="96a2-7931-5568-2c07" name="New CategoryLink" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="true"/>
+        <categoryLink id="2366-ceba-9c00-6490" name="Iyanden" hidden="false" targetId="5271-ffb6-46ff-8c2e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="221f-e120-2aa6-d367" name="Scout Walker Squadron" hidden="false" collective="false" import="true" targetId="d1f3-81ba-1a4a-243d" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="9dcb-e008-d117-908e" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9217-1abc-0930-901a" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9dcb-e008-d117-908e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="6d3a-01b9-e607-0ebe" name="New CategoryLink" hidden="false" targetId="34e2-d53c-28ab-44cf" primary="true"/>
+        <categoryLink id="14a6-c003-5a50-79e8" name="Iyanden" hidden="false" targetId="5271-ffb6-46ff-8c2e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5cd4-a52e-03bc-7c1b" name="Tempest (VDR)" hidden="false" collective="false" import="true" targetId="d81b-5c7a-6af8-19af" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4c06-e6d8-98ef-cd3e" name="New CategoryLink" hidden="false" targetId="6b90-dc9c-1a49-3fdc" primary="true"/>
+        <categoryLink id="120d-fae1-986e-524c" name="Iyanden" hidden="false" targetId="5271-ffb6-46ff-8c2e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a26b-2f61-716b-5bd9" name="Wraithlord (Homebrew)" hidden="false" collective="false" import="true" targetId="23a7-3483-556c-7453" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e08b-b65a-c766-15d1" name="Iyanden" hidden="false" targetId="5271-ffb6-46ff-8c2e" primary="false"/>
+        <categoryLink id="e523-55b0-79e5-0333" name="New CategoryLink" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="23a7-3483-556c-7453" name="Wraithlord (Homebrew)" hidden="false" collective="false" import="true" type="unit">
+      <comment>Added homebrew support for both legacy and modern wraithlords.
+Seperate entry to allow Iyanden to field extra wraithlords as heavy support.</comment>
+      <infoLinks>
+        <infoLink id="ade4-8cef-2eb2-87f9" name="Wraithlord" hidden="false" targetId="742c-bf3e-8e62-64a3" type="profile">
+          <modifiers>
+            <modifier type="set" field="abbf-0d11-fd86-d938" value="2">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1c28-0caa-34cc-8c11" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b40d-9728-334a-da87" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="e01e-8164-1e64-40b5" name="Fearless" hidden="false" targetId="b137-13a1-eb97-c5e5" type="rule"/>
+        <infoLink id="271e-31c1-7acb-3b6a" name="Implacable Advance" hidden="false" targetId="d468-2107-0e7e-86e1" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="20af-2a6a-7b62-5bdd" name="Monstrous Creature" hidden="false" targetId="3e35-381b-fa07-808c" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a338-dba3-fff3-f626" name="Left Arm Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="b40d-9728-334a-da87">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="838e-5925-1131-3224" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ccd-cf17-c679-fd10" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b40d-9728-334a-da87" name="DCCW w/ Shuriken Catapult" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c9d-833d-1f78-28f0" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="0b62-0847-2b18-93fb" name="Shuriken Catapult" hidden="false" targetId="1e3d-a3bb-ef48-bc12" type="profile"/>
+                <infoLink id="af57-4457-337a-ceb1" name="Dreadnought Close Combat Weapons" hidden="false" targetId="c7f7-e5ab-17a7-1cf9" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1c28-0caa-34cc-8c11" name="DCCW w/ Flamer" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30e1-fbb1-dd11-850c" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="2192-ea3d-b4a7-1bf1" name="Flamer" hidden="false" targetId="9177-ce8a-92e3-157e" type="profile"/>
+                <infoLink id="b649-fa22-4f80-7b47" name="Dreadnought Close Combat Weapons" hidden="false" targetId="c7f7-e5ab-17a7-1cf9" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8ddc-d22f-d3f1-7ffc" name="Bright Lance" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5e6-6b6c-39be-1ff5" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="3d75-b480-a90e-8d90" name="Bright Lance" hidden="false" targetId="6f4e-bc15-c01c-501a" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="35.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fb73-ca23-0e6b-09e1" name="Eldar Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="7e58-dc06-7618-25c0" name="Eldar Missile Launcher (krak)" hidden="false" targetId="4d14-5cd6-f811-b21f" type="profile"/>
+                <infoLink id="9694-60b0-a5ed-04b3" name="Eldar Missile Launcher (plasma)" hidden="false" targetId="e271-5f43-0623-5844" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="40.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b972-2103-b002-536f" name="Scatter Laser" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="6cd8-8734-94da-04da" name="Scatter Laser" hidden="false" targetId="0ea6-3b92-6129-8731" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7f16-2f31-143a-a8a7" name="Shuriken Cannon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="1343-c0b1-3ce4-a618" name="Shuriken Cannon" hidden="false" targetId="925b-d150-8e56-0832" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="001d-6643-97a6-3234" name="Starcannon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="9848-1856-fef9-420a" name="Starcannon" hidden="false" targetId="841e-28f9-4e25-68ca" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="35.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="599c-e119-493c-92c9" name="D-cannon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="1909-f07f-bb56-2af3" name="D-cannon" hidden="false" targetId="03d5-3df8-63cd-9769" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="71af-09e3-5776-ea3c" name="Right Arm Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="7328-68f2-f73a-1765">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11a1-8381-bc98-50e5" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36f7-705c-1bb1-72a5" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="7328-68f2-f73a-1765" name="DCCW w/ Shuriken Catapult" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2ed-dae2-e538-dcf9" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="24b3-8540-5b80-f38f" name="Shuriken Catapult" hidden="false" targetId="1e3d-a3bb-ef48-bc12" type="profile"/>
+                <infoLink id="c8fa-53a5-e5b3-f1e6" name="Dreadnought Close Combat Weapons" hidden="false" targetId="c7f7-e5ab-17a7-1cf9" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f563-be70-c4c2-9a1c" name="DCCW w/ Flamer" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d669-2062-64e9-0b0b" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="03bd-922a-d912-47eb" name="Flamer" hidden="false" targetId="9177-ce8a-92e3-157e" type="profile"/>
+                <infoLink id="899c-2870-6e02-afbf" name="Dreadnought Close Combat Weapons" hidden="false" targetId="c7f7-e5ab-17a7-1cf9" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="24c3-525f-bc93-9b15" name="Shoulder Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="f5c0-ffca-5a0d-b607">
+          <modifiers>
+            <modifier type="set" field="d12a-4a05-7cc0-0006" value="0.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1c28-0caa-34cc-8c11" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b40d-9728-334a-da87" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1c28-0caa-34cc-8c11" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b40d-9728-334a-da87" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="a971-9b3d-60c5-7dc6" value="-1.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1c28-0caa-34cc-8c11" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b40d-9728-334a-da87" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d12a-4a05-7cc0-0006" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a971-9b3d-60c5-7dc6" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e3a2-5f28-d427-8590" name="Bright Lance" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="f5b7-850b-4d61-9f6f" name="Bright Lance" hidden="false" targetId="6f4e-bc15-c01c-501a" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="45.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="48f0-2dbe-f321-1dee" name="Eldar Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="6bbf-aedb-d61e-80ee" name="Eldar Missile Launcher (krak)" hidden="false" targetId="4d14-5cd6-f811-b21f" type="profile"/>
+                <infoLink id="b6b0-4d95-3835-75c2" name="Eldar Missile Launcher (plasma)" hidden="false" targetId="e271-5f43-0623-5844" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2ca4-97b6-9d6f-4bf8" name="Scatter Laser" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="ccb6-e60b-8dd8-28b4" name="Scatter Laser" hidden="false" targetId="0ea6-3b92-6129-8731" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="00aa-27e7-1495-1269" name="Starcannon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="7714-582b-3ab7-0a53" name="Starcannon" hidden="false" targetId="841e-28f9-4e25-68ca" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="45.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f5c0-ffca-5a0d-b607" name="Shuriken Cannon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="fea6-c97a-2f09-3421" name="Shuriken Cannon" hidden="false" targetId="925b-d150-8e56-0832" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="75.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink id="0fd4-e1d0-68b9-4c62" name="Eldar (2000)" targetId="1369-4fc1-fe31-48dd" type="catalogue" importRootEntries="false"/>
+  </catalogueLinks>
+</catalogue>
