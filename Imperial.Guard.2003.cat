@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="04bd-002e-d5fe-e9a6" name="Imperial Guard (2003)" revision="16" battleScribeVersion="2.03" authorName="Kris Snyder" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="04bd-002e-d5fe-e9a6" name="Imperial Guard (2003)" revision="16" battleScribeVersion="2.03" authorName="Kris Snyder" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="3670-6ad0-8988-c35b" name="Officer" hidden="false"/>
     <categoryEntry id="5a7d-a0bb-d5e1-e79a" name="Standard Bearer" hidden="false"/>
@@ -5052,7 +5052,7 @@
         <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17b6-b576-8bb5-3ea7" type="max"/>
       </constraints>
       <profiles>
-        <profile id="b621-ee5a-4ff9-8c04" name="Mount Bite" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+        <profile id="b621-ee5a-4ff9-8c04" name="Mount Bite" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -6213,6 +6213,7 @@
                     <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
                     <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
                     <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+                    <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6300,6 +6301,7 @@
                     <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
                     <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
                     <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+                    <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6423,6 +6425,7 @@
                     <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
                     <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
                     <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+                    <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6550,6 +6553,7 @@
                     <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
                     <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
                     <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+                    <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -8089,6 +8093,7 @@
                     <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
                     <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
                     <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+                    <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -10691,7 +10696,7 @@ During the Imperial Guard Shooting Phase the Cyclops can be detonated. Place the
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="2a81-01af-254a-63da" name="Powerlifter" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+        <profile id="2a81-01af-254a-63da" name="Powerlifter" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
           <characteristics>
             <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
             <characteristic name="S" typeId="24d8-2110-08fa-d844">5</characteristic>
@@ -11109,7 +11114,7 @@ Transport = 10
             <selectionEntry id="db42-4332-bf19-4f48" name="Gatling Cannon" hidden="false" collective="false" import="true" type="upgrade">
               <comment>In 5th edition, a punisher gatling cannon was 30 points more than a battlecannon. In the VDR a battle cannon is 50 points. It has half as many shots, and is 1 strength less. 30 points seems reasonable.</comment>
               <profiles>
-                <profile id="c04c-590c-a8e0-74fe" name="Gatling Cannon" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+                <profile id="c04c-590c-a8e0-74fe" name="Gatling Cannon" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
                     <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
@@ -11147,7 +11152,7 @@ Stormshard Mortar(4x mortars) = 100</comment>
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="c3ab-00a6-7b34-952b" name="2x Stormshard Mortars" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+        <profile id="c3ab-00a6-7b34-952b" name="2x Stormshard Mortars" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
           <characteristics>
             <characteristic name="Range" typeId="deb8-131d-bdcf-1376">48&quot;</characteristic>
             <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
@@ -11180,7 +11185,7 @@ Stormshard Mortar(4x mortars) = 100</comment>
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="8a0f-4f1f-bdf4-1fd1" name="Deathstrike Missile" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+        <profile id="8a0f-4f1f-bdf4-1fd1" name="Deathstrike Missile" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
           <characteristics>
             <characteristic name="Range" typeId="deb8-131d-bdcf-1376">G12&quot;-960&quot;</characteristic>
             <characteristic name="S" typeId="24d8-2110-08fa-d844">10</characteristic>
@@ -11689,7 +11694,7 @@ Opponents that fight a round of close combat against the Warhound and fail to de
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="babd-df9e-0ae3-18bd" type="max"/>
               </constraints>
               <profiles>
-                <profile id="341f-0cf4-01e1-b67e" name="Inferno Gun" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+                <profile id="341f-0cf4-01e1-b67e" name="Inferno Gun" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="deb8-131d-bdcf-1376">12-36&quot;</characteristic>
                     <characteristic name="S" typeId="24d8-2110-08fa-d844">7</characteristic>
@@ -11742,7 +11747,7 @@ Opponents that fight a round of close combat against the Warhound and fail to de
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c700-20b0-50d4-6907" type="max"/>
               </constraints>
               <profiles>
-                <profile id="3ca3-15cf-523b-6f09" name="Inferno Gun" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+                <profile id="3ca3-15cf-523b-6f09" name="Inferno Gun" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="deb8-131d-bdcf-1376">12-36&quot;</characteristic>
                     <characteristic name="S" typeId="24d8-2110-08fa-d844">7</characteristic>
@@ -11963,7 +11968,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
       </rules>
       <infoLinks>
         <infoLink id="2dcd-994f-5099-2a4c" name="Hyena" hidden="false" targetId="fff4-5f0e-069a-9ccf" type="profile"/>
-        <infoLink id="f4f0-e644-a322-c54d" name="Fast" hidden="false" targetId="b35d-993f-e267-1ec0" type="rule"/>
+        <infoLink id="f4f0-e644-a322-c54d" name="Fast Vehicle" hidden="false" targetId="b35d-993f-e267-1ec0" type="rule"/>
         <infoLink id="c94c-8b44-698e-9c50" name="Open-Topped" hidden="false" targetId="4795-fd7c-2846-78ba" type="rule"/>
         <infoLink id="42b6-c202-a0ff-bae1" name="Smoke Launchers" hidden="false" targetId="51f3-87b2-5634-c751" type="rule"/>
         <infoLink id="a386-de30-e50d-252f" name="Targeter" hidden="false" targetId="0a02-59d7-63e7-b752" type="rule"/>
@@ -13449,7 +13454,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98fd-325b-f219-fd88" type="max"/>
           </constraints>
           <profiles>
-            <profile id="cd01-6705-3498-52f2" name="Eviscerator" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+            <profile id="cd01-6705-3498-52f2" name="Eviscerator" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
                 <characteristic name="S" typeId="24d8-2110-08fa-d844">User x2</characteristic>
@@ -14962,6 +14967,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="78cf-c67e-7700-2fdc" name="Combat Servitor" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -14975,6 +14981,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="624c-53f4-3272-14ba" name="Technical Servitor" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -14988,6 +14995,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="90b8-010a-c8bf-7b5f" name="Ogryn Bone&apos;ead" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15001,6 +15009,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="0198-c4d1-6549-2cfc" name="Ogryn" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15014,6 +15023,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="91ce-503b-9539-00fb" name="Storm Trooper Sergeant" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15027,6 +15037,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="f55c-6a33-1088-65ab" name="Storm Trooper" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15040,6 +15051,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="1f70-2aa3-c887-04b0" name="Storm Trooper Veteran Sergeant" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15053,6 +15065,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="fe02-4d08-aec6-7720" name="Veteran" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15066,6 +15079,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="6bf1-0ba3-6f1d-d612" name="Guardsman" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15079,6 +15093,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">7</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="dc37-efd3-1bf6-6cc9" name="Basilisk" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -15087,15 +15102,16 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank, Open-Topped</characteristic>
       </characteristics>
     </profile>
-    <profile id="c827-1d55-781e-b6ed" name="Chimera" hidden="false" typeId="5535-2b48-81ee-04ce" typeName="Transport">
+    <profile id="c827-1d55-781e-b6ed" name="Chimera" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
       <characteristics>
-        <characteristic name="Front Armor" typeId="70ae-7a97-7e70-93ea">12</characteristic>
-        <characteristic name="Side Armor" typeId="bcca-0b51-9187-2e4e">10</characteristic>
-        <characteristic name="Rear Armor" typeId="929b-c9cc-001b-3705">10</characteristic>
-        <characteristic name="BS" typeId="ae25-5be4-5470-2204">3</characteristic>
-        <characteristic name="Capacity" typeId="ec07-2d55-2ba5-6080">12</characteristic>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">12</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="f34f-6272-6b34-9c1d" name="Colonel Schaeffer" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15109,6 +15125,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="55cc-5fbb-3805-9762" name="Lieutenant Kage" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15122,6 +15139,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="bcd9-3a08-9fa5-8cdd" name="Last Chancer" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15135,6 +15153,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="57c4-4a09-82ce-4286" name="Colonel-Commissar Ibram Gaunt" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15148,6 +15167,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="384e-19df-d6df-1c70" name="Commissar Yarrick" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15161,6 +15181,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="6246-3733-825a-b5ec" name="Commissar" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15174,6 +15195,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="c06b-c9db-d8f7-d9df" name="Conscript" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15187,6 +15209,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">5</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="7fc5-4e57-b99f-ec44" name="Ratling" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15200,6 +15223,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">6</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="b7fa-4aca-4193-886d" name="Priest" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15213,6 +15237,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">-</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="24b8-23fd-ef52-ec97" name="Techpriest Enginseers" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15226,6 +15251,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="d68b-603e-679f-23c9" name="Sergeant" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15239,6 +15265,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">7</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="b80d-d2ae-2701-1f4c" name="Sentinel" hidden="false" typeId="5119-5456-6e97-4fc2" typeName="Walker">
@@ -15264,6 +15291,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="cb37-335b-1203-798a" name="Rough Rider" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15277,6 +15305,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">7</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="1acc-8b99-2761-e52a" name="Sanctioned Psyker" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15290,6 +15319,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="bbc3-8a73-fdcd-b418" name="Hellhound" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -15298,6 +15328,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">12</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="4428-265a-8817-c2fc" name="Leman Russ Battle Tank" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -15306,6 +15337,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">12</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="0895-c86d-1fbf-4e4a" name="Leman Russ Demolisher" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -15314,6 +15346,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">13</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">11</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="b628-b4b6-4e07-5fa8" name="Colour Sergeant Jarran Kell" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15327,6 +15360,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="7f4a-5988-4380-7895" name="Ursarkar Creed" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15340,6 +15374,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="70bb-a980-ac8e-5501" name="Heroic Senior Officer" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15353,6 +15388,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="9c82-2fb4-cba8-fc0a" name="Junior Officer" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15366,6 +15402,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="ae52-4f70-6abb-7a16" name="Veteran Sergeant" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15379,6 +15416,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="8e46-8dc6-20a7-b1ad" name="Hardened Veteran Sergeant" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15392,6 +15430,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="c476-9ad9-f244-8d2c" name="Medusa" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -15400,6 +15439,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank, Open-Topped</characteristic>
       </characteristics>
     </profile>
     <profile id="6245-55f6-0154-42ba" name="Manticore" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -15408,6 +15448,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="72ac-503a-906e-a107" name="Hydra" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -15416,6 +15457,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="91d5-87bb-8b47-6251" name="Turret Emplacement" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -15424,6 +15466,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">13</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">12</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Immobile</characteristic>
       </characteristics>
     </profile>
     <profile id="24a3-ac39-84be-6b2c" name="Trojan" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -15432,6 +15475,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="98ce-47e2-580d-c7f0" name="Sentinel Powerlifter" hidden="false" typeId="5119-5456-6e97-4fc2" typeName="Walker">
@@ -15446,12 +15490,13 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="A" typeId="bb33-7ddf-2296-174e">2</characteristic>
       </characteristics>
     </profile>
-    <profile id="d751-2cd4-bbc5-dc9c" name="Salamander" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
+    <profile id="d751-2cd4-bbc5-dc9c" name="Salamander Command" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
       <characteristics>
         <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">12</characteristic>
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank, Open Topped</characteristic>
       </characteristics>
     </profile>
     <profile id="869a-cdbc-90fa-8e32" name="Shadowsword" hidden="false" typeId="36b6-ef06-48e4-cd45" typeName="Super Heavy Vehicle">
@@ -15480,6 +15525,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">12</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="65fe-8b76-0916-ff6d" name="Thunderer Siege Tank" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -15488,6 +15534,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">12</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="2df4-fcde-71cc-630e" name="Destroyer Tank Hunter" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -15496,6 +15543,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">12</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="8c5c-cc58-1178-15da" name="Leman Russ Vanquisher" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -15504,6 +15552,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">12</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="b91c-c69b-5519-841d" name="Leman Russ Executioner" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -15512,6 +15561,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">12</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="2dd0-c5aa-34d6-3575" name="Atlas" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -15520,6 +15570,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="0fec-d2b4-d14c-dd2c" name="Cyclops" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -15528,6 +15579,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="6397-1c06-e9d4-7c0a" name="Stormblade" hidden="false" typeId="36b6-ef06-48e4-cd45" typeName="Super Heavy Vehicle">
@@ -15546,6 +15598,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank, Open-Topped</characteristic>
       </characteristics>
     </profile>
     <profile id="eaad-f8f6-b10d-a8cf" name="Stormsword" hidden="false" typeId="36b6-ef06-48e4-cd45" typeName="Super Heavy Vehicle">
@@ -15564,6 +15617,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">12</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="dea4-4d39-cab5-188d" name="Taurox" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -15572,6 +15626,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="7d50-8732-3981-7cdd" name="Wyvern" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -15580,6 +15635,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="f94b-cd00-5041-58ce" name="Deathstrike" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -15588,15 +15644,16 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
-    <profile id="ad2e-67ff-1d89-2067" name="Centaur Artillery Tractor" hidden="false" typeId="5535-2b48-81ee-04ce" typeName="Transport">
+    <profile id="ad2e-67ff-1d89-2067" name="Centaur Artillery Tractor" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
       <characteristics>
-        <characteristic name="Front Armor" typeId="70ae-7a97-7e70-93ea">11</characteristic>
-        <characteristic name="Side Armor" typeId="bcca-0b51-9187-2e4e">10</characteristic>
-        <characteristic name="Rear Armor" typeId="929b-c9cc-001b-3705">10</characteristic>
-        <characteristic name="BS" typeId="ae25-5be4-5470-2204">3</characteristic>
-        <characteristic name="Capacity" typeId="ec07-2d55-2ba5-6080">6</characteristic>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">11</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank, Open-Topped</characteristic>
       </characteristics>
     </profile>
     <profile id="4612-3cc6-326b-00b8" name="Leman Russ Annihilator" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -15605,6 +15662,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">12</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="72f4-de45-0989-ada5" name="Malcador Assault Tank" hidden="false" typeId="36b6-ef06-48e4-cd45" typeName="Super Heavy Vehicle">
@@ -15673,6 +15731,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">12</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="c77c-26c0-45c9-0e7f" name="Warhound" hidden="false" typeId="36b6-ef06-48e4-cd45" typeName="Super Heavy Vehicle">
@@ -15691,6 +15750,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">11</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="fff4-5f0e-069a-9ccf" name="Hyena" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -15699,6 +15759,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">4</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank, Fast, Open-Topped</characteristic>
       </characteristics>
     </profile>
     <profile id="7968-5727-5f8f-994b" name="Tauros" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -15707,6 +15768,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="266f-98b1-d74a-4201" name="Tauros Venator" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -15715,6 +15777,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="9424-188f-ff92-d41d" name="High Commander" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15728,6 +15791,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="8a37-8fa9-1318-595b" name="Grenadier Bodyguard" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15741,6 +15805,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="dd49-c1bf-d8d7-1a62" name="Servitor Bodyguard" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15754,6 +15819,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="57ec-aaaf-dc9a-8d78" name="Orderly" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15767,6 +15833,39 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">6+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
+      </characteristics>
+    </profile>
+    <profile id="56f2-ed59-8c2c-2992" name="Chimera" hidden="false" typeId="899d-8e8f-8774-82e0" typeName="Transport">
+      <characteristics>
+        <characteristic name="Capacity" typeId="46f6-9161-d58b-c967">12 Infantry Models</characteristic>
+        <characteristic name="Fire Points" typeId="85d6-4dfc-0382-e5b6">Top Hatch: 1 Model</characteristic>
+        <characteristic name="Access Points" typeId="f2d3-baa9-3d6f-d20e">1: Rear Ramp</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8af8-6a7b-4919-4324" name="Centaur Artillery Tractor" hidden="false" typeId="899d-8e8f-8774-82e0" typeName="Transport">
+      <characteristics>
+        <characteristic name="Capacity" typeId="46f6-9161-d58b-c967">6</characteristic>
+        <characteristic name="Fire Points" typeId="85d6-4dfc-0382-e5b6">Any</characteristic>
+        <characteristic name="Access Points" typeId="f2d3-baa9-3d6f-d20e">Any</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b74e-caac-a44e-7bbf" name="Bombard" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">12</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank, Open-Topped</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c039-294e-9a4b-91df" name="Salamander Scout" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">12</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank, Fast, Open Topped</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

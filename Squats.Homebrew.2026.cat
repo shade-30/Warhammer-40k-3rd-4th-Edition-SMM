@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="zea7-8ed3-c70a-bf06" name="Squats (Homebrew 2026)" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="zea7-8ed3-c70a-bf06" name="Squats (Homebrew 2026)" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="b8d5-0b01-5913-545e" name="Mobile Artillery" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -987,6 +987,7 @@
             <modifier type="set" field="name" value="Twin-Linked Heavy Bolter"/>
           </modifiers>
         </infoLink>
+        <infoLink id="4d1d-8d2a-568c-f207" name="Land Raider" hidden="false" targetId="b35c-6111-12dd-7013" type="profile"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="cdc3-9bd7-68e2-0a9d" name="Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="0ad0-e8db-2347-229f" type="selectionEntryGroup"/>
@@ -1002,8 +1003,9 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="15ff-b31f-3cd9-3f0b" name="Rhino" hidden="false" targetId="6ada-395d-ad97-b945" type="profile"/>
+        <infoLink id="15ff-b31f-3cd9-3f0b" name="Rhino" hidden="false" targetId="74e1-d07f-86f6-611a" type="profile"/>
         <infoLink id="6fb3-91de-d1ee-806d" name="Storm Bolter" hidden="false" targetId="4c6c-9de1-00a8-8016" type="profile"/>
+        <infoLink id="4524-5cf0-ff23-19f5" name="Rhino" hidden="false" targetId="6ada-395d-ad97-b945" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ccb0-4748-e8ac-cf6b" name="New CategoryLink" hidden="false" targetId="a090-a855-c7de-f5c3" primary="true"/>
@@ -1879,6 +1881,7 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
                     <characteristic name="A" typeId="abbf-0d11-fd86-d938">2(3)</characteristic>
                     <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">N/A</characteristic>
                     <characteristic name="Sv" typeId="b309-5233-122f-82bb">2+/6++</characteristic>
+                    <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1942,6 +1945,7 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
                     <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
                     <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">N/A</characteristic>
                     <characteristic name="Sv" typeId="b309-5233-122f-82bb">2+/6++</characteristic>
+                    <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2081,6 +2085,7 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
                     <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
                     <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">N/A</characteristic>
                     <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+/6++</characteristic>
+                    <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2220,6 +2225,7 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
                     <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
                     <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">N/A</characteristic>
                     <characteristic name="Sv" typeId="b309-5233-122f-82bb">2+/6++</characteristic>
+                    <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2359,6 +2365,7 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
                     <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
                     <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">N/A</characteristic>
                     <characteristic name="Sv" typeId="b309-5233-122f-82bb">2+/6++</characteristic>
+                    <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2719,7 +2726,7 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5ec1-10cc-6838-347b" name="Guild Gyrocopter" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5ec1-10cc-6838-347b" name="Kestrel Gyrocopter" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="af67-08ef-c5f5-7ab8" name="Fast" hidden="false" targetId="b35d-993f-e267-1ec0" type="rule"/>
         <infoLink id="1f9f-a629-7f40-93b6" name="Multi-melta" hidden="false" targetId="7077-4e34-5c92-5320" type="profile"/>
@@ -3202,7 +3209,7 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
             <infoLink id="11de-7ef2-6213-2be2" name="Power Weapon" hidden="false" targetId="5774-7187-2616-dd8a" type="profile">
               <modifiers>
                 <modifier type="set" field="name" value="Power Lance"/>
-                <modifier type="set" field="492d-1f80-b777-26f2" value="Furious Charge"/>
+                <modifier type="set" field="a46d-26b2-96ab-913f" value="Furious Charge"/>
               </modifiers>
             </infoLink>
             <infoLink id="ac29-6dc6-200d-02d5" name="Furious Charge" hidden="false" targetId="8539-2da3-3348-8a67" type="rule"/>
@@ -3502,7 +3509,7 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab9b-c362-7ffa-e523" type="max"/>
               </constraints>
               <profiles>
-                <profile id="c3af-722c-a918-dedd" name="Needle Pistol" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+                <profile id="c3af-722c-a918-dedd" name="Needle Pistol" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="deb8-131d-bdcf-1376">12&quot;</characteristic>
                     <characteristic name="S" typeId="24d8-2110-08fa-d844">4+</characteristic>
@@ -3535,7 +3542,7 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f69-b64d-12a9-20b7" type="max"/>
               </constraints>
               <profiles>
-                <profile id="6565-be2c-b0ab-220f" name="Combi-Crossbow" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+                <profile id="6565-be2c-b0ab-220f" name="Combi-Crossbow" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
                     <characteristic name="S" typeId="24d8-2110-08fa-d844">3</characteristic>
@@ -3559,7 +3566,7 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d31-4f97-5cd7-9424" type="max"/>
               </constraints>
               <profiles>
-                <profile id="b6f9-a2d1-179d-278f" name="Eviscerator" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+                <profile id="b6f9-a2d1-179d-278f" name="Eviscerator" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
                     <characteristic name="S" typeId="24d8-2110-08fa-d844">User x2</characteristic>
@@ -3735,7 +3742,7 @@ If a robot model begin its turn without a guildmaster within 6&quot;, they must 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="z026-5511-d2cd-58df" type="max"/>
           </constraints>
           <profiles>
-            <profile id="z20a-aa4c-7800-1437" name="Servo-Arm" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+            <profile id="z20a-aa4c-7800-1437" name="Servo-Arm" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
                 <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">User x2</characteristic>
@@ -3993,6 +4000,7 @@ In addition, Squats may choose to move using the Slow and Purposeful universal s
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="z4ef-fa76-900b-ef97" name="Champion" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -4006,6 +4014,7 @@ In addition, Squats may choose to move using the Slow and Purposeful universal s
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="z522-706b-ffe7-cbe7" name="Ancestor" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -4019,6 +4028,7 @@ In addition, Squats may choose to move using the Slow and Purposeful universal s
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">6+/4++</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="za9e-21c5-1ed9-72c9" name="Squat" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -4032,6 +4042,7 @@ In addition, Squats may choose to move using the Slow and Purposeful universal s
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="z51d-dfd5-4fc7-8e1f" name="Heavy Weapons Trike" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -4045,6 +4056,7 @@ In addition, Squats may choose to move using the Slow and Purposeful universal s
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">6+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="5106-2182-fc67-eaac" name="Mighty Hero" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -4058,6 +4070,7 @@ In addition, Squats may choose to move using the Slow and Purposeful universal s
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="5218-7b2a-9e35-9466" name="Guildmaster" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -4071,6 +4084,7 @@ In addition, Squats may choose to move using the Slow and Purposeful universal s
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="d018-28ce-1914-3592" name="Ancestor Lord" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -4084,24 +4098,23 @@ In addition, Squats may choose to move using the Slow and Purposeful universal s
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">4</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+/4++</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
-    <profile id="415e-d331-aa06-154e" name="Land Raider" hidden="false" typeId="5535-2b48-81ee-04ce" typeName="Transport">
+    <profile id="415e-d331-aa06-154e" name="Land Raider" hidden="false" typeId="899d-8e8f-8774-82e0" typeName="Transport">
       <characteristics>
-        <characteristic name="Front Armor" typeId="70ae-7a97-7e70-93ea">14</characteristic>
-        <characteristic name="Side Armor" typeId="bcca-0b51-9187-2e4e">14</characteristic>
-        <characteristic name="Rear Armor" typeId="929b-c9cc-001b-3705">14</characteristic>
-        <characteristic name="BS" typeId="ae25-5be4-5470-2204">3</characteristic>
-        <characteristic name="Capacity" typeId="ec07-2d55-2ba5-6080">10 Infantry or 5 Exo-armours</characteristic>
+        <characteristic name="Capacity" typeId="46f6-9161-d58b-c967">10 Infantry Models or 5 Models in Exo-Armour</characteristic>
+        <characteristic name="Fire Points" typeId="85d6-4dfc-0382-e5b6">N/A</characteristic>
+        <characteristic name="Access Points" typeId="f2d3-baa9-3d6f-d20e">3: Front Ramp, Side Hatches</characteristic>
       </characteristics>
     </profile>
-    <profile id="6ada-395d-ad97-b945" name="Rhino" hidden="false" typeId="5535-2b48-81ee-04ce" typeName="Transport">
+    <profile id="6ada-395d-ad97-b945" name="Rhino" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
       <characteristics>
-        <characteristic name="Front Armor" typeId="70ae-7a97-7e70-93ea">11</characteristic>
-        <characteristic name="Side Armor" typeId="bcca-0b51-9187-2e4e">11</characteristic>
-        <characteristic name="Rear Armor" typeId="929b-c9cc-001b-3705">10</characteristic>
-        <characteristic name="BS" typeId="ae25-5be4-5470-2204">3</characteristic>
-        <characteristic name="Capacity" typeId="ec07-2d55-2ba5-6080">10 Infantry</characteristic>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">11</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">11</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="6668-f1a3-7a28-2047" name="Exo-Armour Champion" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -4115,6 +4128,7 @@ In addition, Squats may choose to move using the Slow and Purposeful universal s
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1(2)</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">2+/6+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="8acc-3402-3157-d28a" name="Exo-Armour Hero" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -4128,6 +4142,7 @@ In addition, Squats may choose to move using the Slow and Purposeful universal s
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2(3)</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">2+/6+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="692e-7833-b557-9378" name="Exo-Armour Mighty Hero" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -4141,6 +4156,7 @@ In addition, Squats may choose to move using the Slow and Purposeful universal s
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3(4)</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">2+/6+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="1a5f-db1a-247a-7957" name="Squat Engineer" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -4154,6 +4170,7 @@ In addition, Squats may choose to move using the Slow and Purposeful universal s
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="d4a6-d91d-a68e-2e6c" name="Imperial Dreadnought" hidden="false" typeId="5119-5456-6e97-4fc2" typeName="Walker">
@@ -4179,6 +4196,7 @@ In addition, Squats may choose to move using the Slow and Purposeful universal s
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="6066-7e1a-c9cb-e83d" name="Guildmaster on Trike" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -4192,6 +4210,7 @@ In addition, Squats may choose to move using the Slow and Purposeful universal s
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="dd7d-3be2-52df-48e7" name="Squat Biker" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -4205,14 +4224,16 @@ In addition, Squats may choose to move using the Slow and Purposeful universal s
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">6+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
-    <profile id="b5f8-18e6-726a-939f" name="Gyrocopter" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
+    <profile id="b5f8-18e6-726a-939f" name="Kestrel Gyrocopter" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
       <characteristics>
         <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">10</characteristic>
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Skimmer, Fast</characteristic>
       </characteristics>
     </profile>
     <profile id="e843-b1b3-03d1-7e86" name="Cyberslayer" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -4226,6 +4247,7 @@ In addition, Squats may choose to move using the Slow and Purposeful universal s
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">6++</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="06d2-357d-5117-2dc4" name="Cyberslayer Champion" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -4239,6 +4261,7 @@ In addition, Squats may choose to move using the Slow and Purposeful universal s
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">6++</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="b920-06d4-6549-e1c6" name="Iron Eagle Gyrocopter" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -4247,6 +4270,23 @@ In addition, Squats may choose to move using the Slow and Purposeful universal s
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">14</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">14</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Skimmer</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="74e1-d07f-86f6-611a" name="Rhino" hidden="false" typeId="899d-8e8f-8774-82e0" typeName="Transport">
+      <characteristics>
+        <characteristic name="Capacity" typeId="46f6-9161-d58b-c967">10 Infantry Models</characteristic>
+        <characteristic name="Fire Points" typeId="85d6-4dfc-0382-e5b6">Top Hatch: 2 Models</characteristic>
+        <characteristic name="Access Points" typeId="f2d3-baa9-3d6f-d20e">3: Rear Ramp, Side Hatches</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b35c-6111-12dd-7013" name="Land Raider" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">14</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">14</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">14</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
