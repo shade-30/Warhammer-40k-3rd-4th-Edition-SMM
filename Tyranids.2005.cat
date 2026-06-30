@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7b54-feaf-1f79-de68" name="Tyranids (2005)" revision="6" battleScribeVersion="2.03" authorName="Simon" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7b54-feaf-1f79-de68" name="Tyranids (2005)" revision="6" battleScribeVersion="2.03" authorName="Simon" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="e2aa-5030-5aff-84ae" name="Hive Tyrant" hidden="false" collective="false" import="true" targetId="23fb-5a5c-921c-6ebc" type="selectionEntry">
       <categoryLinks>
@@ -2969,7 +2969,7 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="2d3f-6437-fcda-478a" name="Acid Spray" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+        <profile id="2d3f-6437-fcda-478a" name="Acid Spray" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
           <characteristics>
             <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Template</characteristic>
             <characteristic name="S" typeId="24d8-2110-08fa-d844">5</characteristic>
@@ -5009,7 +5009,7 @@ If the Harridan is hit by a blast weapon while the Gargoyles are attacked then t
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="6691-1001-0aba-1f90" name="Bio-electric Field" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+        <profile id="6691-1001-0aba-1f90" name="Bio-electric Field" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
           <characteristics>
             <characteristic name="Range" typeId="deb8-131d-bdcf-1376">12&quot;</characteristic>
             <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
@@ -5594,7 +5594,7 @@ If a Brood Nest is destroyed, the Brood cannot use it as an entry point and must
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="d401-6ac9-4d50-48f8" name="Warp Blast (Default)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="d401-6ac9-4d50-48f8" name="Warp Blast (Default)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">5</characteristic>
@@ -5603,7 +5603,7 @@ If a Brood Nest is destroyed, the Brood cannot use it as an entry point and must
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
       </characteristics>
     </profile>
-    <profile id="00a9-d360-6349-9ede" name="Warp Blast (Psychic Test)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="00a9-d360-6349-9ede" name="Warp Blast (Psychic Test)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">18&quot;</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">10</characteristic>
@@ -5623,6 +5623,7 @@ If a Brood Nest is destroyed, the Brood cannot use it as an entry point and must
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Monstrous Creature</characteristic>
       </characteristics>
     </profile>
     <profile id="b662-ea3a-8f6e-b32d" name="Tyrant Guard" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5636,6 +5637,7 @@ If a Brood Nest is destroyed, the Brood cannot use it as an entry point and must
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2+1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="15a9-f419-78d8-59e9" name="Lictor" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5649,6 +5651,7 @@ If a Brood Nest is destroyed, the Brood cannot use it as an entry point and must
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2+1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="80f1-78a4-718e-5502" name="Warrior" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5662,6 +5665,7 @@ If a Brood Nest is destroyed, the Brood cannot use it as an entry point and must
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="c968-4f41-c847-224b" name="Genestealer" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5675,6 +5679,7 @@ If a Brood Nest is destroyed, the Brood cannot use it as an entry point and must
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="180b-61d2-d71f-78d9" name="Termagant" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5688,6 +5693,7 @@ If a Brood Nest is destroyed, the Brood cannot use it as an entry point and must
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">5</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">6+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="0d41-e675-9d52-593d" name="Ripper Swarm" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5701,6 +5707,7 @@ If a Brood Nest is destroyed, the Brood cannot use it as an entry point and must
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">6+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Swarm</characteristic>
       </characteristics>
     </profile>
     <profile id="a12d-b276-0d58-9a22" name="Hormagaunt" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5714,6 +5721,7 @@ If a Brood Nest is destroyed, the Brood cannot use it as an entry point and must
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1+1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">5</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">6+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Beast</characteristic>
       </characteristics>
     </profile>
     <profile id="57ac-c851-91e5-2ac3" name="Ravener" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5727,6 +5735,7 @@ If a Brood Nest is destroyed, the Brood cannot use it as an entry point and must
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Beast</characteristic>
       </characteristics>
     </profile>
     <profile id="c3d2-4b27-25dc-cc65" name="Gargoyle" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5740,6 +5749,7 @@ If a Brood Nest is destroyed, the Brood cannot use it as an entry point and must
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">6+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Jump Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="760c-bbcc-5d9d-0107" name="Carnifex" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5753,6 +5763,7 @@ If a Brood Nest is destroyed, the Brood cannot use it as an entry point and must
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Monstrous Creature</characteristic>
       </characteristics>
     </profile>
     <profile id="2fed-7835-e8ff-b475" name="Zoanthrope" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5766,6 +5777,7 @@ If a Brood Nest is destroyed, the Brood cannot use it as an entry point and must
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">2+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="f9bb-f428-f588-0dbf" name="Biovore" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5779,6 +5791,7 @@ If a Brood Nest is destroyed, the Brood cannot use it as an entry point and must
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">-</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="89d9-bbe2-d5d7-7e55" name="Spore Mine" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5792,9 +5805,10 @@ If a Brood Nest is destroyed, the Brood cannot use it as an entry point and must
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">0</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">-</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
-    <profile id="8fa6-cf60-aac1-db5c" name="Barbed Strangler" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="8fa6-cf60-aac1-db5c" name="Barbed Strangler" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">36&quot;</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">S-1 (Max. S8)</characteristic>
@@ -5803,7 +5817,7 @@ If a Brood Nest is destroyed, the Brood cannot use it as an entry point and must
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Uses ordnance blast, causes pinning test like barrage.</characteristic>
       </characteristics>
     </profile>
-    <profile id="2ff7-bc42-c166-46b6" name="Deathspitter" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="2ff7-bc42-c166-46b6" name="Deathspitter" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">S+1 (Max. 7)</characteristic>
@@ -5812,7 +5826,7 @@ If a Brood Nest is destroyed, the Brood cannot use it as an entry point and must
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
       </characteristics>
     </profile>
-    <profile id="8144-518f-9457-4c09" name="Fleshborer" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="8144-518f-9457-4c09" name="Fleshborer" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">12&quot;</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">S+1 (Max. S6)</characteristic>
@@ -5821,7 +5835,7 @@ If a Brood Nest is destroyed, the Brood cannot use it as an entry point and must
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Living Ammunition</characteristic>
       </characteristics>
     </profile>
-    <profile id="f640-8e8b-c5da-b901" name="Spinefists" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="f640-8e8b-c5da-b901" name="Spinefists" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">12&quot;</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">S (Max. S6)</characteristic>
@@ -5830,7 +5844,7 @@ If a Brood Nest is destroyed, the Brood cannot use it as an entry point and must
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Twin-Linked</characteristic>
       </characteristics>
     </profile>
-    <profile id="1c6c-0aaa-c94d-2d90" name="Venom Cannon" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="1c6c-0aaa-c94d-2d90" name="Venom Cannon" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">36&quot;</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">S+2 (Max. 10)</characteristic>
@@ -5839,7 +5853,7 @@ If a Brood Nest is destroyed, the Brood cannot use it as an entry point and must
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">A venom cannon can only achieve glancing hits against vehicles that do not have the open-topped characteristic.</characteristic>
       </characteristics>
     </profile>
-    <profile id="b1d2-4399-571a-0228" name="Devourer" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="b1d2-4399-571a-0228" name="Devourer" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">18&quot;</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">S-1 (Max. S6)</characteristic>
@@ -5848,7 +5862,7 @@ If a Brood Nest is destroyed, the Brood cannot use it as an entry point and must
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Living Ammunition</characteristic>
       </characteristics>
     </profile>
-    <profile id="10ae-a9b4-2d0f-eb62" name="Bio-Cannon" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="10ae-a9b4-2d0f-eb62" name="Bio-Cannon" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">48&quot;</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">10</characteristic>
@@ -5868,6 +5882,7 @@ If a Brood Nest is destroyed, the Brood cannot use it as an entry point and must
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3+1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="bce5-6322-d3c9-3384" name="Scythed Hierodule" hidden="false" typeId="9bd8-3201-d005-7243" typeName="Gargantuan Creature">
@@ -5923,6 +5938,7 @@ If a Brood Nest is destroyed, the Brood cannot use it as an entry point and must
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">5</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">6+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="b512-4dbf-5cd4-40cd" name="Hierophant" hidden="false" typeId="9bd8-3201-d005-7243" typeName="Gargantuan Creature">
@@ -5950,6 +5966,7 @@ If a Brood Nest is destroyed, the Brood cannot use it as an entry point and must
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">-</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">-</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Immobile</characteristic>
       </characteristics>
     </profile>
     <profile id="a62e-8c9e-49ad-65ee" name="Trygon" hidden="false" typeId="9bd8-3201-d005-7243" typeName="Gargantuan Creature">
@@ -5966,7 +5983,7 @@ If a Brood Nest is destroyed, the Brood cannot use it as an entry point and must
         <characteristic name="Sv" typeId="0828-f51a-bc1f-e3b7">3+</characteristic>
       </characteristics>
     </profile>
-    <profile id="0d11-5f87-fd53-ad07" name="Spore Mine (Bio Acid)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="0d11-5f87-fd53-ad07" name="Spore Mine (Bio Acid)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">48&quot;</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">3</characteristic>
@@ -5975,7 +5992,7 @@ If a Brood Nest is destroyed, the Brood cannot use it as an entry point and must
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Roll 2d6+3 to penetrate vehicle armour.</characteristic>
       </characteristics>
     </profile>
-    <profile id="de67-8482-08ff-e0cd" name="Spore Mine (Frag)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="de67-8482-08ff-e0cd" name="Spore Mine (Frag)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">48&quot;</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
@@ -5984,7 +6001,7 @@ If a Brood Nest is destroyed, the Brood cannot use it as an entry point and must
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
       </characteristics>
     </profile>
-    <profile id="5ea9-8e2e-5696-7051" name="Spore Mine (Toxin)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="5ea9-8e2e-5696-7051" name="Spore Mine (Toxin)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">48&quot;</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">*</characteristic>
@@ -5993,7 +6010,7 @@ If a Brood Nest is destroyed, the Brood cannot use it as an entry point and must
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Always wound on a 4+. Open-topped vehicles suffer a sinlge glancing hit. All other vehicles cannot be hurt.</characteristic>
       </characteristics>
     </profile>
-    <profile id="1b4e-0fe9-7859-a5f9" name="Meiotic Spore" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="1b4e-0fe9-7859-a5f9" name="Meiotic Spore" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Special</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">5</characteristic>
@@ -6013,6 +6030,7 @@ If a Brood Nest is destroyed, the Brood cannot use it as an entry point and must
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">0</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="ce08-9828-b148-5f1e" name="Malanthrope" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -6026,6 +6044,7 @@ If a Brood Nest is destroyed, the Brood cannot use it as an entry point and must
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">D6+1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">2+/6++</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

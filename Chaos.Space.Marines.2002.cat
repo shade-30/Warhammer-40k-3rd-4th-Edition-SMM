@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f19-9487-acbb-e047" name="Chaos Space Marines (2002)" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f19-9487-acbb-e047" name="Chaos Space Marines (2002)" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <comment>2002 Chaos Space Marine Codex</comment>
   <categoryEntries>
     <categoryEntry id="039c-5796-7006-0975" name="Mark of Khorne" hidden="false"/>
@@ -3942,7 +3942,7 @@ Weapon Destroyed results may choose to remove this weapon.</description>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7f0-aa2c-3a4a-4ff4" type="max"/>
       </constraints>
       <profiles>
-        <profile id="19ff-ac48-fb4b-26f4" name="Talon of Horus" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+        <profile id="19ff-ac48-fb4b-26f4" name="Talon of Horus" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
           <characteristics>
             <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
             <characteristic name="S" typeId="24d8-2110-08fa-d844">As User</characteristic>
@@ -3951,7 +3951,7 @@ Weapon Destroyed results may choose to remove this weapon.</description>
             <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Ignore armour saves. Re-roll failed to wound rolls</characteristic>
           </characteristics>
         </profile>
-        <profile id="0919-f474-ab72-3d56" name="Talon of Horus" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+        <profile id="0919-f474-ab72-3d56" name="Talon of Horus" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
           <characteristics>
             <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
             <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
@@ -3960,7 +3960,7 @@ Weapon Destroyed results may choose to remove this weapon.</description>
             <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Twin-Linked</characteristic>
           </characteristics>
         </profile>
-        <profile id="9c61-0ae4-8740-77c4" name="Daemon Sword Drach&apos;nyen" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+        <profile id="9c61-0ae4-8740-77c4" name="Daemon Sword Drach&apos;nyen" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
           <characteristics>
             <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
             <characteristic name="S" typeId="24d8-2110-08fa-d844">*</characteristic>
@@ -4125,7 +4125,7 @@ Weapon Destroyed results may choose to remove this weapon.</description>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a5a-b1ba-de9f-dc3f" type="max"/>
       </constraints>
       <profiles>
-        <profile id="ea09-c710-2bd8-fbfe" name="Gorechild" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+        <profile id="ea09-c710-2bd8-fbfe" name="Gorechild" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
           <characteristics>
             <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
             <characteristic name="S" typeId="24d8-2110-08fa-d844">As User</characteristic>
@@ -4674,7 +4674,7 @@ Weapon Destroyed results may choose to remove this weapon.</description>
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="1b64-704e-0de8-c91e" name="Xyclos Needler" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+        <profile id="1b64-704e-0de8-c91e" name="Xyclos Needler" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
           <characteristics>
             <characteristic name="Range" typeId="deb8-131d-bdcf-1376">12&quot;</characteristic>
             <characteristic name="S" typeId="24d8-2110-08fa-d844">2+</characteristic>
@@ -4683,7 +4683,7 @@ Weapon Destroyed results may choose to remove this weapon.</description>
             <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Always wounds on a 2+. Counts as 1 S versus vehicles.</characteristic>
           </characteristics>
         </profile>
-        <profile id="caca-f4d6-d70c-6872" name="Rod of Torment" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+        <profile id="caca-f4d6-d70c-6872" name="Rod of Torment" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
           <characteristics>
             <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
             <characteristic name="S" typeId="24d8-2110-08fa-d844">As User</characteristic>
@@ -9364,7 +9364,7 @@ Daemonic Possession=20</comment>
           <selectionEntries>
             <selectionEntry id="6a16-47a8-e427-8152" name="Hades Autocannons" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="fee3-915c-518a-4d1a" name="2x Hades Autocannon" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+                <profile id="fee3-915c-518a-4d1a" name="2x Hades Autocannon" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
                   <comment>Count as a double autocannon</comment>
                   <characteristics>
                     <characteristic name="Range" typeId="deb8-131d-bdcf-1376">48&quot;</characteristic>
@@ -9487,7 +9487,7 @@ Daemonic Possession = 20
             </selectionEntry>
             <selectionEntry id="1f1f-86d5-22d5-6752" name="Hades Autocannons" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="6ca0-34d0-4d4b-2233" name="Hades Autocannon" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+                <profile id="6ca0-34d0-4d4b-2233" name="Hades Autocannon" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
                   <comment>Count as a double autocannon</comment>
                   <characteristics>
                     <characteristic name="Range" typeId="deb8-131d-bdcf-1376">48&quot;</characteristic>
@@ -9568,7 +9568,7 @@ A Dreadnought with Destroyer upgrade my re-roll one close combat miss in each ro
           <selectionEntries>
             <selectionEntry id="e5b9-8295-83a4-ae08" name="Gattling Cannon" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="a356-cb41-0495-56de" name="Gattling Cannon (Frag)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+                <profile id="a356-cb41-0495-56de" name="Gattling Cannon (Frag)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
                   <comment>Shoots 3 Missiles per shot basically</comment>
                   <characteristics>
                     <characteristic name="Range" typeId="deb8-131d-bdcf-1376">48&quot;</characteristic>
@@ -9578,7 +9578,7 @@ A Dreadnought with Destroyer upgrade my re-roll one close combat miss in each ro
                     <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Missile Launchers can fire either frag or krak rounds. Choose which to shot before rolling to hit.</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="34ac-803f-b461-b5d1" name="Gattling Cannon (Krak)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+                <profile id="34ac-803f-b461-b5d1" name="Gattling Cannon (Krak)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
                   <comment>Shoots 3 Missiles per shot basically</comment>
                   <characteristics>
                     <characteristic name="Range" typeId="deb8-131d-bdcf-1376">48&quot;</characteristic>
@@ -9859,7 +9859,7 @@ A Dreadnought with Destroyer upgrade my re-roll one close combat miss in each ro
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="8f23-ec26-3e02-0c1a" name="Gnashing Maw" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+        <profile id="8f23-ec26-3e02-0c1a" name="Gnashing Maw" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
           <characteristics>
             <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
             <characteristic name="S" typeId="24d8-2110-08fa-d844">As User</characteristic>
@@ -9987,7 +9987,7 @@ A Dreadnought with Destroyer upgrade my re-roll one close combat miss in each ro
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4b1-a2e2-3ef4-3956" type="max"/>
               </constraints>
               <profiles>
-                <profile id="ed0d-b3b1-6af9-687f" name="Daemonic Fire" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+                <profile id="ed0d-b3b1-6af9-687f" name="Daemonic Fire" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="deb8-131d-bdcf-1376">12&quot;</characteristic>
                     <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
@@ -11060,6 +11060,7 @@ A Dreadnought with Destroyer upgrade my re-roll one close combat miss in each ro
             <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
             <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
             <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+            <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
           </characteristics>
         </profile>
       </profiles>
@@ -11118,7 +11119,7 @@ A Dreadnought with Destroyer upgrade my re-roll one close combat miss in each ro
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5986-5c4e-2b79-a275" type="max"/>
               </constraints>
               <profiles>
-                <profile id="fb1f-6acf-227c-f1c3" name="Plague Knife" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+                <profile id="fb1f-6acf-227c-f1c3" name="Plague Knife" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
                     <characteristic name="S" typeId="24d8-2110-08fa-d844">As User</characteristic>
@@ -11152,7 +11153,7 @@ A Dreadnought with Destroyer upgrade my re-roll one close combat miss in each ro
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1c2-a56b-64bd-8769" type="max"/>
               </constraints>
               <profiles>
-                <profile id="9cb2-1f4d-5a66-e984" name="Plague Knife" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+                <profile id="9cb2-1f4d-5a66-e984" name="Plague Knife" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
                     <characteristic name="S" typeId="24d8-2110-08fa-d844">As User</characteristic>
@@ -13010,7 +13011,7 @@ A Dreadnought with Destroyer upgrade my re-roll one close combat miss in each ro
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d05d-70a3-6ec6-4da2" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b59a-965e-a9d6-dfb0" name="Berserker Glaive" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+            <profile id="b59a-965e-a9d6-dfb0" name="Berserker Glaive" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
                 <characteristic name="S" typeId="24d8-2110-08fa-d844">As User</characteristic>
@@ -13096,7 +13097,7 @@ A Dreadnought with Destroyer upgrade my re-roll one close combat miss in each ro
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d07e-2eed-8e42-b51c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="c0ed-c1ff-9768-d0ac" name="Needle of Desire" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+            <profile id="c0ed-c1ff-9768-d0ac" name="Needle of Desire" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
                 <characteristic name="S" typeId="24d8-2110-08fa-d844">2+</characteristic>
@@ -13186,7 +13187,7 @@ A Dreadnought with Destroyer upgrade my re-roll one close combat miss in each ro
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b03-328f-c800-8789" type="max"/>
           </constraints>
           <profiles>
-            <profile id="594a-c119-76d1-5f42" name="Pandemic Staff" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+            <profile id="594a-c119-76d1-5f42" name="Pandemic Staff" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="deb8-131d-bdcf-1376">12&quot;</characteristic>
                 <characteristic name="S" typeId="24d8-2110-08fa-d844">3</characteristic>
@@ -13216,7 +13217,7 @@ A Dreadnought with Destroyer upgrade my re-roll one close combat miss in each ro
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5093-0668-e8f4-ccd2" type="max"/>
           </constraints>
           <profiles>
-            <profile id="17ee-4c58-b6a3-0b12" name="Bedlam Staff" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+            <profile id="17ee-4c58-b6a3-0b12" name="Bedlam Staff" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
                 <characteristic name="S" typeId="24d8-2110-08fa-d844">As User</characteristic>
@@ -13266,7 +13267,7 @@ A Dreadnought with Destroyer upgrade my re-roll one close combat miss in each ro
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bdf-f0bd-3429-1ae8" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9db0-1dce-488e-ad50" name="Warp Blade" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+            <profile id="9db0-1dce-488e-ad50" name="Warp Blade" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
                 <characteristic name="S" typeId="24d8-2110-08fa-d844">As User</characteristic>
@@ -13311,7 +13312,7 @@ A Dreadnought with Destroyer upgrade my re-roll one close combat miss in each ro
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cab-9efb-2eee-6f78" type="max"/>
           </constraints>
           <profiles>
-            <profile id="1c42-d011-cbba-ea1a" name="Dark Blade" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+            <profile id="1c42-d011-cbba-ea1a" name="Dark Blade" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
                 <characteristic name="S" typeId="24d8-2110-08fa-d844">User +2</characteristic>
@@ -13334,7 +13335,7 @@ A Dreadnought with Destroyer upgrade my re-roll one close combat miss in each ro
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f4d-261d-08d9-4230" type="max"/>
           </constraints>
           <profiles>
-            <profile id="15e0-8502-74d9-680d" name="Dreadaxe" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+            <profile id="15e0-8502-74d9-680d" name="Dreadaxe" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
                 <characteristic name="S" typeId="24d8-2110-08fa-d844">As User or 4+</characteristic>
@@ -13374,7 +13375,7 @@ A Dreadnought with Destroyer upgrade my re-roll one close combat miss in each ro
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a92-4152-ebd7-f73e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="653b-02a0-3c14-cde6" name="Ether Lance" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+            <profile id="653b-02a0-3c14-cde6" name="Ether Lance" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Template</characteristic>
                 <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
@@ -13414,7 +13415,7 @@ A Dreadnought with Destroyer upgrade my re-roll one close combat miss in each ro
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6808-322d-3a0b-4312" type="max"/>
           </constraints>
           <profiles>
-            <profile id="002b-c01d-405f-e716" name="Kai Gun" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+            <profile id="002b-c01d-405f-e716" name="Kai Gun" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
                 <characteristic name="S" typeId="24d8-2110-08fa-d844">6</characteristic>
@@ -13436,7 +13437,7 @@ A Dreadnought with Destroyer upgrade my re-roll one close combat miss in each ro
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c635-d66d-047d-362e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="aa5e-f52a-6bad-4a03" name="Daemonic Fire" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+            <profile id="aa5e-f52a-6bad-4a03" name="Daemonic Fire" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="deb8-131d-bdcf-1376">12&quot;</characteristic>
                 <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
@@ -13477,7 +13478,7 @@ A Dreadnought with Destroyer upgrade my re-roll one close combat miss in each ro
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="046e-89cb-f04c-b78e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3834-faf7-b24c-1523" name="Axe of Khorne" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+            <profile id="3834-faf7-b24c-1523" name="Axe of Khorne" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
                 <characteristic name="S" typeId="24d8-2110-08fa-d844">As User</characteristic>
@@ -13801,7 +13802,7 @@ A Dreadnought with Destroyer upgrade my re-roll one close combat miss in each ro
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d30a-260d-d716-fe85" type="max"/>
           </constraints>
           <profiles>
-            <profile id="4bbe-51ac-8c18-cd35" name="Plague Sword" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+            <profile id="4bbe-51ac-8c18-cd35" name="Plague Sword" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
                 <characteristic name="S" typeId="24d8-2110-08fa-d844">As User</characteristic>
@@ -15419,6 +15420,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="7eb2-e0e3-d9cc-040e" name="Chaos Lieutenant" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15432,6 +15434,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="15c2-d765-552e-5475" name="Bloodthirster" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15445,6 +15448,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">5</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+/4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="85c6-a98d-1fac-38ae" name="Great Unclean One" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15458,6 +15462,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">-/4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="4dcf-0041-7c35-54b9" name="Lord of Change" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15471,6 +15476,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">-/4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="a1ff-3b89-9a3e-68ee" name="Keeper of Secrets" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15484,6 +15490,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">5</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">-/4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="94f6-5112-56e5-656e" name="Chosen" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15497,15 +15504,16 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
-    <profile id="f050-f319-5ee5-bf03" name="Chaos Rhino" hidden="false" typeId="5535-2b48-81ee-04ce" typeName="Transport">
+    <profile id="f050-f319-5ee5-bf03" name="Chaos Rhino" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
       <characteristics>
-        <characteristic name="Front Armor" typeId="70ae-7a97-7e70-93ea">11</characteristic>
-        <characteristic name="Side Armor" typeId="bcca-0b51-9187-2e4e">11</characteristic>
-        <characteristic name="Rear Armor" typeId="929b-c9cc-001b-3705">10</characteristic>
-        <characteristic name="BS" typeId="ae25-5be4-5470-2204">4</characteristic>
-        <characteristic name="Capacity" typeId="ec07-2d55-2ba5-6080">10</characteristic>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">11</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">11</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">4</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="9ae1-72d0-dc61-c419" name="Possessed" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15519,6 +15527,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+/5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="af3e-25be-9acc-2d2d" name="Possessed Aspiring Champion" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15533,6 +15542,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+/5+
 </characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="e6cd-37ca-9a06-0c0c" name="Obliterator" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15546,6 +15556,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">2+/5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="6802-ae4c-4054-75eb" name="Chaos Space Marine" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15559,6 +15570,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="2ebf-2280-15b9-ed00" name="Aspiring Champion" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15572,6 +15584,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="8926-dd7e-0bff-8978" name="Bloodletter" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15585,6 +15598,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3/5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="c9e6-0676-be30-560d" name="Plaguebearer" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15598,6 +15612,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">-/5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="0db8-1183-6de2-b764" name="Horror" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15611,6 +15626,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">-/5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="9f63-83c6-95d3-f9b6" name="Daemonette" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15624,6 +15640,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1+1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">-/5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="ce51-6e42-0438-a4e9" name="Nurglings" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15637,6 +15654,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">7</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="fde2-456a-ec04-0f9a" name="Raptor" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15650,6 +15668,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="0167-5c76-d7af-dd00" name="Raptor Aspiring Champion" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15663,6 +15682,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="1857-c2e2-018d-db0c" name="Chaos Biker" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15676,6 +15696,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="ca20-5d13-3265-c53a" name="Chaos Biker Aspiring Champion" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15689,6 +15710,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="971a-305f-ce51-2825" name="Flesh Hounds" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15702,6 +15724,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">-/5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="b6fa-33a4-56b9-59b0" name="Screamers" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15715,6 +15738,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">-/5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="92e1-d1c1-0e81-bc51" name="Furies" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15728,6 +15752,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">7</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">-/5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="1bea-47b1-0f6e-518c" name="Chaos Predator" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -15736,6 +15761,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">11</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">4</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="bd67-5605-75f7-aa6a" name="Chaos Dreadnought" hidden="false" typeId="5119-5456-6e97-4fc2" typeName="Walker">
@@ -15750,13 +15776,13 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="bb33-7ddf-2296-174e">3</characteristic>
       </characteristics>
     </profile>
-    <profile id="45e4-6250-0ecf-34fc" name="Chaos Land Raider" hidden="false" typeId="5535-2b48-81ee-04ce" typeName="Transport">
+    <profile id="45e4-6250-0ecf-34fc" name="Chaos Land Raider" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
       <characteristics>
-        <characteristic name="Front Armor" typeId="70ae-7a97-7e70-93ea">14</characteristic>
-        <characteristic name="Side Armor" typeId="bcca-0b51-9187-2e4e">14</characteristic>
-        <characteristic name="Rear Armor" typeId="929b-c9cc-001b-3705">14</characteristic>
-        <characteristic name="BS" typeId="ae25-5be4-5470-2204">4</characteristic>
-        <characteristic name="Capacity" typeId="ec07-2d55-2ba5-6080">10 Marines. 5 Terminators.</characteristic>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">14</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">14</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">14</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">4</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="71b4-3a04-687f-95e2" name="Chaos Defiler" hidden="false" typeId="5119-5456-6e97-4fc2" typeName="Walker">
@@ -15782,9 +15808,10 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">6+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
-    <profile id="e9e7-df30-ebf6-220e" name="Doombolt" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="e9e7-df30-ebf6-220e" name="Doombolt" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">18&quot;</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">5</characteristic>
@@ -15804,9 +15831,10 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">D6</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
-    <profile id="407d-3d2d-6d8f-2708" name="Wind of Chaos" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="407d-3d2d-6d8f-2708" name="Wind of Chaos" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Template</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">4+</characteristic>
@@ -15815,7 +15843,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Always wounds on a 4+. Ignores armour saves.</characteristic>
       </characteristics>
     </profile>
-    <profile id="98b1-729e-d94a-450d" name="Khornate Chainaxe" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="98b1-729e-d94a-450d" name="Khornate Chainaxe" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">As User</characteristic>
@@ -15830,6 +15858,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank, Open-Topped</characteristic>
       </characteristics>
     </profile>
     <profile id="fb8d-4a1f-44c4-1b6d" name="Chaos Vindicator" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -15838,6 +15867,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">11</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">4</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="84ad-3ccb-c412-291a" name="Chaos Cultist" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15851,6 +15881,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">7</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">6+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="f983-fbee-e7e5-a7dc" name="Cult Champion" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15864,6 +15895,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">6+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="54ab-64e3-9f82-0c65" name="Rubric Terminator" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15877,6 +15909,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">2+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="dd2a-a958-1d1a-7684" name="Fabius Bile (1)" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15890,6 +15923,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">4</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="4b71-1e64-f212-72e4" name="Fabius Bile (2-5)" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15903,6 +15937,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">4</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="00ee-6793-daa2-3a94" name="Fabius Bile (6)" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15916,6 +15951,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="f7cb-b4d1-640a-ce17" name="Abaddon the Despoiler" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15929,6 +15965,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">4(+1)</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">2+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="814e-6edb-b2d7-de29" name="Kharn the Betrayer" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15942,6 +15979,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">5</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">2+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="73e5-7cd6-c7dc-77c0" name="Typhus" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15955,6 +15993,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">2+/5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="3ab9-b87e-200b-cfc6" name="Lucius the Eternal" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15968,6 +16007,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="9311-82e8-ab6a-1ee3" name="Thrall Wizard" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15981,6 +16021,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">7</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">-</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="0581-233a-f126-ef5d" name="Ahriman of the Thousand Sons" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15994,9 +16035,10 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
-    <profile id="a74d-1a27-f36b-1aa2" name="Manreaper" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="a74d-1a27-f36b-1aa2" name="Manreaper" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">As User</characteristic>
@@ -16005,7 +16047,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Ignore armour saves. Gain +D6 attacks. Only gain 1 Attack if all attacks are against a single model.</characteristic>
       </characteristics>
     </profile>
-    <profile id="de35-83fb-4990-811a" name="Doom Siren" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="de35-83fb-4990-811a" name="Doom Siren" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Template</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
@@ -16014,7 +16056,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Ignores cover</characteristic>
       </characteristics>
     </profile>
-    <profile id="15a1-7658-cfc9-8911" name="Lash of Torment" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="15a1-7658-cfc9-8911" name="Lash of Torment" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">As User</characteristic>
@@ -16023,7 +16065,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Ignore armour saves. Can be used against models within 2&quot;.</characteristic>
       </characteristics>
     </profile>
-    <profile id="1ea7-2c26-8ebf-d9d3" name="Bolt of Change" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="1ea7-2c26-8ebf-d9d3" name="Bolt of Change" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">8</characteristic>
@@ -16032,7 +16074,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
       </characteristics>
     </profile>
-    <profile id="3a3a-e199-e26a-f337" name="Servo-arm" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="3a3a-e199-e26a-f337" name="Servo-arm" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">As User x2</characteristic>
@@ -16041,7 +16083,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Ignores armour saves</characteristic>
       </characteristics>
     </profile>
-    <profile id="3217-4c89-477a-ffb9" name="Accursed Crozius" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="3217-4c89-477a-ffb9" name="Accursed Crozius" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">As User</characteristic>
@@ -16050,7 +16092,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Ignore armour saves</characteristic>
       </characteristics>
     </profile>
-    <profile id="b3a7-4cfc-2e29-cded" name="Sonic Blasters" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="b3a7-4cfc-2e29-cded" name="Sonic Blasters" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
@@ -16059,7 +16101,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
       </characteristics>
     </profile>
-    <profile id="fdb8-4462-9e77-6774" name="Blastmaster (Varied Frequency)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="fdb8-4462-9e77-6774" name="Blastmaster (Varied Frequency)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">36&quot;</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">5</characteristic>
@@ -16068,7 +16110,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Pinning</characteristic>
       </characteristics>
     </profile>
-    <profile id="29ec-ccb1-fea5-854d" name="Havoc Launcher" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="29ec-ccb1-fea5-854d" name="Havoc Launcher" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">48&quot;</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
@@ -16077,7 +16119,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">If two hits are scored, double the number of models hit instead of placing a second blast marker.</characteristic>
       </characteristics>
     </profile>
-    <profile id="5cd0-4c15-0525-a6e6" name="Daemonic Fire" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="5cd0-4c15-0525-a6e6" name="Daemonic Fire" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">12&quot;</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
@@ -16086,7 +16128,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
       </characteristics>
     </profile>
-    <profile id="22ab-d045-9fcc-e01f" name="Blastmaster (Single Frequency)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="22ab-d045-9fcc-e01f" name="Blastmaster (Single Frequency)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">36&quot;</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">8</characteristic>
@@ -16113,6 +16155,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">11</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">11</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Flyer</characteristic>
       </characteristics>
     </profile>
     <profile id="16c5-f64d-65cd-5c4a" name="Lord of Skulls" hidden="false" typeId="8363-119d-bce3-2e3b" typeName="Super Heavy Walker">
@@ -16134,6 +16177,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">11</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">2</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Skimmer, Fast</characteristic>
       </characteristics>
     </profile>
     <profile id="02be-62d1-2dd0-2f06" name="Plague Hulk" hidden="false" typeId="5119-5456-6e97-4fc2" typeName="Walker">
@@ -16166,6 +16210,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">12</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">2</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="7700-d32c-ab02-2e16" name="Spined Chaos Beast" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -16179,6 +16224,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">5</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">6+/5++</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="d904-4ca3-de93-7024" name="Poxwalker" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -16192,6 +16238,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1(2)</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">7</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">-</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="bc10-0694-8102-b481" name="Chaos Leviathan Siege Dreadnought" hidden="false" typeId="5119-5456-6e97-4fc2" typeName="Walker">
@@ -16213,7 +16260,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="Rear Armor" typeId="b276-1b4e-26d8-0a08">14</characteristic>
         <characteristic name="BS" typeId="de63-2aba-c18c-6d47">4</characteristic>
         <characteristic name="Structure Points" typeId="a817-7301-451c-20c9">2</characteristic>
-        <characteristic name="Capacity" typeId="e1d2-e9ec-26d6-1f11"/>
+        <characteristic name="Type" typeId="e1d2-e9ec-26d6-1f11">Super-Heavy Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="b78d-2596-601c-49e9" name="Chaos Spartan" hidden="false" typeId="36b6-ef06-48e4-cd45" typeName="Super Heavy Vehicle">
@@ -16223,7 +16270,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="Rear Armor" typeId="b276-1b4e-26d8-0a08">14</characteristic>
         <characteristic name="BS" typeId="de63-2aba-c18c-6d47">4</characteristic>
         <characteristic name="Structure Points" typeId="a817-7301-451c-20c9">2</characteristic>
-        <characteristic name="Capacity" typeId="e1d2-e9ec-26d6-1f11">25 Marines or 12 Terminators.</characteristic>
+        <characteristic name="Type" typeId="e1d2-e9ec-26d6-1f11">Super-Heavy Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="0ed6-c095-73d4-c93d" name="Beast of Nurgle" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -16237,6 +16284,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">D6</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">-/5++</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="a619-f0e7-5609-75ad" name="Pox Rider" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -16250,6 +16298,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">-/5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="f121-6615-c53e-ee76" name="Seeker of Slaanesh" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -16263,6 +16312,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2+1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">-/5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="b62c-da09-5430-c1e2" name="Bloodcrusher" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -16276,6 +16326,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3/5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="de28-58de-28b6-6a2c" name="Fiend of Slaanesh" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -16289,6 +16340,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2+1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">-/5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="f36f-0573-aac2-ac7c" name="Hell Blade" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -16297,6 +16349,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Flyer</characteristic>
       </characteristics>
     </profile>
     <profile id="0038-20f6-e6f4-b865" name="Hell Talon" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -16305,9 +16358,10 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Flyer</characteristic>
       </characteristics>
     </profile>
-    <profile id="05ce-c9d6-d04d-8640" name="Incendiary Bomb" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="05ce-c9d6-d04d-8640" name="Incendiary Bomb" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">G48&quot;</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">5</characteristic>
@@ -16328,15 +16382,37 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
-    <profile id="1bf2-219f-9326-0118" name="Great Weapon" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="1bf2-219f-9326-0118" name="Great Weapon" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">As User +1</characteristic>
         <characteristic name="AP" typeId="25ce-028f-0aae-2855">-</characteristic>
         <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Two-Handed</characteristic>
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+      </characteristics>
+    </profile>
+    <profile id="0e2e-3d55-9b47-8c5c" name="Chaos Rhino" hidden="false" typeId="899d-8e8f-8774-82e0" typeName="Transport">
+      <characteristics>
+        <characteristic name="Capacity" typeId="46f6-9161-d58b-c967">10 Infantry Models</characteristic>
+        <characteristic name="Fire Points" typeId="85d6-4dfc-0382-e5b6">Top Hatch: 2 Models</characteristic>
+        <characteristic name="Access Points" typeId="f2d3-baa9-3d6f-d20e">3: Rear Ramp, Side Hatches</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1b0c-edbc-91dc-f1d4" name="Chaos Land Raider" hidden="false" typeId="899d-8e8f-8774-82e0" typeName="Transport">
+      <characteristics>
+        <characteristic name="Capacity" typeId="46f6-9161-d58b-c967">10 Infantry Models or 5 Terminator Models</characteristic>
+        <characteristic name="Fire Points" typeId="85d6-4dfc-0382-e5b6">N/A</characteristic>
+        <characteristic name="Access Points" typeId="f2d3-baa9-3d6f-d20e">3: Front Ramp, Side Hatches</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f123-6e60-e3eb-73b0" name="Chaos Spartan" hidden="false" typeId="899d-8e8f-8774-82e0" typeName="Transport">
+      <characteristics>
+        <characteristic name="Capacity" typeId="46f6-9161-d58b-c967">25 Infantry Models or 12 Terminator Models</characteristic>
+        <characteristic name="Fire Points" typeId="85d6-4dfc-0382-e5b6">N/A</characteristic>
+        <characteristic name="Access Points" typeId="f2d3-baa9-3d6f-d20e">3: Front Ramp, Side Hatches</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

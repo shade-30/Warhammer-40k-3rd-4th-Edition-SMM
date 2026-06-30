@@ -1830,6 +1830,9 @@
                         <infoLink id="0ab2-673b-bd3b-a4e4" name="Laser Lance (Melee)" hidden="false" targetId="27f9-3c84-52b4-04c7" type="profile"/>
                         <infoLink id="921a-2240-3530-91b2" name="Laser Lance (Ranged)" hidden="false" targetId="9b89-7610-7e65-2b41" type="profile"/>
                       </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                     <selectionEntry id="b4fc-3f18-de2b-4b5f" name="Star Lance" hidden="false" collective="false" import="true" type="upgrade">
                       <modifiers>
@@ -4133,6 +4136,9 @@ Like normal, an Autarch with a Jetbike may only join other units of Jetbikes, an
                   <infoLinks>
                     <infoLink id="de44-a7af-1080-5900" name="Flamer" hidden="false" targetId="9177-ce8a-92e3-157e" type="profile"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
@@ -7069,6 +7075,9 @@ Originally a Lascannon?</comment>
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -7376,6 +7385,9 @@ Originally a Lascannon?</comment>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -8523,7 +8535,7 @@ The unit also advanced and falls back 3D6&quot; after close combat, ignoring ter
         <characteristic name="Rear Armor" typeId="b276-1b4e-26d8-0a08">11</characteristic>
         <characteristic name="BS" typeId="de63-2aba-c18c-6d47">4</characteristic>
         <characteristic name="Structure Points" typeId="a817-7301-451c-20c9">3</characteristic>
-        <characteristic name="Capacity" typeId="e1d2-e9ec-26d6-1f11"/>
+        <characteristic name="Type" typeId="e1d2-e9ec-26d6-1f11">Super-Heavy Tank, Skimmer, Agile</characteristic>
       </characteristics>
     </profile>
     <profile id="2559-f852-024e-7f5a" name="Cobra" hidden="false" typeId="36b6-ef06-48e4-cd45" typeName="Super Heavy Vehicle">
@@ -8533,7 +8545,7 @@ The unit also advanced and falls back 3D6&quot; after close combat, ignoring ter
         <characteristic name="Rear Armor" typeId="b276-1b4e-26d8-0a08">11</characteristic>
         <characteristic name="BS" typeId="de63-2aba-c18c-6d47">4</characteristic>
         <characteristic name="Structure Points" typeId="a817-7301-451c-20c9">3</characteristic>
-        <characteristic name="Capacity" typeId="e1d2-e9ec-26d6-1f11"/>
+        <characteristic name="Type" typeId="e1d2-e9ec-26d6-1f11">Super-Heavy Tank, Skimmer, Agile</characteristic>
       </characteristics>
     </profile>
     <profile id="b378-cb72-01aa-867a" name="Nightwing" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -8552,7 +8564,7 @@ The unit also advanced and falls back 3D6&quot; after close combat, ignoring ter
         <characteristic name="Rear Armor" typeId="b276-1b4e-26d8-0a08">10</characteristic>
         <characteristic name="BS" typeId="de63-2aba-c18c-6d47">4</characteristic>
         <characteristic name="Structure Points" typeId="a817-7301-451c-20c9">3</characteristic>
-        <characteristic name="Capacity" typeId="e1d2-e9ec-26d6-1f11">30 infantry. It mat carry Wraithguard, which count as two models each. It may carry support platforms, which count as two models in addition to the crew.</characteristic>
+        <characteristic name="Type" typeId="e1d2-e9ec-26d6-1f11">Super-Heavy Flyer, Orbital Lander</characteristic>
       </characteristics>
     </profile>
     <profile id="dd41-806d-d360-5773" name="Phoenix" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -8585,7 +8597,7 @@ The unit also advanced and falls back 3D6&quot; after close combat, ignoring ter
         <characteristic name="Rear Armor" typeId="b276-1b4e-26d8-0a08">11</characteristic>
         <characteristic name="BS" typeId="de63-2aba-c18c-6d47">4</characteristic>
         <characteristic name="Structure Points" typeId="a817-7301-451c-20c9">3</characteristic>
-        <characteristic name="Capacity" typeId="e1d2-e9ec-26d6-1f11"/>
+        <characteristic name="Type" typeId="e1d2-e9ec-26d6-1f11">Super-Heavy Tank, Skimmer, Agile</characteristic>
       </characteristics>
     </profile>
     <profile id="a74b-59a4-4a23-01ea" name="Star Serpent" hidden="false" typeId="899d-8e8f-8774-82e0" typeName="Transport">
@@ -8819,7 +8831,7 @@ The unit also advanced and falls back 3D6&quot; after close combat, ignoring ter
         <characteristic name="Rear Armor" typeId="b276-1b4e-26d8-0a08">10</characteristic>
         <characteristic name="BS" typeId="de63-2aba-c18c-6d47">4</characteristic>
         <characteristic name="Structure Points" typeId="a817-7301-451c-20c9">2</characteristic>
-        <characteristic name="Capacity" typeId="e1d2-e9ec-26d6-1f11"/>
+        <characteristic name="Type" typeId="e1d2-e9ec-26d6-1f11">Super-Heavy Tank, Skimmer, Agile</characteristic>
       </characteristics>
     </profile>
     <profile id="65b2-b177-8e98-8cd6" name="Warp Hunter" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -8934,6 +8946,13 @@ The unit also advanced and falls back 3D6&quot; after close combat, ignoring ter
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
         <characteristic name="Type" typeId="379b-a138-9399-8aa8">Skimmer, Fast</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4131-b135-f503-32d8" name="Vampire" hidden="false" typeId="899d-8e8f-8774-82e0" typeName="Transport">
+      <characteristics>
+        <characteristic name="Capacity" typeId="46f6-9161-d58b-c967">30 infantry. It mat carry Wraithguard, which count as two models each. It may carry support platforms, which count as two models in addition to the crew.</characteristic>
+        <characteristic name="Fire Points" typeId="85d6-4dfc-0382-e5b6">N/A</characteristic>
+        <characteristic name="Access Points" typeId="f2d3-baa9-3d6f-d20e">1: Rear Ramp</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

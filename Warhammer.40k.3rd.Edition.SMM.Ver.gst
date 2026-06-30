@@ -125,7 +125,7 @@ Additonal content provided by Simon for the purposes of a homebrewed ruleset for
         <characteristicType id="b276-1b4e-26d8-0a08" name="Rear Armor"/>
         <characteristicType id="de63-2aba-c18c-6d47" name="BS"/>
         <characteristicType id="a817-7301-451c-20c9" name="Structure Points"/>
-        <characteristicType id="e1d2-e9ec-26d6-1f11" name="Capacity"/>
+        <characteristicType id="e1d2-e9ec-26d6-1f11" name="Type"/>
       </characteristicTypes>
     </profileType>
     <profileType id="8363-119d-bce3-2e3b" name="Super Heavy Walker">
@@ -5001,7 +5001,7 @@ Note: vehicles, monstrous creatures, riders on bikes (including jetbikes) and ce
         <characteristic name="Type" typeId="3f50-492d-96d0-69c5">1-H</characteristic>
         <characteristic name="Strength" typeId="1439-1344-a602-f9d9">User</characteristic>
         <characteristic name="Ignores Sv" typeId="1439-1344-a602-f9d8">No</characteristic>
-        <characteristic name="Abilities" typeId="a46d-26b2-96ab-913f"></characteristic>
+        <characteristic name="Abilities" typeId="a46d-26b2-96ab-913f"/>
       </characteristics>
     </profile>
     <profile id="a162-3683-bca7-8f2c" name="Skorcha" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
@@ -6709,7 +6709,7 @@ Units that take casualties from a plasma missile must test for pinning.</charact
         <characteristic name="Type" typeId="3f50-492d-96d0-69c5">1-H</characteristic>
         <characteristic name="Strength" typeId="1439-1344-a602-f9d9">Fixed 5</characteristic>
         <characteristic name="Ignores Sv" typeId="1439-1344-a602-f9d8">No</characteristic>
-        <characteristic name="Abilities" typeId="a46d-26b2-96ab-913f"></characteristic>
+        <characteristic name="Abilities" typeId="a46d-26b2-96ab-913f"/>
       </characteristics>
     </profile>
     <profile id="ca79-8127-4045-b637" name="Executioner" hidden="false" typeId="fa54-3872-dea1-df41" typeName="Melee Weapon">
@@ -6717,7 +6717,7 @@ Units that take casualties from a plasma missile must test for pinning.</charact
         <characteristic name="Type" typeId="3f50-492d-96d0-69c5">2-H</characteristic>
         <characteristic name="Strength" typeId="1439-1344-a602-f9d9">User +2</characteristic>
         <characteristic name="Ignores Sv" typeId="1439-1344-a602-f9d8">Yes</characteristic>
-        <characteristic name="Abilities" typeId="a46d-26b2-96ab-913f"></characteristic>
+        <characteristic name="Abilities" typeId="a46d-26b2-96ab-913f"/>
       </characteristics>
     </profile>
     <profile id="bcd4-96c8-0ff6-eafd" name="Diresword" hidden="false" typeId="fa54-3872-dea1-df41" typeName="Melee Weapon">
@@ -6826,7 +6826,7 @@ Units that take casualties from a plasma missile must test for pinning.</charact
         <characteristic name="Type" typeId="3f50-492d-96d0-69c5">1-H</characteristic>
         <characteristic name="Strength" typeId="1439-1344-a602-f9d9">Fixed 8</characteristic>
         <characteristic name="Ignores Sv" typeId="1439-1344-a602-f9d8">No</characteristic>
-        <characteristic name="Abilities" typeId="a46d-26b2-96ab-913f"></characteristic>
+        <characteristic name="Abilities" typeId="a46d-26b2-96ab-913f"/>
       </characteristics>
     </profile>
     <profile id="396e-4e1c-8198-706f" name="Star Lance (Ranged)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">

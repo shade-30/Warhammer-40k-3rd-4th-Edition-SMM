@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="98b1-cfd4-3349-79ad" name="Imperial Navy" revision="1" battleScribeVersion="2.03" library="true" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="98b1-cfd4-3349-79ad" name="Imperial Navy" revision="2" battleScribeVersion="2.03" library="true" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry id="7525-0f6e-647b-f492" name="Vulture (IA)" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -734,6 +734,7 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">11</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Flyer, Orbital Lander</characteristic>
       </characteristics>
     </profile>
     <profile id="2dd9-9ee5-9e28-6db6" name="Vulture Gunship" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -742,6 +743,7 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">11</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Flyer</characteristic>
       </characteristics>
     </profile>
     <profile id="84b9-fc45-5c2d-2d46" name="Thunderbolt" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -750,6 +752,7 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Flyer</characteristic>
       </characteristics>
     </profile>
     <profile id="9783-d170-540c-e6be" name="Lightning" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -758,6 +761,7 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Flyer</characteristic>
       </characteristics>
     </profile>
     <profile id="90b9-8a91-2866-be9f" name="Marauder" hidden="false" typeId="36b6-ef06-48e4-cd45" typeName="Super Heavy Vehicle">
@@ -767,7 +771,7 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
         <characteristic name="Rear Armor" typeId="b276-1b4e-26d8-0a08">10</characteristic>
         <characteristic name="BS" typeId="de63-2aba-c18c-6d47">3</characteristic>
         <characteristic name="Structure Points" typeId="a817-7301-451c-20c9">3</characteristic>
-        <characteristic name="Capacity" typeId="e1d2-e9ec-26d6-1f11"/>
+        <characteristic name="Type" typeId="e1d2-e9ec-26d6-1f11">Super-Heavy Flyer</characteristic>
       </characteristics>
     </profile>
     <profile id="a6bb-7a68-e3e4-d388" name="Weapon Plaform" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -776,6 +780,7 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Immobile</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

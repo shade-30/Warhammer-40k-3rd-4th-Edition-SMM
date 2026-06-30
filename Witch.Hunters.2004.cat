@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="542b-105b-a073-a6c1" name="Witch Hunters (2004)" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="542b-105b-a073-a6c1" name="Witch Hunters (2004)" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="bd50-bb90-bb09-3002" name="Adepta Sororitas" hidden="false"/>
     <categoryEntry id="0ebb-2b64-3f2d-fffb" name="Space Marine Ally" hidden="false"/>
@@ -1640,7 +1640,7 @@ In close combat, roll a D6 at the beginning of each Assault phase to determine t
           <selectionEntries>
             <selectionEntry id="fffd-523c-10e1-26ef" name="Culexus" hidden="false" collective="false" import="true" type="model">
               <profiles>
-                <profile id="a38b-42ca-65d3-0f7f" name="Animus Speculum" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+                <profile id="a38b-42ca-65d3-0f7f" name="Animus Speculum" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="deb8-131d-bdcf-1376">12&quot;</characteristic>
                     <characteristic name="S" typeId="24d8-2110-08fa-d844">5</characteristic>
@@ -1690,7 +1690,7 @@ In close combat, roll a D6 at the beginning of each Assault phase to determine t
             </selectionEntry>
             <selectionEntry id="2941-b800-dcf3-45b2" name="Eversor" hidden="false" collective="false" import="true" type="model">
               <profiles>
-                <profile id="4dd4-ac1b-882a-cdcd" name="Needle Pistol" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+                <profile id="4dd4-ac1b-882a-cdcd" name="Needle Pistol" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="deb8-131d-bdcf-1376">12&quot;</characteristic>
                     <characteristic name="S" typeId="24d8-2110-08fa-d844">4+</characteristic>
@@ -1734,7 +1734,7 @@ In close combat, roll a D6 at the beginning of each Assault phase to determine t
             </selectionEntry>
             <selectionEntry id="6ee2-6e29-c0e8-7f57" name="Callidus" hidden="false" collective="false" import="true" type="model">
               <profiles>
-                <profile id="14bf-ba4b-20aa-f134" name="C&apos;tan Phase Sword" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+                <profile id="14bf-ba4b-20aa-f134" name="C&apos;tan Phase Sword" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
                     <characteristic name="S" typeId="24d8-2110-08fa-d844">User</characteristic>
@@ -1743,7 +1743,7 @@ In close combat, roll a D6 at the beginning of each Assault phase to determine t
                     <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Ignores all armour and invul saves</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="b009-fc60-c0fc-02f1" name="Neural Shredder" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+                <profile id="b009-fc60-c0fc-02f1" name="Neural Shredder" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Template</characteristic>
                     <characteristic name="S" typeId="24d8-2110-08fa-d844">X</characteristic>
@@ -1787,7 +1787,7 @@ In close combat, roll a D6 at the beginning of each Assault phase to determine t
             </selectionEntry>
             <selectionEntry id="a7ed-76da-1e53-c52f" name="Vindicare" hidden="false" collective="false" import="true" type="model">
               <profiles>
-                <profile id="6d03-863d-8ec7-cba6" name="Exitus Rifle" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+                <profile id="6d03-863d-8ec7-cba6" name="Exitus Rifle" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="deb8-131d-bdcf-1376">36&quot;</characteristic>
                     <characteristic name="S" typeId="24d8-2110-08fa-d844">4+</characteristic>
@@ -1796,7 +1796,7 @@ In close combat, roll a D6 at the beginning of each Assault phase to determine t
                     <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Special</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="c9d2-d31b-a5ae-f97c" name="Exitus Pistol" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+                <profile id="c9d2-d31b-a5ae-f97c" name="Exitus Pistol" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="deb8-131d-bdcf-1376">12&quot;</characteristic>
                     <characteristic name="S" typeId="24d8-2110-08fa-d844">5</characteristic>
@@ -2673,7 +2673,7 @@ Hellfire Round: The shot wounds on a 2+.</description>
           <selectionEntries>
             <selectionEntry id="b4e0-a3e7-6e1b-93e2" name="Exorcist Launcher" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="a48b-8c30-16dc-0fd6" name="Exorcist Missiles" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+                <profile id="a48b-8c30-16dc-0fd6" name="Exorcist Missiles" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="deb8-131d-bdcf-1376">48&quot;</characteristic>
                     <characteristic name="S" typeId="24d8-2110-08fa-d844">8</characteristic>
@@ -2811,7 +2811,7 @@ Hellfire Round: The shot wounds on a 2+.</description>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4aca-2267-d48f-97f4" type="max"/>
       </constraints>
       <profiles>
-        <profile id="2bac-5990-b9f1-a017" name="Sword of Justice" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+        <profile id="2bac-5990-b9f1-a017" name="Sword of Justice" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
           <characteristics>
             <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
             <characteristic name="S" typeId="24d8-2110-08fa-d844">User</characteristic>
@@ -2868,7 +2868,7 @@ Hellfire Round: The shot wounds on a 2+.</description>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a61-77b0-c317-70b7" type="max"/>
       </constraints>
       <profiles>
-        <profile id="b538-526e-290f-abfb" name="The Ardent Blade (Melee)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+        <profile id="b538-526e-290f-abfb" name="The Ardent Blade (Melee)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
           <characteristics>
             <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
             <characteristic name="S" typeId="24d8-2110-08fa-d844">User +2</characteristic>
@@ -3864,7 +3864,7 @@ Hellfire Round: The shot wounds on a 2+.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42a5-4882-8466-ebde" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6ecf-e255-080d-ea20" name="Exterminators" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+            <profile id="6ecf-e255-080d-ea20" name="Exterminators" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
                 <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
@@ -4186,7 +4186,7 @@ Hellfire Round: The shot wounds on a 2+.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6c3-62d6-a19d-a4d6" type="max"/>
           </constraints>
           <profiles>
-            <profile id="a5f5-d5d3-8830-6d94" name="Blessed Weapon" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+            <profile id="a5f5-d5d3-8830-6d94" name="Blessed Weapon" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
                 <characteristic name="S" typeId="24d8-2110-08fa-d844">User + 2</characteristic>
@@ -4245,7 +4245,7 @@ Hellfire Round: The shot wounds on a 2+.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcd5-50bc-26e4-2da9" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3e80-4e9c-8662-1c3d" name="Power Stake" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+            <profile id="3e80-4e9c-8662-1c3d" name="Power Stake" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
                 <characteristic name="S" typeId="24d8-2110-08fa-d844">As User</characteristic>
@@ -4305,7 +4305,7 @@ Hellfire Round: The shot wounds on a 2+.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df64-b926-fd37-6003" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f998-0b0f-de55-679f" name="Eviscerator" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+            <profile id="f998-0b0f-de55-679f" name="Eviscerator" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
                 <characteristic name="S" typeId="24d8-2110-08fa-d844">User x2</characteristic>
@@ -4324,7 +4324,7 @@ Hellfire Round: The shot wounds on a 2+.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="428a-702a-20f5-806f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="83bc-44ef-253a-d08f" name="Combi-Crossbow" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+            <profile id="83bc-44ef-253a-d08f" name="Combi-Crossbow" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
                 <characteristic name="S" typeId="24d8-2110-08fa-d844">3</characteristic>
@@ -6033,6 +6033,7 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">6+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="cfef-92dd-80e1-7a99" name="Inquisitor" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -6046,6 +6047,7 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry, Independent Character</characteristic>
       </characteristics>
     </profile>
     <profile id="45fa-0cde-3b10-937a" name="Canoness" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -6059,6 +6061,7 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry, Independent Character</characteristic>
       </characteristics>
     </profile>
     <profile id="dbae-6665-723d-6ba9" name="Palatine" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -6072,6 +6075,7 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry, Independent Character</characteristic>
       </characteristics>
     </profile>
     <profile id="439e-b06f-40b3-44cb" name="Priest" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -6085,6 +6089,7 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">-</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="24fa-c93e-4475-b3e6" name="Inquisitor Lord" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -6098,6 +6103,7 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry, Independent Character</characteristic>
       </characteristics>
     </profile>
     <profile id="4ae2-2620-b10f-9e20" name="Arco-flagellant" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -6111,6 +6117,7 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1/D6</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="858b-4353-ef6c-2e16" name="Celestian" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -6124,6 +6131,7 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="46ec-7fef-35a4-8579" name="Celestian Superior" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -6137,6 +6145,7 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="9aca-f5e2-585b-9def" name="Sister Repentia" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -6150,6 +6159,7 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">6</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="d75d-484f-3fb9-5d8d" name="Mistress" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -6163,6 +6173,7 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2(3)</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="90a4-4252-9ca0-b73a" name="Assassin" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -6176,6 +6187,7 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="6f0a-7053-c486-e9f4" name="Death-Cult Assassin" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -6189,6 +6201,7 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="be6f-4a62-bdba-6ec6" name="Battle Sister" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -6202,6 +6215,7 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="012f-001c-b699-3b8c" name="Sister Superior" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -6215,6 +6229,7 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="cbab-6c8f-2262-c8f7" name="Seraphim" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -6228,6 +6243,7 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Jump Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="5224-7449-2dbd-d37b" name="Seraphim Superior" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -6241,15 +6257,14 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Jump Infantry</characteristic>
       </characteristics>
     </profile>
-    <profile id="e6a9-b765-a1bf-2163" name="Immolator" hidden="false" typeId="5535-2b48-81ee-04ce" typeName="Transport">
+    <profile id="e6a9-b765-a1bf-2163" name="Immolator" hidden="false" typeId="899d-8e8f-8774-82e0" typeName="Transport">
       <characteristics>
-        <characteristic name="Front Armor" typeId="70ae-7a97-7e70-93ea">11</characteristic>
-        <characteristic name="Side Armor" typeId="bcca-0b51-9187-2e4e">11</characteristic>
-        <characteristic name="Rear Armor" typeId="929b-c9cc-001b-3705">10</characteristic>
-        <characteristic name="BS" typeId="ae25-5be4-5470-2204">4</characteristic>
-        <characteristic name="Capacity" typeId="ec07-2d55-2ba5-6080">6</characteristic>
+        <characteristic name="Capacity" typeId="46f6-9161-d58b-c967">6 Infantry Models</characteristic>
+        <characteristic name="Fire Points" typeId="85d6-4dfc-0382-e5b6">N/A</characteristic>
+        <characteristic name="Access Points" typeId="f2d3-baa9-3d6f-d20e">3: Rear Ramp, Side Hatches</characteristic>
       </characteristics>
     </profile>
     <profile id="6bac-82a3-aa7b-51ef" name="Exorcist" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -6258,6 +6273,7 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">11</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">4</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="93f1-bde6-2396-6fdd" name="Penitent Engine" hidden="false" typeId="5119-5456-6e97-4fc2" typeName="Walker">
@@ -6283,6 +6299,7 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="9106-36a5-1c03-6e29" name="Karamazov" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -6296,6 +6313,7 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">2+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Monstrous Creature</characteristic>
       </characteristics>
     </profile>
     <profile id="bf44-1d4b-9d88-a40c" name="Saint Celestine" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -6309,6 +6327,7 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">2+/4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Jump Infantry, Independent Character</characteristic>
       </characteristics>
     </profile>
     <profile id="6789-b09e-1d94-8828" name="Judge" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -6322,6 +6341,7 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="c98d-5f04-b638-c2fd" name="Arbitrator" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -6335,6 +6355,7 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">7</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="f03e-6372-1df2-62e4" name="Proctor" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -6348,15 +6369,16 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
-    <profile id="f7e3-9f16-8d3d-dd83" name="Arbites Rhino" hidden="false" typeId="5535-2b48-81ee-04ce" typeName="Transport">
+    <profile id="f7e3-9f16-8d3d-dd83" name="Arbites Rhino" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
       <characteristics>
-        <characteristic name="Front Armor" typeId="70ae-7a97-7e70-93ea">11</characteristic>
-        <characteristic name="Side Armor" typeId="bcca-0b51-9187-2e4e">11</characteristic>
-        <characteristic name="Rear Armor" typeId="929b-c9cc-001b-3705">10</characteristic>
-        <characteristic name="BS" typeId="ae25-5be4-5470-2204">3</characteristic>
-        <characteristic name="Capacity" typeId="ec07-2d55-2ba5-6080">10</characteristic>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">11</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">11</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="9306-c441-3f11-857d" name="Zealot" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -6370,6 +6392,7 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">7</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">6+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="5d1b-ba88-f0bd-e952" name="Fanatic" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -6383,6 +6406,7 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">7</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">6+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="6297-4bdf-1c15-3e76" name="Demagogue" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -6396,6 +6420,23 @@ At the end of its own turn, the vehicle may disengage VTOL. It not reverts to be
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">6+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="abce-46a6-3f63-6dd1" name="Arbites Rhino" hidden="false" typeId="899d-8e8f-8774-82e0" typeName="Transport">
+      <characteristics>
+        <characteristic name="Capacity" typeId="46f6-9161-d58b-c967">10 Infantry Models</characteristic>
+        <characteristic name="Fire Points" typeId="85d6-4dfc-0382-e5b6">Top Hatch: 2 Models</characteristic>
+        <characteristic name="Access Points" typeId="f2d3-baa9-3d6f-d20e">3: Rear Ramp, Side Hatches</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1059-6155-9d18-5e06" name="Immolator" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">11</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">11</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">4</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

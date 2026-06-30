@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9d6b-d195-877e-09cb" name="Space Marines (1998)" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9d6b-d195-877e-09cb" name="Space Marines (1998)" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="a527-734f-2081-58cd" name="Blood Angel" hidden="false"/>
     <categoryEntry id="5709-6bb9-f3f9-07f2" name="Sanguinary Priest" hidden="false"/>
@@ -1318,6 +1318,7 @@
       <infoLinks>
         <infoLink id="8acb-e6f4-3ecc-180f" name="Rhino" hidden="false" targetId="870a-b8e6-ca97-deec" type="profile"/>
         <infoLink id="6924-8c76-ee9d-51e4" name="Storm Bolter" hidden="false" targetId="4c6c-9de1-00a8-8016" type="profile"/>
+        <infoLink id="c32b-4922-0c2f-1904" name="Rhino" hidden="false" targetId="5160-0f40-f1a8-46be" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="bd7c-db56-4ddd-b21b" name="New CategoryLink" hidden="false" targetId="a090-a855-c7de-f5c3" primary="true"/>
@@ -1339,6 +1340,7 @@
       </modifiers>
       <infoLinks>
         <infoLink id="189f-97e6-2292-064f" name="Razorback" hidden="false" targetId="cc35-bece-fe42-a1be" type="profile"/>
+        <infoLink id="f94d-df92-eb6b-db7b" name="Razorback" hidden="false" targetId="16cb-0f5e-5524-a98f" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="3944-10c8-a4f8-24f1" name="New CategoryLink" hidden="false" targetId="a090-a855-c7de-f5c3" primary="true"/>
@@ -1448,6 +1450,7 @@
             <modifier type="set" field="name" value="Twin-Linked Heavy Bolter"/>
           </modifiers>
         </infoLink>
+        <infoLink id="4976-f2e3-339e-bb05" name="Land Raider" hidden="false" targetId="b29b-778a-c721-442b" type="profile"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="505b-ba4b-7d84-0737" name="AA Mount (IA)" hidden="false" collective="false" import="true" type="upgrade">
@@ -4925,7 +4928,7 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbc2-f849-0676-01be" type="max"/>
       </constraints>
       <profiles>
-        <profile id="890e-3367-e762-88c0" name="Gauntlets of Ultramar" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+        <profile id="890e-3367-e762-88c0" name="Gauntlets of Ultramar" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
           <characteristics>
             <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
             <characteristic name="S" typeId="24d8-2110-08fa-d844">User x2</characteristic>
@@ -4985,7 +4988,7 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7b7-3c49-8922-98e6" type="max"/>
       </constraints>
       <profiles>
-        <profile id="1e0b-10f2-fd28-db57" name="Rod of Tigurius" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+        <profile id="1e0b-10f2-fd28-db57" name="Rod of Tigurius" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
           <characteristics>
             <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
             <characteristic name="S" typeId="24d8-2110-08fa-d844">As User</characteristic>
@@ -5085,7 +5088,7 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e67-220e-a9dc-bd8c" type="max"/>
       </constraints>
       <profiles>
-        <profile id="d887-e7c8-fd6b-e4b5" name="The Black Sword" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+        <profile id="d887-e7c8-fd6b-e4b5" name="The Black Sword" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
           <characteristics>
             <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
             <characteristic name="S" typeId="24d8-2110-08fa-d844">User +1/User x 2</characteristic>
@@ -5265,7 +5268,7 @@
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="8296-0b38-c552-3331" name="Twin-Linked Hyperious Missile Launcher" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+        <profile id="8296-0b38-c552-3331" name="Twin-Linked Hyperious Missile Launcher" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
           <characteristics>
             <characteristic name="Range" typeId="deb8-131d-bdcf-1376">48&quot;</characteristic>
             <characteristic name="S" typeId="24d8-2110-08fa-d844">8</characteristic>
@@ -5388,7 +5391,7 @@
           <selectionEntries>
             <selectionEntry id="0be5-6e22-c8de-a80e" name="Lance Strike" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="3b32-25fa-23c6-e7a4" name="Lance Strike" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+                <profile id="3b32-25fa-23c6-e7a4" name="Lance Strike" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Special</characteristic>
                     <characteristic name="S" typeId="24d8-2110-08fa-d844">10</characteristic>
@@ -5404,7 +5407,7 @@
             </selectionEntry>
             <selectionEntry id="905a-7af7-3d5f-5052" name="Melta Torpedo" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="c384-3026-07d6-03e0" name="Melta Torpedo" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+                <profile id="c384-3026-07d6-03e0" name="Melta Torpedo" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Special</characteristic>
                     <characteristic name="S" typeId="24d8-2110-08fa-d844">8</characteristic>
@@ -5420,7 +5423,7 @@
             </selectionEntry>
             <selectionEntry id="9175-9402-3c8a-c135" name="Barrage Bomb" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="4654-c37a-8f40-d4a6" name="Barrage Bomb" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+                <profile id="4654-c37a-8f40-d4a6" name="Barrage Bomb" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Special</characteristic>
                     <characteristic name="S" typeId="24d8-2110-08fa-d844">6</characteristic>
@@ -5461,9 +5464,9 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="3006-2090-3973-d36c" name="Land Raider" hidden="false" targetId="ad60-6998-8da3-8149" type="profile">
+        <infoLink id="3006-2090-3973-d36c" name="Land Raider" hidden="false" targetId="b29b-778a-c721-442b" type="profile">
           <modifiers>
-            <modifier type="set" field="ec07-2d55-2ba5-6080" value="15 Marines. 8 Terminators."/>
+            <modifier type="set" field="46f6-9161-d58b-c967" value="15 Infantry Models or 8 Terminator Models"/>
           </modifiers>
         </infoLink>
         <infoLink id="c2aa-af6e-2705-c1d6" name="Multi-melta" hidden="false" targetId="7077-4e34-5c92-5320" type="profile"/>
@@ -5478,6 +5481,7 @@
           </modifiers>
         </infoLink>
         <infoLink id="46bf-e46f-8fb7-ee6d" name="Extra Armour" hidden="false" targetId="0d41-84e8-e76b-8cfb" type="rule"/>
+        <infoLink id="fbdf-ff3b-7f47-caae" name="Land Raider" hidden="false" targetId="ad60-6998-8da3-8149" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e72a-aa6c-f9b3-f3ca" name="New CategoryLink" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
@@ -5506,9 +5510,9 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="717b-dd2c-73a0-fa1c" name="Land Raider" hidden="false" targetId="ad60-6998-8da3-8149" type="profile">
+        <infoLink id="717b-dd2c-73a0-fa1c" name="Land Raider" hidden="false" targetId="b29b-778a-c721-442b" type="profile">
           <modifiers>
-            <modifier type="set" field="ec07-2d55-2ba5-6080" value="6 Marines. 3 Terminators."/>
+            <modifier type="set" field="46f6-9161-d58b-c967" value="6 Infantry Models, or 3 Terminator Models"/>
           </modifiers>
         </infoLink>
         <infoLink id="fbca-5c32-e5b9-3d4d" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
@@ -5518,6 +5522,7 @@
           </modifiers>
         </infoLink>
         <infoLink id="2e58-ed87-2a52-b92c" name="Whirtwind" hidden="false" targetId="dd3b-11b5-eaee-9284" type="profile"/>
+        <infoLink id="3f0b-4ef5-68c6-46f2" name="Land Raider" hidden="false" targetId="ad60-6998-8da3-8149" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e70c-00bb-43ef-7cc9" name="New CategoryLink" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
@@ -5561,6 +5566,7 @@
             <modifier type="set" field="name" value="Pintle-mounted Storm Bolter"/>
           </modifiers>
         </infoLink>
+        <infoLink id="7cca-4a02-7134-fceb" name="Land Raider" hidden="false" targetId="ad60-6998-8da3-8149" type="profile"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="af12-8289-cb0c-6b5d" name="Space Marine Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="93a4-c4f2-3183-a640" type="selectionEntryGroup"/>
@@ -5953,7 +5959,8 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="865a-a811-ddd8-d993" name="Drop Pod" hidden="false" targetId="e25a-8a70-e82b-2775" type="profile"/>
+        <infoLink id="865a-a811-ddd8-d993" name="Drop Pod" hidden="false" targetId="a16a-f61f-0a2d-94d9" type="profile"/>
+        <infoLink id="7f65-47b1-92b1-3b49" name="Drop Pod" hidden="false" targetId="e25a-8a70-e82b-2775" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="50.0"/>
@@ -5980,11 +5987,7 @@ After the first turn of firing the Deathwind cannot fire again.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="0e75-e899-877e-dd99" name="Drop Pod" hidden="false" targetId="e25a-8a70-e82b-2775" type="profile">
-          <modifiers>
-            <modifier type="set" field="ec07-2d55-2ba5-6080" value=" "/>
-          </modifiers>
-        </infoLink>
+        <infoLink id="0e75-e899-877e-dd99" name="Drop Pod" hidden="false" targetId="a16a-f61f-0a2d-94d9" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e5f5-3383-8a83-815d" name="New CategoryLink" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
@@ -6061,6 +6064,7 @@ After the first turn of firing the Deathwind cannot fire again.</description>
             <modifier type="set" field="name" value="Twin-linked Lascannon"/>
           </modifiers>
         </infoLink>
+        <infoLink id="53e7-7959-5224-c802" name="Thunderhawk Gunship" hidden="false" targetId="10c3-c1cd-ab8b-f65a" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="295b-dced-556b-1305" name="New CategoryLink" hidden="false" targetId="6b90-dc9c-1a49-3fdc" primary="true"/>
@@ -6665,7 +6669,7 @@ Hunter-killer Missile: 20*50%*50% = 40
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="60ed-8f1a-b117-5c3c" name="Skyspear Missile Launcher" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+        <profile id="60ed-8f1a-b117-5c3c" name="Skyspear Missile Launcher" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
           <characteristics>
             <characteristic name="Range" typeId="deb8-131d-bdcf-1376">60&quot;</characteristic>
             <characteristic name="S" typeId="24d8-2110-08fa-d844">8</characteristic>
@@ -6830,7 +6834,7 @@ Twin-linked Assault Cannon:52</comment>
             <selectionEntry id="d279-f50f-b9fc-389f" name="Las-talon" hidden="false" collective="false" import="true" type="upgrade">
               <comment>Short Range Lascannon</comment>
               <profiles>
-                <profile id="3d04-73e8-e255-3e30" name="Las-talon" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+                <profile id="3d04-73e8-e255-3e30" name="Las-talon" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
                     <characteristic name="S" typeId="24d8-2110-08fa-d844">9</characteristic>
@@ -7395,6 +7399,9 @@ Total Points: 450</comment>
           </constraints>
           <selectionEntries>
             <selectionEntry id="31e4-9742-a812-607f" name="Cyclonic Melta Lance" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2bb-ccd6-3e97-81e1" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="d95a-13b3-80cb-6567" name="Cyclonic Melta Lance" page="" hidden="false" targetId="fcec-8c34-967e-7a97" type="profile"/>
               </infoLinks>
@@ -7402,15 +7409,21 @@ Total Points: 450</comment>
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="45fa-4304-9421-6088" name="Leviathan Close Combat Weapon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="45fa-4304-9421-6088" name="Dreadnought Close Combat Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ecc-94ed-65dc-3458" type="max"/>
+              </constraints>
               <infoLinks>
-                <infoLink id="ab9d-b4ba-26a9-cf5e" name="Leviathan Close Combat Weapons" hidden="false" targetId="276d-720e-752f-8778" type="profile"/>
+                <infoLink id="ab9d-b4ba-26a9-cf5e" name="Dreadnought Close Combat Weapon" hidden="false" targetId="c7f7-e5ab-17a7-1cf9" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d041-2d63-4a12-4295" name="Leviathan Storm Cannon" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d095-2da6-bc1a-5f41" type="max"/>
+              </constraints>
               <infoLinks>
                 <infoLink id="8e67-4cde-73de-e1fb" name="Leviathan Storm Cannon" hidden="false" targetId="6783-8bc5-c3dc-dc9f" type="profile"/>
                 <infoLink id="ea29-ca1f-1b02-957c" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
@@ -7438,12 +7451,12 @@ Total Points: 450</comment>
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="55f4-df1b-cba0-e361" name="Leviathan Close Combat Weapon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="55f4-df1b-cba0-e361" name="Dreadnought Close Combat Weapon" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55e5-c700-95a2-7db6" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="7ed5-e0ac-316f-733a" name="Leviathan Close Combat Weapons" hidden="false" targetId="276d-720e-752f-8778" type="profile"/>
+                <infoLink id="0371-e3ed-bd5a-4b92" name="Dreadnought Close Combat Weapon" hidden="false" targetId="c7f7-e5ab-17a7-1cf9" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
@@ -7616,7 +7629,7 @@ Total Points: 450</comment>
         <infoLink id="9229-eb9d-9aac-5a7b" name="Force Weapon" hidden="false" targetId="e5ab-52f0-b14b-e93c" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Dreadnought Force Weapon"/>
-            <modifier type="set" field="24d8-2110-08fa-d844" value="As User x2"/>
+            <modifier type="set" field="1439-1344-a602-f9d9" value="As User x2"/>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -9769,6 +9782,7 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="d9d8-4682-c4d4-27b3" name="Commander" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -9782,6 +9796,7 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="d908-6783-2545-3329" name="Force Commander" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -9795,6 +9810,7 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="88bf-eda2-ae52-7988" name="Librarian" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -9808,6 +9824,7 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="0c8b-2645-5db9-f8c8" name="Chaplain" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -9821,6 +9838,7 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="2729-9458-bd05-2a9c" name="Veteran Space Marine" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -9834,6 +9852,7 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="87bf-a0f5-0c67-2bae" name="Veteran Sergeant" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -9847,6 +9866,7 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="3371-0451-e7e5-82b0" name="Terminator" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -9860,6 +9880,7 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">2+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="528d-0883-0dd5-a47d" name="Dreadnought" hidden="false" typeId="5119-5456-6e97-4fc2" typeName="Walker">
@@ -9885,6 +9906,7 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="a6b9-9e6b-e5f6-16e4" name="Scout" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -9898,6 +9920,7 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="1b97-64e3-1217-1e14" name="Veteran Scout Sergeant" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -9911,6 +9934,7 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="870a-b8e6-ca97-deec" name="Rhino" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -9919,15 +9943,14 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">11</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">4</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
-    <profile id="cc35-bece-fe42-a1be" name="Razorback" hidden="false" typeId="5535-2b48-81ee-04ce" typeName="Transport">
+    <profile id="cc35-bece-fe42-a1be" name="Razorback" hidden="false" typeId="899d-8e8f-8774-82e0" typeName="Transport">
       <characteristics>
-        <characteristic name="Front Armor" typeId="70ae-7a97-7e70-93ea">11</characteristic>
-        <characteristic name="Side Armor" typeId="bcca-0b51-9187-2e4e">11</characteristic>
-        <characteristic name="Rear Armor" typeId="929b-c9cc-001b-3705">10</characteristic>
-        <characteristic name="BS" typeId="ae25-5be4-5470-2204">4</characteristic>
-        <characteristic name="Capacity" typeId="ec07-2d55-2ba5-6080">6</characteristic>
+        <characteristic name="Capacity" typeId="46f6-9161-d58b-c967">6 Infantry Models</characteristic>
+        <characteristic name="Fire Points" typeId="85d6-4dfc-0382-e5b6">N/A</characteristic>
+        <characteristic name="Access Points" typeId="f2d3-baa9-3d6f-d20e">3: Rear Ramp, Side Hatches</characteristic>
       </characteristics>
     </profile>
     <profile id="b03d-e20c-1e5e-86b8" name="Space Marine Biker" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -9941,6 +9964,7 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Bikes</characteristic>
       </characteristics>
     </profile>
     <profile id="71ac-d684-f5f3-d76c" name="Veteran Biker Sergeant" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -9954,6 +9978,7 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Bikes</characteristic>
       </characteristics>
     </profile>
     <profile id="94d0-1b6d-2894-6089" name="Attack Bike" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -9967,6 +9992,7 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">2+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Bikes</characteristic>
       </characteristics>
     </profile>
     <profile id="ff0f-3131-5264-028c" name="Scout Biker" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -9980,6 +10006,7 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Bikes</characteristic>
       </characteristics>
     </profile>
     <profile id="8073-f675-28a3-1371" name="Veteran Scout Biker Sergeant" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -9993,6 +10020,7 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Bikes</characteristic>
       </characteristics>
     </profile>
     <profile id="ff8b-807e-4c96-b60d" name="Land Speeder" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -10001,6 +10029,7 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">4</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Skimmer, Fast</characteristic>
       </characteristics>
     </profile>
     <profile id="f91e-f1b6-eb8c-ae23" name="Predator" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -10009,6 +10038,7 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">11</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">4</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="2841-462d-da35-eceb" name="Vindicator" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -10017,15 +10047,16 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">11</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">4</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
-    <profile id="ad60-6998-8da3-8149" name="Land Raider" hidden="false" typeId="5535-2b48-81ee-04ce" typeName="Transport">
+    <profile id="ad60-6998-8da3-8149" name="Land Raider" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
       <characteristics>
-        <characteristic name="Front Armor" typeId="70ae-7a97-7e70-93ea">14</characteristic>
-        <characteristic name="Side Armor" typeId="bcca-0b51-9187-2e4e">14</characteristic>
-        <characteristic name="Rear Armor" typeId="929b-c9cc-001b-3705">14</characteristic>
-        <characteristic name="BS" typeId="ae25-5be4-5470-2204">4</characteristic>
-        <characteristic name="Capacity" typeId="ec07-2d55-2ba5-6080">10 Marines. 5 Terminators.</characteristic>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">14</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">14</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">14</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">4</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="c03c-83ab-08de-2c28" name="Whirlwind" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -10034,6 +10065,7 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">11</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">4</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="0875-ef7b-31c2-36cf" name="Marneus Calgar" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -10047,6 +10079,7 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">4(5)</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">2+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="fc47-9a71-ac61-87d2" name="Chaplain Xavier" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -10060,6 +10093,7 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">4</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="4f14-6faa-6181-373f" name="Captain Cortez" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -10073,6 +10107,7 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="74b7-a8a6-30bc-60aa" name="Emperor&apos;s Champion" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -10086,6 +10121,7 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">2+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="635b-a3e3-7aa4-f050" name="Chief Librarian Tigurius" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -10099,6 +10135,7 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">4</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="38ed-846d-2ffd-8677" name="Sergeant Lysander" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -10112,9 +10149,10 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
-    <profile id="c4fd-c9a0-298c-1f66" name="Smite" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="c4fd-c9a0-298c-1f66" name="Smite" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">12&quot;</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
@@ -10135,13 +10173,11 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="A" typeId="bb33-7ddf-2296-174e">3</characteristic>
       </characteristics>
     </profile>
-    <profile id="e25a-8a70-e82b-2775" name="Drop Pod" hidden="false" typeId="5535-2b48-81ee-04ce" typeName="Transport">
+    <profile id="e25a-8a70-e82b-2775" name="Drop Pod" hidden="false" typeId="899d-8e8f-8774-82e0" typeName="Transport">
       <characteristics>
-        <characteristic name="Front Armor" typeId="70ae-7a97-7e70-93ea">12/10</characteristic>
-        <characteristic name="Side Armor" typeId="bcca-0b51-9187-2e4e">12/10</characteristic>
-        <characteristic name="Rear Armor" typeId="929b-c9cc-001b-3705">12/10</characteristic>
-        <characteristic name="BS" typeId="ae25-5be4-5470-2204">2</characteristic>
-        <characteristic name="Capacity" typeId="ec07-2d55-2ba5-6080">5 Marines. 1 Dreadnought</characteristic>
+        <characteristic name="Capacity" typeId="46f6-9161-d58b-c967">5 Infantry Models or 1 Dreadnought</characteristic>
+        <characteristic name="Fire Points" typeId="85d6-4dfc-0382-e5b6">N/A</characteristic>
+        <characteristic name="Access Points" typeId="f2d3-baa9-3d6f-d20e">Open-Topped</characteristic>
       </characteristics>
     </profile>
     <profile id="60fb-82ac-f5a8-7ab4" name="Thunderhawk Gunship" hidden="false" typeId="36b6-ef06-48e4-cd45" typeName="Super Heavy Vehicle">
@@ -10151,7 +10187,7 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="Rear Armor" typeId="b276-1b4e-26d8-0a08">10</characteristic>
         <characteristic name="BS" typeId="de63-2aba-c18c-6d47">4</characteristic>
         <characteristic name="Structure Points" typeId="a817-7301-451c-20c9">3</characteristic>
-        <characteristic name="Capacity" typeId="e1d2-e9ec-26d6-1f11"/>
+        <characteristic name="Type" typeId="e1d2-e9ec-26d6-1f11">Super-Heavy Flyer, Orbital Lander</characteristic>
       </characteristics>
     </profile>
     <profile id="3646-d081-8001-8bce" name="Naaman" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -10165,6 +10201,7 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="2a32-eb54-06dd-1a3b" name="Stormraven Gunship" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -10174,6 +10211,7 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">11</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">4</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Flyer</characteristic>
       </characteristics>
     </profile>
     <profile id="7870-e0a0-a10b-e807" name="Contemptor Dreadnought" hidden="false" typeId="5119-5456-6e97-4fc2" typeName="Walker">
@@ -10194,6 +10232,7 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">11</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">4</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="d841-691c-12f9-5912" name="Hunter" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -10202,6 +10241,7 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">11</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">4</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="c6e8-9f21-c3e9-e194" name="Stormtalon Gunship" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -10211,6 +10251,7 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">11</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">4</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Flyer</characteristic>
       </characteristics>
     </profile>
     <profile id="4e6f-2b05-f034-771b" name="Stormhawk Interceptor" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -10220,6 +10261,7 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">11</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">4</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Flyer, Orbital Lander</characteristic>
       </characteristics>
     </profile>
     <profile id="256e-fa30-296a-6d26" name="Kratos" hidden="false" typeId="36b6-ef06-48e4-cd45" typeName="Super Heavy Vehicle">
@@ -10229,7 +10271,7 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="Rear Armor" typeId="b276-1b4e-26d8-0a08">14</characteristic>
         <characteristic name="BS" typeId="de63-2aba-c18c-6d47">4</characteristic>
         <characteristic name="Structure Points" typeId="a817-7301-451c-20c9">2</characteristic>
-        <characteristic name="Capacity" typeId="e1d2-e9ec-26d6-1f11"/>
+        <characteristic name="Type" typeId="e1d2-e9ec-26d6-1f11">Super-Heavy Tank</characteristic>
       </characteristics>
     </profile>
     <profile id="62e9-1e5a-347f-6150" name="Leviathan Siege Dreadnought" hidden="false" typeId="5119-5456-6e97-4fc2" typeName="Walker">
@@ -10254,6 +10296,45 @@ However, if the model bearing the standard is slain in close combat, then the en
         <characteristic name="Rear Armor" typeId="b798-62af-f346-b1c1">10</characteristic>
         <characteristic name="I" typeId="695a-ba63-65d1-3ce5">4</characteristic>
         <characteristic name="A" typeId="bb33-7ddf-2296-174e">2+2</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a16a-f61f-0a2d-94d9" name="Drop Pod" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">10</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">2</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Immobile, Open-Topped</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b29b-778a-c721-442b" name="Land Raider" hidden="false" typeId="899d-8e8f-8774-82e0" typeName="Transport">
+      <characteristics>
+        <characteristic name="Capacity" typeId="46f6-9161-d58b-c967">10 Infantry Models, or 5 Terminator Models</characteristic>
+        <characteristic name="Fire Points" typeId="85d6-4dfc-0382-e5b6">N/A</characteristic>
+        <characteristic name="Access Points" typeId="f2d3-baa9-3d6f-d20e">3: Front Ramp, Side Hatches</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="16cb-0f5e-5524-a98f" name="Razorback" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">11</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">11</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">4</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5160-0f40-f1a8-46be" name="Rhino" hidden="false" typeId="899d-8e8f-8774-82e0" typeName="Transport">
+      <characteristics>
+        <characteristic name="Capacity" typeId="46f6-9161-d58b-c967">6 Infantry Models</characteristic>
+        <characteristic name="Fire Points" typeId="85d6-4dfc-0382-e5b6">Top Hatch: 2 Models</characteristic>
+        <characteristic name="Access Points" typeId="f2d3-baa9-3d6f-d20e">3: Rear Ramp, Side Hatches</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="10c3-c1cd-ab8b-f65a" name="Thunderhawk Gunship" hidden="false" typeId="899d-8e8f-8774-82e0" typeName="Transport">
+      <characteristics>
+        <characteristic name="Capacity" typeId="46f6-9161-d58b-c967">30 Infantry Models with Terminator Models counting as 2, Bikes as 3, Attack Bikes as 4, and Dreadnoughts as 5 Models respectively</characteristic>
+        <characteristic name="Fire Points" typeId="85d6-4dfc-0382-e5b6">N/A</characteristic>
+        <characteristic name="Access Points" typeId="f2d3-baa9-3d6f-d20e">1: Front Ramp</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

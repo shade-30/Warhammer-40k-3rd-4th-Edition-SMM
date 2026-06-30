@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="32a8-a4e7-7b5b-0f95" name="Tau Empire (2006)" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="32a8-a4e7-7b5b-0f95" name="Tau Empire (2006)" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="f724-ee0e-2b99-e4ee" name="Commander" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -5263,6 +5263,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">7</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Jump Infantry (jet pack)</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-d973-733f-edd2" name="Shield Drone" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5276,6 +5277,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">7</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">X, 4++</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Jump Infantry (jet pack)</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-9a8b-df66-d886" name="Shas&apos;el" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5289,6 +5291,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Jump Infantry (jet pack)</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-44b1-6a39-b50e" name="Ethereal" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5302,6 +5305,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">-</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-d5d5-7509-35e6" name="Crisis Suit Shas&apos;ui" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5315,6 +5319,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Jump Infantry (jet pack)</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-0f4f-ff97-973c" name="Crisis Suit Shas&apos;vre" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5328,6 +5333,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Jump Infantry (jet pack)</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-864e-5496-ce33" name="XV25 Stealth Suit Shas&apos;ui" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5341,6 +5347,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Jump Infantry (jet pack)</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-1f06-6bb9-a42a" name="XV25 Stealth Suit Shas&apos;vre" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5354,6 +5361,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Jump Infantry (jet pack)</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-ed47-b72b-3bbc" name="Fire Warrior Shas&apos;la" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5367,6 +5375,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">7</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-ea08-ffa9-660e" name="Fire Warrior Shas&apos;ui" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5380,15 +5389,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="tau0-9a16-c436-7e84" name="Devilfish" hidden="false" typeId="5535-2b48-81ee-04ce" typeName="Transport">
-      <characteristics>
-        <characteristic name="Front Armor" typeId="70ae-7a97-7e70-93ea">12</characteristic>
-        <characteristic name="Side Armor" typeId="bcca-0b51-9187-2e4e">11</characteristic>
-        <characteristic name="Rear Armor" typeId="929b-c9cc-001b-3705">10</characteristic>
-        <characteristic name="BS" typeId="ae25-5be4-5470-2204">3</characteristic>
-        <characteristic name="Capacity" typeId="ec07-2d55-2ba5-6080">12</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-b563-6021-05f5" name="Kroot" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5402,6 +5403,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">7</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">-</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-3ebd-d3e2-cd04" name="Kroot Shaper" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5415,6 +5417,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">6+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-ce9b-1e92-8f3c" name="Pathfinder Shas&apos;la" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5428,6 +5431,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">7</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-b72a-12bd-6cc5" name="Pathfinder Shas&apos;ui" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5441,6 +5445,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-4cdd-f25e-6a9c" name="Kroot Hound" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5454,6 +5459,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">7</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">-</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-0a6a-9f20-b020" name="Broadside Shas&apos;ui" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5467,6 +5473,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">2+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-9335-0dc9-7801" name="Broadside Shas&apos;vre" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5480,6 +5487,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">2+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-304e-f250-e92f" name="Hammerhead Gunship" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -5488,6 +5496,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">12</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3(4)</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Skimmer</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-4bf0-4daf-4dc8" name="Krootox" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5501,6 +5510,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">7</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">-</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-7b3c-f374-5939" name="Commander Farsight" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5514,6 +5524,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">4</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Jump Infantry (jet pack)</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-be74-1347-8f58" name="Aun&apos;va" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5527,6 +5538,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">-</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-0475-5daf-0d36" name="Tiger Shark" hidden="false" typeId="36b6-ef06-48e4-cd45" typeName="Super Heavy Vehicle">
@@ -5536,7 +5548,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="Rear Armor" typeId="b276-1b4e-26d8-0a08">10</characteristic>
         <characteristic name="BS" typeId="de63-2aba-c18c-6d47">3(4)</characteristic>
         <characteristic name="Structure Points" typeId="a817-7301-451c-20c9">2</characteristic>
-        <characteristic name="Capacity" typeId="e1d2-e9ec-26d6-1f11"/>
+        <characteristic name="Type" typeId="e1d2-e9ec-26d6-1f11">Super-Heavy Flyer</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-bc04-e191-41dc" name="Barracuda" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -5545,6 +5557,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3(4)</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Flyer</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-e486-f17a-a3c2" name="Heavy Gun Drone" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5558,6 +5571,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">7</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Jump Infantry (jet pack)</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-5b07-5be6-7e3e" name="Sky Ray" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -5566,6 +5580,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">12</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Skimmer</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-ef21-14e6-28f2" name="Piranha" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -5574,6 +5589,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Skimmer, Fast, Open-Topped</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-bf3c-f047-57ef" name="Razorshark" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -5582,6 +5598,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Flyer</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-8687-e870-2fc4" name="Sun Shark" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -5590,9 +5607,10 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Flyer</characteristic>
       </characteristics>
     </profile>
-    <profile id="tau0-6301-8d8c-d4bd" name="Pulse Bomb" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="tau0-6301-8d8c-d4bd" name="Pulse Bomb" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">G12-48&quot;</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">6</characteristic>
@@ -5612,6 +5630,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">N/A</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-a516-ff00-78c4" name="Shas&apos;o" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5625,6 +5644,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">4</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Jump Infantry (jet pack)</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-caaa-7c44-0051" name="Shas&apos;o (Pilot)" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5638,6 +5658,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">N/A</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-1de0-e7c4-b7ce" name="Marker Drone" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5651,6 +5672,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">-</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Jump Infantry (jet pack)</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-197d-7e5a-57ac" name="Sniper Drone" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5664,6 +5686,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">7</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Jump Infantry (jet pack)</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-5c66-325a-a254" name="Gue&apos;vesa&apos;la" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5677,6 +5700,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">7</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-1424-a5d4-8a61" name="Gue&apos;vesa&apos;ui" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5690,6 +5714,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-0ae4-a1ee-fc93" name="Fire Warrior Shas&apos;vre" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5703,6 +5728,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-503f-53d0-83bf" name="Hazard Suit Shas&apos;vre" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5716,6 +5742,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Jump Infantry (jet pack)</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-e69a-b5ab-22c4" name="Shas&apos;o R&apos;Myr" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5729,6 +5756,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">4</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Jump Infantry (jet pack)</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-f033-ef77-45a0" name="Command-link Drone" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5742,6 +5770,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">-</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Jump Infantry (jet pack)</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-c0cb-bc03-97ce" name="Commander Shadowsun" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5755,6 +5784,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">4</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Jump Infantry (jet pack)</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-a2a0-d618-042d" name="Vespid Strain Leader" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5768,6 +5798,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Jump Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-6c89-b120-4951" name="Vespid Stingwing" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5781,6 +5812,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">6</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Jump Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-db84-48d9-0047" name="Spotter" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5794,6 +5826,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-1a1f-67e3-a755" name="Ghostkeel Shas&apos;vre" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5807,6 +5840,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Jump Infantry (jet pack)</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-2e47-1183-1401" name="Tetra" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -5815,6 +5849,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Skimmer, Fast, Open-Topped</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-899e-dbbc-ede2" name="Remora Drone Fighter" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -5823,6 +5858,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">2(3)</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Flyer</characteristic>
       </characteristics>
     </profile>
     <profile id="tau0-283f-fe44-22fc" name="Honour Guard" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5836,6 +5872,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">-</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="06da-131e-4036-067f" name="Kroot Goad" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5850,6 +5887,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">6+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="5ed5-bc58-9aad-49ec" name="Great Knarloc" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5863,6 +5901,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">7</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">6+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="d442-f166-1fc6-2267" name="Knarloc" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5876,6 +5915,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">6+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="f884-a3ed-a950-9585" name="Piranha XT-42" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -5884,6 +5924,23 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">11</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3(4)</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Skimmer, Fast, Open-Topped</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fbd6-4705-a0c3-2a5d" name="Devilfish" hidden="false" typeId="899d-8e8f-8774-82e0" typeName="Transport">
+      <characteristics>
+        <characteristic name="Capacity" typeId="46f6-9161-d58b-c967">12 Infantry Models</characteristic>
+        <characteristic name="Fire Points" typeId="85d6-4dfc-0382-e5b6">N/A</characteristic>
+        <characteristic name="Access Points" typeId="f2d3-baa9-3d6f-d20e">3: Rear Ramp, Side Hatches</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="tau0-9a16-c436-7e84" name="Devilfish" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">12</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">11</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Skimmer</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

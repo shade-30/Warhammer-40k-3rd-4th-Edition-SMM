@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c8cb-cc69-1e43-3319" name="Daemon Hunters (2003)" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c8cb-cc69-1e43-3319" name="Daemon Hunters (2003)" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="0ebb-2b64-3f2d-fffb" name="Space Marine Ally" hidden="false"/>
     <categoryEntry id="258f-122f-d9a4-245c" name="Inducted Imperial Guard" hidden="false"/>
@@ -993,7 +993,7 @@
           <selectionEntries>
             <selectionEntry id="fffd-523c-10e1-26ef" name="Culexus" hidden="false" collective="false" import="true" type="model">
               <profiles>
-                <profile id="a38b-42ca-65d3-0f7f" name="Animus Speculum" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+                <profile id="a38b-42ca-65d3-0f7f" name="Animus Speculum" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="deb8-131d-bdcf-1376">12&quot;</characteristic>
                     <characteristic name="S" typeId="24d8-2110-08fa-d844">5</characteristic>
@@ -1043,7 +1043,7 @@
             </selectionEntry>
             <selectionEntry id="2941-b800-dcf3-45b2" name="Eversor" hidden="false" collective="false" import="true" type="model">
               <profiles>
-                <profile id="4dd4-ac1b-882a-cdcd" name="Needle Pistol" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+                <profile id="4dd4-ac1b-882a-cdcd" name="Needle Pistol" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="deb8-131d-bdcf-1376">12&quot;</characteristic>
                     <characteristic name="S" typeId="24d8-2110-08fa-d844">4+</characteristic>
@@ -1087,7 +1087,7 @@
             </selectionEntry>
             <selectionEntry id="6ee2-6e29-c0e8-7f57" name="Callidus" hidden="false" collective="false" import="true" type="model">
               <profiles>
-                <profile id="14bf-ba4b-20aa-f134" name="C&apos;tan Phase Sword" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+                <profile id="14bf-ba4b-20aa-f134" name="C&apos;tan Phase Sword" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
                     <characteristic name="S" typeId="24d8-2110-08fa-d844">User</characteristic>
@@ -1096,7 +1096,7 @@
                     <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Ignores all armour and invul saves</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="b009-fc60-c0fc-02f1" name="Neural Shredder" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+                <profile id="b009-fc60-c0fc-02f1" name="Neural Shredder" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Template</characteristic>
                     <characteristic name="S" typeId="24d8-2110-08fa-d844">X</characteristic>
@@ -1140,7 +1140,7 @@
             </selectionEntry>
             <selectionEntry id="a7ed-76da-1e53-c52f" name="Vindicare" hidden="false" collective="false" import="true" type="model">
               <profiles>
-                <profile id="6d03-863d-8ec7-cba6" name="Exitus Rifle" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+                <profile id="6d03-863d-8ec7-cba6" name="Exitus Rifle" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="deb8-131d-bdcf-1376">36&quot;</characteristic>
                     <characteristic name="S" typeId="24d8-2110-08fa-d844">4+</characteristic>
@@ -1149,7 +1149,7 @@
                     <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Special</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="c9d2-d31b-a5ae-f97c" name="Exitus Pistol" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+                <profile id="c9d2-d31b-a5ae-f97c" name="Exitus Pistol" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="deb8-131d-bdcf-1376">12&quot;</characteristic>
                     <characteristic name="S" typeId="24d8-2110-08fa-d844">5</characteristic>
@@ -2401,7 +2401,7 @@ Hellfire Round: The shot wounds on a 2+.</description>
             <characteristic name="Rear Armor" typeId="b276-1b4e-26d8-0a08">10</characteristic>
             <characteristic name="BS" typeId="de63-2aba-c18c-6d47">4</characteristic>
             <characteristic name="Structure Points" typeId="a817-7301-451c-20c9">3</characteristic>
-            <characteristic name="Capacity" typeId="e1d2-e9ec-26d6-1f11"/>
+            <characteristic name="Type" typeId="e1d2-e9ec-26d6-1f11"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2992,6 +2992,7 @@ Total Points: 302 (Rounded to 300)</comment>
             <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
             <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
             <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+            <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3299,7 +3300,7 @@ Total Points: 302 (Rounded to 300)</comment>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ed7-39b8-61cf-9c91" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8922-d706-bd1c-90e5" name="Needle Pistol" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+            <profile id="8922-d706-bd1c-90e5" name="Needle Pistol" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="deb8-131d-bdcf-1376">12&quot;</characteristic>
                 <characteristic name="S" typeId="24d8-2110-08fa-d844">4+</characteristic>
@@ -3562,7 +3563,7 @@ Total Points: 302 (Rounded to 300)</comment>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df64-b926-fd37-6003" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f998-0b0f-de55-679f" name="Eviscerator" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+            <profile id="f998-0b0f-de55-679f" name="Eviscerator" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
                 <characteristic name="S" typeId="24d8-2110-08fa-d844">User x2</characteristic>
@@ -3629,7 +3630,7 @@ Total Points: 302 (Rounded to 300)</comment>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46fa-6d8a-9c17-f3b5" type="max"/>
           </constraints>
           <profiles>
-            <profile id="729f-eec5-b861-37e0" name="Needle Pistol" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+            <profile id="729f-eec5-b861-37e0" name="Needle Pistol" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="deb8-131d-bdcf-1376">12&quot;</characteristic>
                 <characteristic name="S" typeId="24d8-2110-08fa-d844">4+</characteristic>
@@ -5198,6 +5199,7 @@ Total Points: 302 (Rounded to 300)</comment>
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">6+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="cfef-92dd-80e1-7a99" name="Inquisitor" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5211,19 +5213,7 @@ Total Points: 302 (Rounded to 300)</comment>
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="dbae-6665-723d-6ba9" name="Palatine" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
-      <characteristics>
-        <characteristic name="WS" typeId="c704-6128-f143-935a">4</characteristic>
-        <characteristic name="BS" typeId="7928-3a9b-6080-ed95">5</characteristic>
-        <characteristic name="S" typeId="df03-6292-d3f5-f778">3</characteristic>
-        <characteristic name="T" typeId="e5f6-94c4-de8c-5fa8">3</characteristic>
-        <characteristic name="W" typeId="4dc2-c603-0bc5-0561">2</characteristic>
-        <characteristic name="I" typeId="eeda-4fb4-901e-b70d">4</characteristic>
-        <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
-        <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
-        <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry, Independent Character</characteristic>
       </characteristics>
     </profile>
     <profile id="439e-b06f-40b3-44cb" name="Priest" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5237,6 +5227,7 @@ Total Points: 302 (Rounded to 300)</comment>
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">-</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="24fa-c93e-4475-b3e6" name="Inquisitor Lord" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5250,6 +5241,7 @@ Total Points: 302 (Rounded to 300)</comment>
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry, Independent Character</characteristic>
       </characteristics>
     </profile>
     <profile id="90a4-4252-9ca0-b73a" name="Assassin" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5263,6 +5255,7 @@ Total Points: 302 (Rounded to 300)</comment>
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="6f0a-7053-c486-e9f4" name="Death-Cult Assassin" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5276,6 +5269,7 @@ Total Points: 302 (Rounded to 300)</comment>
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="b29d-f044-3296-03b8" name="Storm Trooper" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5289,6 +5283,7 @@ Total Points: 302 (Rounded to 300)</comment>
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="6d74-050b-f96b-abd0" name="Grand Master" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5302,6 +5297,7 @@ Total Points: 302 (Rounded to 300)</comment>
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">4</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">2+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry, Independent Character</characteristic>
       </characteristics>
     </profile>
     <profile id="da49-e5c1-2e57-f229" name="Brother-Captain" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5315,6 +5311,7 @@ Total Points: 302 (Rounded to 300)</comment>
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">2+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry, Independent Character</characteristic>
       </characteristics>
     </profile>
     <profile id="04cc-377e-9ff8-421b" name="Daemonhost" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5328,6 +5325,7 @@ Total Points: 302 (Rounded to 300)</comment>
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">D6</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="901e-482b-1132-c9ef" name="Grey Knight Terminator" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5341,6 +5339,7 @@ Total Points: 302 (Rounded to 300)</comment>
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">2+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="e35d-d5a1-0486-2f58" name="Grey Knight" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5354,6 +5353,7 @@ Total Points: 302 (Rounded to 300)</comment>
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="ef3e-7c19-d75b-55ba" name="Grey Knight Justicar" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5367,6 +5367,7 @@ Total Points: 302 (Rounded to 300)</comment>
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
     <profile id="935c-477b-e1a5-46f2" name="Grey Knight Dreadnought" hidden="false" typeId="5119-5456-6e97-4fc2" typeName="Walker">
@@ -5392,6 +5393,7 @@ Total Points: 302 (Rounded to 300)</comment>
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">2+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry, Independent Character</characteristic>
       </characteristics>
     </profile>
     <profile id="d09f-62ad-076a-229f" name="Coteaz" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5405,6 +5407,7 @@ Total Points: 302 (Rounded to 300)</comment>
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3(4)</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">2+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry, Independent Character</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

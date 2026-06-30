@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="00db-baa2-10b1-b4c6" name="Eldar - Ulthwe Strike Force (Eye of Terror 2003)" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="00db-baa2-10b1-b4c6" name="Eldar - Ulthwe Strike Force (Eye of Terror 2003)" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="be8b-49e8-cb59-bca4" name="Spear of Khaine" hidden="false" collective="false" import="true" targetId="5ff3-bb96-1e09-ce01" type="selectionEntry">
       <constraints>
@@ -316,7 +316,7 @@
     <selectionEntry id="85dc-316a-2bbd-3278" name="Black Guardian Defender Squad" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="2144-0222-ab7a-5eea" name="Black Guardian Defender" hidden="false" targetId="813b-7f25-46c5-1d7b" type="profile"/>
-        <infoLink id="f670-4aea-5ece-3299" name="Fleet of Foot" hidden="false" targetId="7a77-8498-1878-5086" type="rule"/>
+        <infoLink id="f670-4aea-5ece-3299" name="Fleet" hidden="false" targetId="6f0a-684d-7a67-2dd6" type="rule"/>
         <infoLink id="4b3a-008f-8517-f4a5" name="Shuriken Catapult" hidden="false" targetId="1e3d-a3bb-ef48-bc12" type="profile"/>
       </infoLinks>
       <selectionEntries>
@@ -430,7 +430,7 @@
         <infoLink id="74cd-ed2e-87b5-3b44" name="Black Guardian Storm" hidden="false" targetId="d233-b35c-9442-470f" type="profile"/>
         <infoLink id="ea47-bb69-0685-b2a6" name="Close Combat Weapon" hidden="false" targetId="46d5-85f2-d932-f0a2" type="profile"/>
         <infoLink id="9646-61df-7744-967c" name="Shuriken Pistol" hidden="false" targetId="1213-0a13-18ca-92f6" type="profile"/>
-        <infoLink id="10ff-c787-3584-ed6f" name="Fleet of Foot" hidden="false" targetId="7a77-8498-1878-5086" type="rule"/>
+        <infoLink id="10ff-c787-3584-ed6f" name="Fleet" hidden="false" targetId="6f0a-684d-7a67-2dd6" type="rule"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="02fc-f946-e89e-2446" name="Guardians" hidden="false" collective="false" import="true" type="model">
@@ -1040,6 +1040,7 @@ Ulthwe Strike Force troops that are falling back must do so towards the nearest 
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="d233-b35c-9442-470f" name="Black Guardian Storm" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -1053,6 +1054,7 @@ Ulthwe Strike Force troops that are falling back must do so towards the nearest 
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="0723-768b-390c-3fde" name="Black Guardian Jetbike" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -1066,6 +1068,7 @@ Ulthwe Strike Force troops that are falling back must do so towards the nearest 
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="793a-ea38-0433-3e6d" name="Black Guardian Vyper" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -1074,6 +1077,7 @@ Ulthwe Strike Force troops that are falling back must do so towards the nearest 
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">4</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Skimmer, Fast</characteristic>
       </characteristics>
     </profile>
     <profile id="8364-6744-d1f7-c699" name="Black Guardian War Walker" hidden="false" typeId="5119-5456-6e97-4fc2" typeName="Walker">
