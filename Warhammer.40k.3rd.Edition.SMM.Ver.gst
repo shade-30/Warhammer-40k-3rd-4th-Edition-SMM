@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3e14-94fd-04c7-0064" name="Oldhammer 40k (3rd-4th Edition (SMM Ver.))" revision="19" battleScribeVersion="2.03" authorName="Snyder &amp; Simon" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3e14-94fd-04c7-0064" name="Oldhammer 40k (3rd-4th Edition (SMM Ver.))" revision="20" battleScribeVersion="2.03" authorName="Snyder &amp; Simon" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <comment>Old ID: 96e2-b781-50d7-3d18
 New ID: 3e14-94fd-04c7-0064</comment>
   <readme>This is intended to create a catalog of Warhammer 40k at the point prior to when 4th Edition codices evolved into 5th edition style in 2008.
@@ -186,7 +186,6 @@ Additonal content provided by Simon for the purposes of a homebrewed ruleset for
     <categoryEntry id="18d4-c759-8e80-4eb6" name="Configuration" hidden="false"/>
     <categoryEntry id="6953-6bba-0bb9-d49d" name="Infantry" hidden="false"/>
     <categoryEntry id="3c96-248b-affd-e504" name="Independent Character" hidden="false"/>
-    <categoryEntry id="75ea-544f-fd8b-51d2" name="Infantry (old)" hidden="false"/>
     <categoryEntry id="b3bf-01b4-c272-3409" name="Jump Pack Troops" hidden="false"/>
     <categoryEntry id="eb69-c8af-f212-635f" name="Cavalry" hidden="false"/>
     <categoryEntry id="86cf-31f2-e698-7a81" name="Bikes" hidden="false"/>
@@ -303,6 +302,11 @@ Additonal content provided by Simon for the purposes of a homebrewed ruleset for
           </constraints>
         </categoryLink>
         <categoryLink id="0561-fef4-ad1a-f2ef" name="No Force Org" hidden="false" targetId="be45-5314-4388-5bfd" primary="false"/>
+        <categoryLink id="0216-c10f-dd41-48c4" name="Super-Heavy" hidden="false" targetId="6b90-dc9c-1a49-3fdc" primary="false">
+          <constraints>
+            <constraint field="limit::4ed5-2f92-9abc-2870" scope="roster" value="30.0" percentValue="true" shared="false" includeChildSelections="true" includeChildForces="true" id="848e-0435-f263-e6f8" type="max"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="949f-fced-04a6-c467" name="2-Apoc Missions" hidden="false">
@@ -403,7 +407,11 @@ Additonal content provided by Simon for the purposes of a homebrewed ruleset for
           </constraints>
         </categoryLink>
         <categoryLink id="0547-3077-0e08-1f63" name="No Force Org" hidden="false" targetId="be45-5314-4388-5bfd" primary="false"/>
-        <categoryLink id="6396-e5a7-b57a-66e4" name="Super-Heavy" hidden="false" targetId="6b90-dc9c-1a49-3fdc" primary="false"/>
+        <categoryLink id="6396-e5a7-b57a-66e4" name="Super-Heavy" hidden="false" targetId="6b90-dc9c-1a49-3fdc" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab41-3a5c-b6f6-0c3b" type="max"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="8b56-2596-2bfa-9f1b" name="9-Unrestricted" hidden="false">

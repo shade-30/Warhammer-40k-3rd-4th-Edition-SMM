@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9d6b-d195-877e-09cb" name="Space Marines (1998)" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9d6b-d195-877e-09cb" name="Space Marines (1998)" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="a527-734f-2081-58cd" name="Blood Angel" hidden="false"/>
     <categoryEntry id="5709-6bb9-f3f9-07f2" name="Sanguinary Priest" hidden="false"/>
@@ -168,10 +168,22 @@
       </categoryLinks>
     </entryLink>
     <entryLink id="99e5-ce2a-aa97-1f0e" name="Hyperious Air Defence Battery (IA)" hidden="false" collective="false" import="true" targetId="fde5-3ce5-0c7a-820c" type="selectionEntry"/>
-    <entryLink id="65ba-6def-583f-f8bc" name="Stormraven Gunship (Homebrew)" hidden="false" collective="false" import="true" targetId="fb33-3e36-b9a7-679d" type="selectionEntry"/>
+    <entryLink id="65ba-6def-583f-f8bc" name="Stormraven Gunship (VDR)" hidden="false" collective="false" import="true" targetId="fb33-3e36-b9a7-679d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="fa7a-2418-f0e3-221e" name="Flyer" hidden="false" targetId="8203-2aeb-a471-4272" primary="false"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="da2e-7a38-f740-fee7" name="Contemport Dreadnought (Homebrew)" hidden="false" collective="false" import="true" targetId="9042-1a04-ca8a-4f29" type="selectionEntry"/>
-    <entryLink id="7828-971b-06a8-fd77" name="Stormtalon Gunship (Homebrew)" hidden="false" collective="false" import="true" targetId="2bfb-ac8e-748b-2de0" type="selectionEntry"/>
-    <entryLink id="e518-d3b0-8832-67dc" name="Stormhawk Interceptor (Homebrew)" hidden="false" collective="false" import="true" targetId="a437-f9fe-eb04-57bd" type="selectionEntry"/>
+    <entryLink id="7828-971b-06a8-fd77" name="Stormtalon Gunship (VDR)" hidden="false" collective="false" import="true" targetId="2bfb-ac8e-748b-2de0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="cb89-0923-9e74-4076" name="Flyer" hidden="false" targetId="8203-2aeb-a471-4272" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e518-d3b0-8832-67dc" name="Stormhawk Interceptor (VDR)" hidden="false" collective="false" import="true" targetId="a437-f9fe-eb04-57bd" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9b70-7588-45dd-82db" name="Flyer" hidden="false" targetId="8203-2aeb-a471-4272" primary="false"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="a629-79a0-2633-70a1" name="Stalker (Homebrew)" hidden="false" collective="false" import="true" targetId="eebe-d468-31d3-6f58" type="selectionEntry"/>
     <entryLink id="49ce-9ef7-bb84-d64f" name="Hunter (Homebrew)" hidden="false" collective="false" import="true" targetId="7baa-b96b-fff0-33ea" type="selectionEntry"/>
     <entryLink id="0c2c-3624-9152-bc6f" name="Deathwatch Kill Team (Chapter Approved)" hidden="false" collective="false" import="true" targetId="1004-74e9-5ee6-c51f" type="selectionEntry">
@@ -6938,20 +6950,17 @@ Total Points: 450</comment>
           </conditions>
         </modifier>
       </modifiers>
-      <rules>
-        <rule id="bd76-f4c6-1fc9-4765" name="Deus Ex Machina (IA)" hidden="false">
-          <description>If the crew are stunned then the Machine Spirit will take over temporarily. The Land Raider may be moved directly forward up to its maximum move.</description>
-        </rule>
-        <rule id="9f4c-4f05-d2fc-ed02" name="Fire Control (IA)" hidden="false">
-          <description>The Land Raider may always fire one additional weapon system to those it would normally be able to fire. This shot may be against a different target to that engaged by the crew. Automatic targetting is less accurate and therefore conducted with BS2. If the crew are stunned or shaken, the Machine Spirit may still fire a weapon using this rule.</description>
-        </rule>
-      </rules>
       <infoLinks>
         <infoLink id="6191-4421-4a7d-b5ea" name="Kratos" hidden="false" targetId="256e-fa30-296a-6d26" type="profile"/>
         <infoLink id="262b-bee9-cb6f-d594" name="Vanquisher Cannon" hidden="false" targetId="6ed6-d055-77b9-709e" type="profile"/>
+        <infoLink id="bead-b869-e011-84ab" name="Autocannon" hidden="false" targetId="6128-e2af-037e-4d1a" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="Co-axial Autocannon"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="5b06-d616-97c1-4d44" name="Side Sponsons" hidden="false" collective="false" import="true" defaultSelectionEntryId="1841-c513-4ce4-56f7">
+        <selectionEntryGroup id="5b06-d616-97c1-4d44" name="Side Sponsons" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6217-17dd-40fb-bcf2" type="max"/>
           </constraints>
@@ -6965,7 +6974,7 @@ Total Points: 450</comment>
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9c94-97c4-8d14-950b" name="2x Lascannons" hidden="false" collective="false" import="true" type="upgrade">
@@ -6977,7 +6986,7 @@ Total Points: 450</comment>
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30.0"/>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="50.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6269-5370-d90d-7dac" name="2x Heavy Flamers" hidden="false" collective="false" import="true" type="upgrade">
@@ -6989,7 +6998,7 @@ Total Points: 450</comment>
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -6997,6 +7006,7 @@ Total Points: 450</comment>
         <selectionEntryGroup id="6a55-b7c1-d1a4-c20d" name="Hull Sponsons" hidden="false" collective="false" import="true" defaultSelectionEntryId="8778-7c37-30e0-d2fd">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31c6-80a3-82db-b1b1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e4f-b58e-d0a8-82c6" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="8778-7c37-30e0-d2fd" name="2x Heavy Bolters" hidden="false" collective="false" import="true" type="upgrade">
@@ -7042,7 +7052,7 @@ Total Points: 450</comment>
         <entryLink id="848c-a30e-a95d-2d55" name="Space Marine Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="93a4-c4f2-3183-a640" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="450.0"/>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="390.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="680d-c069-2586-c77b" name="Siege Dreadnought (IA)" publicationId="e52a-92a0-b89d-5e02" page="18" hidden="false" collective="false" import="true" type="unit">

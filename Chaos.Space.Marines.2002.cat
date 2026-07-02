@@ -61,7 +61,7 @@
     <entryLink id="0ee9-cc1e-1608-75e7" name="Forgefiend (Homebrew)" hidden="false" collective="false" import="true" targetId="c743-5d92-38d8-8ad9" type="selectionEntry"/>
     <entryLink id="476c-e0d7-8f1d-7c48" name="Maulerfiend (Homebrew)" hidden="false" collective="false" import="true" targetId="f92e-ed72-d3f4-0a71" type="selectionEntry"/>
     <entryLink id="bb5f-a0fc-b42e-35d3" name="Helldrake (VDR)" hidden="false" collective="false" import="true" targetId="bc00-24bd-ea7f-3134" type="selectionEntry"/>
-    <entryLink id="eaa3-0ecd-666c-6bc6" name="Khorne Lord of Skulls" hidden="false" collective="false" import="true" targetId="76e8-0006-d8f4-e536" type="selectionEntry"/>
+    <entryLink id="eaa3-0ecd-666c-6bc6" name="Khorne Lord of Skulls (VDR)" hidden="false" collective="false" import="true" targetId="76e8-0006-d8f4-e536" type="selectionEntry"/>
     <entryLink id="f858-1e3f-e102-7430" name="Mounted Daemonette Daemon Pack" hidden="false" collective="false" import="true" targetId="ee9c-7446-f48a-f942" type="selectionEntry"/>
     <entryLink id="e279-4747-818e-a3d8" name="Kharn the Betrayer" hidden="false" collective="false" import="true" targetId="6b75-5c8b-898f-eaa0" type="selectionEntry"/>
     <entryLink id="3768-405b-c845-9051" name="Spined Chaos Beast (MMC)" hidden="false" collective="false" import="true" targetId="546f-c82d-3b66-e4e1" type="selectionEntry"/>
@@ -71,7 +71,7 @@
     <entryLink id="a7a0-b86a-9a18-224a" name="Plague Hulk (MMC)" hidden="false" collective="false" import="true" targetId="4990-d2d6-2d3d-de92" type="selectionEntry"/>
     <entryLink id="883c-3a28-7e3e-90e9" name="Poxwalkers (Homebrew)" hidden="false" collective="false" import="true" targetId="de39-2d4e-381c-2f18" type="selectionEntry"/>
     <entryLink id="9aab-a7a3-94e5-bfa8" name="Chaos Leviathan Siege Dreadnought" hidden="false" collective="false" import="true" targetId="f553-35b1-aa64-9fdf" type="selectionEntry"/>
-    <entryLink id="ba43-0951-4e15-6de0" name="Kratos Heavy Assault Tank (Homebrew)" hidden="false" collective="false" import="true" targetId="6447-ba76-ded4-cee5" type="selectionEntry">
+    <entryLink id="ba43-0951-4e15-6de0" name="Kratos Heavy Assault Tank (VDR)" hidden="false" collective="false" import="true" targetId="6447-ba76-ded4-cee5" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="172b-5a34-854c-64f9" name="New CategoryLink" hidden="false" targetId="6b90-dc9c-1a49-3fdc" primary="true"/>
       </categoryLinks>
@@ -10358,7 +10358,7 @@ A Dreadnought with Destroyer upgrade my re-roll one close combat miss in each ro
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="270.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6447-ba76-ded4-cee5" name="Kratos Heavy Assault Tank (VDR)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6447-ba76-ded4-cee5" name="Chaos Kratos Heavy Assault Tank (VDR)" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -10377,6 +10377,11 @@ A Dreadnought with Destroyer upgrade my re-roll one close combat miss in each ro
       <infoLinks>
         <infoLink id="7abf-c592-3415-229f" name="Kratos" hidden="false" targetId="f69a-0dbb-cad6-6377" type="profile"/>
         <infoLink id="86ad-f7f8-43d2-4863" name="Vanquisher Cannon" hidden="false" targetId="6ed6-d055-77b9-709e" type="profile"/>
+        <infoLink id="ef66-7bb6-f130-b023" name="Autocannon" hidden="false" targetId="6128-e2af-037e-4d1a" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="Co-axial Autocannon"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="3e89-208b-0141-471d" name="Vehicle" hidden="false" targetId="ca5d-3c3b-217c-c72d" primary="false"/>
@@ -10397,7 +10402,7 @@ A Dreadnought with Destroyer upgrade my re-roll one close combat miss in each ro
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="22ab-1d9b-74d7-ca9b" name="2x Lascannons" hidden="false" collective="false" import="true" type="upgrade">
@@ -10409,7 +10414,7 @@ A Dreadnought with Destroyer upgrade my re-roll one close combat miss in each ro
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30.0"/>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="50.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a65c-3c8f-67c3-74f4" name="2x Heavy Flamers" hidden="false" collective="false" import="true" type="upgrade">
@@ -10421,14 +10426,15 @@ A Dreadnought with Destroyer upgrade my re-roll one close combat miss in each ro
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="bf15-824a-c8e1-1f94" name="Hull Sponsons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="bf15-824a-c8e1-1f94" name="Hull Sponsons" hidden="false" collective="false" import="true" defaultSelectionEntryId="ea56-9b0e-a0f2-45a2">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05c0-ef8c-b421-d02e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9692-59c7-768c-7900" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="ea56-9b0e-a0f2-45a2" name="2x Heavy Bolters" hidden="false" collective="false" import="true" type="upgrade">
@@ -10474,7 +10480,7 @@ A Dreadnought with Destroyer upgrade my re-roll one close combat miss in each ro
         <entryLink id="8bde-af48-4970-bf8e" name="Chaos Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="f364-8b4b-0063-e9ed" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="450.0"/>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="390.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="24d5-d05d-b14d-bf69" name="Chaos Spartan Assault Tank (Homebrew)" hidden="false" collective="false" import="true" type="unit">
