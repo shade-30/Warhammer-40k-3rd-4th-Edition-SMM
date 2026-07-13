@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f19-9487-acbb-e047" name="Chaos Space Marines (2002)" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f19-9487-acbb-e047" name="Chaos Space Marines (2002)" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <comment>2002 Chaos Space Marine Codex</comment>
   <categoryEntries>
     <categoryEntry id="039c-5796-7006-0975" name="Mark of Khorne" hidden="false"/>
@@ -12207,7 +12207,6 @@ A Dreadnought with Destroyer upgrade my re-roll one close combat miss in each ro
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="12.0"/>
           </costs>
         </entryLink>
-        <entryLink id="fd2f-7b5f-9c49-dc3c" name="Daemonic Gifts" hidden="false" collective="false" import="true" targetId="3c21-bdf4-cd4b-4a26" type="selectionEntryGroup"/>
         <entryLink id="5016-ecaa-20c5-e3c1" name="Veteran Skills" hidden="false" collective="false" import="true" targetId="9043-4141-f921-9506" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -14248,6 +14247,15 @@ A Dreadnought with Destroyer upgrade my re-roll one close combat miss in each ro
           </modifiers>
         </entryLink>
         <entryLink id="b05d-6ebe-8353-a703" name="Psychic Abilities &amp; Equipment" hidden="false" collective="false" import="true" targetId="0249-e80c-1238-d54b" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d3aa-a1a3-690a-7239" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="29c3-6b62-daa4-17bd" name="Daemonic Gifts" hidden="false" collective="false" import="true" targetId="3c21-bdf4-cd4b-4a26" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
