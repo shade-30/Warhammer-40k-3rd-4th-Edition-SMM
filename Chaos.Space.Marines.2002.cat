@@ -9725,7 +9725,7 @@ A Dreadnought with Destroyer upgrade my re-roll one close combat miss in each ro
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="749e-612b-1214-4ae0" name="Blight Drone Squadron (Homebrew)" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="749e-612b-1214-4ae0" name="Blight Drone Squadron (IA, Homebrew)" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -12543,6 +12543,7 @@ A Dreadnought with Destroyer upgrade my re-roll one close combat miss in each ro
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="3c21-bdf4-cd4b-4a26" name="Daemonic Gifts" hidden="false" collective="false" import="true">
+      <comment>Independent Character</comment>
       <modifiers>
         <modifier type="set" field="cb08-6a74-b230-d96f" value="100.0">
           <conditions>
@@ -14255,12 +14256,32 @@ A Dreadnought with Destroyer upgrade my re-roll one close combat miss in each ro
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="29c3-6b62-daa4-17bd" name="Daemonic Gifts" hidden="false" collective="false" import="true" targetId="3c21-bdf4-cd4b-4a26" type="selectionEntryGroup">
+        <entryLink id="29c3-6b62-daa4-17bd" name="Daemonic Gifts" hidden="true" collective="false" import="true" targetId="3c21-bdf4-cd4b-4a26" type="selectionEntryGroup">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9fda-9a74-56c3-7c97" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0dd6-780b-c869-8d67" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="1db6-f808-6327-0fb6" name="Daemonic Gifts" hidden="false" collective="false" import="true" targetId="ef8c-f896-f7d7-8857" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d3aa-a1a3-690a-7239" type="instanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9fda-9a74-56c3-7c97" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0dd6-780b-c869-8d67" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d3aa-a1a3-690a-7239" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </entryLink>
@@ -15185,6 +15206,1258 @@ A Dreadnought with Destroyer upgrade my re-roll one close combat miss in each ro
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
+    <selectionEntryGroup id="ef8c-f896-f7d7-8857" name="Daemonic Gifts" hidden="false" collective="false" import="true">
+      <comment></comment>
+      <constraints>
+        <constraint field="4ed5-2f92-9abc-2870" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b01e-9fa5-6915-94d4" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="679a-3517-918f-9e83" name="Daemonic Aura" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="4ed5-2f92-9abc-2870" value="15.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c96-248b-affd-e504" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6604-4630-4d70-1c9b" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="50e1-b8c9-703d-63a5" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4d4-727c-f3aa-ce0c" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="aeed-5739-eb4b-4e52" name="Daemonic Aura" hidden="false">
+              <description>Model gains a 5+ Invulnerable save</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5ff6-15b7-8217-ad83" name="Daemon Chains" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f508-47c2-49cf-4bcf" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="f7c6-adbb-e776-8ecd" name="Daemon Chains" hidden="false">
+              <description>Used by a model designated to be the vessel for a Greater Daemon. When rolling for possession, the chains allow each attempt (whatever the result) to be re-rolled.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5e8f-7d91-ae94-a581" name="Daemonic Essence" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c96-248b-affd-e504" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="841a-a35d-6431-a2a3" value="0.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4ad3-5725-56c6-8260" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="841a-a35d-6431-a2a3" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="40c9-d539-133b-8a8b" name="Daemonic Essence" hidden="false" targetId="d822-e8e2-15a4-a999" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d05a-ba11-025f-f554" name="Daemonic Flight" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="4ed5-2f92-9abc-2870" value="20.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c96-248b-affd-e504" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6604-4630-4d70-1c9b" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="50e1-b8c9-703d-63a5" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="c96b-ce98-f40c-f56d" value="0.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ee64-e381-20d6-7d84" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c96b-ce98-f40c-f56d" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="5a4d-0fc9-269b-c450" name="Daemonic Flight" hidden="false" targetId="5826-d1ee-f676-f67d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ebe7-968c-32ec-13bf" name="Daemonic Mutation" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="4ed5-2f92-9abc-2870" value="15.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c96-248b-affd-e504" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6604-4630-4d70-1c9b" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="6818-4754-34f2-e6ce" value="0.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4ad3-5725-56c6-8260" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="6818-4754-34f2-e6ce" value="0.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ee64-e381-20d6-7d84" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="6818-4754-34f2-e6ce" value="0.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aacc-a833-d81a-25ed" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6818-4754-34f2-e6ce" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="a19f-0279-4a9f-3475" name="Daemonic Mutation" hidden="false" targetId="7163-dcba-823c-993d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b7fd-9189-bbd3-d2d3" name="Daemonic Resilience" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="06bd-0a42-404f-df9a" value="0.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e628-a414-68df-b068" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06bd-0a42-404f-df9a" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="fca6-e487-311e-f4fa" name="Daemonic Reslilience" hidden="false" targetId="f08b-40f4-0069-5126" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a1a1-5ce3-bf96-7b84" name="Daemonic Rune" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="211a-73ce-efb1-a6d6" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="2f09-62e1-539d-8cf1" name="Daemonic Rune" hidden="false" targetId="7a9e-fdb4-a566-6f98" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="35.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="dfa4-6704-ce1e-0cc9" name="Chaos Spawn" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="45d8-ab04-0eb3-6a18" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="a17a-6115-bdfb-3098" value="0.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ee64-e381-20d6-7d84" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a17a-6115-bdfb-3098" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="8f3c-e0aa-5962-89a7" name="Daemon Spawn" hidden="false" targetId="65ba-1706-40bb-5078" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9e87-75b7-0272-e610" name="Daemonic Stature" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9fda-9a74-56c3-7c97" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="50e1-b8c9-703d-63a5" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b53-a10f-78c7-4389" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="a8fd-d894-dcac-2521" name="Daemonic Stature" hidden="false">
+              <description>The model gains +1 Strength and +1 Toughness and counts as a monstrous creature.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="8202-f543-024c-6a95" name="Monstorous Creature" hidden="false" targetId="445e-e873-2a3f-776f" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="530f-1ecd-fb95-7fe1" name="Daemonic Speed" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="4ed5-2f92-9abc-2870" value="15.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c96-248b-affd-e504" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6604-4630-4d70-1c9b" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="50e1-b8c9-703d-63a5" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="24f9-2ce4-9139-8fb0" value="0.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aacc-a833-d81a-25ed" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24f9-2ce4-9139-8fb0" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="480a-41a1-8c0a-452f" name="Daemonic Speed" hidden="false" targetId="99e3-926e-3341-3425" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="31be-84f7-c2c8-5e5a" name="Daemonic Strength" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="4ed5-2f92-9abc-2870" value="10.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c96-248b-affd-e504" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6604-4630-4d70-1c9b" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="b934-cf0f-52d5-b06a" value="0.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4ad3-5725-56c6-8260" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b934-cf0f-52d5-b06a" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="460b-5134-d6f2-7a2b" name="Daemonic Strength" hidden="false" targetId="aaff-eb44-7ee5-2ee6" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="bdcf-fa5a-d450-b47c" name="Daemon Armor" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="4ed5-2f92-9abc-2870" value="20.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c96-248b-affd-e504" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6604-4630-4d70-1c9b" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="50e1-b8c9-703d-63a5" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd61-3073-95d4-15a1" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="826e-39b0-ce14-5997" name="Daemonic Armour" hidden="false" targetId="a5d0-fcc5-6cd9-243a" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="251e-441a-4448-1551" name="Daemonic Steed" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="4ed5-2f92-9abc-2870" value="25.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c96-248b-affd-e504" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6604-4630-4d70-1c9b" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fbb5-05df-bd11-7f89" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="50e1-b8c9-703d-63a5" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="45d8-ab04-0eb3-6a18" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b812-bd94-958f-763d" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="6cab-b5c5-6494-3799" name="Daemonic Steed" hidden="false">
+              <description>The model now moves as Cavalry and gains Daemonic Resilience</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="8fbf-55b7-c472-4562" name="Daemonic Reslilience" hidden="false" targetId="f08b-40f4-0069-5126" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b796-5182-fa49-c660" name="Daemonic Talons" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="4ed5-2f92-9abc-2870" value="10.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c96-248b-affd-e504" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6604-4630-4d70-1c9b" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="50e1-b8c9-703d-63a5" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b37b-4667-fa48-fcd7" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="5fa1-9e5b-0ac7-cd9e" name="Daemonic Talons" hidden="false" targetId="f30e-a54a-174d-019f" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="19e5-28c8-60a1-1045" name="Daemonic Venom" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="4ed5-2f92-9abc-2870" value="5.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c96-248b-affd-e504" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6604-4630-4d70-1c9b" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="50e1-b8c9-703d-63a5" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a522-aa05-1df6-ae91" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="45e3-2f6e-0db2-3e5b" name="Daemonic Venom" hidden="false" targetId="85d4-f5c5-831a-2689" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4442-aff7-9519-2cfa" name="Daemonic Visage" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="4ed5-2f92-9abc-2870" value="5.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c96-248b-affd-e504" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6604-4630-4d70-1c9b" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8006-101e-5752-df08" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="a5ef-df36-c7ed-c0be" name="Daemonic Visage" hidden="false" targetId="e8ac-c6ca-da7f-8b78" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="be72-c00e-8fcc-fbb7" name="Bedlam Staff" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="98bc-5939-38d6-c754" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17eb-8569-02b3-9ab5" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb82-c34f-033c-b3e6" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="969c-dd6d-5fec-2391" name="Bedlam Staff" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
+                <characteristic name="S" typeId="24d8-2110-08fa-d844">As User</characteristic>
+                <characteristic name="AP" typeId="25ce-028f-0aae-2855">1</characteristic>
+                <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Melee</characteristic>
+                <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Ignore armour saves</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="713c-31e6-168b-c8c0" name="Bedlam Staff" hidden="false">
+              <description>Any models wounded but not killed by the Bedlam Staff may not attack until the end of the next Assault phase. Vehicles hit by it are &apos;crew shaken&apos; in addition to any other results they suffer.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="f81d-b870-5b96-2703" name="Daemon Weapon" hidden="false" targetId="f4a4-cde3-aa56-bd53" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="646c-0f2c-5fc9-b1fc" name="Daemonic Fire" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cc7-de04-c28f-01ca" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="eb7f-e1b5-1a31-b3c4" name="Daemonic Fire" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="deb8-131d-bdcf-1376">12&quot;</characteristic>
+                <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
+                <characteristic name="AP" typeId="25ce-028f-0aae-2855">6</characteristic>
+                <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 2</characteristic>
+                <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="dc70-6bcf-00b8-efeb" name="Axe of Khorne" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="4ed5-2f92-9abc-2870" value="20.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c96-248b-affd-e504" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6604-4630-4d70-1c9b" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="039c-5796-7006-0975" type="equalTo"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="039c-5796-7006-0975" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ba2-8975-73d2-2949" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6ad6-f21a-1437-a4ce" name="Axe of Khorne" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
+                <characteristic name="S" typeId="24d8-2110-08fa-d844">As User</characteristic>
+                <characteristic name="AP" typeId="25ce-028f-0aae-2855">1</characteristic>
+                <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Melee</characteristic>
+                <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Ignore armour saves. Hit rolls of 6 allow an additional attack. The new attack makes a new attack on a 6, and so on.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="55e5-3118-60b3-8f5f" name="Collar of Khorne" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="039c-5796-7006-0975" type="equalTo"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="039c-5796-7006-0975" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dac6-1133-06e6-6c52" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="6751-7afe-3237-3132" name="Collar of Khorne" hidden="false" targetId="1fbc-f6af-2d3a-3c2e" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e1de-88bb-6f58-8011" name="Feel No Pain" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="4ed5-2f92-9abc-2870" value="10.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c96-248b-affd-e504" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6604-4630-4d70-1c9b" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="039c-5796-7006-0975" type="equalTo"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="039c-5796-7006-0975" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2768-d2f3-1ebb-d843" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="e1b8-63c0-845a-533a" name="Feel No Pain" hidden="false">
+              <description>If the model loses a wound roll a dice. On a 4+ the wound is ignored. This ability cannot be used against weapons whose strength is at least twice the Toughtness of the model or against close combat weapons that allow no save.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e6dd-4300-a5a2-39a2" name="Juggernaut of Khorne" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>Updated cost to 35 in CA 2003 pg90</comment>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fbb5-05df-bd11-7f89" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="50e1-b8c9-703d-63a5" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="45d8-ab04-0eb3-6a18" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="039c-5796-7006-0975" type="equalTo"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="039c-5796-7006-0975" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0df-ceb8-5958-e130" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="a5b7-a7a1-175f-5edd" name="Juggernaut of Khorne" hidden="false">
+              <description>Steed that confers Daemonic Strength, Daemonic Essence and Daemonic Mutation</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="fbdf-ae36-4149-8906" name="Daemonic Essence" hidden="false" targetId="d822-e8e2-15a4-a999" type="rule"/>
+            <infoLink id="3c59-9ee6-3724-fa28" name="Daemonic Mutation" hidden="false" targetId="7163-dcba-823c-993d" type="rule"/>
+            <infoLink id="4f09-4089-a812-84f0" name="Daemonic Strength" hidden="false" targetId="aaff-eb44-7ee5-2ee6" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="35.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5f10-b54a-2253-2ea5" name="Khornate Chainaxe" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="4ed5-2f92-9abc-2870" value="3.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c96-248b-affd-e504" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6604-4630-4d70-1c9b" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="50e1-b8c9-703d-63a5" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fbb5-05df-bd11-7f89" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="039c-5796-7006-0975" type="equalTo"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="039c-5796-7006-0975" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19b0-6fb0-0c6f-fa43" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="982e-2250-67e6-d6de" name="Khornate Chainaxe" hidden="false" targetId="98b1-729e-d94a-450d" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2406-fc48-26d8-f3a2" name="Rage of Khorne" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="50e1-b8c9-703d-63a5" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="039c-5796-7006-0975" type="equalTo"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="039c-5796-7006-0975" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20cd-de21-804d-bcd1" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="c0cd-556d-b3eb-546e" name="Rage of Khorne" hidden="false">
+              <description>The model gainst +D3 attacks instead of the normal +1 when charging.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="94c3-f8cb-a48b-8822" name="Talisman of Burning Blood" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>CA 2003 makes the cost 10/5 (pg 90)</comment>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="50e1-b8c9-703d-63a5" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="4ed5-2f92-9abc-2870" value="10.0">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c96-248b-affd-e504" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="039c-5796-7006-0975" type="equalTo"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="039c-5796-7006-0975" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c90-c49c-cb5f-f996" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="da66-e2d4-5994-6055" name="Talisman of Burning Blood" hidden="false" targetId="cc89-74f2-f167-7949" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6c16-9020-267b-c959" name="Blight Grenades" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="50e1-b8c9-703d-63a5" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b1cf-c764-2ad0-c229" type="equalTo"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="b1cf-c764-2ad0-c229" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b23-c63f-e328-6220" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="5440-d99b-3b93-68a5" name="Blight Grenades" hidden="false">
+              <description>An enemy charged by one or more model&apos;s with blight grenades suffer a -1 to hit modifier in the first close combat round</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9605-263a-37b0-103a" name="Nurgle&apos;s Rot" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b1cf-c764-2ad0-c229" type="equalTo"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="b1cf-c764-2ad0-c229" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5581-49a5-9e1c-aa1a" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="c9b5-bb10-fce7-d935" name="Nurgle&apos;s Rot" hidden="false" targetId="49b9-7246-4d5f-4dac" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="bdaa-0ca0-a541-8fd4" name="Nurgling Infestation" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b1cf-c764-2ad0-c229" type="equalTo"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="b1cf-c764-2ad0-c229" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef93-e723-8b3d-a54a" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="a2b3-4034-f512-e697" name="Nurgling Infestation" hidden="false" targetId="8b1e-3bac-d92a-ddd8" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c5e7-30ef-f44f-2024" name="Plague Sword" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b1cf-c764-2ad0-c229" type="equalTo"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="b1cf-c764-2ad0-c229" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="4ed5-2f92-9abc-2870" value="25.0">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c96-248b-affd-e504" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6604-4630-4d70-1c9b" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31b8-b416-28b7-15fc" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b34f-e56f-8ee3-1c0f" name="Plague Sword" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
+                <characteristic name="S" typeId="24d8-2110-08fa-d844">As User</characteristic>
+                <characteristic name="AP" typeId="25ce-028f-0aae-2855">1</characteristic>
+                <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Melee</characteristic>
+                <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Ignore armour saves. </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="2d60-cc05-864c-bea0" name="Plague Sword" hidden="false">
+              <description>Roll a D6 for each model wounded but not killed. On a roll of 4+ the model is killed outright no matter how many wounds they have.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="21eb-6565-992e-fd1e" name="Allure of Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="50e1-b8c9-703d-63a5" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9b41-cfd0-0af7-2496" type="equalTo"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="9b41-cfd0-0af7-2496" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f4d-6431-5739-249a" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="8cea-a74d-1873-9424" name="Allure of Slaanesh" hidden="false">
+              <description>Instead of firing a weapon the model projects a siren song up to 12&quot; at a single enemy independent character or unit that is not in close combat. Make a Leadership test for the model or unit affected. If they fail they must immediately move D6&quot; toward the model, stopping 1&quot; short of any Chaos models they encounter and ignoring difficult terrain penalties.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="606b-d463-3a37-319f" name="Aura of Acquiescence" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9b41-cfd0-0af7-2496" type="equalTo"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="9b41-cfd0-0af7-2496" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f73-270f-3b25-329e" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="c424-91a3-8662-0fa2" name="Aura of Acquiescence" hidden="false" targetId="85e7-dab1-16d8-8c7e" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f020-d3af-2926-09dd" name="Combat Drugs" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9b41-cfd0-0af7-2496" type="equalTo"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="9b41-cfd0-0af7-2496" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2d1-793a-a0ec-f9da" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="d86c-8a8c-5bda-191c" name="Combat Drugs" hidden="false" targetId="13ba-bf65-1890-7200" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d7fe-833f-f96a-e770" name="Doom Siren" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fbb5-05df-bd11-7f89" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9b41-cfd0-0af7-2496" type="equalTo"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="9b41-cfd0-0af7-2496" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3dc-56f7-4e04-0743" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="094f-7618-3ac5-204e" name="Doom Siren" hidden="false" targetId="de35-83fb-4990-811a" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="16c4-fc26-91d1-468f" name="Sonic Blaser" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fbb5-05df-bd11-7f89" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9b41-cfd0-0af7-2496" type="equalTo"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="9b41-cfd0-0af7-2496" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="530f-3796-2147-a1c9" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="98e0-46d7-2167-c95f" name="Sonic Blasters" hidden="false" targetId="b3a7-4cfc-2e29-cded" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="47d3-839d-5054-761a" name="Steed of Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fbb5-05df-bd11-7f89" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="50e1-b8c9-703d-63a5" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9b41-cfd0-0af7-2496" type="equalTo"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="9b41-cfd0-0af7-2496" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6435-4325-0ce3-60cb" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="58a9-237e-74bd-c6f0" name="Steed of Slaanesh" hidden="false">
+              <description>Steed that grants Daemonic Speed and Daemonic Mutation</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="f4ea-ba5e-7eaa-96e2" name="Daemonic Mutation" hidden="false" targetId="7163-dcba-823c-993d" type="rule"/>
+            <infoLink id="1bb0-3c65-fac6-807d" name="Daemonic Speed" hidden="false" targetId="99e3-926e-3341-3425" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3b0b-4bde-6d60-77a5" name="Disc of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c24d-2aa3-9e62-b49d" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <comment>Non-Inspiring Champion Chosen</comment>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6f6b-b2ba-889f-839a" type="instanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ddac-3299-9ced-83a3" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fbb5-05df-bd11-7f89" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="50e1-b8c9-703d-63a5" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="98bc-5939-38d6-c754" type="equalTo"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="98bc-5939-38d6-c754" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f34-ee99-a14c-cfd1" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="7b64-0b43-38fc-4517" name="Disc of Tzeentch" hidden="false">
+              <description>Steed that grants Daemonic Flight and Daemonic Mutation. Cannot also have followers.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="278f-4a61-3d9f-a46b" name="Daemonic Flight" hidden="false" targetId="5826-d1ee-f676-f67d" type="rule"/>
+            <infoLink id="80f5-cd76-deca-83fd" name="Daemonic Mutation" hidden="false" targetId="7163-dcba-823c-993d" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2e6a-92c9-1601-a23f" name="Eye of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c24d-2aa3-9e62-b49d" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <comment>Non-Inspiring Champion Chosen</comment>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6f6b-b2ba-889f-839a" type="instanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ddac-3299-9ced-83a3" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="98bc-5939-38d6-c754" type="equalTo"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="98bc-5939-38d6-c754" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc96-355f-664c-2831" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="7a30-e1a9-52e0-9eb5" name="Eye of Tzeentch" hidden="false">
+              <description>The Eye allows the bearer to re-roll either a single armour save, a single to hit roll, or a single to wound roll in each of their turns.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="34db-204e-a743-e88e" name="Inferno Bolts" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c24d-2aa3-9e62-b49d" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <comment>Non-Inspiring Champion Chosen</comment>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6f6b-b2ba-889f-839a" type="instanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ddac-3299-9ced-83a3" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="98bc-5939-38d6-c754" type="equalTo"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="98bc-5939-38d6-c754" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cccb-8397-2931-d845" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="b458-4958-8f6a-ebe9" name="Inferno Bolts" hidden="false" targetId="f3f8-e997-6ca3-57d7" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="38e6-cdbb-8a92-95c4" name="Talisman of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <comment>Non-Inspiring Champion Chosen</comment>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6f6b-b2ba-889f-839a" type="instanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ddac-3299-9ced-83a3" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c24d-2aa3-9e62-b49d" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="98bc-5939-38d6-c754" type="equalTo"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="98bc-5939-38d6-c754" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78b5-da37-9c93-1197" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="c567-c293-5a0f-bf89" name="Talisman of Tzeentch" hidden="false">
+              <description>Opposing psykers suffer a -1 modifier to their Leadership for psyychic tests if the army includes a model with this talisman. The ability does not stack with other Talismans.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c153-2785-563d-1170" name="Thrall Wizard" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c24d-2aa3-9e62-b49d" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="26d7-9638-5eb0-51eb" value="0.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ee64-e381-20d6-7d84" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <comment>Non-Inspiring Champion Chosen</comment>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6f6b-b2ba-889f-839a" type="instanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ddac-3299-9ced-83a3" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="98bc-5939-38d6-c754" type="equalTo"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="true" childId="98bc-5939-38d6-c754" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26d7-9638-5eb0-51eb" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="0064-0543-2fd5-9058" name="Thrall Wizard" hidden="false">
+              <description>Thrall Wizards may be sacrificed to allow their master to use more than one power in a turn. No more than one Thrall Wizard can sacrificed by the same Sorcerer in a turn.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="4edb-05a4-6f2f-3dce" name="Thrall Wizard" hidden="false" targetId="9311-82e8-ab6a-1ee3" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="62a1-60b9-6226-b3e5" name="Chaos Marine Bike" hidden="false">
@@ -15831,7 +17104,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="S" typeId="24d8-2110-08fa-d844">5</characteristic>
         <characteristic name="AP" typeId="25ce-028f-0aae-2855">4</characteristic>
         <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 3</characteristic>
-        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Psychic Power</characteristic>
       </characteristics>
     </profile>
     <profile id="65ba-1706-40bb-5078" name="Daemon Spawn" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -15851,19 +17124,18 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
     <profile id="407d-3d2d-6d8f-2708" name="Wind of Chaos" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Template</characteristic>
-        <characteristic name="S" typeId="24d8-2110-08fa-d844">4+</characteristic>
-        <characteristic name="AP" typeId="25ce-028f-0aae-2855">1</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">N/A</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">2</characteristic>
         <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 1</characteristic>
-        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Always wounds on a 4+. Ignores armour saves.</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Psychic Power. Always wounds on a 4+.</characteristic>
       </characteristics>
     </profile>
-    <profile id="98b1-729e-d94a-450d" name="Khornate Chainaxe" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+    <profile id="98b1-729e-d94a-450d" name="Khornate Chainaxe" hidden="false" typeId="fa54-3872-dea1-df41" typeName="Melee Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
-        <characteristic name="S" typeId="24d8-2110-08fa-d844">As User</characteristic>
-        <characteristic name="AP" typeId="25ce-028f-0aae-2855">-</characteristic>
-        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Melee</characteristic>
-        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Max 4+ Armour Save allowed</characteristic>
+        <characteristic name="Type" typeId="3f50-492d-96d0-69c5">Melee</characteristic>
+        <characteristic name="Strength" typeId="1439-1344-a602-f9d9">As User</characteristic>
+        <characteristic name="Ignores Sv" typeId="1439-1344-a602-f9d8">No</characteristic>
+        <characteristic name="Abilities" typeId="a46d-26b2-96ab-913f">Any Armour Save higher than 4+ is reduced to 4+</characteristic>
       </characteristics>
     </profile>
     <profile id="0848-46cb-21e5-152e" name="Chaos Basilisk" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -16052,13 +17324,12 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
-    <profile id="a74d-1a27-f36b-1aa2" name="Manreaper" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+    <profile id="a74d-1a27-f36b-1aa2" name="Manreaper" hidden="false" typeId="fa54-3872-dea1-df41" typeName="Melee Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
-        <characteristic name="S" typeId="24d8-2110-08fa-d844">As User</characteristic>
-        <characteristic name="AP" typeId="25ce-028f-0aae-2855">1</characteristic>
-        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">As User</characteristic>
-        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Ignore armour saves. Gain +D6 attacks. Only gain 1 Attack if all attacks are against a single model.</characteristic>
+        <characteristic name="Type" typeId="3f50-492d-96d0-69c5">One-Handed</characteristic>
+        <characteristic name="Strength" typeId="1439-1344-a602-f9d9">As User</characteristic>
+        <characteristic name="Ignores Sv" typeId="1439-1344-a602-f9d8">Yes</characteristic>
+        <characteristic name="Abilities" typeId="a46d-26b2-96ab-913f">Daemon Weapon. Gain +D6 attacks unless all attacks are against a single model, in which case gain 1 extra attack.</characteristic>
       </characteristics>
     </profile>
     <profile id="de35-83fb-4990-811a" name="Doom Siren" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
@@ -16070,13 +17341,12 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Ignores cover</characteristic>
       </characteristics>
     </profile>
-    <profile id="15a1-7658-cfc9-8911" name="Lash of Torment" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+    <profile id="15a1-7658-cfc9-8911" name="Lash of Torment" hidden="false" typeId="fa54-3872-dea1-df41" typeName="Melee Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
-        <characteristic name="S" typeId="24d8-2110-08fa-d844">As User</characteristic>
-        <characteristic name="AP" typeId="25ce-028f-0aae-2855">1</characteristic>
-        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Melee</characteristic>
-        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Ignore armour saves. Can be used against models within 2&quot;.</characteristic>
+        <characteristic name="Type" typeId="3f50-492d-96d0-69c5">One-Handed</characteristic>
+        <characteristic name="Strength" typeId="1439-1344-a602-f9d9">As User</characteristic>
+        <characteristic name="Ignores Sv" typeId="1439-1344-a602-f9d8">Yes</characteristic>
+        <characteristic name="Abilities" typeId="a46d-26b2-96ab-913f">Can be used against models within 2&quot;.</characteristic>
       </characteristics>
     </profile>
     <profile id="1ea7-2c26-8ebf-d9d3" name="Bolt of Change" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
@@ -16085,25 +17355,15 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="S" typeId="24d8-2110-08fa-d844">8</characteristic>
         <characteristic name="AP" typeId="25ce-028f-0aae-2855">2</characteristic>
         <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 1</characteristic>
-        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Psychic Power</characteristic>
       </characteristics>
     </profile>
-    <profile id="3a3a-e199-e26a-f337" name="Servo-arm" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+    <profile id="3217-4c89-477a-ffb9" name="Accursed Crozius" hidden="false" typeId="fa54-3872-dea1-df41" typeName="Melee Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
-        <characteristic name="S" typeId="24d8-2110-08fa-d844">As User x2</characteristic>
-        <characteristic name="AP" typeId="25ce-028f-0aae-2855">1</characteristic>
-        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Melee</characteristic>
-        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Ignores armour saves</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="3217-4c89-477a-ffb9" name="Accursed Crozius" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
-        <characteristic name="S" typeId="24d8-2110-08fa-d844">As User</characteristic>
-        <characteristic name="AP" typeId="25ce-028f-0aae-2855">1</characteristic>
-        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Melee</characteristic>
-        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Ignore armour saves</characteristic>
+        <characteristic name="Type" typeId="3f50-492d-96d0-69c5">One-Handed</characteristic>
+        <characteristic name="Strength" typeId="1439-1344-a602-f9d9">As User</characteristic>
+        <characteristic name="Ignores Sv" typeId="1439-1344-a602-f9d8">Yes</characteristic>
+        <characteristic name="Abilities" typeId="a46d-26b2-96ab-913f"></characteristic>
       </characteristics>
     </profile>
     <profile id="b3a7-4cfc-2e29-cded" name="Sonic Blasters" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
@@ -16111,8 +17371,8 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
         <characteristic name="AP" typeId="25ce-028f-0aae-2855">5</characteristic>
-        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 2/Heavy 3</characteristic>
-        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 2 or Heavy 3</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"></characteristic>
       </characteristics>
     </profile>
     <profile id="fdb8-4462-9e77-6774" name="Blastmaster (Varied Frequency)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
@@ -16139,7 +17399,7 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
         <characteristic name="AP" typeId="25ce-028f-0aae-2855">6</characteristic>
         <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 2</characteristic>
-        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Psychic Power</characteristic>
       </characteristics>
     </profile>
     <profile id="22ab-d045-9fcc-e01f" name="Blastmaster (Single Frequency)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
@@ -16399,13 +17659,12 @@ Additionally, earn 50 Victory Points each time this power succeeds, but only ear
         <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
-    <profile id="1bf2-219f-9326-0118" name="Great Weapon" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+    <profile id="1bf2-219f-9326-0118" name="Great Weapon" hidden="false" typeId="fa54-3872-dea1-df41" typeName="Melee Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
-        <characteristic name="S" typeId="24d8-2110-08fa-d844">As User +1</characteristic>
-        <characteristic name="AP" typeId="25ce-028f-0aae-2855">-</characteristic>
-        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Two-Handed</characteristic>
-        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+        <characteristic name="Type" typeId="3f50-492d-96d0-69c5">Two-Handed</characteristic>
+        <characteristic name="Strength" typeId="1439-1344-a602-f9d9">As User +1</characteristic>
+        <characteristic name="Ignores Sv" typeId="1439-1344-a602-f9d8">No</characteristic>
+        <characteristic name="Abilities" typeId="a46d-26b2-96ab-913f"/>
       </characteristics>
     </profile>
     <profile id="0e2e-3d55-9b47-8c5c" name="Chaos Rhino" hidden="false" typeId="899d-8e8f-8774-82e0" typeName="Transport">
