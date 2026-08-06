@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3e14-94fd-04c7-0064" name="Oldhammer 40k (3rd-4th Edition (SMM Ver.))" revision="20" battleScribeVersion="2.03" authorName="Snyder &amp; Simon" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3e14-94fd-04c7-0064" name="Oldhammer 40k (3rd-4th Edition (SMM Ver.))" revision="21" battleScribeVersion="2.03" authorName="Snyder &amp; Simon" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <comment>Old ID: 96e2-b781-50d7-3d18
 New ID: 3e14-94fd-04c7-0064</comment>
   <readme>This is intended to create a catalog of Warhammer 40k at the point prior to when 4th Edition codices evolved into 5th edition style in 2008.
