@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9d6b-d195-877e-09cb" name="Space Marines (1998)" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9d6b-d195-877e-09cb" name="Space Marines (1998)" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="a527-734f-2081-58cd" name="Blood Angel" hidden="false"/>
     <categoryEntry id="5709-6bb9-f3f9-07f2" name="Sanguinary Priest" hidden="false"/>
@@ -596,15 +596,6 @@
       <infoLinks>
         <infoLink id="6b07-dcaf-0924-adab" name="Chaplain" hidden="false" targetId="0c8b-2645-5db9-f8c8" type="profile"/>
         <infoLink id="144d-abbf-43f0-14a5" name="Independent Character" hidden="false" targetId="4a60-7f7e-c37f-a4d6" type="rule"/>
-        <infoLink id="e7c3-5c69-ce0f-57e5" name="Crozius Arcanum" hidden="false" targetId="2927-357a-fc6c-42c3" type="rule">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="45a7-a086-7339-c739" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="40f4-9b03-d53a-d402" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </infoLink>
         <infoLink id="4802-8056-18b2-ad47" name="Rosarius" hidden="false" targetId="479f-929d-b531-a315" type="rule"/>
         <infoLink id="87c5-5535-a680-15d5" name="And They Shall Know No Fear" hidden="false" targetId="3f9b-513f-8f10-5cc6" type="rule">
           <modifiers>
@@ -615,6 +606,7 @@
             </modifier>
           </modifiers>
         </infoLink>
+        <infoLink id="1e88-e4ff-a8be-917a" name="Crozius Arcanum" hidden="false" targetId="8ec8-1144-1157-9603" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4225-5509-e30e-621d" name="New CategoryLink" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="true"/>
@@ -1795,8 +1787,6 @@
               </constraints>
               <infoLinks>
                 <infoLink id="f2b0-95e4-4439-fefc" name="Terminator" hidden="false" targetId="3371-0451-e7e5-82b0" type="profile"/>
-                <infoLink id="1a86-e06e-dbd2-abb2" name="Storm Bolter" hidden="false" targetId="4c6c-9de1-00a8-8016" type="profile"/>
-                <infoLink id="d155-4462-6b73-1bc1" name="Power Weapon" hidden="false" targetId="5774-7187-2616-dd8a" type="profile"/>
               </infoLinks>
               <entryLinks>
                 <entryLink id="c413-3f6d-2e59-8a94" name="Space Marine Armory" hidden="false" collective="false" import="true" targetId="bfc9-22b8-1379-3112" type="selectionEntryGroup"/>
@@ -1876,8 +1866,8 @@
             </modifierGroup>
           </modifierGroups>
           <constraints>
-            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="377b-46e9-795c-0634" type="max"/>
-            <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c6c-b345-c0c9-e5cd" type="min"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="377b-46e9-795c-0634" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c6c-b345-c0c9-e5cd" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="6ec6-6708-2600-7ad7" name="Pair of Lightning Claws" hidden="false" collective="false" import="true" type="upgrade">
@@ -5265,10 +5255,10 @@
       <infoLinks>
         <infoLink id="0333-58f2-8130-c87d" name="Chaplain Xavier" hidden="false" targetId="fc47-9a71-ac61-87d2" type="profile"/>
         <infoLink id="d578-33fb-8a07-2251" name="Bolt Pistol" hidden="false" targetId="e9ac-c779-51bb-3c9a" type="profile"/>
-        <infoLink id="c89b-0c22-2747-d481" name="Crozius Arcanum" hidden="false" targetId="2927-357a-fc6c-42c3" type="rule"/>
         <infoLink id="0aeb-444f-1499-e39c" name="Rosarius" hidden="false" targetId="479f-929d-b531-a315" type="rule"/>
         <infoLink id="c1f0-9411-391f-f2fe" name="Terminator Honors" hidden="false" targetId="bad9-31ae-7a9c-f38c" type="rule"/>
         <infoLink id="e147-34bc-6500-f5ca" name="Independent Character" hidden="false" targetId="4a60-7f7e-c37f-a4d6" type="rule"/>
+        <infoLink id="2d18-4b8c-bebb-b51b" name="Crozius Arcanum" hidden="false" targetId="8ec8-1144-1157-9603" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ab88-09e1-06b6-aa2a" name="New CategoryLink" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="true"/>
@@ -8601,6 +8591,9 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
               <entryLinks>
                 <entryLink id="cbbb-81d7-1ab0-7e4c" name="Space Marine Armory" hidden="false" collective="false" import="true" targetId="bfc9-22b8-1379-3112" type="selectionEntryGroup"/>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="c99e-fa25-1e88-7b13" name="Veteran Space Marine with Heavy Weapon" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -8695,6 +8688,9 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
               <entryLinks>
                 <entryLink id="5455-42ee-ed64-9d62" name="Space Marine Armory" hidden="false" collective="false" import="true" targetId="bfc9-22b8-1379-3112" type="selectionEntryGroup"/>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -8814,6 +8810,9 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
               <infoLinks>
                 <infoLink id="d865-881f-203b-969e" name="Long Barrelled Autocannon" hidden="false" targetId="48dc-47d4-5d34-3078" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="4b04-7020-d766-aafc" name="Twin-Linked Lascannon" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
@@ -8870,19 +8869,45 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1cd7-0fa0-52e7-af04" type="instanceOf"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ff92-8ddc-3424-5923" type="equalTo">
-                      <comment>Termi can&apos;t equip</comment>
-                    </condition>
                     <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d0ac-cb49-d41e-bba3" type="instanceOf"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ff92-8ddc-3424-5923" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dbad-96a4-9698-3c23" type="equalTo"/>
+                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2dba-a3ba-9304-6670" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1cd7-0fa0-52e7-af04" type="instanceOf"/>
                   </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="45a7-a086-7339-c739" type="instanceOf"/>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ff92-8ddc-3424-5923" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
             <modifier type="set" field="79df-a499-bcaa-05f9" value="1.0">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9362-6ad2-6818-65ee" type="equalTo"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9362-6ad2-6818-65ee" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="45a7-a086-7339-c739" type="instanceOf"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ff92-8ddc-3424-5923" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="45a7-a086-7339-c739" type="instanceOf"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dbad-96a4-9698-3c23" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -9735,6 +9760,7 @@ Add +1 to the Space Marine combat resolution socre of any assault that takes pla
           </constraints>
           <infoLinks>
             <infoLink id="7ee6-6cff-50e8-1c4c" name="Terminator Armour" hidden="false" targetId="fe7a-62df-712a-5bc5" type="rule"/>
+            <infoLink id="cbd8-e919-201d-0143" name="Terminator Honors" hidden="false" targetId="bad9-31ae-7a9c-f38c" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25.0"/>
@@ -10637,7 +10663,6 @@ Add +1 to the Space Marine combat resolution socre of any assault that takes pla
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="2927-357a-fc6c-42c3" name="Crozius Arcanum" hidden="false"/>
     <rule id="479f-929d-b531-a315" name="Rosarius" hidden="false">
       <description>Gain a 4+ invulnerable save.</description>
     </rule>

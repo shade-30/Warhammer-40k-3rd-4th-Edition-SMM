@@ -6872,5 +6872,13 @@ Units that take casualties from a plasma missile must test for pinning.</charact
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
       </characteristics>
     </profile>
+    <profile id="8ec8-1144-1157-9603" name="Crozius Arcanum" hidden="false" typeId="fa54-3872-dea1-df41" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="3f50-492d-96d0-69c5">1-H</characteristic>
+        <characteristic name="Strength" typeId="1439-1344-a602-f9d9">User</characteristic>
+        <characteristic name="Ignores Sv" typeId="1439-1344-a602-f9d8">Yes</characteristic>
+        <characteristic name="Abilities" typeId="a46d-26b2-96ab-913f"/>
+      </characteristics>
+    </profile>
   </sharedProfiles>
 </gameSystem>
