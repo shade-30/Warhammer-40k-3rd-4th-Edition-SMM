@@ -5903,13 +5903,13 @@ Haywire grenades may only be used against Dreadnoughts if the Dreadnought is imm
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
       </characteristics>
     </profile>
-    <profile id="beb4-876e-921a-2c8f" name="Hyperios Ant-Aircraft Missiles" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+    <profile id="beb4-876e-921a-2c8f" name="Hyperious Missile Launcher" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">48&quot;</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">8</characteristic>
         <characteristic name="AP" typeId="25ce-028f-0aae-2855">3</characteristic>
-        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Heavy 1/AA</characteristic>
-        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Heavy 1</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Twin-linked, AA mount</characteristic>
       </characteristics>
     </profile>
     <profile id="514a-da68-bc33-c20d" name="Autogun" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
