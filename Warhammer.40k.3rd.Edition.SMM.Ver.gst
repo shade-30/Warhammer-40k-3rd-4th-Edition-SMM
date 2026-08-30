@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3e14-94fd-04c7-0064" name="Oldhammer 40k (3rd-4th Edition (SMM Ver.))" revision="21" battleScribeVersion="2.03" authorName="Snyder &amp; Simon" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3e14-94fd-04c7-0064" name="Oldhammer 40k (3rd-4th Edition (SMM Ver.))" revision="22" battleScribeVersion="2.03" authorName="Snyder &amp; Simon" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <comment>Old ID: 96e2-b781-50d7-3d18
 New ID: 3e14-94fd-04c7-0064</comment>
   <readme>This is intended to create a catalog of Warhammer 40k at the point prior to when 4th Edition codices evolved into 5th edition style in 2008.
@@ -4207,7 +4207,7 @@ Space Marines are still subject to Last Man Standing tests. They will always reg
     </rule>
     <rule id="c7ad-9a4b-bbde-8bde" name="Drop Pods" hidden="false"/>
     <rule id="d2c6-0bb0-d830-4c62" name="Storm Shield" hidden="false">
-      <description>Grants a 4++ (Invulnerable) Save in melee.</description>
+      <description>Grants a 3++ (Invulnerable) Save in melee.</description>
     </rule>
     <rule id="3f21-57bb-fb07-54c5" name="Flyers" hidden="false"/>
     <rule id="d831-af9c-0b53-6da3" name="Super Heavy Tank" hidden="false"/>
@@ -6878,6 +6878,60 @@ Units that take casualties from a plasma missile must test for pinning.</charact
         <characteristic name="Strength" typeId="1439-1344-a602-f9d9">User</characteristic>
         <characteristic name="Ignores Sv" typeId="1439-1344-a602-f9d8">Yes</characteristic>
         <characteristic name="Abilities" typeId="a46d-26b2-96ab-913f"/>
+      </characteristics>
+    </profile>
+    <profile id="438c-add4-9ab3-e7ba" name="Boltgun (Stalker Silenced Shells)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">5</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Heavy 2</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Pinning</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4045-1ba5-219d-8ad2" name="Boltgun (Metal Storm Ammunition)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">18&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">3</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">-</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 2/Blast</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+      </characteristics>
+    </profile>
+    <profile id="97ef-79f7-6aec-ea7a" name="Boltgun (Kraken bolts)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">30&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">4</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Rapid Fire</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+      </characteristics>
+    </profile>
+    <profile id="89d9-e58d-43b0-e8b6" name="Boltgun (Inferno Bolts)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">5</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Rapid Fire</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Re-roll any failed rolls to wound.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="af50-5222-bf9d-47b5" name="Heavy Bolter (Suspensor)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">18&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">5</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">4</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 3</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+      </characteristics>
+    </profile>
+    <profile id="2c71-aa4d-eabe-8fbb" name="Heavy Bolter (Hellfire Round)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">36&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">5</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">4</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Heavy 1/Blast</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Always wounds on a 2+</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
