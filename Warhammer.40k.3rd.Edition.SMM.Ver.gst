@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3e14-94fd-04c7-0064" name="Oldhammer 40k (3rd-4th Edition (SMM Ver.))" revision="22" battleScribeVersion="2.03" authorName="Snyder &amp; Simon" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3e14-94fd-04c7-0064" name="Oldhammer 40k (3rd-4th Edition (SMM Ver.))" revision="23" battleScribeVersion="2.03" authorName="Simon (Originally Snyder)" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <comment>Old ID: 96e2-b781-50d7-3d18
 New ID: 3e14-94fd-04c7-0064</comment>
   <readme>This is intended to create a catalog of Warhammer 40k at the point prior to when 4th Edition codices evolved into 5th edition style in 2008.
@@ -6442,7 +6442,7 @@ Units that take casualties from a plasma missile must test for pinning.</charact
         <characteristic name="Type" typeId="3f50-492d-96d0-69c5">Special</characteristic>
         <characteristic name="Strength" typeId="1439-1344-a602-f9d9">User x2</characteristic>
         <characteristic name="Ignores Sv" typeId="1439-1344-a602-f9d8">Yes</characteristic>
-        <characteristic name="Abilities" typeId="a46d-26b2-96ab-913f">Makes a single attack, hitting on a 4+. independently of the Techpriests attacks.</characteristic>
+        <characteristic name="Abilities" typeId="a46d-26b2-96ab-913f">The servo-arm grants an additional close combat atack using this profile. Additional servo-arms stack.</characteristic>
       </characteristics>
     </profile>
     <profile id="a034-3878-41c3-7fc6" name="Sword of Heironymo" hidden="false" typeId="fa54-3872-dea1-df41" typeName="Melee Weapon">
