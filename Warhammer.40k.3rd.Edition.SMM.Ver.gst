@@ -6193,9 +6193,9 @@ Haywire grenades may only be used against Dreadnoughts if the Dreadnought is imm
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">6&quot;</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">8</characteristic>
-        <characteristic name="AP" typeId="25ce-028f-0aae-2855">3</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">1</characteristic>
         <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Pistol</characteristic>
-        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">2D6 Armour Pen with 3&quot;</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Inferno pistols are devastating short ranged &quot;heat rays.&quot; Melta weapons roll an extra D6 to penetrate vehicles at half range.</characteristic>
       </characteristics>
     </profile>
     <profile id="904c-8fcd-d7ac-6839" name="Eviscerator" hidden="false" typeId="fa54-3872-dea1-df41" typeName="Melee Weapon">
