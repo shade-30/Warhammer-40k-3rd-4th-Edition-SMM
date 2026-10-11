@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3e14-94fd-04c7-0064" name="Oldhammer 40k (3rd-4th Edition (SMM Ver.))" revision="23" battleScribeVersion="2.03" authorName="Simon (Originally Snyder)" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3e14-94fd-04c7-0064" name="Oldhammer 40k (3rd-4th Edition (SMM Version))" revision="25" battleScribeVersion="2.03" authorName="Simon (Originally Snyder)" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <comment>Old ID: 96e2-b781-50d7-3d18
 New ID: 3e14-94fd-04c7-0064</comment>
-  <readme>This is intended to create a catalog of Warhammer 40k at the point prior to when 4th Edition codices evolved into 5th edition style in 2008.
-Additonal content provided by Simon for the purposes of a homebrewed ruleset for Mjörn Marauders.</readme>
+  <readme>This is intended to create a comprehensive ruleset for 4th edition 40k balanced around late 3rd to early 4th edition codexes with extra materials added for further units and armies.
+Original 3rd edition files made by Snyder, the new additonal content is provided by Simon for the purposes of a homebrewed ruleset for Mjörn Marauders.</readme>
   <publications>
     <publication id="263c-b15e-84a3-a711" name="Codex Necrons (2002)" shortName="Necrons" publisher="Codex: Necrons" publicationDate="July 2002"/>
     <publication id="aca0-89fc-f496-a111" name="Chapter Approved 2004" shortName="CA04" publisher="Chapter Approved 2004" publicationDate="2004"/>
@@ -192,7 +192,7 @@ Additonal content provided by Simon for the purposes of a homebrewed ruleset for
     <categoryEntry id="3b60-8955-571e-912d" name="Open-Topped" hidden="false"/>
     <categoryEntry id="ca5d-3c3b-217c-c72d" name="Vehicle" hidden="false"/>
     <categoryEntry id="508c-c06a-3b2d-02dd" name="Skimmers" hidden="false"/>
-    <categoryEntry id="ddd4-d0a2-04f6-fba1" name="Fast Vehicles" hidden="false"/>
+    <categoryEntry id="ddd4-d0a2-04f6-fba1" name="Fast" hidden="false"/>
     <categoryEntry id="8f6c-e0de-fded-2875" name="Walkers" hidden="false"/>
     <categoryEntry id="be45-5314-4388-5bfd" name="No Force Org" hidden="false"/>
     <categoryEntry id="3cb1-645b-8bbb-3d49" name="Psyker" hidden="false"/>
@@ -4987,21 +4987,21 @@ Note: vehicles, monstrous creatures, riders on bikes (including jetbikes) and ce
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
       </characteristics>
     </profile>
-    <profile id="c7a3-7006-5226-8181" name="Lightning Claw" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
-        <characteristic name="S" typeId="24d8-2110-08fa-d844">As User</characteristic>
-        <characteristic name="AP" typeId="25ce-028f-0aae-2855">2</characteristic>
-        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Melee</characteristic>
-        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Re-Roll To Wound</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="3d19-a53f-85b3-6cf3" name="Choppa" hidden="false" typeId="fa54-3872-dea1-df41" typeName="Melee Weapon">
+    <profile id="c7a3-7006-5226-8181" name="Lightning Claw" hidden="false" typeId="fa54-3872-dea1-df41" typeName="Melee Weapon">
       <characteristics>
         <characteristic name="Type" typeId="3f50-492d-96d0-69c5">1-H</characteristic>
         <characteristic name="Strength" typeId="1439-1344-a602-f9d9">User</characteristic>
+        <characteristic name="Ignores Sv" typeId="1439-1344-a602-f9d8">Yes</characteristic>
+        <characteristic name="Abilities" typeId="a46d-26b2-96ab-913f">May re-roll any To Wound dice that fail to cause a wound.
+Can only gain bonus attack from additional CCW if a pair.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b99c-5cbe-7677-635d" name="Big Choppa" hidden="false" typeId="fa54-3872-dea1-df41" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="3f50-492d-96d0-69c5">2-H</characteristic>
+        <characteristic name="Strength" typeId="1439-1344-a602-f9d9">User +2</characteristic>
         <characteristic name="Ignores Sv" typeId="1439-1344-a602-f9d8">No</characteristic>
-        <characteristic name="Abilities" typeId="a46d-26b2-96ab-913f">Limits saving throws to 4+</characteristic>
+        <characteristic name="Abilities" typeId="a46d-26b2-96ab-913f"/>
       </characteristics>
     </profile>
     <profile id="46d5-85f2-d932-f0a2" name="Close Combat Weapon" hidden="false" typeId="fa54-3872-dea1-df41" typeName="Melee Weapon">
@@ -5061,7 +5061,7 @@ Note: vehicles, monstrous creatures, riders on bikes (including jetbikes) and ce
         <characteristic name="S" typeId="24d8-2110-08fa-d844">5</characteristic>
         <characteristic name="AP" typeId="25ce-028f-0aae-2855">5</characteristic>
         <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Heavy 1 Blast</characteristic>
-        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">When the range and scatter are rolled for a lobba, if a &quot;Hit&quot; and a 6 are rolled together a hit is scored, but one of the Gretchin krew is also killed. </characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Barrage</characteristic>
       </characteristics>
     </profile>
     <profile id="4b41-49f9-53bf-b6d2" name="Kannon (Frag)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
@@ -5219,7 +5219,8 @@ Note: vehicles, monstrous creatures, riders on bikes (including jetbikes) and ce
     </profile>
     <profile id="5c1c-6924-1f3c-f6b7" name="Photon Grenades" hidden="false" typeId="475a-9cb9-d43c-d653" typeName="Wargear">
       <characteristics>
-        <characteristic name="Description" typeId="da47-c1a4-8234-ace3">Models equipped with Photon Grenades gain no bonus attacks for charging, but still employ any special close combat attacks they gain when charging.</characteristic>
+        <characteristic name="Description" typeId="da47-c1a4-8234-ace3">Models equipped with Photon Grenades gain no bonus attacks for charging, but still employ any special close combat attacks they gain when charging.
+Used against vehicles they have an Armour Penetration of 4+D6.</characteristic>
       </characteristics>
     </profile>
     <profile id="2140-93ef-49c8-1008" name="EMP Grenades" hidden="false" typeId="475a-9cb9-d43c-d653" typeName="Wargear">
@@ -5472,7 +5473,8 @@ Haywire grenades may only be used against Dreadnoughts if the Dreadnought is imm
     </profile>
     <profile id="a1a0-7026-df47-1b84" name="Plasma Grenades" hidden="false" typeId="475a-9cb9-d43c-d653" typeName="Wargear">
       <characteristics>
-        <characteristic name="Description" typeId="da47-c1a4-8234-ace3">These grenades negate the effect of cover in close combat, so that models strike in Initiative order.</characteristic>
+        <characteristic name="Description" typeId="da47-c1a4-8234-ace3">These grenades negate the effect of cover in close combat, so that models strike in Initiative order.
+Used against vehicles they have an Armour Penetration of 6+(D6x2).</characteristic>
       </characteristics>
     </profile>
     <profile id="21df-8acc-050f-0e90" name="Terrofex" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
@@ -5593,7 +5595,7 @@ Haywire grenades may only be used against Dreadnoughts if the Dreadnought is imm
     </profile>
     <profile id="87d0-8c40-7bcb-8cbb" name="Melta Bombs" hidden="false" typeId="475a-9cb9-d43c-d653" typeName="Wargear">
       <characteristics>
-        <characteristic name="Description" typeId="da47-c1a4-8234-ace3"/>
+        <characteristic name="Description" typeId="da47-c1a4-8234-ace3">Used against vehicles they have an Armour Penetration of 8+2D6.</characteristic>
       </characteristics>
     </profile>
     <profile id="b726-76b7-0d78-59d9" name="Pulse Laser" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
@@ -5648,7 +5650,8 @@ Haywire grenades may only be used against Dreadnoughts if the Dreadnought is imm
     </profile>
     <profile id="9dd4-e950-2419-5934" name="Frag Grenades" hidden="false" typeId="475a-9cb9-d43c-d653" typeName="Wargear">
       <characteristics>
-        <characteristic name="Description" typeId="da47-c1a4-8234-ace3">Fights simultaneously vs enemies in cover. Both sides roll to hit and wound before making saves and removing casualties</characteristic>
+        <characteristic name="Description" typeId="da47-c1a4-8234-ace3">Models armed with frag grenades that are charging an enemy in or behind cover fight with Initiative 10, so they strike blows simultaneously with the defenders.
+Used against vehicles they have an Armour Penetration of 4+D6.</characteristic>
       </characteristics>
     </profile>
     <profile id="86d5-c5a0-fc04-7f5a" name="Hunter-killer Missile" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
@@ -5750,13 +5753,13 @@ Haywire grenades may only be used against Dreadnoughts if the Dreadnought is imm
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
       </characteristics>
     </profile>
-    <profile id="aa41-8a64-25c0-3aaf" name="Grot Bomb" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+    <profile id="aa41-8a64-25c0-3aaf" name="Grot Bomm" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">G24-72&quot;</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">8</characteristic>
         <characteristic name="AP" typeId="25ce-028f-0aae-2855">3</characteristic>
         <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Ordnance 1/Blast</characteristic>
-        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">One shot. Re-roll the scatter dice if you don&apos;t like the first result, but the second roll must stand.</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">One shot., Barrage, Twin-linked</characteristic>
       </characteristics>
     </profile>
     <profile id="8fab-1e56-f345-a884" name="Bomb" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
@@ -6526,7 +6529,7 @@ Units that take casualties from a plasma missile must test for pinning.</charact
     </profile>
     <profile id="9c1b-bf93-059b-27f5" name="Krak Grenades" hidden="false" typeId="475a-9cb9-d43c-d653" typeName="Wargear">
       <characteristics>
-        <characteristic name="Description" typeId="da47-c1a4-8234-ace3"/>
+        <characteristic name="Description" typeId="da47-c1a4-8234-ace3">Used against vehicles they have an Armour Penetration of 6+D6.</characteristic>
       </characteristics>
     </profile>
     <profile id="a69d-1602-a4d4-ad6b" name="Airbursting Fragmentation Projector" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
@@ -6851,7 +6854,7 @@ Units that take casualties from a plasma missile must test for pinning.</charact
         <characteristic name="Type" typeId="3f50-492d-96d0-69c5">2-H</characteristic>
         <characteristic name="Strength" typeId="1439-1344-a602-f9d9">User</characteristic>
         <characteristic name="Ignores Sv" typeId="1439-1344-a602-f9d8">Yes</characteristic>
-        <characteristic name="Abilities" typeId="a46d-26b2-96ab-913f">+2 Attack</characteristic>
+        <characteristic name="Abilities" typeId="a46d-26b2-96ab-913f">+2 Attacks</characteristic>
       </characteristics>
     </profile>
     <profile id="bf44-ad2b-82fd-52fd" name="Spinneret Rifle" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
@@ -6932,6 +6935,217 @@ Units that take casualties from a plasma missile must test for pinning.</charact
         <characteristic name="AP" typeId="25ce-028f-0aae-2855">4</characteristic>
         <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Heavy 1/Blast</characteristic>
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Always wounds on a 2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ef24-8946-a9ce-6733" name="Tankbusta Bombz" hidden="false" typeId="475a-9cb9-d43c-d653" typeName="Wargear">
+      <characteristics>
+        <characteristic name="Description" typeId="da47-c1a4-8234-ace3">Used against vehicles they have an Armour Penetration of 6+(D6x2).</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3d19-a53f-85b3-6cf3" name="&apos;Eavy Choppa" hidden="false" typeId="fa54-3872-dea1-df41" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="3f50-492d-96d0-69c5">1-H</characteristic>
+        <characteristic name="Strength" typeId="1439-1344-a602-f9d9">User</characteristic>
+        <characteristic name="Ignores Sv" typeId="1439-1344-a602-f9d8">No</characteristic>
+        <characteristic name="Abilities" typeId="a46d-26b2-96ab-913f">Limits saving throws to 4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="315b-c0a7-a51b-afdd" name="Shokk Attack Gun" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">60&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">2D6</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">2</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Ordnance 1/Blast</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">The Shokk Attack Gun is treated as Heavy for the purposes of movement and assault.
+Roll 2D6 to determine the Strength after placing the template but before rolling the Scatter dice. If a double (or an 11) is rolled for the gun&amp;apos;s Strength, consult the chart below:
+1,1 - Boom: No shot is fired. Remove the Mek as a casualty. Models within D6&amp;quot; are removed from play.
+2,2 - Oops: The opponent may choose the target of the shokk attack gun this turn. This may be a unit on the same side as the Mek.
+3,3 - Gah: Resolve this shot upon the nearest unit to the intended target, be it friend or foe.
+4,4 - Sploosh: Resolve the attack upon the target, but use the small template. Any hits are resolved with a Strength and AP of 6.
+5,5 - Zoink: No shot is fired. Immediately place the Mek in base contact with the target, and treat him as if he had initiated an assault that turn.
+5,6 - Bzzap: Only the model under the template hole is hit, but the shot is Strength 10. The gun may not fire next turn.
+6,6 - Raargh: Any model hit by the gun from this turn is removed from play. Vehicles take an automatic penetrating hit.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8af2-a75e-84d4-f4f9" name="Frag Stikkbombz" hidden="false" typeId="475a-9cb9-d43c-d653" typeName="Wargear">
+      <characteristics>
+        <characteristic name="Description" typeId="da47-c1a4-8234-ace3">Models armed with frag grenades that are charging an enemy in or behind cover fight with Initiative 10, so they strike blows simultaneously with the defenders.
+Used against vehicles they have an Armour Penetration of 4+D6.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="325f-54a4-6717-c716" name="Krak Stikkbombz" hidden="false" typeId="475a-9cb9-d43c-d653" typeName="Wargear">
+      <characteristics>
+        <characteristic name="Description" typeId="da47-c1a4-8234-ace3">Used against vehicles they have an Armour Penetration of 6+D6.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d38f-683f-b3dd-db50" name="Boomgun" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">36&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">8</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">3</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Ordnance 1/Blast</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+      </characteristics>
+    </profile>
+    <profile id="ca1d-f98f-bd62-f4b9" name="Big-Lobba" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">G48&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">6</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">4</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Ordnance 1/Blast</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Barrage</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="aa64-eebc-56e7-28b3" name="Supa-Skorcha" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Template</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">6</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">4</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 1</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+      </characteristics>
+    </profile>
+    <profile id="c221-396b-cc51-25d2" name="Supa-Kannon" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">60&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">9</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">3</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Ordnance 1/Blast</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+      </characteristics>
+    </profile>
+    <profile id="eb6f-fdbc-6016-e216" name="Big-Zzappa" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">2D6</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">2</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Heavy D3</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Zzap Guns automatically hit a single unit within range and line of sight. Roll a 2D6 to determine the strength of each hit (up to S10). On a roll of 11 or 12 the weapon overheats. No hit is scored and instead a Gretchin krew is killed. Against vehicles the gun rolls its Strength as normal, and then adds 2D6 to the armor penetration roll.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="02fc-cd78-b701-54a7" name="Deffgun" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">48&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">7</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">4</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Heavy D3</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Roll once for the entire unit to determine rate of fire, but only after the target unit has been chosen.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4f23-f63f-80d2-db37" name="Snazzguns" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">5</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">D6</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 1</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Roll once for the entire unit to determine AP, but only after the target unit has been chosen.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2b85-1a32-c4df-cbb8" name="&apos;Uge Choppa" hidden="false" typeId="fa54-3872-dea1-df41" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="3f50-492d-96d0-69c5">2-H</characteristic>
+        <characteristic name="Strength" typeId="1439-1344-a602-f9d9">User +2</characteristic>
+        <characteristic name="Ignores Sv" typeId="1439-1344-a602-f9d8">No</characteristic>
+        <characteristic name="Abilities" typeId="a46d-26b2-96ab-913f">Strikes Last, Limits saving throws to 4+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="565f-4f20-e33f-39c6" name="Supa-Rokkit" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">72&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">8</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">3</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Heavy 1</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">One shot, Always hits on a 2+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e5a9-9c05-0420-0228" name="Supa-Lobba" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">G48&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">8</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">4</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Ordnance 1/Blast</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Barrage</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a128-1d88-e707-4436" name="Tankhammer" hidden="false" typeId="fa54-3872-dea1-df41" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="3f50-492d-96d0-69c5">2-H</characteristic>
+        <characteristic name="Strength" typeId="1439-1344-a602-f9d9">Fixed 10</characteristic>
+        <characteristic name="Ignores Sv" typeId="1439-1344-a602-f9d8">No</characteristic>
+        <characteristic name="Abilities" typeId="a46d-26b2-96ab-913f"/>
+      </characteristics>
+    </profile>
+    <profile id="cc81-a743-ca5c-6e36" name="Dakkagun" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">18&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">5</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">5</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 3</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+      </characteristics>
+    </profile>
+    <profile id="7665-25af-1eae-6b52" name="Grot-Prod" hidden="false" typeId="fa54-3872-dea1-df41" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="3f50-492d-96d0-69c5">1-H</characteristic>
+        <characteristic name="Strength" typeId="1439-1344-a602-f9d9">User</characteristic>
+        <characteristic name="Ignores Sv" typeId="1439-1344-a602-f9d8">No</characteristic>
+        <characteristic name="Abilities" typeId="a46d-26b2-96ab-913f">Poisoned (4+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3fb3-9799-defc-fed6" name="Grabba Stick" hidden="false" typeId="fa54-3872-dea1-df41" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="3f50-492d-96d0-69c5">1-H</characteristic>
+        <characteristic name="Strength" typeId="1439-1344-a602-f9d9">User</characteristic>
+        <characteristic name="Ignores Sv" typeId="1439-1344-a602-f9d8">No</characteristic>
+        <characteristic name="Abilities" typeId="a46d-26b2-96ab-913f">A single model in base contact of the weilder loses an Attack (to a minimum of 1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1f85-2088-93d9-b87d" name="Kill Saw" hidden="false" typeId="fa54-3872-dea1-df41" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="3f50-492d-96d0-69c5">1-H</characteristic>
+        <characteristic name="Strength" typeId="1439-1344-a602-f9d9">User x2</characteristic>
+        <characteristic name="Ignores Sv" typeId="1439-1344-a602-f9d8">Yes</characteristic>
+        <characteristic name="Abilities" typeId="a46d-26b2-96ab-913f">Strikes Last, Rolls 2D6 for armour penetration.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0875-ebe4-8c92-4cbc" name="&apos;Urty Syringe" hidden="false" typeId="fa54-3872-dea1-df41" typeName="Melee Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="3f50-492d-96d0-69c5">1-H</characteristic>
+        <characteristic name="Strength" typeId="1439-1344-a602-f9d9">User</characteristic>
+        <characteristic name="Ignores Sv" typeId="1439-1344-a602-f9d8">No</characteristic>
+        <characteristic name="Abilities" typeId="a46d-26b2-96ab-913f">Poisoned (4+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5a37-c0fa-21a8-fc2a" name="Supa-Stikkbombz" hidden="false" typeId="475a-9cb9-d43c-d653" typeName="Wargear">
+      <characteristics>
+        <characteristic name="Description" typeId="da47-c1a4-8234-ace3">Used against vehicles they have an Armour Penetration of 10+2D6. On a roll of double ones the attack is resolved like normal but the Mekboy using them sufffers a wound that may attempt to be saved as normal.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0575-2d24-6cb2-8d68" name="Rattler Kannon" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">6</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Heavy 2D6</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Jam!: If a double 1 is rolled when determing the number of shots fired, the weapon is jammed and considered Weapon Destroyed. (This can be fixed as normal by a Mek.)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4b02-3097-76e3-1da3" name="Supa-Shoota" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">36&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">6</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">4</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 3</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+      </characteristics>
+    </profile>
+    <profile id="6d28-4a3f-af88-45ab" name="Deffstorm Mega-Shoota" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">36&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">5</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">5</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Heavy 3D6</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
       </characteristics>
     </profile>
   </sharedProfiles>
