@@ -1,0 +1,1227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="e02d-bedc-d3e3-4ddb" name="Looted Vehicles" revision="1" battleScribeVersion="2.03" authorName="Simon Sultan" library="true" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry id="a72d-4efc-37f6-d7a1" name="Looted Basilisk" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="a7c9-0677-675e-d5cb" name="Looted Basilisk" hidden="false" targetId="a66f-27fd-0dde-d975" type="profile"/>
+        <infoLink id="8ab4-f689-0e33-3ca8" name="Open-Topped" hidden="false" targetId="4795-fd7c-2846-78ba" type="rule"/>
+        <infoLink id="b6d8-7199-58d3-f039" name="Supa-Kannon" hidden="false" targetId="c221-396b-cc51-25d2" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="496d-b909-e987-534c" name="Open-Topped" hidden="false" targetId="3b60-8955-571e-912d" primary="false"/>
+        <categoryLink id="08eb-7dec-efc1-63e2" name="Vehicle" hidden="false" targetId="ca5d-3c3b-217c-c72d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="68ae-e73f-764a-047b" name="Ork Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="c96f-43cd-af76-7458" type="selectionEntryGroup"/>
+        <entryLink id="caef-a2d7-ddb7-44f0" name="Hull Weapon" hidden="false" collective="false" import="true" targetId="9955-b999-81a5-3c6d" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ab80-6976-cc9c-a945" name="Looted Chimera" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="189b-68a9-6a3d-6da3" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="806a-aed7-3a9c-80cb" name="Looted Chimera" hidden="false" targetId="b28d-a2ae-9fa3-94bb" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8d22-abd0-c048-6218" name="Vehicle" hidden="false" targetId="ca5d-3c3b-217c-c72d" primary="false"/>
+        <categoryLink id="91e3-ab42-cbca-f33d" name="Dedicated Transport" hidden="false" targetId="a090-a855-c7de-f5c3" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="05bc-ebd8-2d16-5324" name="Turret Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69c4-3cae-0b9c-3ec1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5a7-d774-c0da-2025" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b5a2-c453-886b-5453" name="Big Shoota" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3fc-ed3c-1866-9958" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="5d7d-d7bf-dbb3-e1e4" name="Big Shoota" hidden="false" targetId="b467-e518-11c9-c23a" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4482-7860-57d9-b473" name="Skorcha" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6960-b0ad-10c2-dad9" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="3bc3-5270-beb8-6e00" name="Skorcha" hidden="false" targetId="a162-3683-bca7-8f2c" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7c97-6b7d-820b-f451" name="Rokkit Launcha" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbd1-67a0-c6d9-323f" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="4ee2-449a-1226-b1a3" name="Rokkit Launcha" hidden="false" targetId="56b9-9d7d-bfdf-0ef7" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="dc33-afc4-faaf-c8b2" name="Kustom Mega-blasta" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abd8-b9cf-1349-d1f8" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="0e58-ab6f-b4f3-3ee8" name="Kustom Mega-Blasta" hidden="false" targetId="86d5-d376-96e9-edd2" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9566-01e9-03d0-83de" name="Twin-linked Big Shoota" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e11c-4caa-8ed2-816d" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="0bb4-6963-cd81-d9c6" name="Big Shoota" hidden="false" targetId="b467-e518-11c9-c23a" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Twin-linked Big Shoota"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="19eb-9604-d239-1e3d" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bf43-d333-fcfe-8c06" name="Twin-linked Rokkit Launcha" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49df-870d-64be-98af" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="f601-8c3a-7f5e-5c93" name="Rokkit Launcha" hidden="false" targetId="56b9-9d7d-bfdf-0ef7" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Twin-linked Rokkit Launcha"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="fc44-e7e2-7bcb-a089" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c603-03c1-a52b-f845" name="Zzap Gun" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b88-f109-7b32-af7d" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="95a0-b65c-d900-4aa8" name="Zzap Gun" hidden="false" targetId="1687-221e-1a62-e1f6" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3267-2539-32ec-4853" name="Deffgun" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09e7-d2b7-8877-dfd5" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="8bb6-0933-9320-5a7b" name="Deffguns" hidden="false" targetId="02fc-cd78-b701-54a7" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="a4fb-0230-d1a8-fdd3" name="Ork Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="c96f-43cd-af76-7458" type="selectionEntryGroup"/>
+        <entryLink id="2709-b044-97f7-2b00" name="Hull Weapon" hidden="false" collective="false" import="true" targetId="9955-b999-81a5-3c6d" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6bd8-67b7-8884-0433" name="Looted Hellhound" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0eb9-ab57-6e18-456d" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="91d1-1d00-1c2c-59bd" name="Looted Hellhound" hidden="false" targetId="40cd-72cd-fd44-018b" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c9f8-cefd-084c-0020" name="Fast" hidden="false" targetId="ddd4-d0a2-04f6-fba1" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b76c-1db3-25c4-ae5f" name="Turret Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29e5-83a1-0b6d-d405" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0747-49e3-8e33-2ba3" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="757f-afa8-809e-d3b2" name="Big-zzappa" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d7d-77fa-08e5-e8e1" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="e2e2-08c2-c574-1a13" name="Big-Zzappa" hidden="false" targetId="eb6f-fdbc-6016-e216" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3bc3-b7bb-e26e-b0d1" name="Skorcha" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36a3-13c3-8476-6b46" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="9b65-7fb4-6f78-0d97" name="Skorcha" hidden="false" targetId="a162-3683-bca7-8f2c" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fe01-f086-a00f-6c6e" name="Supa-Skorcha" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de19-4707-8c22-c466" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="e1ef-7075-61d5-8229" name="Supa-Skorcha" hidden="false" targetId="aa64-eebc-56e7-28b3" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="16a7-2461-a680-0586" name="Zzap Gun" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="306a-3e8b-d989-249c" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="1c6d-e049-bbdd-a59d" name="Zzap Gun" hidden="false" targetId="1687-221e-1a62-e1f6" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f88d-02af-b294-bea5" name="Ork Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="c96f-43cd-af76-7458" type="selectionEntryGroup"/>
+        <entryLink id="ce0c-c294-5535-305a" name="Hull Weapon" hidden="false" collective="false" import="true" targetId="9955-b999-81a5-3c6d" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="105.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dc0b-fdff-c7c6-aed2" name="Looted Land Raider" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f50-8b85-6969-a3ba" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="5a3b-e803-88ee-687e" name="Looted Land Raider Chassi" hidden="false" targetId="21a1-ca4d-10b1-eed1" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="631b-e7e5-7e99-3321" name="Vehicle" hidden="false" targetId="ca5d-3c3b-217c-c72d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="3c65-899a-d65c-d556" name="Ork Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="c96f-43cd-af76-7458" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="250.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="749f-a33e-15da-845b" name="Looted Leman Russ" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4890-1136-1e9b-fc24" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="fd25-a097-89a1-7edf" name="Looted Leman Russ" hidden="false" targetId="b6a3-b1c9-e979-6db7" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="68ef-5ff6-a66c-2a6f" name="Vehicle" hidden="false" targetId="ca5d-3c3b-217c-c72d" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="cf4e-821e-49c4-1782" name="Turret Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30d7-56ce-2a05-9440" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a758-37e0-57bc-bffa" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d83f-860f-cba3-fe75" name="Boomgun (Battle Tank)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f62-7d38-dd5f-8873" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="3e25-f183-b1b4-d2cf" name="Boomgun" hidden="false" targetId="d38f-683f-b3dd-db50" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="81d7-3187-9862-296b" name="Twin-linked Deffguns (Exterminator)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="356d-b96c-6392-2009" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="8794-48a8-e2a9-494d" name="Deffguns" hidden="false" targetId="02fc-cd78-b701-54a7" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Twin-linked Deffguns"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4193-66aa-dd30-6849" name="Zzap Gun" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da28-c507-fae3-e67b" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="384f-f088-c49e-7187" name="Zzap Gun" hidden="false" targetId="1687-221e-1a62-e1f6" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9fbb-4629-49ee-1b53" name="Kustom Mega-Kannon (Executioner)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d1d-4562-c320-30fc" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="0d93-46c3-69ce-98c0" name="Kustom Mega-Kannon" hidden="false" targetId="c9f3-e6ca-ad08-2b44" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fb15-4139-675a-95ac" name="Kannon &amp; Big Shoota (Vanquisher)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91f9-42f9-f2af-5ac8" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="c7fe-d6ca-6e8a-9f68" name="Kannon (Shell)" hidden="false" targetId="19db-f2cc-cdd7-d751" type="profile"/>
+                <infoLink id="3075-6912-6f80-38fc" name="Kannon (Frag)" hidden="false" targetId="4b41-49f9-53bf-b6d2" type="profile"/>
+                <infoLink id="a391-e042-a2f7-588a" name="Big Shoota" hidden="false" targetId="b467-e518-11c9-c23a" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a384-9a3c-bae6-6130" name="Twin-linked Kustom Mega-Blasta (Annihilator)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74f2-7d05-69ba-ae01" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="7dc5-7155-2051-357f" name="Kustom Mega-Blasta" hidden="false" targetId="86d5-d376-96e9-edd2" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Twin-linked Kustom Mega-Blasta"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="00fe-a93c-63d2-f0b6" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="40.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="224a-7aa4-a6f2-a973" name="Ork Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="c96f-43cd-af76-7458" type="selectionEntryGroup"/>
+        <entryLink id="5354-96bb-2c10-dbf3" name="Sponson Weapons" hidden="false" collective="false" import="true" targetId="8659-4fa8-9ea7-2a13" type="selectionEntryGroup"/>
+        <entryLink id="644d-8b1e-633c-950d" name="Hull Weapon" hidden="false" collective="false" import="true" targetId="9955-b999-81a5-3c6d" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="90.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a702-dac3-285e-088e" name="Looted Predator" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f36b-4b41-d506-90d6" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="f6a6-f7bf-b805-8495" name="Looted Predator Chassi" hidden="false" targetId="1e02-b16b-2d3c-0d82" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3450-8fd4-850d-b73c" name="Vehicle" hidden="false" targetId="ca5d-3c3b-217c-c72d" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="005d-760f-1c77-0575" name="Turret Weapon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c943-3d46-1b23-24cd" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b84e-da6e-fcb4-2b90" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="9328-dd82-dc55-729f" name="Kannon" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41b9-1ab3-e7e0-2c34" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="948c-0d5c-2e38-27e8" name="Kannon (Shell)" hidden="false" targetId="19db-f2cc-cdd7-d751" type="profile"/>
+                <infoLink id="f80d-4e28-f1ff-acd6" name="Kannon (Frag)" hidden="false" targetId="4b41-49f9-53bf-b6d2" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7823-a7b4-971f-f310" name="Zzap Gun" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="335a-2771-3b24-1eb4" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="7fb9-7470-c1b1-679b" name="Zzap Gun" hidden="false" targetId="1687-221e-1a62-e1f6" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7c70-34b2-81bd-c05c" name="Twin-linked Kustom Mega-Blasta" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f581-7e9c-8a79-3ea8" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="4aa0-838d-82dd-5e99" name="Kustom Mega-Blasta" hidden="false" targetId="86d5-d376-96e9-edd2" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Twin-linked Kustom Mega-Blasta"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="05c6-6ec9-e4cd-d880" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="40.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e798-6993-84c5-cb12" name="Deffgun" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f5f-c152-17cd-3ce4" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="455f-b351-7fcb-db86" name="Deffguns" hidden="false" targetId="02fc-cd78-b701-54a7" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="0ee8-8f1f-4f13-be59" name="Ork Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="c96f-43cd-af76-7458" type="selectionEntryGroup"/>
+        <entryLink id="91e4-bffa-c30a-54d1" name="Sponson Weapons" hidden="false" collective="false" import="true" targetId="8659-4fa8-9ea7-2a13" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="93dd-8326-d541-fd36" name="Looted Rhino" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="a6fa-1dce-3e65-d45c" name="Looted Rhino" hidden="false" targetId="454f-2293-e1b7-4a2c" type="profile"/>
+        <infoLink id="85d6-f314-41ef-5113" name="Big Shoota" hidden="false" targetId="b467-e518-11c9-c23a" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8a77-6101-3575-5364" name="Vehicle" hidden="false" targetId="ca5d-3c3b-217c-c72d" primary="false"/>
+        <categoryLink id="6d82-1f2c-051b-263a" name="Dedicated Transport" hidden="false" targetId="a090-a855-c7de-f5c3" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b1cf-0b43-06dd-e41f" name="Ork Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="c96f-43cd-af76-7458" type="selectionEntryGroup"/>
+        <entryLink id="2de3-9690-ecf1-692c" name="Pintle-Mounted Weapon" hidden="false" collective="false" import="true" targetId="e860-5c67-17d4-8257" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7185-eb61-2c08-56be" name="Looted Razorback" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="e9a8-0729-167d-ea58" name="Looted Rhino Chassi" hidden="false" targetId="454f-2293-e1b7-4a2c" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4a76-033f-4ed3-2887" name="Vehicle" hidden="false" targetId="ca5d-3c3b-217c-c72d" primary="false"/>
+        <categoryLink id="90dd-d2dd-c84e-4b3e" name="Dedicated Transport" hidden="false" targetId="a090-a855-c7de-f5c3" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="1a08-8933-e701-a748" name="Turret Weapon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bc2-16a6-ebd1-ead9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12b3-0ef7-94cb-c1b2" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="f6a8-a9ca-38e4-712d" name="Zzap Gun" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30ec-a562-e567-9717" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="be57-5442-d70c-d822" name="Zzap Gun" hidden="false" targetId="1687-221e-1a62-e1f6" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ecdf-33e9-6a9a-92c1" name="Twin-linked Kustom Mega-Blasta" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1910-9037-7a66-e84e" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="bd3e-6c18-bdaa-9503" name="Kustom Mega-Blasta" hidden="false" targetId="86d5-d376-96e9-edd2" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Twin-linked Kustom Mega-Blasta"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="8f24-0107-1ee6-74c9" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="40.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="33dd-4e74-c21e-9137" name="Twin-linked Rokkit Launcha" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2710-2418-3653-3a6d" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="f201-1083-dc60-071f" name="Rokkit Launcha" hidden="false" targetId="56b9-9d7d-bfdf-0ef7" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Twin-linked Rokkit Launcha"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="6b5f-bfb8-3274-fdcc" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7ae6-08b4-e961-513b" name="Twin-linked Big Shoota" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f048-6b83-243f-b343" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="b5f1-b5c9-e9bc-b22b" name="Big Shoota" hidden="false" targetId="b467-e518-11c9-c23a" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Twin-linked Big Shoota"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="0feb-a3a6-bf8f-9804" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="2385-6c18-826b-7eff" name="Ork Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="c96f-43cd-af76-7458" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2136-cdb3-4414-2c9f" name="Looted Wyvern" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="6365-1083-e11b-1390" name="Looted Wyvern" hidden="false" targetId="f947-02af-4941-8a94" type="profile"/>
+        <infoLink id="5ab2-82f3-8942-0bdc" name="Open-Topped" hidden="false" targetId="4795-fd7c-2846-78ba" type="rule"/>
+        <infoLink id="4149-fe3a-0a61-c3f4" name="Lobba" hidden="false" targetId="db47-7114-1dc5-719f" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="2x Lobba"/>
+            <modifier type="set" field="name" value="Heavy 2, Blast"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e5bb-8a7a-a1a0-5ba5" name="Open-Topped" hidden="false" targetId="3b60-8955-571e-912d" primary="false"/>
+        <categoryLink id="0700-10e7-69a5-c182" name="Vehicle" hidden="false" targetId="ca5d-3c3b-217c-c72d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7c96-3cb7-819b-a8ca" name="Ork Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="c96f-43cd-af76-7458" type="selectionEntryGroup"/>
+        <entryLink id="feab-6e51-69a1-dd55" name="Hull Weapon" hidden="false" collective="false" import="true" targetId="9955-b999-81a5-3c6d" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4f8d-46e2-824e-b755" name="Looted Medusa" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="4803-6dc4-ca99-7e68" name="Looted Basilisk Chassi" hidden="false" targetId="65cb-b42d-2732-bd49" type="profile"/>
+        <infoLink id="cf19-56a5-4bd5-900a" name="Supa-Lobba" hidden="false" targetId="e5a9-9c05-0420-0228" type="profile"/>
+        <infoLink id="5b39-121b-c4c6-82f5" name="Open-Topped" hidden="false" targetId="4795-fd7c-2846-78ba" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f912-859f-17b2-7ed1" name="Open-Topped" hidden="false" targetId="3b60-8955-571e-912d" primary="false"/>
+        <categoryLink id="9351-31fe-f650-b30d" name="Vehicle" hidden="false" targetId="ca5d-3c3b-217c-c72d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c2df-1c19-e169-51d6" name="Ork Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="c96f-43cd-af76-7458" type="selectionEntryGroup"/>
+        <entryLink id="34fe-4a01-6e23-8f70" name="Hull Weapon" hidden="false" collective="false" import="true" targetId="9955-b999-81a5-3c6d" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="95.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4e76-f6cc-4c16-2e27" name="Looted Manticore" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="8c43-954c-3128-4b4e" name="Looted Manticore" hidden="false" targetId="65cb-b42d-2732-bd49" type="profile"/>
+        <infoLink id="ecc5-ae0f-e729-c1dc" name="Open-Topped" hidden="false" targetId="4795-fd7c-2846-78ba" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5539-7721-3677-5f16" name="Open-Topped" hidden="false" targetId="3b60-8955-571e-912d" primary="false"/>
+        <categoryLink id="114d-10e9-8fb7-d598" name="Vehicle" hidden="false" targetId="ca5d-3c3b-217c-c72d" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="9524-ee64-f337-25c1" name="Big Gunz" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="114e-9f7f-2ac3-c8f9" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="002e-f7f1-d2ab-cf83" name="Main Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2a2-15fa-67b0-10c5" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e4e2-9152-4d96-9f29" name="4x Grot Bomm" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fda9-25f5-c531-6dd8" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="1976-97f9-0af2-e0af" name="Grot Bomb" hidden="false" targetId="aa41-8a64-25c0-3aaf" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="80.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3a2c-3400-af64-4cca" name="4x Supa-Rokkit" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62a7-41e9-10fe-7619" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="a746-e7fc-5fea-a7cc" name="Supa-Rokkit" hidden="false" targetId="565f-4f20-e33f-39c6" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="60.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b93f-11ec-a0bc-ab83" name="Ork Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="c96f-43cd-af76-7458" type="selectionEntryGroup"/>
+        <entryLink id="f197-acfb-97be-afc1" name="Hull Weapon" hidden="false" collective="false" import="true" targetId="9955-b999-81a5-3c6d" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c988-56ff-f3cc-83d1" name="Looted Hydra" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="4503-c6e9-ee90-e59d" name="Looted Hydra" hidden="false" targetId="15ae-db34-0eec-15a8" type="profile"/>
+        <infoLink id="3842-0875-ed02-8c48" name="Open-Topped" hidden="false" targetId="4795-fd7c-2846-78ba" type="rule"/>
+        <infoLink id="d968-1bc0-0d02-1ed2" name="Flakka-Gunz" hidden="false" targetId="cf9a-fd1f-07fb-1609" type="profile"/>
+        <infoLink id="ba3d-324e-f3b1-14aa" name="Anti-Aircraft Mount" hidden="false" targetId="2dca-27d7-d779-65f4" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9191-2194-eb32-231b" name="Open-Topped" hidden="false" targetId="3b60-8955-571e-912d" primary="false"/>
+        <categoryLink id="e7ad-cb5e-6039-233b" name="Vehicle" hidden="false" targetId="ca5d-3c3b-217c-c72d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1820-5df3-1b5e-9442" name="Ork Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="c96f-43cd-af76-7458" type="selectionEntryGroup"/>
+        <entryLink id="f55b-aee0-f7aa-7005" name="Hull Weapon" hidden="false" collective="false" import="true" targetId="9955-b999-81a5-3c6d" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="95.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="77bb-fe03-133c-249f" name="Looted Griffon" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="5277-0f4f-1143-d9e3" name="Looted Griffon" hidden="false" targetId="597c-37c6-c638-4de4" type="profile"/>
+        <infoLink id="456d-6023-12d1-5b29" name="Open-Topped" hidden="false" targetId="4795-fd7c-2846-78ba" type="rule"/>
+        <infoLink id="3b80-5628-5822-8c1a" name="Big-Lobba" hidden="false" targetId="ca1d-f98f-bd62-f4b9" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d2eb-4b85-64de-7f64" name="Open-Topped" hidden="false" targetId="3b60-8955-571e-912d" primary="false"/>
+        <categoryLink id="8b68-0d4d-3d61-baab" name="Vehicle" hidden="false" targetId="ca5d-3c3b-217c-c72d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d16f-aa59-e63a-512f" name="Ork Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="c96f-43cd-af76-7458" type="selectionEntryGroup"/>
+        <entryLink id="d0ce-3d7e-2d35-7320" name="Hull Weapon" hidden="false" collective="false" import="true" targetId="9955-b999-81a5-3c6d" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="49b0-a9e7-28fe-9a99" name="Looted Leman Russ Demolisher" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c28-618c-04ce-569b" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="9d62-6174-8f6c-9656" name="Looted Leman Russ" hidden="false" targetId="b6a3-b1c9-e979-6db7" type="profile"/>
+        <infoLink id="108e-0e81-3fb5-dc29" name="Killkannon" hidden="false" targetId="d3a8-5095-65d3-f66a" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="db3a-c686-2ce4-1d4e" name="Vehicle" hidden="false" targetId="ca5d-3c3b-217c-c72d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0fbc-aef5-174c-5ef2" name="Ork Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="c96f-43cd-af76-7458" type="selectionEntryGroup"/>
+        <entryLink id="1240-fb02-453a-2398" name="Sponson Weapons" hidden="false" collective="false" import="true" targetId="8659-4fa8-9ea7-2a13" type="selectionEntryGroup"/>
+        <entryLink id="7fdc-f0ed-1654-9893" name="Hull Weapon" hidden="false" collective="false" import="true" targetId="9955-b999-81a5-3c6d" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a25c-ef47-0ceb-0deb" name="Looted Whirlwind" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="3eec-b356-b2a2-1f9e" name="Looted Whirlwind" hidden="false" targetId="f04f-a615-9c11-cfeb" type="profile"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8688-43f1-aebd-6088" name="Main Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff24-eb08-2c99-b30e" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4911-fa31-73d7-6e43" name="4x Grot Bomm" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19c1-29a3-b9a4-a037" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="484d-2583-8b47-047e" name="Grot Bomb" hidden="false" targetId="aa41-8a64-25c0-3aaf" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="80.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d266-5df5-eeec-773d" name="4x Supa-Rokkit" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edd7-ccbf-ffbf-18a1" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="dcac-d0cf-a140-cb37" name="Supa-Rokkit" hidden="false" targetId="565f-4f20-e33f-39c6" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="60.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="8674-c3d5-1add-4255" name="Ork Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="c96f-43cd-af76-7458" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f97b-d8ac-d41f-56b3" name="Looted Vindicator" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="91bb-b049-a0e4-6c98" name="Looted Vindicator" hidden="false" targetId="78e7-219a-6273-0989" type="profile"/>
+        <infoLink id="8253-81ba-f0dd-03b6" name="Killkannon" hidden="false" targetId="d3a8-5095-65d3-f66a" type="profile"/>
+        <infoLink id="68cb-8d34-2669-ead7" name="Big Shoota" hidden="false" targetId="b467-e518-11c9-c23a" type="profile"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="34d8-0588-2446-8bb1" name="Ork Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="c96f-43cd-af76-7458" type="selectionEntryGroup"/>
+        <entryLink id="15a7-661f-476b-54da" name="Pintle-Mounted Weapon" hidden="false" collective="false" import="true" targetId="e860-5c67-17d4-8257" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="125.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="c96f-43cd-af76-7458" name="Ork Vehicle Upgrades" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="6a5c-da38-6643-b8d7" name="Armor Plates" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55b1-a746-9665-c327" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="d7df-9a64-35f3-57c6" name="Armor Plates" hidden="false">
+              <description>Roll a D6 for each glancing or penetrating hit caused against the vehicle. On a 6 the hit is ignored. </description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9a63-4284-5b32-ab43" name="Big Grabber" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d017-a881-5b2c-66be" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="59ff-672e-0c20-b50d" name="Big Grabber" hidden="false">
+              <description>An Ork vehicle with a Big Grabba make attack an enemy vehicle in close combat. The Ork vehicle must move into contact with the target vehicle during its movement phase but may not attack if it moved more than 12&quot;.
+The Ork vehicle may shoot in the shooting phase as normal and then resolves an attack in the assault phase. The vehicle has one attack for each upgrade listed (Big Grabber/Wrecker Ball/Reinforced Ram/Boarding Plank). Attacks hit on a 4+ regardless of the target&apos;s speed and are resolved with a Strength of 6. Walkers, skimmers, infantry and any other models that have a WS characteristic may not be attacked by these weapons.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f4d6-0e9a-4be3-d234" name="Boarding Plank" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e894-e778-bb5e-b2e4" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="40c4-5956-d3f7-d01b" name="Boarding Plank" hidden="false">
+              <description>An Ork vehicle with a Big Grabba make attack an enemy vehicle in close combat. The Ork vehicle must move into contact with the target vehicle during its movement phase but may not attack if it moved more than 12&quot;.
+The Ork vehicle may shoot in the shooting phase as normal and then resolves an attack in the assault phase. The vehicle has one attack for each upgrade listed (Big Grabber/Wrecker Ball/Reinforced Ram/Boarding Plank). Attacks hit on a 4+ regardless of the target&apos;s speed and are resolved with a Strength of 6. Walkers, skimmers, infantry and any other models that have a WS characteristic may not be attacked by these weapons.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4055-2a61-cde6-2d0d" name="Grot Riggers" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dab9-ee8c-6de9-ea64" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fbf-adca-a0f8-6b0b" type="min"/>
+          </constraints>
+          <rules>
+            <rule id="ed2f-ba57-a4c2-5b02" name="Grot Riggers" hidden="false">
+              <description>An immobilised Ork vehicle with Grot Riggers on board may make a test at the start of each Ork turn. Roll a D6, on a result of 4+ the immobilised status is removed.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="69bb-10c3-672e-1a1c" name="Bolt-on Big Shoota" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5d1-6011-44b8-d12f" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="f14d-f888-9148-22af" name="Bolt-on Big Shoota" hidden="false">
+              <description>A bolt-on big shoota can only be mounted on a wartrukk. It can be fired by one of da boyz onboard who is a passanger as long as the wartrukk itself does not move more than 12&quot; that turn.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4668-98f7-8757-2dfc" name="Red Paint Job" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3b2-231e-b215-d8f8" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="5d8d-2e5a-773d-c469" name="Red Paint Job" hidden="false">
+              <description>An Ork vehicle with a red paint job adds +1&quot; to all of its move distances. For example, a fast Ork vehicle with a red paint job could move 13&quot; and still fire one weapon and/or disembark troops, or move 25&quot; and not fire at all.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c504-c288-9032-5709" name="Reinforced Ram" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2f2-0993-7eb3-2f81" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="dcb6-cbf9-037e-790c" name="Reinforced Ram" hidden="false">
+              <description>An Ork vehicle with a Big Grabba make attack an enemy vehicle in close combat. The Ork vehicle must move into contact with the target vehicle during its movement phase but may not attack if it moved more than 12&quot;.
+The Ork vehicle may shoot in the shooting phase as normal and then resolves an attack in the assault phase. The vehicle has one attack for each upgrade listed (Big Grabber/Wrecker Ball/Reinforced Ram/Boarding Plank). Attacks hit on a 4+ regardless of the target&apos;s speed and are resolved with a Strength of 6. Walkers, skimmers, infantry and any other models that have a WS characteristic may not be attacked by these weapons.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f021-2830-73a4-df4f" name="Searchlight" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0093-3e88-4f6d-a688" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="f409-df08-7acd-1393" name="Searchlight" hidden="false">
+              <description>Searchlights are only used in missions where the rules for night fighting are being used. They allow one enemy unit spotted by the vehicle or Dreadnought to be fired at by all other Ork units that are in range and have a line of fire. However, the vehicle or Dreadnought using the Searchlight in this manner is considered visible to all enemy units who have line of sight on the next turn.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="460c-853e-e6ad-4dc3" name="Spikes &apos;n Blades" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cb5-bb29-cb19-1995" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="c2f0-0094-e7b9-b8b9" name="Spikes &apos;n Blades" hidden="false">
+              <description>Enemy infantry which try to attack a vehicle that has spikes &apos;n blades in close combat and miss suffer a S3 hit. </description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c7fe-7bd3-b18c-487f" name="Stikkabomb Chucka" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ff1-73a3-2d52-ad35" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="6928-14ed-3534-6616" name="Stikkabomb Chucka" hidden="false">
+              <description>A vehicle or Dreadnought equipped with stikkbomb chuckas can make a Tank Shock attack even though it isn&apos;t a tank. A vehicle may not move more than 12&quot; and attempt to tank shock and a Dradnought can only attempt a Tank Shock attack in its movement phase. In the assault phase it must move into close combat instead. If a proper tank is equipped with stikkbomb chuckas any tank shock it inflicts has an extra -1 modifier to the troop&apos;s Morale check.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f085-89b0-80ff-1c02" name="Turbo Boosta" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96a1-65b1-61f1-d3c1" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="cd09-e8d0-5904-fd3e" name="Turbo Boosta" hidden="false">
+              <description>A vehicle with turbo boostas can trigger them in any of its movement phases. The trubo boostas add D6&quot; to its movement, but for shooting and disembarking troops the vehicle counts as moving at the speed it went before the turbo boosters were added. The extra D&quot; movement must be used to move in a straight line and if a 4+ is rolled the vehicle and any passengers onboard may not shoot or disembark that turn as they are too busy hanging on for grim death.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4068-5375-9020-222c" name="Wrecker Ball" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad35-4ec1-8e71-5a4c" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="74c7-44c8-f672-700a" name="Wrecker Ball" hidden="false">
+              <description>An Ork vehicle with a Big Grabba make attack an enemy vehicle in close combat. The Ork vehicle must move into contact with the target vehicle during its movement phase but may not attack if it moved more than 12&quot;.
+The Ork vehicle may shoot in the shooting phase as normal and then resolves an attack in the assault phase. The vehicle has one attack for each upgrade listed (Big Grabber/Wrecker Ball/Reinforced Ram/Boarding Plank). Attacks hit on a 4+ regardless of the target&apos;s speed and are resolved with a Strength of 6. Walkers, skimmers, infantry and any other models that have a WS characteristic may not be attacked by these weapons.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4a3b-054e-a33b-6ff4" name="Armoured Top" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1661-8d57-7272-46a9" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="a13a-93c0-838f-c592" name="Armoured Top" hidden="false"/>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="8.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0bdb-374c-bb92-7d70" name="Force Field" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27c9-f33f-28b2-108a" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="0e78-bb0f-23b7-0b75" name="Force Field" hidden="false"/>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9955-b999-81a5-3c6d" name="Hull Weapon" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d097-09ac-e5c1-5c7d" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b691-78a8-27c4-270f" type="min"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="c2de-d94f-7e74-589f" name="Big Shoota" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a61-c331-1241-a20a" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="a8da-3662-32dd-a89f" name="Big Shoota" hidden="false" targetId="b467-e518-11c9-c23a" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5df9-7b55-d967-4740" name="Skorcha" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c62b-555a-aa17-b88e" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="bd57-3972-3bef-bb2b" name="Skorcha" hidden="false" targetId="a162-3683-bca7-8f2c" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a7cb-6e47-6342-cb49" name="Rokkit Launcha" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70d5-4b42-a170-7df9" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="7d2a-5e3e-8fad-f621" name="Rokkit Launcha" hidden="false" targetId="56b9-9d7d-bfdf-0ef7" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="70d9-538a-aae2-7a29" name="Kustom Mega-blasta" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f99-6c10-4695-701f" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="03b3-1676-5ac3-bde8" name="Kustom Mega-Blasta" hidden="false" targetId="86d5-d376-96e9-edd2" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="8659-4fa8-9ea7-2a13" name="Sponson Weapons" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8eb3-025a-3c98-b3c3" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="3226-6c09-704b-9363" name="2x Big Shootas" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4747-8fa9-f5e6-6ea7" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="a5a2-e206-f1c3-2a5d" name="Rokkit Launcha" hidden="false" targetId="56b9-9d7d-bfdf-0ef7" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3d4a-4df7-1c26-a96a" name="2x Kustom Mega-blastas" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24c1-dc50-b742-42c1" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="d533-2612-c243-6f46" name="Kustom Mega-Blasta" hidden="false" targetId="86d5-d376-96e9-edd2" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="40.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a614-97d7-e587-f051" name="2x Rokkit Launchas" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ded2-5e5b-4feb-b17a" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="8133-68c1-ff40-b0fb" name="Rokkit Launcha" hidden="false" targetId="56b9-9d7d-bfdf-0ef7" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="936a-b0fb-cd05-b2ca" name="2x Skorchas" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a31e-5996-ab58-52c4" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="041b-1ac7-903a-3b1b" name="Skorcha" hidden="false" targetId="a162-3683-bca7-8f2c" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e860-5c67-17d4-8257" name="Pintle-Mounted Weapon" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9598-185c-71ba-8213" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="8d00-93e9-9a44-8d00" name="Big Shoota" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b059-c9b6-6781-7e55" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="d809-d4a8-6490-f766" name="Big Shoota" hidden="false" targetId="b467-e518-11c9-c23a" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2471-3135-25c8-094c" name="Rokkit Launcha" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5632-bf7c-e3fd-36e2" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="0259-1249-7c17-086f" name="Rokkit Launcha" hidden="false" targetId="56b9-9d7d-bfdf-0ef7" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedProfiles>
+    <profile id="65cb-b42d-2732-bd49" name="Looted Manticore" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">12</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">2</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank, Open-topped</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b28d-a2ae-9fa3-94bb" name="Looted Chimera" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">12</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">12</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">2</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="40cd-72cd-fd44-018b" name="Looted Hellhound" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">12</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">12</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">2</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Fast</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="21a1-ca4d-10b1-eed1" name="Looted Land Raider" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">14</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">14</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">14</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">2</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b6a3-b1c9-e979-6db7" name="Looted Leman Russ" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">14</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">12</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">2</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1e02-b16b-2d3c-0d82" name="Looted Predator" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">13</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">11</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">2</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="454f-2293-e1b7-4a2c" name="Looted Rhino" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">11</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">11</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">2</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d48b-3127-390d-32ab" name="Looted Leman Russ Demolisher" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">14</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">13</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">11</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">2</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="78e7-219a-6273-0989" name="Looted Vindicator" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">13</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">11</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">4</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f04f-a615-9c11-cfeb" name="Looted Whirlwind" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">11</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">11</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">4</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9567-e9fc-d002-1da5" name="Looted Salamander" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">12</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank, Fast, Open Topped</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7c57-b243-5957-5f91" name="Looted Thunderer" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">14</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">12</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="360f-b4b9-35f6-8bcc" name="Looted Medusa" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">12</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">2</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank, Open-topped</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a66f-27fd-0dde-d975" name="Looted Basilisk" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">12</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">2</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank, Open-topped</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f947-02af-4941-8a94" name="Looted Wyvern" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">12</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">2</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank, Open-topped</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="15ae-db34-0eec-15a8" name="Looted Hydra" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">12</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">2</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank, Open-topped</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="597c-37c6-c638-4de4" name="Looted Griffon" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">12</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">2</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank, Open-topped</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="867c-a98e-20c3-fed2" name="Looted Centaur" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
+      <characteristics>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">11</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
+        <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
+        <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank, Open-topped</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
