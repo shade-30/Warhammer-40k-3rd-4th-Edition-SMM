@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3e14-94fd-04c7-0064" name="Oldhammer 40k (3rd-4th Edition (SMM Version))" revision="25" battleScribeVersion="2.03" authorName="Simon (Originally Snyder)" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3e14-94fd-04c7-0064" name="Oldhammer 40k (3rd-4th Edition (SMM Version))" revision="26" battleScribeVersion="2.03" authorName="Simon (Originally Snyder)" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <comment>Old ID: 96e2-b781-50d7-3d18
 New ID: 3e14-94fd-04c7-0064</comment>
   <readme>This is intended to create a comprehensive ruleset for 4th edition 40k balanced around late 3rd to early 4th edition codexes with extra materials added for further units and armies.
@@ -184,24 +184,110 @@ Original 3rd edition files made by Snyder, the new additonal content is provided
     <categoryEntry id="aacb-8a81-62c0-3db8" name="Heavy Support" hidden="false"/>
     <categoryEntry id="a090-a855-c7de-f5c3" name="Dedicated Transport" hidden="false"/>
     <categoryEntry id="18d4-c759-8e80-4eb6" name="Configuration" hidden="false"/>
-    <categoryEntry id="6953-6bba-0bb9-d49d" name="Infantry" hidden="false"/>
-    <categoryEntry id="3c96-248b-affd-e504" name="Independent Character" hidden="false"/>
-    <categoryEntry id="b3bf-01b4-c272-3409" name="Jump Pack Troops" hidden="false"/>
-    <categoryEntry id="eb69-c8af-f212-635f" name="Cavalry" hidden="false"/>
-    <categoryEntry id="86cf-31f2-e698-7a81" name="Bikes" hidden="false"/>
-    <categoryEntry id="3b60-8955-571e-912d" name="Open-Topped" hidden="false"/>
-    <categoryEntry id="ca5d-3c3b-217c-c72d" name="Vehicle" hidden="false"/>
-    <categoryEntry id="508c-c06a-3b2d-02dd" name="Skimmers" hidden="false"/>
-    <categoryEntry id="ddd4-d0a2-04f6-fba1" name="Fast" hidden="false"/>
-    <categoryEntry id="8f6c-e0de-fded-2875" name="Walkers" hidden="false"/>
+    <categoryEntry id="6953-6bba-0bb9-d49d" name="Infantry" hidden="false">
+      <infoLinks>
+        <infoLink id="8e7d-7f47-343d-51dc" name="Infantry" hidden="false" targetId="512b-e046-9f53-d89b" type="rule"/>
+      </infoLinks>
+    </categoryEntry>
+    <categoryEntry id="3c96-248b-affd-e504" name="Independent Character" hidden="false">
+      <infoLinks>
+        <infoLink id="9d1f-a132-3b74-a51f" name="Independent Character" hidden="false" targetId="4a60-7f7e-c37f-a4d6" type="rule"/>
+      </infoLinks>
+    </categoryEntry>
+    <categoryEntry id="b3bf-01b4-c272-3409" name="Jump Infantry" hidden="false">
+      <infoLinks>
+        <infoLink id="c603-3502-3960-864f" name="Jump Infantry" hidden="false" targetId="2563-092a-a5bc-992f" type="rule"/>
+      </infoLinks>
+    </categoryEntry>
+    <categoryEntry id="eb69-c8af-f212-635f" name="Cavalry" hidden="false">
+      <infoLinks>
+        <infoLink id="0436-172b-8154-396b" name="Cavalry" hidden="false" targetId="0e80-1d1e-f91a-11fe" type="rule"/>
+      </infoLinks>
+    </categoryEntry>
+    <categoryEntry id="86cf-31f2-e698-7a81" name="Bike" hidden="false">
+      <infoLinks>
+        <infoLink id="7ef3-1fb2-90a9-12e8" name="Bikes" hidden="false" targetId="6bd6-e738-e144-6db9" type="rule"/>
+      </infoLinks>
+    </categoryEntry>
+    <categoryEntry id="3b60-8955-571e-912d" name="Open-Topped" hidden="false">
+      <infoLinks>
+        <infoLink id="ef55-1d37-59ba-26d7" name="Open-Topped" hidden="false" targetId="4795-fd7c-2846-78ba" type="rule"/>
+      </infoLinks>
+    </categoryEntry>
+    <categoryEntry id="ca5d-3c3b-217c-c72d" name="Tank" hidden="false">
+      <infoLinks>
+        <infoLink id="0862-d1e8-bbbc-586c" name="Tank" hidden="false" targetId="5150-e938-2792-646f" type="rule"/>
+      </infoLinks>
+    </categoryEntry>
+    <categoryEntry id="508c-c06a-3b2d-02dd" name="Skimmer" hidden="false">
+      <infoLinks>
+        <infoLink id="4077-f93a-61cf-7c84" name="Skimmer" hidden="false" targetId="e111-c9c6-72de-1626" type="rule"/>
+      </infoLinks>
+    </categoryEntry>
+    <categoryEntry id="ddd4-d0a2-04f6-fba1" name="Fast Vehicle" hidden="false">
+      <infoLinks>
+        <infoLink id="77ea-682e-32ab-0a74" name="Fast Vehicle" hidden="false" targetId="b35d-993f-e267-1ec0" type="rule"/>
+      </infoLinks>
+    </categoryEntry>
+    <categoryEntry id="8f6c-e0de-fded-2875" name="Walker" hidden="false">
+      <infoLinks>
+        <infoLink id="15b6-4107-fcac-eabc" name="Walker" hidden="false" targetId="b434-b6fb-a8b7-d8b0" type="rule"/>
+      </infoLinks>
+    </categoryEntry>
     <categoryEntry id="be45-5314-4388-5bfd" name="No Force Org" hidden="false"/>
     <categoryEntry id="3cb1-645b-8bbb-3d49" name="Psyker" hidden="false"/>
     <categoryEntry id="6b90-dc9c-1a49-3fdc" name="Super-Heavy" hidden="false"/>
     <categoryEntry id="9bbd-df2b-520d-778d" name="Space Wolf" hidden="false"/>
-    <categoryEntry id="3e35-381b-fa07-808c" name="Monstrous Creature" hidden="false"/>
-    <categoryEntry id="8203-2aeb-a471-4272" name="Flyer" hidden="false"/>
+    <categoryEntry id="3e35-381b-fa07-808c" name="Monstrous Creature" hidden="false">
+      <infoLinks>
+        <infoLink id="1be5-d477-392e-fd2a" name="Monstrous Creature" hidden="false" targetId="445e-e873-2a3f-776f" type="rule"/>
+      </infoLinks>
+    </categoryEntry>
+    <categoryEntry id="8203-2aeb-a471-4272" name="Flyers" hidden="false">
+      <infoLinks>
+        <infoLink id="88e6-51b8-4d40-f452" name="Flyers" hidden="false" targetId="3f21-57bb-fb07-54c5" type="rule"/>
+      </infoLinks>
+    </categoryEntry>
     <categoryEntry id="6e0e-facb-964d-a1c4" name="Gargantuan Creature" hidden="false"/>
-    <categoryEntry id="5f21-01e9-5dbf-a6ef" name="Swarm" hidden="false"/>
+    <categoryEntry id="5f21-01e9-5dbf-a6ef" name="Swarms" hidden="false">
+      <infoLinks>
+        <infoLink id="b8b2-690c-c3c9-0482" name="Swarms" hidden="false" targetId="7fcf-4205-bc89-b096" type="rule"/>
+        <infoLink id="7ec6-f61d-d968-23f3" name="Vulnerable to Blast/Template" hidden="false" targetId="e60c-3ef8-0688-7612" type="rule"/>
+        <infoLink id="6cab-4c20-9d69-d32a" name="Small Targets" hidden="false" targetId="089a-fe89-8654-a864" type="rule"/>
+      </infoLinks>
+    </categoryEntry>
+    <categoryEntry id="5e98-1ae4-dd85-cf2c" name="Bulky" hidden="false">
+      <infoLinks>
+        <infoLink id="178f-08c7-90c6-4399" name="Bulky" hidden="false" targetId="15ac-a1a8-c1de-9974" type="rule"/>
+      </infoLinks>
+    </categoryEntry>
+    <categoryEntry id="cf0f-2056-24a8-f1e3" name="Very Bulky" hidden="false">
+      <infoLinks>
+        <infoLink id="5f3e-9c2c-f7ca-437f" name="Very Bulky" hidden="false" targetId="4521-dfb0-7011-5466" type="rule"/>
+      </infoLinks>
+    </categoryEntry>
+    <categoryEntry id="2336-5957-b3e0-4297" name="Beast" hidden="false">
+      <infoLinks>
+        <infoLink id="47e1-540a-6e2e-8e91" name="Beast" hidden="false" targetId="cacb-f092-3831-2639" type="rule"/>
+      </infoLinks>
+    </categoryEntry>
+    <categoryEntry id="0238-2abb-7e1f-9359" name="Jetbike" hidden="false">
+      <infoLinks>
+        <infoLink id="8d28-740e-0b67-592a" name="Jetbike" hidden="false" targetId="4556-3c66-6ed4-87a0" type="rule"/>
+      </infoLinks>
+    </categoryEntry>
+    <categoryEntry id="43d3-5514-688d-d70d" name="Super-Heavy Flyer" hidden="false">
+      <infoLinks>
+        <infoLink id="fbd1-ef6f-ae28-83d7" name="Super-Heavy Flyer" hidden="false" targetId="7ca6-da5f-a87c-f49b" type="rule"/>
+      </infoLinks>
+    </categoryEntry>
+    <categoryEntry id="2f2a-20bd-2241-d56a" name="Super-Heavy Tank" hidden="false">
+      <infoLinks>
+        <infoLink id="f1e4-117e-39c5-b16b" name="Super Heavy Tank" hidden="false" targetId="d831-af9c-0b53-6da3" type="rule"/>
+      </infoLinks>
+    </categoryEntry>
+    <categoryEntry id="2449-acaa-df70-5367" name="Super-Heavy Skimmer" hidden="false"/>
+    <categoryEntry id="e9dc-4c1a-c8cd-8217" name="Extra HQ" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="7da2-40c9-890c-3239" name="1-Standard Missions" hidden="false">
@@ -223,6 +309,11 @@ Original 3rd edition files made by Snyder, the new additonal content is provided
             <modifier type="decrement" field="79c8-d712-b3f8-3fbc" value="1.0">
               <conditions>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9bbd-df2b-520d-778d" type="greaterThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="79c8-d712-b3f8-3fbc" value="3.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e9dc-4c1a-c8cd-8217" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -4077,7 +4168,10 @@ Weapon Destroyed results may choose to remove this weapon.</description>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="4a60-7f7e-c37f-a4d6" name="Independent Character" hidden="false"/>
-    <rule id="97b3-810d-a09e-872b" name="Invulnerable Saving Throw" hidden="false"/>
+    <rule id="97b3-810d-a09e-872b" name="Invulnerable Saving Throw" hidden="false">
+      <description>A model may always unless otherwise specified use their invulnerable save, even if no armour or cover save is allowed.
+Each time a vehicle with an Invulnerable Saving Throw would roll on the vehicle damage table, roll a D6. On a roll equal to or higher than the save value ignore rolling on the damage table.</description>
+    </rule>
     <rule id="2563-092a-a5bc-992f" name="Jump Infantry" hidden="false">
       <description>Jump infantry can move up to 12&quot; in the Movement phase instead of the normal 6&quot; move. Thus is optional and they can choose to move as normal infantry if they wish. When using jump packs, movement is not reduced for difficult terrain, and jump pack equipped models can move over other models or obstacles freely. However, if they end their move in difficult terrain, they must take a Dangerous Terrain test.
 Jump infantry assault 6&quot; like normal infantry. This move is slowed by difficult terrain in the same way as other infantry.
@@ -4133,7 +4227,6 @@ Fast vehicles moving more than 12&quot; may not fire any weapons at all.</descri
     </rule>
     <rule id="ebe5-6318-0fba-b84c" name="Twin-Linked" hidden="false">
       <description>A Twin-linked weapon may re-roll the dice to hit if it misses; if the second roll is also a miss, you may not reroll the dice again.
-
 A Twin-linked weapon that automatically hits may re-roll the dice to wound, or armor penetration rolls once if it fails.</description>
     </rule>
     <rule id="e65f-0536-e057-e2d2" name="Combi-Weapons" hidden="false">
@@ -4183,7 +4276,7 @@ Monstrous Creatures can fire up to two weapons per turn.
 All wounds inflicted by a Monstrous Creature in close combat ignore Armour Saves.
 Some Monstrous Creatures have weapons that augment their Strength (such as the Eldar Wraithlord&apos;s power fist) or work unusually (like the Dark Eldar Talos). Monstrous Creatures without such a special rule roll an additional D6 for armour penetration (2D6 + Strength instead of 1D6) when attacking a vehicle.</description>
     </rule>
-    <rule id="5150-e938-2792-646f" name="Vehicle" hidden="false">
+    <rule id="5150-e938-2792-646f" name="Tank" hidden="false">
       <description>Standard vehicles can move up to 12&quot; in the Movement phase.
 Weapons on vehicles can be Ordnance weapons, Ordnance barrage weapons, Main weapons (Strength 7 or greater) or Defensive weapons (Strength 6 or less).
 They can fire all weapons, 1 Ordnance weapon, or 1 Ordnance Barrage weapon after remaining stationary, or can fire 1 main weapon and all defensive weapons, or 1 Ordnance weapon when moving up to 6&quot;.</description>
@@ -4210,7 +4303,7 @@ Space Marines are still subject to Last Man Standing tests. They will always reg
       <description>Grants a 3++ (Invulnerable) Save in melee.</description>
     </rule>
     <rule id="3f21-57bb-fb07-54c5" name="Flyers" hidden="false"/>
-    <rule id="d831-af9c-0b53-6da3" name="Super Heavy Tank" hidden="false"/>
+    <rule id="d831-af9c-0b53-6da3" name="Super-Heavy Tank" hidden="false"/>
     <rule id="b333-4165-9b69-fc6a" name="Titan Killer" hidden="false"/>
     <rule id="7ca6-da5f-a87c-f49b" name="Super-Heavy Flyer" hidden="false"/>
     <rule id="7b1f-05c8-5a14-f539" name="Orbital Lander" hidden="false"/>
@@ -4430,9 +4523,6 @@ This special rule is gained by any independent character joining a Stubborn unit
       <comment>4th Edition Universal Special Rule</comment>
       <description>Some units are especially vulnerable to blast weapons and template weapons. If the unit is a vehicle, then each hit counts as two hits. If the unit is a non-vehicles, each unsaved wound counts as two wounds rather than one.</description>
     </rule>
-    <rule id="a793-31eb-f7e0-a703" name="Twin-Linked Template Weapon" hidden="false">
-      <description>May re-roll all failed wound or armor penetration rolls once.</description>
-    </rule>
     <rule id="295b-b636-f5a8-cde3" name="Master-crafted Template Weapons" hidden="false">
       <description>The bearer may re-roll one failed to wound or armour penetration roll per turn.</description>
     </rule>
@@ -4470,9 +4560,7 @@ If an artillery unit is forced to fall back from close combat and the enemy is f
     </rule>
     <rule id="cacb-f092-3831-2639" name="Beast" hidden="false">
       <description>Beasts may use the Fleet special rule.
-
 Beasts move 12&quot; when charging. They are slowed by difficult terrain - roll for distance they can move just like you would for infantry, but double the result.
-
 Beasts fall back 3D6&quot;.</description>
     </rule>
     <rule id="fa82-8ce9-c0b2-9e3f" name="Eternal Warrior" hidden="false">
@@ -4543,6 +4631,15 @@ Note: vehicles, monstrous creatures, riders on bikes (including jetbikes) and ce
     </rule>
     <rule id="c568-d21b-c195-3cd5" name="Lance" hidden="false">
       <description>Lance weapons count vehicle Armour Values higher than 12 as 12.</description>
+    </rule>
+    <rule id="ca03-b9d3-c02d-e078" name="Boom Kannisters" hidden="false">
+      <description>Boom Kannisters count as Defensive weapons, but are always fired in a straight line away from the vehicle&apos;s sides rather than being targeted normally, and their target point for scatter is always their listed maximum range.</description>
+    </rule>
+    <rule id="15ac-a1a8-c1de-9974" name="Bulky" hidden="false">
+      <description>Bulky infantry models may only use transports with capacity for Bulky models.</description>
+    </rule>
+    <rule id="4521-dfb0-7011-5466" name="Very Bulky" hidden="false">
+      <description>Very Bulky infantry models may only use transports with capacity for Very Bulky models.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -7146,6 +7243,15 @@ Used against vehicles they have an Armour Penetration of 4+D6.</characteristic>
         <characteristic name="AP" typeId="25ce-028f-0aae-2855">5</characteristic>
         <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Heavy 3D6</characteristic>
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+      </characteristics>
+    </profile>
+    <profile id="22c7-8e6f-cd02-5b39" name="Boom Kannisters" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">10&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">5</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Heavy 1, Blast</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Uses Ordnance blast, Pinning, Boom Kannisters, One-Shot</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
