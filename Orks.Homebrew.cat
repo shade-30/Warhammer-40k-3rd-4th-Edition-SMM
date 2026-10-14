@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b32b-2b78-118a-10a5" name="Orks (4th, HB)" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="26" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b32b-2b78-118a-10a5" name="Orks (4th, HB)" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="27" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <comment>Mix of 3rd and 4th edition with priority on the fluffiest part of both lists. Also takes some homebrew from the 30k ork project for missing units. Some notes:
 Waaagh &gt; 4th edition. (More in line with how orks work, with furious charge taking the place of the old Waaagh)
 Mob Rule! &gt; Mixed. Fearless is easier to deal with than the extra rolling, but mobbing up was a core part of orks identity.</comment>
@@ -1000,6 +1000,31 @@ Mob Rule! &gt; Mixed. Fearless is easier to deal with than the extra rolling, bu
       <categoryLinks>
         <categoryLink id="d88a-bb2f-68f6-dcc5" name="Heavy Support" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
       </categoryLinks>
+    </entryLink>
+    <entryLink id="3032-fe71-b3fe-fcd1" name="Gobsmasha Gun Wagon" hidden="false" collective="false" import="true" targetId="f738-11cc-df90-6563" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="fa92-aaec-5694-343b" name="New CategoryLink" hidden="false" targetId="aacb-8a81-62c0-3db8" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="de7f-04ae-9b04-77d5" name="Scrapjet Wartrakk" hidden="false" collective="false" import="true" targetId="4a24-9817-a733-83dc" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="16d1-5e10-349b-0782" name="New CategoryLink" hidden="false" targetId="34e2-d53c-28ab-44cf" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1687-0144-04f0-2855" name="Cybork Mob" hidden="false" collective="false" import="true" targetId="47ad-2a40-21e3-ec26" type="selectionEntry">
+      <modifiers>
+        <modifier type="increment" field="9717-512a-067d-9a0b" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e475-5ba2-f5dd-5f55" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4e3e-5e69-e3d3-d59e" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f5bd-2580-54f5-182d" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6dd3-f382-c4c3-d1a6" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9717-512a-067d-9a0b" type="max"/>
+      </constraints>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
@@ -2145,7 +2170,7 @@ Mob Rule! &gt; Mixed. Fearless is easier to deal with than the extra rolling, bu
                 <entryLink id="e9ce-3fc5-bb39-3635" name="Ork Armoury" hidden="false" collective="false" import="true" targetId="3fb8-65fc-3904-2e54" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="45.0"/>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="40.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3a03-abc6-6ff6-c79a" name="Warbiker" hidden="false" collective="false" import="true" type="model">
@@ -2158,10 +2183,17 @@ Mob Rule! &gt; Mixed. Fearless is easier to deal with than the extra rolling, bu
                 <infoLink id="359c-d999-abb9-50d5" name="Warbike Boy" hidden="false" targetId="2604-db72-5cea-d73f" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30.0"/>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="1707-ef0c-1707-6c1d" name="Wartrike Boyz" hidden="false" collective="false" import="true" targetId="9fda-9dd4-63fb-c6e5" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bec-066d-be64-79e0" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
@@ -3735,9 +3767,6 @@ Mob Rule! &gt; Mixed. Fearless is easier to deal with than the extra rolling, bu
           </constraints>
           <selectionEntries>
             <selectionEntry id="da57-8133-9847-e7d7" name="Warbike Nob" hidden="false" collective="false" import="true" type="model">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f17d-f3f4-b09d-fadd" type="max"/>
-              </constraints>
               <infoLinks>
                 <infoLink id="7c5c-8222-581e-afbd" name="Warbike Nob" hidden="false" targetId="43cb-5180-9280-9962" type="profile"/>
               </infoLinks>
@@ -3748,7 +3777,7 @@ Mob Rule! &gt; Mixed. Fearless is easier to deal with than the extra rolling, bu
                 <entryLink id="2e03-4044-188c-63ad" name="Ork Armoury" hidden="false" collective="false" import="true" targetId="3fb8-65fc-3904-2e54" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="45.0"/>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="40.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4654,7 +4683,7 @@ Mob Rule! &gt; Mixed. Fearless is easier to deal with than the extra rolling, bu
                 </rule>
               </rules>
               <infoLinks>
-                <infoLink id="f0ec-2249-9497-c20e" name="Warbuggy" hidden="false" targetId="35f0-3167-e9b0-25f9" type="profile"/>
+                <infoLink id="f0ec-2249-9497-c20e" name="Wartrakk" hidden="false" targetId="6c41-189b-35c2-51f3" type="profile"/>
                 <infoLink id="af7d-51dc-18a4-b564" name="Fast Vehicle" hidden="false" targetId="b35d-993f-e267-1ec0" type="rule"/>
                 <infoLink id="ae64-d528-c6cc-2e61" name="Open-Topped" hidden="false" targetId="4795-fd7c-2846-78ba" type="rule"/>
               </infoLinks>
@@ -5220,7 +5249,7 @@ Mob Rule! &gt; Mixed. Fearless is easier to deal with than the extra rolling, bu
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b81-b42b-2f23-5a78" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="6dea-e498-6d0e-b7d9" name="2x Deffgun" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="6dea-e498-6d0e-b7d9" name="2x Deffguns" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04f3-ae0a-4479-2713" type="max"/>
               </constraints>
@@ -5232,13 +5261,45 @@ Mob Rule! &gt; Mixed. Fearless is easier to deal with than the extra rolling, bu
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f457-a239-a28d-259f" name="2x Rattler Kannon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="f457-a239-a28d-259f" name="2x Rattler Kannons" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6981-c6a6-fdd5-aeac" type="max"/>
               </constraints>
               <infoLinks>
                 <infoLink id="ea52-4ad3-7bd0-d073" name="Rattler Kannon" hidden="false" targetId="0575-2d24-6cb2-8d68" type="profile"/>
                 <infoLink id="07d7-471e-ed11-03bb" name="Rattler Kannon" hidden="false" targetId="0575-2d24-6cb2-8d68" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5576-e308-d8d3-1014" name="2x Twin-linked Big Shootas" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2e7-c185-0732-862c" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="0fa4-39ea-e23d-566a" name="Big Shoota" hidden="false" targetId="b467-e518-11c9-c23a" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Twin-Linked Big Shoota"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="464a-2a0c-1ccb-9af0" name="Big Shoota" hidden="false" targetId="b467-e518-11c9-c23a" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Twin-Linked Big Shoota"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ac6f-9bf3-a22a-9aa0" name="2x Rokkit Pods" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1968-1d41-49f9-bac5" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="9621-73b3-f58c-6537" name="Rokkit Pod" hidden="false" targetId="4acf-410b-b571-b79f" type="profile"/>
+                <infoLink id="ddee-5051-4473-df5b" name="Rokkit Pod" hidden="false" targetId="4acf-410b-b571-b79f" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
@@ -6283,19 +6344,149 @@ Mob Rule! &gt; Mixed. Fearless is easier to deal with than the extra rolling, bu
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9a47-8881-6810-4c53" name="Cyborks" hidden="false" collective="false" import="true" type="model">
-      <constraints>
-        <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7067-fa61-d8ce-353f" type="max"/>
-        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f433-66bf-114e-11e3" type="min"/>
-      </constraints>
+    <selectionEntry id="9fda-9dd4-63fb-c6e5" name="Wartrike Boyz" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
-        <infoLink id="7729-4878-dd27-e7b9" name="Cybork" hidden="false" targetId="f800-0855-dc55-149d" type="profile"/>
-        <infoLink id="f0fa-ca03-d143-ae0c" name="Cybork Body" hidden="false" targetId="8205-3ee0-e915-f850" type="rule"/>
-        <infoLink id="ac1c-7824-6d1c-2b4c" name="Close Combat Weapon" hidden="false" targetId="46d5-85f2-d932-f0a2" type="profile"/>
-        <infoLink id="273c-578b-578b-18b3" name="Slugga" hidden="false" targetId="1aaa-4805-c346-107e" type="profile"/>
+        <infoLink id="2077-688c-bf83-2e1a" name="Wartrike Boyz" hidden="false" targetId="55b2-9ac7-196c-b865" type="profile"/>
+        <infoLink id="e0ec-bfa5-4179-a5c2" name="Dakkagun" hidden="false" targetId="cc81-a743-ca5c-6e36" type="profile"/>
+        <infoLink id="b7ad-bf8a-8df5-9414" name="Bikes" hidden="false" targetId="6bd6-e738-e144-6db9" type="rule"/>
+        <infoLink id="1764-0b44-1f63-7d7d" name="Exhaust Cloud" hidden="false" targetId="d2e0-6a69-f681-96f4" type="rule"/>
+        <infoLink id="b8fb-77be-8d42-3375" name="Furious Charge" hidden="false" targetId="8539-2da3-3348-8a67" type="rule"/>
+        <infoLink id="47e0-e160-aa9f-5936" name="Mob Rule!" hidden="false" targetId="1586-dbe5-3b2e-7590" type="rule"/>
+        <infoLink id="bb6d-01c6-0cd7-7e26" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
       </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="56aa-79c7-d7d7-0040" name="Passenger Gun" hidden="false" collective="false" import="true" defaultSelectionEntryId="f8e3-6771-bf06-f185">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c97c-8105-7b49-b44a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="982b-1d41-c159-aff4" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="f8e3-6771-bf06-f185" name="Twin-linked Big Shoota" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5ea-0fca-a58d-f1e4" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="1665-a0d9-ce65-68fd" name="Big Shoota" hidden="false" targetId="b467-e518-11c9-c23a" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Twin-Linked Big Shoota"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d5fb-61d9-36d5-0829" name="Rokkit Launcha" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="171a-148a-8256-495c" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="39e9-fb71-cc69-b305" name="Rokkit Launcha" hidden="false" targetId="56b9-9d7d-bfdf-0ef7" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9444-b842-0f4e-b2e0" name="Kustom Mega-blasta" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f47-b2d6-f329-e7b7" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="3022-67ab-d4a6-e1d1" name="Kustom Mega-Blasta" hidden="false" targetId="86d5-d376-96e9-edd2" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="13.0"/>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4a24-9817-a733-83dc" name="Scrapjet Wartrakk" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="9df0-a107-421a-186e" name="Wartrakk" hidden="false" targetId="6c41-189b-35c2-51f3" type="profile"/>
+        <infoLink id="8cad-5123-c209-6fa2" name="Deff Rolla" hidden="false" targetId="1404-8d64-8eaa-2c76" type="rule"/>
+        <infoLink id="787d-48ae-d64b-815f" name="Big Shoota" hidden="false" targetId="b467-e518-11c9-c23a" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="Twin-Linked Big Shoota"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="257b-c31f-ced0-bbfc" name="Rokkit Pod" hidden="false" targetId="4acf-410b-b571-b79f" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e626-aaab-c652-b09c" name="Fast Vehicle" hidden="false" targetId="ddd4-d0a2-04f6-fba1" primary="false"/>
+        <categoryLink id="3481-13ac-504f-b1f5" name="Open-Topped" hidden="false" targetId="3b60-8955-571e-912d" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4dc5-8485-1a51-3187" name="Rear Grot Gunner" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc24-9229-f5be-cb37" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f6e-092b-c288-b2eb" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="b68d-74b9-080c-a07b" name="Grot Gunner" hidden="false" targetId="6a30-1d46-0574-2cdd" type="rule"/>
+            <infoLink id="144d-8461-35d5-6c36" name="Big Shoota" hidden="false" targetId="b467-e518-11c9-c23a" type="profile">
+              <modifiers>
+                <modifier type="set" field="name" value="Twin-Linked Big Shoota"/>
+                <modifier type="set" field="492d-1f80-b777-26f2" value="Grot Gunner"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0279-ec64-651c-b34e" name="Red Paint Job" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="063c-4294-c5fd-1d01" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="41fe-653f-7241-d710" name="Red Paint Job" hidden="false" targetId="3664-e795-e872-3c41" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="75.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="47ad-2a40-21e3-ec26" name="Cybork Mob" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="abe9-8abb-b172-af1c" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4059-c68d-f73f-3275" name="Cyborks" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="746a-c3b9-ddec-0378" name="Cyborks" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="14.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ba2-b373-ce9b-9606" type="max"/>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a67c-3eb8-6386-caef" type="min"/>
+              </constraints>
+              <rules>
+                <rule id="a6d2-d114-5410-5b32" name="Cyborks" hidden="false">
+                  <description>Cyborks are mad contraptions of flesh and metal and must be constantly maintained, lest they fall apart from the seams. A Cybork Mob must be led by a Painboy, Mad Dok, or Painboss at all times.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="7a62-0890-6933-6c60" name="Cybork" hidden="false" targetId="f800-0855-dc55-149d" type="profile"/>
+                <infoLink id="d78c-248a-e209-b835" name="Cybork Body" hidden="false" targetId="8205-3ee0-e915-f850" type="rule"/>
+                <infoLink id="d23b-aed7-ee9f-f415" name="Close Combat Weapon" hidden="false" targetId="46d5-85f2-d932-f0a2" type="profile"/>
+                <infoLink id="4108-e751-5407-f438" name="Slugga" hidden="false" targetId="1aaa-4805-c346-107e" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="13.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -6558,11 +6749,9 @@ Mob Rule! &gt; Mixed. Fearless is easier to deal with than the extra rolling, bu
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6458-c637-3b09-bcfe" type="max"/>
           </constraints>
-          <rules>
-            <rule id="9c4b-b3a3-5b95-5a6e" name="Deff Rolla" hidden="false">
-              <description>A Battlewagon with a deff rolla may re-roll Dangerous Terrain tests. Any Tank Shock made by a Battlewagon with a deff rolla causes D6 Strength 10 hits on the victim unit. If the unit elects to make a Death or Glory attack, it takes a further D6 Strength 10 hits in addition to the usual effects.</description>
-            </rule>
-          </rules>
+          <infoLinks>
+            <infoLink id="1c70-3cc3-ef50-f72b" name="Deff Rolla" hidden="false" targetId="1404-8d64-8eaa-2c76" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
           </costs>
@@ -6644,7 +6833,7 @@ Mob Rule! &gt; Mixed. Fearless is easier to deal with than the extra rolling, bu
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="ca39-32a0-1351-b07f" name="Choppy Weapons" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="ca39-32a0-1351-b07f" name="Choppy Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="f7f3-d4d1-b9e9-54a1">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af9c-75d7-63e0-5e2d" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e6b-b72d-5d4a-eb4d" type="min"/>
@@ -6956,7 +7145,7 @@ Mob Rule! &gt; Mixed. Fearless is easier to deal with than the extra rolling, bu
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="7cd8-4c00-4781-f12d" name="Shooty Weapons" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="7cd8-4c00-4781-f12d" name="Shooty Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="3870-e786-9c0f-1c8a">
       <modifiers>
         <modifier type="set" field="be5f-7d1c-3cc2-26da" value="0">
           <conditions>
@@ -6975,6 +7164,16 @@ Mob Rule! &gt; Mixed. Fearless is easier to deal with than the extra rolling, bu
               <conditions>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="28c1-bfe5-6c71-b2a7" type="instanceOf"/>
               </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7c1d-7cdb-4549-5e87" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="667a-ab3b-3daf-4532" type="notInstanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -7481,7 +7680,7 @@ Mob Rule! &gt; Mixed. Fearless is easier to deal with than the extra rolling, bu
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="667a-ab3b-3daf-4532" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="667a-ab3b-3daf-4532" type="notInstanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -7864,8 +8063,15 @@ Mob Rule! &gt; Mixed. Fearless is easier to deal with than the extra rolling, bu
                 <conditionGroup type="or">
                   <conditions>
                     <condition field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5e98-1ae4-dd85-cf2c" type="instanceOf"/>
                   </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5e98-1ae4-dd85-cf2c" type="instanceOf"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
@@ -7877,20 +8083,39 @@ Mob Rule! &gt; Mixed. Fearless is easier to deal with than the extra rolling, bu
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5e98-1ae4-dd85-cf2c" type="instanceOf"/>
                     <condition field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
                   </conditions>
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
                         <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d442-80c2-4a4c-a5cf" type="atLeast"/>
                       </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5e98-1ae4-dd85-cf2c" type="instanceOf"/>
+                            <condition field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
                     </conditionGroup>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
                         <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4c65-7e41-ee87-b74a" type="atLeast"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5e98-1ae4-dd85-cf2c" type="instanceOf"/>
+                            <condition field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5e98-1ae4-dd85-cf2c" type="instanceOf"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -7915,7 +8140,7 @@ Mob Rule! &gt; Mixed. Fearless is easier to deal with than the extra rolling, bu
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="093c-72c5-9810-ad4f" name="Da Boss" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="093c-72c5-9810-ad4f" name="Da Boss" hidden="false" collective="false" import="true" defaultSelectionEntryId="be66-9053-a2ea-0a86">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="633f-dcb0-d20a-c338" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c84b-af3c-3a66-ceee" type="min"/>
@@ -8830,7 +9055,7 @@ Bomb-squig models cannot be charged or otherwise fight in close combat, and may 
       <description>Unless joined by a squad of Tyrant&apos;s Guard&apos;s, a Tyrant may always be the target of shooting attacks, even if joined with other units.</description>
     </rule>
     <rule id="6a30-1d46-0574-2cdd" name="Grot Gunner" hidden="false">
-      <description>A weapon with a Grot Gunner shoots with a base BS value of 4 instead of the models BS. (i.e. hitting on 4+ instead of 5+.)</description>
+      <description>A weapon with a Grot Gunner shoots with a base BS value of 3 instead of the models BS. (i.e. hitting on 4+ instead of 5+.)</description>
     </rule>
     <rule id="1678-0113-a4f0-95b0" name="Moar Dakka!" hidden="false">
       <description>A model with this rule may fire all equipped weapons each shooting face instead of of only shooting a single.</description>
@@ -8873,6 +9098,9 @@ Bomb-squig models cannot be charged or otherwise fight in close combat, and may 
 1-2: Kaboom! The Trukk explodes, catapulting flaming debris and stunned Orks in all directions. The Trukk is destroyed. All passengers and models within D6&quot; take a strength 3 hit. Surviving passengers must disembark and take a Pinning test.
 3-4: Kareen! The shot sends the Trukk out of control. Move the Trukk 3D6&quot; as far as possible in a random direction (the Ork player chooses if he rolls a hit on the Scatter dice). Then apply the Kaboom! result above. If the Trukk would careen into enemy models or terrain, stop it 1&quot; away.
 5-6: Kerrunch! Something vital gives, but the Ork passengers bail out of their vehicle before it falls apart with a noise like a Meganob falling down a spiral staircrase. The Ork passengers take no damage but must immediately disembark. The Trukk is then wrecked.</description>
+    </rule>
+    <rule id="1404-8d64-8eaa-2c76" name="Deff Rolla" hidden="false">
+      <description>A Vehicle with a deff rolla may re-roll Dangerous Terrain tests. Any Tank Shock made by a Vehicle with a deff rolla causes D6 Strength 10 hits on the victim unit. If the unit elects to make a Death or Glory attack, it takes a further D6 Strength 10 hits in addition to the usual effects.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -9614,7 +9842,7 @@ Bomb-squig models cannot be charged or otherwise fight in close combat, and may 
         <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
       </characteristics>
     </profile>
-    <profile id="9aad-80b0-e8df-ebd1" name="&apos;ard Skarboy" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
+    <profile id="9aad-80b0-e8df-ebd1" name="&apos;Ard Skarboy" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
       <characteristics>
         <characteristic name="WS" typeId="c704-6128-f143-935a">4</characteristic>
         <characteristic name="BS" typeId="7928-3a9b-6080-ed95">2</characteristic>
@@ -9811,8 +10039,8 @@ Bomb-squig models cannot be charged or otherwise fight in close combat, and may 
     </profile>
     <profile id="f1fe-eb0c-08ee-9006" name="Gobsmasha Gun Wagon" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
       <characteristics>
-        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">14</characteristic>
-        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">13</characteristic>
+        <characteristic name="Front Armor" typeId="6723-22c2-f6f0-6cbf">13</characteristic>
+        <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">12</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">2</characteristic>
         <characteristic name="Type" typeId="379b-a138-9399-8aa8">Tank</characteristic>
@@ -9830,6 +10058,20 @@ Bomb-squig models cannot be charged or otherwise fight in close combat, and may 
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">6+</characteristic>
         <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Infantry</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="55b2-9ac7-196c-b865" name="Wartrike Boyz" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
+      <characteristics>
+        <characteristic name="WS" typeId="c704-6128-f143-935a">4</characteristic>
+        <characteristic name="BS" typeId="7928-3a9b-6080-ed95">2</characteristic>
+        <characteristic name="S" typeId="df03-6292-d3f5-f778">3</characteristic>
+        <characteristic name="T" typeId="e5f6-94c4-de8c-5fa8">4(5)</characteristic>
+        <characteristic name="W" typeId="4dc2-c603-0bc5-0561">2</characteristic>
+        <characteristic name="I" typeId="eeda-4fb4-901e-b70d">2</characteristic>
+        <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
+        <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">7</characteristic>
+        <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Bike</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

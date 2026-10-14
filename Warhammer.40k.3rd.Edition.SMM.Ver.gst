@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3e14-94fd-04c7-0064" name="Oldhammer 40k (3rd-4th Edition (SMM Version))" revision="26" battleScribeVersion="2.03" authorName="Simon (Originally Snyder)" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3e14-94fd-04c7-0064" name="Oldhammer 40k (3rd-4th Edition (SMM Version))" revision="27" battleScribeVersion="2.03" authorName="Simon (Originally Snyder)" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <comment>Old ID: 96e2-b781-50d7-3d18
 New ID: 3e14-94fd-04c7-0064</comment>
   <readme>This is intended to create a comprehensive ruleset for 4th edition 40k balanced around late 3rd to early 4th edition codexes with extra materials added for further units and armies.
@@ -7252,6 +7252,15 @@ Used against vehicles they have an Armour Penetration of 4+D6.</characteristic>
         <characteristic name="AP" typeId="25ce-028f-0aae-2855">5</characteristic>
         <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Heavy 1, Blast</characteristic>
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Uses Ordnance blast, Pinning, Boom Kannisters, One-Shot</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4acf-410b-b571-b79f" name="Rokkit Pod" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">8</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">3</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Heavy D3</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
       </characteristics>
     </profile>
   </sharedProfiles>
