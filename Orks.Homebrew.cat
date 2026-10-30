@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b32b-2b78-118a-10a5" name="Orks (4th, HB)" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="27" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b32b-2b78-118a-10a5" name="Orks (4th, HB)" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="27" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <comment>Mix of 3rd and 4th edition with priority on the fluffiest part of both lists. Also takes some homebrew from the 30k ork project for missing units. Some notes:
 Waaagh &gt; 4th edition. (More in line with how orks work, with furious charge taking the place of the old Waaagh)
 Mob Rule! &gt; Mixed. Fearless is easier to deal with than the extra rolling, but mobbing up was a core part of orks identity.</comment>
@@ -1904,26 +1904,6 @@ Mob Rule! &gt; Mixed. Fearless is easier to deal with than the extra rolling, bu
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="7153-aa9d-9001-d79a" name="Trukk" hidden="false" collective="false" import="true" targetId="54fe-3f68-d142-362b" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="7f36-32ef-51d2-e30a" value="1">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7ae7-ec32-6af0-2290" type="instanceOf"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7ae7-ec32-6af0-2290" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a91-79dc-d80c-9375" type="max"/>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f36-32ef-51d2-e30a" type="min"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
       </costs>
@@ -1960,10 +1940,22 @@ Mob Rule! &gt; Mixed. Fearless is easier to deal with than the extra rolling, bu
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44b1-6b69-8308-5d38" type="max"/>
           </constraints>
-          <infoLinks>
-            <infoLink id="cc8b-4107-60c7-e87e" name="Squig" hidden="false" targetId="dc3a-2e5d-2d8b-f789" type="profile"/>
-            <infoLink id="046a-96c5-48b9-a8df" name="Release the Squigs!" hidden="false" targetId="95cc-6a27-8c58-0755" type="rule"/>
-          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="c8e0-566f-9103-11fa" name="Squigs" hidden="false" collective="false" import="true" defaultSelectionEntryId="7637-b653-c674-5975">
+              <constraints>
+                <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6db-09e1-8a86-9889" type="min"/>
+                <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae08-8921-8a95-1c97" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="7637-b653-c674-5975" name="Squigs" hidden="false" collective="false" import="true" type="model">
+                  <infoLinks>
+                    <infoLink id="bbc4-f695-19d7-c047" name="Squig" hidden="false" targetId="dc3a-2e5d-2d8b-f789" type="profile"/>
+                    <infoLink id="8c78-ebe7-18b7-cd18" name="Release the Squigs!" hidden="false" targetId="95cc-6a27-8c58-0755" type="rule"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="60.0"/>
           </costs>
@@ -1972,6 +1964,10 @@ Mob Rule! &gt; Mixed. Fearless is easier to deal with than the extra rolling, bu
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a32-70b6-9c65-e5ab" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="ac13-a98b-697e-ffd4" name="Runtbot" hidden="false" targetId="b365-be2c-7c66-565c" type="rule"/>
+            <infoLink id="50e1-191d-7911-864e" name="Runtbot" hidden="false" targetId="67c4-4197-fbf0-b006" type="profile"/>
+          </infoLinks>
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25.0"/>
           </costs>
@@ -8993,7 +8989,7 @@ Hits against the Gunz is treated like a vehicle with an armor value of 10, but a
       <description>May only be fired once per game. You may re-roll the scatter dice if you don&apos;t like the first result, but you must accept the second result.</description>
     </rule>
     <rule id="b365-be2c-7c66-565c" name="Runtbot" hidden="false">
-      <description>A Runtbot is treated as a mobile Gun Emplacement without any weapons. Instead each time the unit it is with is shot at, roll a D6. If the D6 is equal to or less than the current Turn number the Runtbots shield flickers and fails for the remainder of the Turn. Otherwise reduce the Strength of the incoming shots by the result of the D6 roll. For example on Turn 2, if the dice roll is a 1 or a 2, the Shield fails, but if it is a 3, 4, 5 or 6, reduce the Strength of the incoming shots by that amount.</description>
+      <description>Each time the unit it is with is shot at, roll a D6. If the D6 is equal to or less than the current Turn number the Runtbots shield flickers and fails for the remainder of the Turn. Otherwise reduce the Strength of the incoming shots by the result of the D6 roll. For example on Turn 2, if the dice roll is a 1 or a 2, the Shield fails, but if it is a 3, 4, 5 or 6, reduce the Strength of the incoming shots by that amount.</description>
     </rule>
     <rule id="95cc-6a27-8c58-0755" name="Release the Squigs!" hidden="false">
       <description>At the start of your Movement or Assault phase the Runtherd may choose to release his Squig Pack. Nominate an enemy unit as the target for the Squig pack; The Squig pack then immediately splits off from the Runtherd and is considered a seperate unit from this point forward. The Squig pack must move towards its nominated target as quickly as possible and assault if possible. If the nominated target is destroyed or otherwise removed from the table, the Squig pack will target the next closest enemy infantry unit on a dice roll of 2+, on a roll of 1 they will begin either infighting, wandering off or otherwise losing coherency and are thus promply removed as casualties.</description>
@@ -9270,7 +9266,7 @@ Bomb-squig models cannot be charged or otherwise fight in close combat, and may 
     <profile id="a9e7-02cc-7c37-8345" name="Grot" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
       <characteristics>
         <characteristic name="WS" typeId="c704-6128-f143-935a">2</characteristic>
-        <characteristic name="BS" typeId="7928-3a9b-6080-ed95">2</characteristic>
+        <characteristic name="BS" typeId="7928-3a9b-6080-ed95">3</characteristic>
         <characteristic name="S" typeId="df03-6292-d3f5-f778">2</characteristic>
         <characteristic name="T" typeId="e5f6-94c4-de8c-5fa8">2</characteristic>
         <characteristic name="W" typeId="4dc2-c603-0bc5-0561">1</characteristic>
@@ -10072,6 +10068,18 @@ Bomb-squig models cannot be charged or otherwise fight in close combat, and may 
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">7</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
         <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Bike</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="67c4-4197-fbf0-b006" name="Runtbot" hidden="false" typeId="5119-5456-6e97-4fc2" typeName="Walker">
+      <characteristics>
+        <characteristic name="WS" typeId="46fa-bb2a-a0f5-6b3f">2</characteristic>
+        <characteristic name="BS" typeId="5734-f043-7bcc-cff2">2</characteristic>
+        <characteristic name="S" typeId="2870-c64f-81e5-a118">4</characteristic>
+        <characteristic name="Front Armor" typeId="cb1a-f3fe-1dc0-5708">10</characteristic>
+        <characteristic name="Side Armor" typeId="25a2-b98c-a034-c6f6">10</characteristic>
+        <characteristic name="Rear Armor" typeId="b798-62af-f346-b1c1">10</characteristic>
+        <characteristic name="I" typeId="695a-ba63-65d1-3ce5">2</characteristic>
+        <characteristic name="A" typeId="bb33-7ddf-2296-174e">1</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2004-d195-877e-09cb" name="Space Marines (4th, HB)" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="23" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2004-d195-877e-09cb" name="Space Marines (4th, HB)" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="27" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="02ee-bc24-ec98-8712" name="Librarian" hidden="false"/>
     <categoryEntry id="b216-ba2e-4d56-b986" name="Chaplain" hidden="false"/>
@@ -36,7 +36,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b54-0e45-bde8-16a4" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="9b3c-eca1-ed56-72d6" name="Bike Captain" hidden="false" collective="false" import="true" targetId="a0a1-441f-209a-6430" type="selectionEntry">
+            <entryLink id="9b3c-eca1-ed56-72d6" name="Biker Captain" hidden="false" collective="false" import="true" targetId="a0a1-441f-209a-6430" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9532-0352-57ce-7125" type="max"/>
               </constraints>
@@ -51,7 +51,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aab5-db5a-7cb4-d2d4" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="30b4-4696-f65e-cd9b" name="Captain" hidden="false" collective="false" import="true" targetId="3aa7-75d0-7742-c94a" type="selectionEntry">
+            <entryLink id="30b4-4696-f65e-cd9b" name="Jump Pack Captain" hidden="false" collective="false" import="true" targetId="3aa7-75d0-7742-c94a" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47c3-1d24-79a8-9ce9" type="max"/>
               </constraints>
@@ -72,6 +72,9 @@
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="d67c-da5d-65fa-102d" name="Chaplain" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02f7-a979-e6f0-110c" type="max"/>
+          </constraints>
           <entryLinks>
             <entryLink id="8a2a-40b9-b067-4249" name="Chaplain" hidden="false" collective="false" import="true" targetId="45a7-a086-7339-c739" type="selectionEntry">
               <constraints>
@@ -91,7 +94,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a448-4bf7-ad78-fe23" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="0fc1-38d4-3561-1eab" name="Bike Chaplain" hidden="false" collective="false" import="true" targetId="e735-6ce1-35c3-746c" type="selectionEntry">
+            <entryLink id="0fc1-38d4-3561-1eab" name="Biker Chaplain" hidden="false" collective="false" import="true" targetId="e735-6ce1-35c3-746c" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a14-2261-d969-e6e0" type="max"/>
               </constraints>
@@ -3625,7 +3628,7 @@
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="75.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9e80-340b-902a-19fb" name="Marneus Calgar" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="9e80-340b-902a-19fb" name="Marneus Calgar" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -4008,7 +4011,7 @@
       <infoLinks>
         <infoLink id="3006-2090-3973-d36c" name="Land Raider" hidden="false" targetId="b29b-778a-c721-442b" type="profile">
           <modifiers>
-            <modifier type="set" field="46f6-9161-d58b-c967" value="15 Infantry Models or 8 Terminator Models"/>
+            <modifier type="set" field="46f6-9161-d58b-c967" value="15 Infantry models or 8 Terminator Models"/>
           </modifiers>
         </infoLink>
         <infoLink id="c2aa-af6e-2705-c1d6" name="Multi-melta" hidden="false" targetId="7077-4e34-5c92-5320" type="profile"/>
@@ -4051,7 +4054,7 @@
       <infoLinks>
         <infoLink id="717b-dd2c-73a0-fa1c" name="Land Raider" hidden="false" targetId="b29b-778a-c721-442b" type="profile">
           <modifiers>
-            <modifier type="set" field="46f6-9161-d58b-c967" value="6 Infantry Models, or 3 Terminator Models"/>
+            <modifier type="set" field="46f6-9161-d58b-c967" value="6 Infantry models, or 3 Terminator Models"/>
           </modifiers>
         </infoLink>
         <infoLink id="fbca-5c32-e5b9-3d4d" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
@@ -5439,7 +5442,22 @@ Total Points: 450</comment>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="848c-a30e-a95d-2d55" name="Space Marine Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="93a4-c4f2-3183-a640" type="selectionEntryGroup"/>
+        <entryLink id="848c-a30e-a95d-2d55" name="Space Marine Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="93a4-c4f2-3183-a640" type="selectionEntryGroup">
+          <selectionEntries>
+            <selectionEntry id="c868-91cc-bf5a-0872" name="Pintle-mounted Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c31a-9128-48a4-fab4" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="d6d1-3778-18e2-d143" name="Missile Launcher (Frag)" hidden="false" targetId="aa04-2d5e-da7e-2d25" type="profile"/>
+                <infoLink id="67bf-6ed3-867a-3be6" name="Missile Launcher (Krak)" hidden="false" targetId="4e6c-7b62-ba6d-05cf" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="390.0"/>
@@ -7127,7 +7145,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="75.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3aa7-75d0-7742-c94a" name="Jump Pack Captain" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3aa7-75d0-7742-c94a" name="Jump Pack Captain" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="3d75-54be-64d0-9def" name="Independent Character" hidden="false" targetId="4a60-7f7e-c37f-a4d6" type="rule"/>
         <infoLink id="b54f-1805-c525-24d2" name="And They Shall Know No Fear" hidden="false" targetId="3f9b-513f-8f10-5cc6" type="rule"/>
@@ -7231,7 +7249,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="65.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dfab-486e-5070-87a7" name="Terminator Captain" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="dfab-486e-5070-87a7" name="Terminator Captain" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="3838-4ad2-e499-55ff" name="Independent Character" hidden="false" targetId="4a60-7f7e-c37f-a4d6" type="rule"/>
         <infoLink id="64fc-dd47-01b3-dce2" name="And They Shall Know No Fear" hidden="false" targetId="3f9b-513f-8f10-5cc6" type="rule"/>
@@ -8418,7 +8436,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5127-fd18-dfd5-d2ce" name="Terminator Chaplain" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5127-fd18-dfd5-d2ce" name="Terminator Chaplain" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="e1d9-b073-1f42-6368" name="Chaplain" hidden="false" targetId="0c8b-2645-5db9-f8c8" type="profile">
           <modifiers>
@@ -8525,7 +8543,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="115.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ac06-5be0-39cb-f1f7" name="Jump Pack Chaplain" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ac06-5be0-39cb-f1f7" name="Jump Pack Chaplain" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="9e9c-1853-6c63-fc25" name="Chaplain" hidden="false" targetId="0c8b-2645-5db9-f8c8" type="profile">
           <modifiers>
@@ -8582,7 +8600,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="105.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8dbe-95d1-2ccb-0965" name="Jump Pack Librarian" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8dbe-95d1-2ccb-0965" name="Jump Pack Librarian" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="9751-04d5-7cf0-08ca" name="Librarian" hidden="false" targetId="88bf-eda2-ae52-7988" type="profile">
           <modifiers>
@@ -8661,7 +8679,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="75.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7e15-e679-41d0-169d" name="Terminator Librarian" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7e15-e679-41d0-169d" name="Terminator Librarian" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="2b59-9901-3a80-534b" name="Librarian" hidden="false" targetId="88bf-eda2-ae52-7988" type="profile">
           <modifiers>
@@ -8769,7 +8787,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
                         <modifier type="set" field="name" value="Twin-Linked Flamer"/>
                       </modifiers>
                       <infoLinks>
-                        <infoLink id="d746-6764-72e0-0f63" name="Twin-Linked Template Weapon" hidden="false" targetId="a793-31eb-f7e0-a703" type="rule"/>
+                        <infoLink id="d746-6764-72e0-0f63" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
                         <infoLink id="32ee-4c4b-d62b-d625" name="Flamer" hidden="false" targetId="9177-ce8a-92e3-157e" type="profile"/>
                       </infoLinks>
                       <costs>
@@ -8793,7 +8811,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="60.0"/>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="80.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -8872,7 +8890,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
                         <modifier type="set" field="name" value="Twin-Linked Flamer"/>
                       </modifiers>
                       <infoLinks>
-                        <infoLink id="7402-f993-85e1-9f92" name="Twin-Linked Template Weapon" hidden="false" targetId="a793-31eb-f7e0-a703" type="rule"/>
+                        <infoLink id="7402-f993-85e1-9f92" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
                         <infoLink id="d58e-71a8-be31-ec50" name="Flamer" hidden="false" targetId="9177-ce8a-92e3-157e" type="profile"/>
                       </infoLinks>
                       <costs>
@@ -8896,7 +8914,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="70.0"/>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="90.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -8997,7 +9015,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="60.0"/>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="80.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -9089,7 +9107,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="70.0"/>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="90.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -9099,7 +9117,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6e15-0d18-be6a-4630" name="Master of the Forge" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6e15-0d18-be6a-4630" name="Master of the Forge" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0c9-1d62-2d1b-13a2" type="max"/>
       </constraints>
@@ -10593,7 +10611,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
           </profiles>
           <rules>
             <rule id="68df-e8f4-4b23-ca36" name="Familiar" hidden="false">
-              <description>A Librarian with a Familiar gains a +1 to Initiative and allows the purchase of an additional Major Psychic Power (At an increased cost). Familiars count as the same troop type as the libarian and do not take up any space in a transport. If the Librarian is removed from play, the Familiar is also removed.</description>
+              <description>A Librarian with a Familiar gains a +1 to Initiative and allows the purchase of an additional Major Psychic Power (At an increased cost). Familiars count as the same troop type as the libarian and do not take up any space in a transport. If the Familiar is removed from play, the Librarian loses the benefits gained including the psychic power. If the Librarian is removed from play, the Familiar is also removed.</description>
             </rule>
           </rules>
           <costs>
@@ -10686,7 +10704,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="de15-e12d-186e-ce84" name="Single-Handed Weapons" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="de15-e12d-186e-ce84" name="Single-Handed Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="06ae-43ac-daa2-5b45">
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f28c-024e-c50a-1626" type="max"/>
       </constraints>
@@ -10927,7 +10945,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="9ead-093e-2a2f-737b" name="Two-Handed Weapons" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="9ead-093e-2a2f-737b" name="Two-Handed Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="a400-3486-835d-6882">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e58-98eb-b330-f146" type="max"/>
       </constraints>
@@ -11676,7 +11694,7 @@ Any model wearing Terminator armour can be teleported onto the battlefield. They
     </profile>
     <profile id="cc35-bece-fe42-a1be" name="Razorback" hidden="false" typeId="899d-8e8f-8774-82e0" typeName="Transport">
       <characteristics>
-        <characteristic name="Capacity" typeId="46f6-9161-d58b-c967">6 Infantry Models</characteristic>
+        <characteristic name="Capacity" typeId="46f6-9161-d58b-c967">6 Infantry models</characteristic>
         <characteristic name="Fire Points" typeId="85d6-4dfc-0382-e5b6">N/A</characteristic>
         <characteristic name="Access Points" typeId="f2d3-baa9-3d6f-d20e">3: Rear Ramp, Side Hatches</characteristic>
       </characteristics>
@@ -11903,7 +11921,7 @@ Any model wearing Terminator armour can be teleported onto the battlefield. They
     </profile>
     <profile id="e25a-8a70-e82b-2775" name="Drop Pod" hidden="false" typeId="899d-8e8f-8774-82e0" typeName="Transport">
       <characteristics>
-        <characteristic name="Capacity" typeId="46f6-9161-d58b-c967">5 Infantry Models or 1 Dreadnought</characteristic>
+        <characteristic name="Capacity" typeId="46f6-9161-d58b-c967">5 Infantry models or 1 Dreadnought</characteristic>
         <characteristic name="Fire Points" typeId="85d6-4dfc-0382-e5b6">N/A</characteristic>
         <characteristic name="Access Points" typeId="f2d3-baa9-3d6f-d20e">Open-Topped</characteristic>
       </characteristics>
@@ -12037,7 +12055,7 @@ Any model wearing Terminator armour can be teleported onto the battlefield. They
     </profile>
     <profile id="b29b-778a-c721-442b" name="Land Raider" hidden="false" typeId="899d-8e8f-8774-82e0" typeName="Transport">
       <characteristics>
-        <characteristic name="Capacity" typeId="46f6-9161-d58b-c967">10 Infantry Models, or 5 Terminator Models</characteristic>
+        <characteristic name="Capacity" typeId="46f6-9161-d58b-c967">10 Infantry models, or 5 Terminator Models</characteristic>
         <characteristic name="Fire Points" typeId="85d6-4dfc-0382-e5b6">N/A</characteristic>
         <characteristic name="Access Points" typeId="f2d3-baa9-3d6f-d20e">3: Front Ramp, Side Hatches</characteristic>
       </characteristics>
@@ -12053,14 +12071,14 @@ Any model wearing Terminator armour can be teleported onto the battlefield. They
     </profile>
     <profile id="5160-0f40-f1a8-46be" name="Rhino" hidden="false" typeId="899d-8e8f-8774-82e0" typeName="Transport">
       <characteristics>
-        <characteristic name="Capacity" typeId="46f6-9161-d58b-c967">6 Infantry Models</characteristic>
-        <characteristic name="Fire Points" typeId="85d6-4dfc-0382-e5b6">Top Hatch: 2 Models</characteristic>
+        <characteristic name="Capacity" typeId="46f6-9161-d58b-c967">10 Infantry models</characteristic>
+        <characteristic name="Fire Points" typeId="85d6-4dfc-0382-e5b6">1: Top Hatch - 2 Models</characteristic>
         <characteristic name="Access Points" typeId="f2d3-baa9-3d6f-d20e">3: Rear Ramp, Side Hatches</characteristic>
       </characteristics>
     </profile>
     <profile id="10c3-c1cd-ab8b-f65a" name="Thunderhawk Gunship" hidden="false" typeId="899d-8e8f-8774-82e0" typeName="Transport">
       <characteristics>
-        <characteristic name="Capacity" typeId="46f6-9161-d58b-c967">30 Infantry Models with Terminator Models counting as 2, Bikes as 3, Attack Bikes as 4, and Dreadnoughts as 5 Models respectively</characteristic>
+        <characteristic name="Capacity" typeId="46f6-9161-d58b-c967">30 Infantry models with Terminator Models counting as 2, Bikes as 3, Attack Bikes as 4, and Dreadnoughts as 5 Models respectively</characteristic>
         <characteristic name="Fire Points" typeId="85d6-4dfc-0382-e5b6">N/A</characteristic>
         <characteristic name="Access Points" typeId="f2d3-baa9-3d6f-d20e">1: Front Ramp</characteristic>
       </characteristics>

@@ -4877,7 +4877,7 @@ Note: vehicles, monstrous creatures, riders on bikes (including jetbikes) and ce
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Barrage Weapon. See page 58 of the Core Rulebook for details.</characteristic>
       </characteristics>
     </profile>
-    <profile id="53c6-a3aa-c0b8-fea5" name="Gretchin Blasta" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+    <profile id="53c6-a3aa-c0b8-fea5" name="Grot Blasta" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">12&quot;</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">3</characteristic>
@@ -6127,24 +6127,6 @@ Used against vehicles they have an Armour Penetration of 4+D6.</characteristic>
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">AA mount</characteristic>
       </characteristics>
     </profile>
-    <profile id="300b-ac7c-62ee-311d" name="Gretchin Big Shoota" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">30&quot;</characteristic>
-        <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
-        <characteristic name="AP" typeId="25ce-028f-0aae-2855">6</characteristic>
-        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 3</characteristic>
-        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
-      </characteristics>
-    </profile>
-    <profile id="0a4a-275e-f258-1701" name="Gretchin Shoota" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">18&quot;</characteristic>
-        <characteristic name="S" typeId="24d8-2110-08fa-d844">3</characteristic>
-        <characteristic name="AP" typeId="25ce-028f-0aae-2855">-</characteristic>
-        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 2</characteristic>
-        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
-      </characteristics>
-    </profile>
     <profile id="5459-98d5-d012-2e90" name="Fusion Cascade" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">12&quot;</characteristic>
@@ -7221,19 +7203,10 @@ Used against vehicles they have an Armour Penetration of 4+D6.</characteristic>
     <profile id="0575-2d24-6cb2-8d68" name="Rattler Kannon" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
-        <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
-        <characteristic name="AP" typeId="25ce-028f-0aae-2855">6</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">5</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">5</characteristic>
         <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Heavy 2D6</characteristic>
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Jam!: If a double 1 is rolled when determing the number of shots fired, the weapon is jammed and considered Weapon Destroyed. (This can be fixed as normal by a Mek.)</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="4b02-3097-76e3-1da3" name="Supa-Shoota" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">36&quot;</characteristic>
-        <characteristic name="S" typeId="24d8-2110-08fa-d844">6</characteristic>
-        <characteristic name="AP" typeId="25ce-028f-0aae-2855">4</characteristic>
-        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 3</characteristic>
-        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
       </characteristics>
     </profile>
     <profile id="6d28-4a3f-af88-45ab" name="Deffstorm Mega-Shoota" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
@@ -7261,6 +7234,33 @@ Used against vehicles they have an Armour Penetration of 4+D6.</characteristic>
         <characteristic name="AP" typeId="25ce-028f-0aae-2855">3</characteristic>
         <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Heavy D3</characteristic>
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+      </characteristics>
+    </profile>
+    <profile id="6b23-234b-7d5f-7b1e" name="Supa-Rattler" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">36&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">6</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">4</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Heavy 2D6</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Jam!: If a double 1 is rolled when determing the number of shots fired, the weapon is jammed and considered Weapon Destroyed. (This can be fixed as normal by a Mek.)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="38df-24d7-5b96-b63d" name="Supa-Shoota" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">36&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">6</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">4</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 3</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
+      </characteristics>
+    </profile>
+    <profile id="a156-e66a-49f3-0a96" name="Rattler Shoota" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">6</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Heavy 2D6</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Jam!: If a double 1 is rolled when determing the number of shots fired, the weapon is jammed and cannot be used for the rest of the game.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
