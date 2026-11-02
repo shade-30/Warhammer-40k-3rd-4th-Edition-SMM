@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="3e14-94fd-04c7-0064" name="Oldhammer 40k (3rd-4th Edition (SMM Version))" revision="27" battleScribeVersion="2.03" authorName="Simon (Originally Snyder)" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="3e14-94fd-04c7-0064" name="Oldhammer 40k (3rd-4th Edition (SMM Version))" revision="28" battleScribeVersion="2.03" authorName="Simon (Originally Snyder)" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <comment>Old ID: 96e2-b781-50d7-3d18
 New ID: 3e14-94fd-04c7-0064</comment>
   <readme>This is intended to create a comprehensive ruleset for 4th edition 40k balanced around late 3rd to early 4th edition codexes with extra materials added for further units and armies.
@@ -4381,7 +4381,7 @@ Blind/smoke grenades are used in the Shooting phase instead of the unit firing a
     </rule>
     <rule id="0c1f-0e87-fbfe-a78e" name="True Grit" hidden="false">
       <comment>4th Edition Universal Special Rule</comment>
-      <description>Models with True Grit treat their bolters as an aditional close combat weapon. However, a model using their bolter in this manner may not recieve the attack bonus for charging. This ability is not usable with combi-weapons of any sort. It is usable with storm bolters, but only by Space Marines of the Grey Knights Chapter for whom this is a long-standing specialisation.</description>
+      <description>Models with True Grit treat their bolters as an aditional close combat weapon and may assault after firing if moved. However, a model using their bolter in this manner may not recieve the attack bonus for charging. This ability is not usable with combi-weapons of any sort. It is usable with storm bolters, but only by Space Marines of the Grey Knights Chapter for whom this is a long-standing specialisation.</description>
     </rule>
     <rule id="b113-c6dc-bbcd-aa83" name="Slow and Purposeful" hidden="false">
       <comment>4th Edition Universal Special Rule</comment>
@@ -7261,6 +7261,15 @@ Used against vehicles they have an Armour Penetration of 4+D6.</characteristic>
         <characteristic name="AP" typeId="25ce-028f-0aae-2855">6</characteristic>
         <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Heavy 2D6</characteristic>
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Jam!: If a double 1 is rolled when determing the number of shots fired, the weapon is jammed and cannot be used for the rest of the game.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4661-c486-95e1-d41c" name="Bolt Carbine" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">12&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">5</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 2</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
       </characteristics>
     </profile>
   </sharedProfiles>
