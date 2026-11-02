@@ -275,6 +275,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
@@ -9230,7 +9233,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="62a5-cd85-2e52-c8dd" name="Space Marine Armory" hidden="false" collective="false" import="true" targetId="bfc9-22b8-1379-3112" type="selectionEntryGroup"/>
+        <entryLink id="62a5-cd85-2e52-c8dd" name="Space Marine Armoury" hidden="false" collective="false" import="true" targetId="bfc9-22b8-1379-3112" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="90.0"/>
@@ -10224,6 +10227,81 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
       <categoryLinks>
         <categoryLink id="d104-b9c2-e619-6dde" name="Techmarine" hidden="false" targetId="2e99-a0cf-9812-b860" primary="false"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6502-e89f-a024-fd10" name="Servitors" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4203-da57-b734-280c" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c485-bbe8-b6dc-b785" name="Tech Servitor" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="2104-400d-ccf3-6682" name="Tech Servitor" hidden="false" targetId="ebe7-72c8-910b-46b7" type="profile"/>
+                <infoLink id="0892-a394-a25b-b370" name="Close Combat Weapon" hidden="false" targetId="46d5-85f2-d932-f0a2" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2d05-805d-77dd-94aa" name="Combat Servitor" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="9be9-9c94-a269-0440" name="Combat Servitor" hidden="false" targetId="1b6e-7484-588a-47a9" type="profile"/>
+                <infoLink id="a654-ee30-a446-768a" name="Power Fist" hidden="false" targetId="a161-ed4b-bcb7-0a01" type="profile"/>
+                <infoLink id="f2e3-0842-c9c2-175c" name="Close Combat Weapon" hidden="false" targetId="46d5-85f2-d932-f0a2" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6c7c-b994-4655-dd1f" name="Gun Servitor" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="9b75-1da7-451f-c5aa" name="Gun Servitor" hidden="false" targetId="67a7-7955-2c5f-7535" type="profile"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="744c-09cf-0bab-9f22" name="Weapon" hidden="false" collective="false" import="true">
+                  <selectionEntries>
+                    <selectionEntry id="26e7-12eb-29bc-a532" name="Multi-melta" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2029-5476-1b8b-9918" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="655a-4a9c-bece-479b" name="Multi-melta" hidden="false" targetId="7077-4e34-5c92-5320" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="21bd-0dfa-6ce2-330d" name="Heavy Bolter" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b6a-dbb1-7f86-2f66" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="808a-4f15-e81a-9b8e" name="Heavy Bolter" hidden="false" targetId="b9aa-366b-bd62-4692" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="5280-fe7d-657c-cb3d" name="Plasma Cannon" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d11-31f4-c08e-80c1" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="24a0-43f1-65b0-b3ba" name="Plasma Cannon" hidden="false" targetId="9a19-ea1c-3d75-94aa" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="35.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="2a45-ff7c-babc-40b1" name="Space Marine Armoury" hidden="false" collective="false" import="true" targetId="bfc9-22b8-1379-3112" type="selectionEntryGroup"/>
       </entryLinks>
