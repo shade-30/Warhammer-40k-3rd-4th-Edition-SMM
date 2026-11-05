@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2004-d195-877e-09cb" name="Space Marines (4th, HB)" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="28" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2004-d195-877e-09cb" name="Space Marines (4th, HB)" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="28" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="02ee-bc24-ec98-8712" name="Librarian" hidden="false"/>
     <categoryEntry id="b216-ba2e-4d56-b986" name="Chaplain" hidden="false"/>
@@ -7232,6 +7232,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <infoLink id="3d75-54be-64d0-9def" name="Independent Character" hidden="false" targetId="4a60-7f7e-c37f-a4d6" type="rule"/>
         <infoLink id="b54f-1805-c525-24d2" name="And They Shall Know No Fear" hidden="false" targetId="3f9b-513f-8f10-5cc6" type="rule"/>
         <infoLink id="a145-2648-a93b-f48e" name="Rites of Battle" hidden="false" targetId="ab4d-a4f0-6072-025a" type="rule"/>
+        <infoLink id="ab8f-8825-f79d-2401" name="Deep Strike" hidden="false" targetId="5715-6219-5059-9bcf" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="4a0f-a1f3-1ec7-555c" name="Independent Character" hidden="false" targetId="3c96-248b-affd-e504" primary="false"/>
@@ -8775,6 +8776,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <infoLink id="0f40-e2fa-43fb-22ad" name="Crozius Arcanum" hidden="false" targetId="8ec8-1144-1157-9603" type="profile"/>
         <infoLink id="f88d-9f08-2a93-1611" name="Litanies of Hate" hidden="false" targetId="edcd-fb04-bc2a-9bfc" type="rule"/>
         <infoLink id="7bd5-911e-5f6d-e37a" name="Honour of the Chapter" hidden="false" targetId="7889-bf6d-616f-2328" type="rule"/>
+        <infoLink id="4a21-df65-db1e-d1c4" name="Deep Strike" hidden="false" targetId="5715-6219-5059-9bcf" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="fb70-16a9-f6c8-f3b5" name="Independent Character" hidden="false" targetId="3c96-248b-affd-e504" primary="false"/>
@@ -8898,6 +8900,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
       <infoLinks>
         <infoLink id="2f0d-ebec-c77b-9be8" name="Independent Character" hidden="false" targetId="4a60-7f7e-c37f-a4d6" type="rule"/>
         <infoLink id="268c-689f-f301-100c" name="And They Shall Know No Fear" hidden="false" targetId="3f9b-513f-8f10-5cc6" type="rule"/>
+        <infoLink id="1c9d-40b2-c548-6742" name="Deep Strike" hidden="false" targetId="5715-6219-5059-9bcf" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="58ab-affa-fd0a-6700" name="Independent Character" hidden="false" targetId="3c96-248b-affd-e504" primary="false"/>
@@ -10621,6 +10624,8 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
       </constraints>
       <infoLinks>
         <infoLink id="34db-8d3e-3edf-14cd" name="Blessing of the Omnissiah" hidden="false" targetId="af76-f5db-b47c-118d" type="rule"/>
+        <infoLink id="1e05-55eb-bc71-9ccb" name="Independent Character" hidden="false" targetId="4a60-7f7e-c37f-a4d6" type="rule"/>
+        <infoLink id="06e6-a95e-6d4e-8c18" name="And They Shall Know No Fear" hidden="false" targetId="3f9b-513f-8f10-5cc6" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d104-b9c2-e619-6dde" name="Techmarine" hidden="false" targetId="2e99-a0cf-9812-b860" primary="false"/>
@@ -10760,7 +10765,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="65.0"/>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1b61-8958-4d91-f335" name="2. Veteran Techmarine" hidden="false" collective="false" import="true" type="upgrade">
@@ -10941,6 +10946,9 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
       </constraints>
       <infoLinks>
         <infoLink id="2d09-f05b-82ef-074e" name="Blessing of the Omnissiah" hidden="false" targetId="af76-f5db-b47c-118d" type="rule"/>
+        <infoLink id="6c14-c9ff-6027-de2b" name="Deep Strike" hidden="false" targetId="5715-6219-5059-9bcf" type="rule"/>
+        <infoLink id="2f7f-a8cf-0a12-157f" name="And They Shall Know No Fear" hidden="false" targetId="3f9b-513f-8f10-5cc6" type="rule"/>
+        <infoLink id="6044-1c8f-e36f-e46d" name="Independent Character" hidden="false" targetId="4a60-7f7e-c37f-a4d6" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1647-6db4-3f3d-6063" name="Techmarine" hidden="false" targetId="2e99-a0cf-9812-b860" primary="false"/>
@@ -11040,7 +11048,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="65.0"/>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -11050,7 +11058,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <entryLink id="1c9b-3cde-454a-2c82" name="Space Marine Armoury" hidden="false" collective="false" import="true" targetId="bfc9-22b8-1379-3112" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="55.0"/>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="508f-710f-1b1a-2faf" name="Biker Techmarine" hidden="false" collective="false" import="true" type="model">
@@ -11061,6 +11069,8 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1c48-3fff-f6e4-104e" name="Techmarine" hidden="false" targetId="2e99-a0cf-9812-b860" primary="false"/>
+        <categoryLink id="7b8b-0ff5-f0fa-9247" name="Bike" hidden="false" targetId="a6a3-269f-5b39-616d" primary="false"/>
+        <categoryLink id="b70d-3bf1-5050-cc13" name="Independent Character" hidden="false" targetId="3c96-248b-affd-e504" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="fc6d-8a50-5493-16a7" name="Rank" hidden="false" collective="false" import="true">
@@ -11140,7 +11150,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="65.0"/>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7e00-4522-a8da-a472" name="2. Veteran Techmarine" hidden="false" collective="false" import="true" type="upgrade">
@@ -11187,7 +11197,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <entryLink id="c92c-3128-b091-0648" name="Space Marine Armoury" hidden="false" collective="false" import="true" targetId="bfc9-22b8-1379-3112" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="55.0"/>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="85.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
