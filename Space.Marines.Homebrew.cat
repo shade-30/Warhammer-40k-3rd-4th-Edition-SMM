@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2004-d195-877e-09cb" name="Space Marines (4th, HB)" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="28" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2004-d195-877e-09cb" name="Space Marines (4th, HB)" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="28" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="02ee-bc24-ec98-8712" name="Librarian" hidden="false"/>
     <categoryEntry id="b216-ba2e-4d56-b986" name="Chaplain" hidden="false"/>
@@ -10804,7 +10804,21 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
     </selectionEntry>
     <selectionEntry id="115b-dcea-96fb-6746" name="Redemptor Dreadnought (HB)" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="3dd9-6b73-67fe-66c7" name="Dreadnought" hidden="false" targetId="528d-0883-0dd5-a47d" type="profile"/>
+        <infoLink id="3dd9-6b73-67fe-66c7" name="Redemptor Dreadnought" hidden="false" targetId="d87f-c16f-f1c6-0659" type="profile">
+          <modifiers>
+            <modifier type="set" field="2870-c64f-81e5-a118" value="5(10)">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b6e4-066e-8d22-a6fb" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2a34-7759-91fd-04a7" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="fb04-c23a-0342-47cb" name="Extra Armour" hidden="false" targetId="0d41-84e8-e76b-8cfb" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c093-082e-a143-63b1" name="Dreadnought" hidden="false" targetId="8dd2-2313-fb9d-0368" primary="false"/>
@@ -10872,9 +10886,9 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="50.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="76a9-78ec-b5ee-e017" name="Plasma Cannon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="76a9-78ec-b5ee-e017" name="Plasma Destroyer" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
-                <infoLink id="669a-91e0-bbb0-88fa" name="Plasma Cannon" hidden="false" targetId="9a19-ea1c-3d75-94aa" type="profile"/>
+                <infoLink id="669a-91e0-bbb0-88fa" name="Plasma Destroyer" hidden="false" targetId="2d7d-d376-d4c2-3f8c" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="40.0"/>
@@ -10918,7 +10932,7 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <entryLink id="02d2-bd69-5dcd-b3ee" name="Space Marine Vehicle Upgrades" hidden="false" collective="false" import="true" targetId="93a4-c4f2-3183-a640" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="110.0"/>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="135.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a5ba-0f9f-3252-49b1" name="Jump Pack Techmarine" hidden="false" collective="false" import="true" type="model">
@@ -11290,10 +11304,15 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
         <selectionEntry id="11e2-c5cc-aa39-819f" name="Extra Armor" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9851-2098-4f5a-e7b1" type="instanceOf"/>
-                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e661-8b8e-688e-52db" type="instanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9851-2098-4f5a-e7b1" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="115b-dcea-96fb-6746" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e661-8b8e-688e-52db" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
@@ -13687,7 +13706,7 @@ Any model wearing Terminator armour can be teleported onto the battlefield. They
         <characteristic name="S" typeId="2870-c64f-81e5-a118">5</characteristic>
         <characteristic name="Front Armor" typeId="cb1a-f3fe-1dc0-5708">13</characteristic>
         <characteristic name="Side Armor" typeId="25a2-b98c-a034-c6f6">13</characteristic>
-        <characteristic name="Rear Armor" typeId="b798-62af-f346-b1c1">10</characteristic>
+        <characteristic name="Rear Armor" typeId="b798-62af-f346-b1c1">11</characteristic>
         <characteristic name="I" typeId="695a-ba63-65d1-3ce5">4</characteristic>
         <characteristic name="A" typeId="bb33-7ddf-2296-174e">2</characteristic>
       </characteristics>
