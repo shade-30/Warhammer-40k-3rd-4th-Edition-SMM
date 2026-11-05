@@ -7272,5 +7272,14 @@ Used against vehicles they have an Armour Penetration of 4+D6.</characteristic>
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
       </characteristics>
     </profile>
+    <profile id="b750-fe5a-2731-fba9" name="Rotor Cannon" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
+        <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
+        <characteristic name="AP" typeId="25ce-028f-0aae-2855">6</characteristic>
+        <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Heavy 4</characteristic>
+        <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Pinning</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
 </gameSystem>
