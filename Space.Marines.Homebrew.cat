@@ -3446,8 +3446,14 @@
               </selectionEntries>
             </selectionEntryGroup>
             <selectionEntryGroup id="74a1-7dc6-e4b3-cae4" name="Missile Launcher (Typhoon, Tempest)" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa5b-37cf-8450-0b74" type="max"/>
+              </constraints>
               <selectionEntries>
                 <selectionEntry id="1b31-46eb-ce73-bb12" name="Typhoon Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7dc-abb4-c039-c428" type="max"/>
+                  </constraints>
                   <infoLinks>
                     <infoLink id="5217-ca7d-cc4e-d9e8" name="Typhoon Missile" hidden="false" targetId="760f-e4d8-3c2b-5e9a" type="profile"/>
                   </infoLinks>
@@ -3456,6 +3462,9 @@
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="4969-55de-a18f-d710" name="Twin-linked Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="135a-06bc-38df-f217" type="max"/>
+                  </constraints>
                   <infoLinks>
                     <infoLink id="e76f-0d77-d2d1-8994" name="Missile Launcher (Frag)" hidden="false" targetId="aa04-2d5e-da7e-2d25" type="profile">
                       <modifiers>
@@ -11877,6 +11886,9 @@ Rapiers treat difficult terrain in the same way as a bike; roll a d6 when they e
               <infoLinks>
                 <infoLink id="1f94-faab-af2b-2b66" name="Servo-Arm" hidden="false" targetId="424f-b4b1-2884-2086" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
