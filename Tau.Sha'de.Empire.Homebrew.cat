@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1f91-5c1c-d9d5-554e" name="Tau Empire - Sha&apos;de Empire (Homebrew)" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1f91-5c1c-d9d5-554e" name="Tau Empire - Sha&apos;de Empire (Homebrew)" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="28" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="af66-a298-336b-70a8" name="Commander" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -580,16 +580,385 @@
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="71.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="d8e3-8d44-e66f-d892" name="XV9 Battlesuit" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="2be3-eb50-e4c2-d995" name="Bonding Knife" hidden="false" targetId="1f5f-2d35-c5f7-9db4" type="rule"/>
+                <infoLink id="1047-ea91-8ef2-b989" name="Jetpack" hidden="false" targetId="489d-ec6a-0dcb-d81f" type="rule"/>
+                <infoLink id="396f-8b9d-c58b-fe74" name="Multi-tracker" hidden="false" targetId="6061-4fc4-3974-c586" type="rule"/>
+                <infoLink id="29de-732d-486c-7588" name="Vectored Retro-thrusters" hidden="false" targetId="6cde-8efb-924c-cc99" type="rule"/>
+                <infoLink id="04d3-39b7-3156-2a6f" name="Photon Grenades" hidden="false" targetId="5c1c-6924-1f3c-f6b7" type="profile"/>
+                <infoLink id="e311-c295-751e-281d" name="Shas&apos;o" hidden="false" targetId="1bd9-a516-ff00-78c4" type="profile"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="f423-dd73-ef0f-dbe1" name="Weapon Options" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e08d-ffd1-d60c-5b56" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c22c-249a-f02f-4829" type="min"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="df2c-eb73-2ebf-e2a9" name="2x Phased Ion Gun" hidden="false" collective="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="d940-ad10-7e1c-c292" name="Phased Ion Gun" hidden="false" targetId="6079-b5b3-4073-d6ad" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="234f-8810-2bee-5bc9" name="2x Fusion Cascade" hidden="false" collective="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="4c62-9432-1cf0-c76d" name="Fusion Cascade" hidden="false" targetId="5459-98d5-d012-2e90" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="f9a0-282d-de40-722b" name="2x Pulse Submunitions Rifle" hidden="false" collective="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="6bb6-1c65-2e9d-c373" name="Pulse Submunitions Rifle" hidden="false" targetId="b71a-09c1-19ca-3eb3" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="40.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="0232-c006-7c07-ebde" name="2x Twin-linked Burst Cannon" hidden="false" collective="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="7e3d-2c4d-c973-214b" name="Burst Cannon" hidden="false" targetId="9e5e-b881-3c15-e101" type="profile">
+                          <modifiers>
+                            <modifier type="set" field="name" value="Twin-linked Burst Cannon"/>
+                          </modifiers>
+                        </infoLink>
+                        <infoLink id="0741-a200-796d-1ff9" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+                      </infoLinks>
+                    </selectionEntry>
+                    <selectionEntry id="8e87-37ce-b4f1-2265" name="Hyper-Density Sabot Rifle and &apos;Eclipse&apos; Shield Generator" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="213e-f2f2-61eb-5a0b" type="max"/>
+                      </constraints>
+                      <profiles>
+                        <profile id="2a95-0d8f-484b-ae73" name="Hyper-Density Sabot Rifle" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="deb8-131d-bdcf-1376">36&quot;</characteristic>
+                            <characteristic name="S" typeId="24d8-2110-08fa-d844">9</characteristic>
+                            <characteristic name="AP" typeId="25ce-028f-0aae-2855">3</characteristic>
+                            <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 2</characteristic>
+                            <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Get&apos;s Hot!</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="a8f2-7ef3-9940-5480" name="Hyper-Density Sabot Rifle (Submunitions)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
+                            <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
+                            <characteristic name="AP" typeId="25ce-028f-0aae-2855">5</characteristic>
+                            <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 2, Blast</characteristic>
+                            <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">No Cover Save</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules>
+                        <rule id="90ea-453b-f66d-43b1" name="&apos;Eclipse&apos; Shield Generator" hidden="false">
+                          <description>The &apos;Eclipse&apos; Shield Generator grants a 4+ invulnerable save that is increased to 3+ against attackers more than 12&quot; distant.</description>
+                        </rule>
+                      </rules>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="75.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="b445-4c5f-0550-ae98" name="Support System" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bde1-cb0e-d82a-a311" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="734b-2dfe-6fde-e41b" type="max"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="a2f5-0b42-d986-ab57" name="Blacksun Filter" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b94e-3b9a-5759-caaf" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="5806-cf3f-f0f2-804d" name="Blacksun Filter" hidden="false" targetId="da14-cfd0-1939-ad50" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="5ac3-6d7a-42ab-ed14" name="Drone Controller" hidden="false" collective="false" import="true" type="upgrade">
+                      <selectionEntryGroups>
+                        <selectionEntryGroup id="fcd9-8f3f-b090-241e" name="Drones" hidden="false" collective="false" import="true">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bac-a32b-3ceb-04d8" type="max"/>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03d2-f0d3-6c59-4713" type="min"/>
+                          </constraints>
+                          <selectionEntries>
+                            <selectionEntry id="f98a-0dc0-9185-d6d8" name="Gun Drone" hidden="false" collective="false" import="true" type="upgrade">
+                              <infoLinks>
+                                <infoLink id="e892-78a7-7bc8-7fb4" name="Gun Drone" hidden="false" targetId="3fc2-241a-c6b0-45d6" type="profile"/>
+                                <infoLink id="f921-cb5f-359b-021e" name="Jetpack" hidden="false" targetId="489d-ec6a-0dcb-d81f" type="rule"/>
+                                <infoLink id="0152-41da-5542-b483" name="Pulse Carbine" hidden="false" targetId="b90e-cd3a-8611-3762" type="profile">
+                                  <modifiers>
+                                    <modifier type="set" field="name" value="Twin-Linked Pulse Carbine"/>
+                                  </modifiers>
+                                </infoLink>
+                                <infoLink id="f04a-b0bd-625c-5a1c" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+                              </infoLinks>
+                              <costs>
+                                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+                              </costs>
+                            </selectionEntry>
+                            <selectionEntry id="5cec-90c2-398a-9e6c" name="Shield Drone" hidden="false" collective="false" import="true" type="upgrade">
+                              <infoLinks>
+                                <infoLink id="b152-618e-d370-c390" name="Shield Drone" hidden="false" targetId="ac88-d973-733f-edd2" type="profile"/>
+                                <infoLink id="409c-3f2c-c904-4d4e" name="Close Protection" hidden="false" targetId="864c-cb03-d305-2364" type="rule"/>
+                                <infoLink id="f296-4503-b3aa-717b" name="Jetpack" hidden="false" targetId="489d-ec6a-0dcb-d81f" type="rule"/>
+                                <infoLink id="61d6-f066-a7aa-a244" name="Invulnerable Saving Throw" hidden="false" targetId="97b3-810d-a09e-872b" type="rule"/>
+                              </infoLinks>
+                              <costs>
+                                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15.0"/>
+                              </costs>
+                            </selectionEntry>
+                            <selectionEntry id="ea5e-97e8-81a2-ce0c" name="Marker Drone" hidden="false" collective="false" import="true" type="upgrade">
+                              <infoLinks>
+                                <infoLink id="69d3-b3a7-47d4-c586" name="Marker Drone" hidden="false" targetId="3a21-1de0-e7c4-b7ce" type="profile"/>
+                                <infoLink id="5c2d-d9f2-1cee-5168" name="Networked Markerlight" hidden="false" targetId="52d9-914c-4e8c-1ca6" type="rule"/>
+                                <infoLink id="a9a7-3baf-0f48-b80d" name="Jetpack" hidden="false" targetId="489d-ec6a-0dcb-d81f" type="rule"/>
+                                <infoLink id="5204-1848-bc0e-069e" name="Markerlight" hidden="false" targetId="93c5-ed67-a327-95e9" type="profile"/>
+                              </infoLinks>
+                              <costs>
+                                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30.0"/>
+                              </costs>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="26fa-1aa4-4d36-4357" name="Shield Generator" hidden="false" collective="false" import="true" type="upgrade">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8e87-37ce-b4f1-2265" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d14b-2370-c259-8547" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="52c3-8183-e310-b3f2" name="Shield Generator" hidden="false" targetId="b433-5621-8ff1-e373" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="5861-930d-4c60-b48e" name="Target Lock" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc9b-dabe-1559-fda4" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="d70d-9627-d0b2-c2ab" name="Target Lock" hidden="false" targetId="83bc-f6e9-89c3-4bf3" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="50.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="1516-81b6-f874-3232" name="Hazard Suit Bodyguard Team" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d8e3-8d44-e66f-d892" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry id="5761-bd3a-5442-6828" name="Shas&apos;vre" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89c7-f7e3-1de6-ad56" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="0f78-d9c5-a4f5-0588" name="Crisis Suit Shas&apos;ui" hidden="false" targetId="9df4-d5d5-7509-35e6" type="profile"/>
+                <infoLink id="3dea-4c79-60aa-66a0" name="Jetpack" hidden="false" targetId="489d-ec6a-0dcb-d81f" type="rule"/>
+                <infoLink id="ce76-247d-b1f6-3bda" name="Bonding Knife" hidden="false" targetId="1f5f-2d35-c5f7-9db4" type="rule"/>
+                <infoLink id="48c8-5962-a0a9-1d35" name="Vectored Retro-thrusters" hidden="false" targetId="6cde-8efb-924c-cc99" type="rule"/>
+                <infoLink id="03e7-acd7-9882-e0f0" name="Multi-tracker" hidden="false" targetId="6061-4fc4-3974-c586" type="rule"/>
+                <infoLink id="c741-fb01-4610-b9d2" name="Recoil Absorption" hidden="false" targetId="2f0f-299b-863e-1fb1" type="rule"/>
+                <infoLink id="e2b2-0020-7c89-eaa6" name="Photon Grenades" hidden="false" targetId="5c1c-6924-1f3c-f6b7" type="profile"/>
+              </infoLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="eea8-25e5-119e-b102" name="Support System" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e53c-8a61-593f-a119" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cece-1e12-5dbb-59b9" type="max"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="54e8-aa3f-4011-70eb" name="Blacksun Filter" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce97-8d3c-b413-1903" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="af34-833a-1af1-01ce" name="Blacksun Filter" hidden="false" targetId="da14-cfd0-1939-ad50" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="2cdf-7065-d8c1-c3ee" name="Drone Controller" hidden="false" collective="false" import="true" type="upgrade">
+                      <selectionEntryGroups>
+                        <selectionEntryGroup id="cc14-a061-9d3a-fbda" name="Drones" hidden="false" collective="false" import="true">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aaf9-a030-20f0-885f" type="max"/>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a69a-ce0a-6dba-f474" type="min"/>
+                          </constraints>
+                          <selectionEntries>
+                            <selectionEntry id="1763-0f83-fe1f-5fa5" name="Gun Drone" hidden="false" collective="false" import="true" type="upgrade">
+                              <infoLinks>
+                                <infoLink id="0e16-2d29-9baa-91bf" name="Gun Drone" hidden="false" targetId="3fc2-241a-c6b0-45d6" type="profile"/>
+                                <infoLink id="e898-fc36-e26e-c7fc" name="Jetpack" hidden="false" targetId="489d-ec6a-0dcb-d81f" type="rule"/>
+                                <infoLink id="5334-6743-1f9c-11db" name="Pulse Carbine" hidden="false" targetId="b90e-cd3a-8611-3762" type="profile">
+                                  <modifiers>
+                                    <modifier type="set" field="name" value="Twin-Linked Pulse Carbine"/>
+                                  </modifiers>
+                                </infoLink>
+                                <infoLink id="7903-35f2-05a6-444f" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+                              </infoLinks>
+                              <costs>
+                                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+                              </costs>
+                            </selectionEntry>
+                            <selectionEntry id="39c7-1632-80b4-0982" name="Shield Drone" hidden="false" collective="false" import="true" type="upgrade">
+                              <infoLinks>
+                                <infoLink id="be85-4f95-1dde-ebf2" name="Shield Drone" hidden="false" targetId="ac88-d973-733f-edd2" type="profile"/>
+                                <infoLink id="1544-e720-b5a4-5bac" name="Close Protection" hidden="false" targetId="864c-cb03-d305-2364" type="rule"/>
+                                <infoLink id="8914-0796-d1e5-261c" name="Jetpack" hidden="false" targetId="489d-ec6a-0dcb-d81f" type="rule"/>
+                                <infoLink id="fb25-bc76-0045-2250" name="Invulnerable Saving Throw" hidden="false" targetId="97b3-810d-a09e-872b" type="rule"/>
+                              </infoLinks>
+                              <costs>
+                                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15.0"/>
+                              </costs>
+                            </selectionEntry>
+                            <selectionEntry id="6d58-7456-86eb-875e" name="Marker Drone" hidden="false" collective="false" import="true" type="upgrade">
+                              <infoLinks>
+                                <infoLink id="63a5-16ad-d1d0-7e82" name="Marker Drone" hidden="false" targetId="3a21-1de0-e7c4-b7ce" type="profile"/>
+                                <infoLink id="815e-8961-2dfc-a962" name="Networked Markerlight" hidden="false" targetId="52d9-914c-4e8c-1ca6" type="rule"/>
+                                <infoLink id="669d-5830-bcff-0c5f" name="Jetpack" hidden="false" targetId="489d-ec6a-0dcb-d81f" type="rule"/>
+                                <infoLink id="fabb-5af0-e14c-bf9f" name="Markerlight" hidden="false" targetId="93c5-ed67-a327-95e9" type="profile"/>
+                              </infoLinks>
+                              <costs>
+                                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30.0"/>
+                              </costs>
+                            </selectionEntry>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="ff74-0cca-1aa8-05a3" name="Shield Generator" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8eb4-1d46-746e-9de9" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="6859-3945-4c8f-f3d8" name="Shield Generator" hidden="false" targetId="b433-5621-8ff1-e373" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="2e50-3db6-95ec-dfef" name="Target Lock" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa4e-dc39-798a-3160" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="595f-1b66-c3e2-e31a" name="Target Lock" hidden="false" targetId="83bc-f6e9-89c3-4bf3" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="f4ac-3533-3530-5eed" name="Weapon Options" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cce3-d617-2086-4e64" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c29-1bad-c4aa-6113" type="min"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="c260-6193-26d5-f610" name="2x Phased Ion Gun" hidden="false" collective="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="6692-ab83-9967-7009" name="Phased Ion Gun" hidden="false" targetId="6079-b5b3-4073-d6ad" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="4efc-8c8f-5ab3-035a" name="2x Fusion Cascade" hidden="false" collective="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="b5b7-d0de-29c5-41c9" name="Fusion Cascade" hidden="false" targetId="5459-98d5-d012-2e90" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="b286-f204-5348-6a92" name="2x Pulse Submunitions Rifle" hidden="false" collective="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="b93f-c9be-86f1-5d28" name="Pulse Submunitions Rifle" hidden="false" targetId="b71a-09c1-19ca-3eb3" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="40.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="8fb7-dc6b-e96c-e435" name="2x Twin-linked Burst Cannon" hidden="false" collective="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="ec63-879e-ee8d-328a" name="Burst Cannon" hidden="false" targetId="9e5e-b881-3c15-e101" type="profile">
+                          <modifiers>
+                            <modifier type="set" field="name" value="Twin-linked Burst Cannon"/>
+                          </modifiers>
+                        </infoLink>
+                        <infoLink id="1854-fa57-e759-cfec" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="75.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="926a-bfea-aa91-a0db" name="Stealth Suit Bodyguard Team" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b1a4-446d-e380-e6c5" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="16b9-9099-5ff4-6d77" name="Crisis Battlesuit Bodyguard Team" hidden="false" collective="false" import="true" targetId="0a71-e2d2-9661-1972" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b1a4-446d-e380-e6c5" type="equalTo"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b1a4-446d-e380-e6c5" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d8e3-8d44-e66f-d892" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </entryLink>
@@ -600,8 +969,8 @@
     </selectionEntry>
     <selectionEntry id="4d93-2816-46b0-9ed3" name="XV8 Crisis Battlesuit Team" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink id="cd5c-98b9-8c94-eb1d" name="New CategoryLink" hidden="false" targetId="6d25-b346-c314-6911" primary="true"/>
         <categoryLink id="60a3-7d8f-befc-344a" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
+        <categoryLink id="c47d-ee1e-f06e-53b8" name="New CategoryLink" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="f7b8-f602-2d9a-bb93" name="Battlesuits" hidden="false" collective="false" import="true" defaultSelectionEntryId="41e4-c9e5-8019-c3ad">
@@ -775,9 +1144,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="b126-8dcc-d48e-2acb" name="Fire Warrior Team" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcda-49d4-2014-5083" type="min"/>
-      </constraints>
       <categoryLinks>
         <categoryLink id="d356-bcdb-2d4f-cf0d" name="Troops" hidden="false" targetId="0ef5-5056-d52e-3cfd" primary="true"/>
         <categoryLink id="019b-c8a6-c9ab-b47c" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
@@ -2190,9 +2556,6 @@ Flyer = 40
           </conditions>
         </modifier>
       </modifiers>
-      <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f7c-4894-be76-0c22" type="max"/>
-      </constraints>
       <categoryLinks>
         <categoryLink id="69e3-3ba0-b8a5-7def" name="Infantry" hidden="false" targetId="6953-6bba-0bb9-d49d" primary="false"/>
         <categoryLink id="a910-c0ed-204a-e81c" name="New CategoryLink" hidden="false" targetId="34e2-d53c-28ab-44cf" primary="true"/>
@@ -2209,14 +2572,10 @@ Flyer = 40
                 <infoLink id="ba84-60c0-dbb6-5257" name="Crisis Suit Shas&apos;ui" hidden="false" targetId="9df4-d5d5-7509-35e6" type="profile"/>
                 <infoLink id="68b0-065b-bb28-7eb0" name="Jetpack" hidden="false" targetId="489d-ec6a-0dcb-d81f" type="rule"/>
                 <infoLink id="a6f0-b15b-b787-6c97" name="Bonding Knife" hidden="false" targetId="1f5f-2d35-c5f7-9db4" type="rule"/>
-                <infoLink id="0d7a-49b2-96f0-0402" name="Burst Cannon" hidden="false" targetId="9e5e-b881-3c15-e101" type="profile">
-                  <modifiers>
-                    <modifier type="set" field="name" value="2x Twin-linked Burst Cannon"/>
-                  </modifiers>
-                </infoLink>
                 <infoLink id="251a-a86c-fb4f-6259" name="Vectored Retro-thrusters" hidden="false" targetId="6cde-8efb-924c-cc99" type="rule"/>
                 <infoLink id="b463-971e-784e-c327" name="Multi-tracker" hidden="false" targetId="6061-4fc4-3974-c586" type="rule"/>
                 <infoLink id="bc19-74a9-b1ef-9402" name="Recoil Absorption" hidden="false" targetId="2f0f-299b-863e-1fb1" type="rule"/>
+                <infoLink id="299f-2006-f923-f11a" name="Photon Grenades" hidden="false" targetId="5c1c-6924-1f3c-f6b7" type="profile"/>
               </infoLinks>
               <selectionEntryGroups>
                 <selectionEntryGroup id="e39e-d1ea-bc54-d7b8" name="Support System" hidden="false" collective="false" import="true">
@@ -2233,7 +2592,7 @@ Flyer = 40
                         <infoLink id="d7ec-b6b9-3de4-7019" name="Blacksun Filter" hidden="false" targetId="da14-cfd0-1939-ad50" type="rule"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="3.0"/>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="abaf-18e3-f01f-279e" name="Drone Controller" hidden="false" collective="false" import="true" type="upgrade">
@@ -2285,7 +2644,7 @@ Flyer = 40
                         </selectionEntryGroup>
                       </selectionEntryGroups>
                       <costs>
-                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="eea8-d7ef-40aa-364a" name="Shield Generator" hidden="false" collective="false" import="true" type="upgrade">
@@ -2296,7 +2655,7 @@ Flyer = 40
                         <infoLink id="88f3-d42c-f847-9e7e" name="Shield Generator" hidden="false" targetId="b433-5621-8ff1-e373" type="rule"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="ed45-f685-24cb-8a90" name="Target Lock" hidden="false" collective="false" import="true" type="upgrade">
@@ -2314,38 +2673,49 @@ Flyer = 40
                 </selectionEntryGroup>
                 <selectionEntryGroup id="bef1-2971-ecf8-67d6" name="Weapon Options" hidden="false" collective="false" import="true">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b768-3c43-82a0-3b91" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b768-3c43-82a0-3b91" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9451-e18f-e584-b47f" type="min"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="204b-076d-6021-4dd2" name="Phased Ion Gun" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="204b-076d-6021-4dd2" name="2x Phased Ion Gun" hidden="false" collective="false" import="true" type="upgrade">
                       <infoLinks>
                         <infoLink id="3601-9691-7e1a-fcf4" name="Phased Ion Gun" hidden="false" targetId="6079-b5b3-4073-d6ad" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="5fe6-d27b-c0ba-fc0d" name="Fusion Cascade" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="a18f-7d82-5373-fafb" name="Fusion Cascade" hidden="false" targetId="5459-98d5-d012-2e90" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="1560-4f02-0730-fdc7" name="Pulse Submunitions Rifle" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="07b0-cbcc-5d17-0e51" name="Pulse Submunitions Rifle" hidden="false" targetId="b71a-09c1-19ca-3eb3" type="profile"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
                       </costs>
                     </selectionEntry>
+                    <selectionEntry id="5fe6-d27b-c0ba-fc0d" name="2x Fusion Cascade" hidden="false" collective="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="a18f-7d82-5373-fafb" name="Fusion Cascade" hidden="false" targetId="5459-98d5-d012-2e90" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="1560-4f02-0730-fdc7" name="2x Pulse Submunitions Rifle" hidden="false" collective="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="07b0-cbcc-5d17-0e51" name="Pulse Submunitions Rifle" hidden="false" targetId="b71a-09c1-19ca-3eb3" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="40.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="d095-b7a7-43e6-1760" name="2x Twin-linked Burst Cannon" hidden="false" collective="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="bd4c-3ad3-5b9c-0d0f" name="Burst Cannon" hidden="false" targetId="9e5e-b881-3c15-e101" type="profile">
+                          <modifiers>
+                            <modifier type="set" field="name" value="Twin-linked Burst Cannon"/>
+                          </modifiers>
+                        </infoLink>
+                        <infoLink id="f81d-b68a-5001-f921" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+                      </infoLinks>
+                    </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="65.0"/>
+                <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="75.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5302,6 +5672,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">7</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="ac88-d973-733f-edd2" name="Shield Drone" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5315,6 +5686,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">7</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">X, 4++</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="8e27-9a8b-df66-d886" name="Shas&apos;el" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5328,6 +5700,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="9df4-d5d5-7509-35e6" name="Crisis Suit Shas&apos;ui" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5341,6 +5714,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="1bc0-0f4f-ff97-973c" name="Crisis Suit Shas&apos;vre" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5354,6 +5728,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="1e67-864e-5496-ce33" name="XV25 Stealth Suit Shas&apos;ui" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5367,6 +5742,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="fd44-1f06-6bb9-a42a" name="XV25 Stealth Suit Shas&apos;vre" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5380,6 +5756,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="e7f3-ed47-b72b-3bbc" name="Fire Warrior Shas&apos;la" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5393,6 +5770,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">7</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="8a50-ea08-ffa9-660e" name="Fire Warrior Shas&apos;ui" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5406,9 +5784,10 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
-    <profile id="792c-9a16-c436-7e84" name="Devilfish" hidden="false" typeId="5535-2b48-81ee-04ce" typeName="Transport">
+    <profile id="792c-9a16-c436-7e84" name="Devilfish" hidden="false" typeId="5535-2b48-81ee-04ce" typeName="Transport (Old, Update me)">
       <characteristics>
         <characteristic name="Front Armor" typeId="70ae-7a97-7e70-93ea">12</characteristic>
         <characteristic name="Side Armor" typeId="bcca-0b51-9187-2e4e">11</characteristic>
@@ -5428,6 +5807,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">7</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="364f-b72a-12bd-6cc5" name="Pathfinder Shas&apos;ui" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5441,6 +5821,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="cd07-0a6a-9f20-b020" name="Broadside Shas&apos;ui" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5454,6 +5835,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">2+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="e139-9335-0dc9-7801" name="Broadside Shas&apos;vre" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5467,6 +5849,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">2+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="7cf6-304e-f250-e92f" name="Hammerhead Gunship" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -5475,6 +5858,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">12</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3(4)</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8"/>
       </characteristics>
     </profile>
     <profile id="ff85-0475-5daf-0d36" name="Tiger Shark" hidden="false" typeId="36b6-ef06-48e4-cd45" typeName="Super Heavy Vehicle">
@@ -5484,7 +5868,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="Rear Armor" typeId="b276-1b4e-26d8-0a08">10</characteristic>
         <characteristic name="BS" typeId="de63-2aba-c18c-6d47">3(4)</characteristic>
         <characteristic name="Structure Points" typeId="a817-7301-451c-20c9">2</characteristic>
-        <characteristic name="Capacity" typeId="e1d2-e9ec-26d6-1f11"/>
+        <characteristic name="Type" typeId="e1d2-e9ec-26d6-1f11"/>
       </characteristics>
     </profile>
     <profile id="89a5-bc04-e191-41dc" name="Barracuda" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -5493,6 +5877,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3(4)</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8"/>
       </characteristics>
     </profile>
     <profile id="1d34-e486-f17a-a3c2" name="Heavy Gun Drone" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5506,6 +5891,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">7</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="116f-5b07-5be6-7e3e" name="Sky Ray" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -5514,6 +5900,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">12</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8"/>
       </characteristics>
     </profile>
     <profile id="7721-ef21-14e6-28f2" name="Piranha" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -5522,6 +5909,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8"/>
       </characteristics>
     </profile>
     <profile id="229b-bf3c-f047-57ef" name="Razorshark" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -5530,6 +5918,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8"/>
       </characteristics>
     </profile>
     <profile id="8e64-8687-e870-2fc4" name="Sun Shark" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -5538,6 +5927,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8"/>
       </characteristics>
     </profile>
     <profile id="659f-fe44-4e5c-7524" name="Shas&apos;el (Pilot)" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5551,6 +5941,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">N/A</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="1bd9-a516-ff00-78c4" name="Shas&apos;o" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5564,6 +5955,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">4</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="5374-caaa-7c44-0051" name="Shas&apos;o (Pilot)" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5577,6 +5969,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">N/A</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="3a21-1de0-e7c4-b7ce" name="Marker Drone" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5590,6 +5983,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">-</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="8568-197d-7e5a-57ac" name="Sniper Drone" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5603,6 +5997,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">7</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="78c8-5c66-325a-a254" name="Gue&apos;vesa&apos;la" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5616,6 +6011,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">7</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="943a-1424-a5d4-8a61" name="Gue&apos;vesa&apos;ui" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5629,6 +6025,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">5+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="d9d1-0ae4-a1ee-fc93" name="Fire Warrior Shas&apos;vre" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5642,6 +6039,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="06a0-b6eb-1fba-b1e1" name="Flame Drone" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5655,6 +6053,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">7</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="1418-503f-53d0-83bf" name="Hazard Suit Shas&apos;vre" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5668,6 +6067,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="9a66-ed76-622e-4940" name="Shas&apos;o Kuro&apos;shi" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5681,6 +6081,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">4</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">2+/4++</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="e7f1-920c-5fd9-305c" name="XV15 Stealth Suit Shas&apos;ui" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5694,6 +6095,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="8fd3-ede2-07df-65ad" name="XV15 Stealth Suit Shas&apos;vre" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5707,6 +6109,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">2</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="bd99-f033-ef77-45a0" name="Command-link Drone" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5720,6 +6123,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">-</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="9eb1-c0cb-bc03-97ce" name="XV22 Shas&apos;o" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5733,6 +6137,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">4</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="a33d-d2f3-e896-6b73" name="XV22 Shas&apos;el" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5746,6 +6151,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="9068-db84-48d9-0047" name="Spotter" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5759,6 +6165,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">1</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">8</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="7ba7-1a1f-67e3-a755" name="Ghostkeel Shas&apos;vre" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5772,6 +6179,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="95cf-2e47-1183-1401" name="Tetra" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -5780,6 +6188,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8"/>
       </characteristics>
     </profile>
     <profile id="f4e7-899e-dbbc-ede2" name="Remora Drone Fighter" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -5788,6 +6197,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">10</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">2(3)</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8"/>
       </characteristics>
     </profile>
     <profile id="270a-74a5-4cea-3484" name="Fire Warrior Shas&apos;el" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5801,6 +6211,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="9693-de93-5c4b-c485" name="Fire Warrior Shas&apos;o" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5814,6 +6225,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">4</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="f26d-249c-a048-e998" name="Honour Guard Shas&apos;vre" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
@@ -5827,9 +6239,10 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">3</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">9</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">4+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
-    <profile id="ab58-9245-d39d-70b0" name="Vibro Blade" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="ab58-9245-d39d-70b0" name="Vibro Blade" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">As User</characteristic>
@@ -5838,7 +6251,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
       </characteristics>
     </profile>
-    <profile id="2b0d-f313-1995-019a" name="Pulse Blade" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="2b0d-f313-1995-019a" name="Pulse Blade" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">As User</characteristic>
@@ -5847,7 +6260,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Ignores armour saves of 5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="22c2-c201-ffc5-d270" name="Pulse Sniper Rifle" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="22c2-c201-ffc5-d270" name="Pulse Sniper Rifle" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">36&quot;</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">X</characteristic>
@@ -5856,7 +6269,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Sniper Rifles aways hit on a 2+ and its Strength always equals the Toughness of the target. Units suffering casualties from a sniper rifles must test to avoid pinning as for a barrage. A sniper rifle only has an armor penetration of D6 against a vehicle.</characteristic>
       </characteristics>
     </profile>
-    <profile id="23ca-4733-26b8-8f91" name="Pulse Blaster" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="23ca-4733-26b8-8f91" name="Pulse Blaster" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">30&quot;</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">5</characteristic>
@@ -5865,7 +6278,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
       </characteristics>
     </profile>
-    <profile id="7588-d987-bde1-5430" name="Ion Rifle (burst)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="7588-d987-bde1-5430" name="Ion Rifle (burst)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">18&quot;</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">7</characteristic>
@@ -5874,7 +6287,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
       </characteristics>
     </profile>
-    <profile id="fafa-ae70-9365-dd9a" name="Ion Rifle (focused)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="fafa-ae70-9365-dd9a" name="Ion Rifle (focused)" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">60&quot;</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">7</characteristic>
@@ -5883,7 +6296,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2"/>
       </characteristics>
     </profile>
-    <profile id="69a3-8f5b-1a8b-1792" name="Fusion Cutter" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="69a3-8f5b-1a8b-1792" name="Fusion Cutter" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Melee</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">As User x2</characteristic>
@@ -5892,7 +6305,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Rolls 2D6 for armour penetration.</characteristic>
       </characteristics>
     </profile>
-    <profile id="e582-b599-16fa-a90e" name="Fusion Igniter" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Weapon">
+    <profile id="e582-b599-16fa-a90e" name="Fusion Igniter" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Range" typeId="deb8-131d-bdcf-1376">Template</characteristic>
         <characteristic name="S" typeId="24d8-2110-08fa-d844">6</characteristic>
@@ -5912,6 +6325,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="A" typeId="abbf-0d11-fd86-d938">4</characteristic>
         <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
         <characteristic name="Sv" typeId="b309-5233-122f-82bb">2+/4++</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1"/>
       </characteristics>
     </profile>
     <profile id="4d73-c47b-2343-0508" name="Piranha XT-42" hidden="false" typeId="0ef1-7861-4312-c7aa" typeName="Vehicle">
@@ -5920,6 +6334,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="Side Armor" typeId="ef72-8ecb-1637-97bb">11</characteristic>
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3(4)</characteristic>
+        <characteristic name="Type" typeId="379b-a138-9399-8aa8"/>
       </characteristics>
     </profile>
   </sharedProfiles>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="32a8-a4e7-7b5b-0f95" name="Tau Empire (2006)" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="32a8-a4e7-7b5b-0f95" name="Tau Empire (2006)" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="3e14-94fd-04c7-0064" gameSystemRevision="28" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="f724-ee0e-2b99-e4ee" name="Commander" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -2583,73 +2583,111 @@ Flyer = 40
                 <infoLink id="tau1-60c0-dbb6-5257" name="Crisis Suit Shas&apos;ui" hidden="false" targetId="tau0-d5d5-7509-35e6" type="profile"/>
                 <infoLink id="tau1-065b-bb28-7eb0" name="Jetpack" hidden="false" targetId="tau0-ec6a-0dcb-d81f" type="rule"/>
                 <infoLink id="tau1-b15b-b787-6c97" name="Bonding Knife" hidden="false" targetId="tau0-2d35-c5f7-9db4" type="rule"/>
-                <infoLink id="tau1-49b2-96f0-0402" name="Burst Cannon" hidden="false" targetId="9e5e-b881-3c15-e101" type="profile">
-                  <modifiers>
-                    <modifier type="set" field="name" value="2x Twin-linked Burst Cannon"/>
-                  </modifiers>
-                </infoLink>
                 <infoLink id="tau1-a86c-fb4f-6259" name="Vectored Retro-thrusters" hidden="false" targetId="tau0-8efb-924c-cc99" type="rule"/>
                 <infoLink id="tau1-971e-784e-c327" name="Multi-tracker" hidden="false" targetId="tau0-4fc4-3974-c586" type="rule"/>
                 <infoLink id="tau1-74a9-b1ef-9402" name="Recoil Absorption" hidden="false" targetId="tau0-299b-863e-1fb1" type="rule"/>
+                <infoLink id="56f7-051d-aa85-6a3b" name="Photon Grenades" hidden="false" targetId="5c1c-6924-1f3c-f6b7" type="profile"/>
               </infoLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup id="e39e-d1ea-bc54-d7b8" name="Support System" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="1e72-b2ab-3f1b-25a3" name="Weapon Options" hidden="false" collective="false" import="true">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39d4-d130-2734-9b6c" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc5f-7bf5-3875-76e2" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1f5-f150-73a0-c56d" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b78e-3396-af3b-6ba1" type="min"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="5f18-a9ea-65ba-b564" name="Blacksun Filter" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10b2-4c64-cedb-1ba5" type="max"/>
-                      </constraints>
+                    <selectionEntry id="7eb3-d348-b0da-4902" name="2x Phased Ion Gun" hidden="false" collective="false" import="true" type="upgrade">
                       <infoLinks>
-                        <infoLink id="tau1-b6b9-3de4-7019" name="Blacksun Filter" hidden="false" targetId="tau0-cfd0-1939-ad50" type="rule"/>
+                        <infoLink id="8b63-3fff-5396-bdef" name="Phased Ion Gun" hidden="false" targetId="6079-b5b3-4073-d6ad" type="profile"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="3.0"/>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="abaf-18e3-f01f-279e" name="Drone Controller" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="0c7e-8e9a-609c-e1ad" name="2x Fusion Cascade" hidden="false" collective="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="6c63-84d7-5bb6-7222" name="Fusion Cascade" hidden="false" targetId="5459-98d5-d012-2e90" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="83c5-b48e-58de-f6bd" name="2x Pulse Submunitions Rifle" hidden="false" collective="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="0f1a-e163-0c00-8018" name="Pulse Submunitions Rifle" hidden="false" targetId="b71a-09c1-19ca-3eb3" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="40.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="8ff2-69ec-8b81-6582" name="2x Twin-linked Burst Cannon" hidden="false" collective="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="9242-aec4-c19b-180d" name="Burst Cannon" hidden="false" targetId="9e5e-b881-3c15-e101" type="profile">
+                          <modifiers>
+                            <modifier type="set" field="name" value="Twin-linked Burst Cannon"/>
+                          </modifiers>
+                        </infoLink>
+                        <infoLink id="3b96-e708-930c-225e" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+                      </infoLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="7442-ae86-12eb-a37b" name="Support System" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d26b-169b-25ee-9363" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7956-9bde-235d-60e2" type="max"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="361c-183d-e9ba-92a3" name="Blacksun Filter" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72d5-5f84-9092-0899" type="max"/>
+                      </constraints>
+                      <infoLinks>
+                        <infoLink id="e3de-7397-22fa-e891" name="Blacksun Filter" hidden="false" targetId="tau0-cfd0-1939-ad50" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="ad51-3268-563c-af43" name="Drone Controller" hidden="false" collective="false" import="true" type="upgrade">
                       <selectionEntryGroups>
-                        <selectionEntryGroup id="68b1-d8a8-ca2e-1f8f" name="Drones" hidden="false" collective="false" import="true">
+                        <selectionEntryGroup id="d230-9991-e98e-f911" name="Drones" hidden="false" collective="false" import="true">
                           <constraints>
-                            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46f9-8f24-9fa6-2b00" type="max"/>
-                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e3e-7c17-e635-b9d2" type="min"/>
+                            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="088d-8fab-a52a-6899" type="max"/>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f77-e920-dcbf-5026" type="min"/>
                           </constraints>
                           <selectionEntries>
-                            <selectionEntry id="5a74-c43e-089f-3401" name="Gun Drone" hidden="false" collective="false" import="true" type="upgrade">
+                            <selectionEntry id="6180-b28f-f154-039c" name="Gun Drone" hidden="false" collective="false" import="true" type="upgrade">
                               <infoLinks>
-                                <infoLink id="tau1-03b1-6ad2-8dc4" name="Gun Drone" hidden="false" targetId="tau0-241a-c6b0-45d6" type="profile"/>
-                                <infoLink id="tau1-49e9-bbd0-a01d" name="Jetpack" hidden="false" targetId="tau0-ec6a-0dcb-d81f" type="rule"/>
-                                <infoLink id="tau1-ef1f-d955-8c41" name="Pulse Carbine" hidden="false" targetId="b90e-cd3a-8611-3762" type="profile">
+                                <infoLink id="4328-cd76-cd65-b550" name="Gun Drone" hidden="false" targetId="tau0-241a-c6b0-45d6" type="profile"/>
+                                <infoLink id="03e1-814e-69f1-9760" name="Jetpack" hidden="false" targetId="tau0-ec6a-0dcb-d81f" type="rule"/>
+                                <infoLink id="14c3-b3b5-77df-6f05" name="Pulse Carbine" hidden="false" targetId="b90e-cd3a-8611-3762" type="profile">
                                   <modifiers>
                                     <modifier type="set" field="name" value="Twin-Linked Pulse Carbine"/>
                                   </modifiers>
                                 </infoLink>
-                                <infoLink id="tau1-6438-3b82-aa7c" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+                                <infoLink id="4df4-3216-a5e0-7df9" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
                               </infoLinks>
                               <costs>
                                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
                               </costs>
                             </selectionEntry>
-                            <selectionEntry id="52c1-040b-5129-7dab" name="Shield Drone" hidden="false" collective="false" import="true" type="upgrade">
+                            <selectionEntry id="84d5-8664-32ae-69ec" name="Shield Drone" hidden="false" collective="false" import="true" type="upgrade">
                               <infoLinks>
-                                <infoLink id="tau1-7810-1fa1-ceb7" name="Shield Drone" hidden="false" targetId="tau0-d973-733f-edd2" type="profile"/>
-                                <infoLink id="tau1-b8a3-d781-56ae" name="Close Protection" hidden="false" targetId="tau0-cb03-d305-2364" type="rule"/>
-                                <infoLink id="tau1-6b35-62d6-557e" name="Jetpack" hidden="false" targetId="tau0-ec6a-0dcb-d81f" type="rule"/>
-                                <infoLink id="tau1-0c1e-7d09-ae47" name="Invulnerable Saving Throw" hidden="false" targetId="97b3-810d-a09e-872b" type="rule"/>
+                                <infoLink id="8e96-ab8c-8ded-c956" name="Shield Drone" hidden="false" targetId="tau0-d973-733f-edd2" type="profile"/>
+                                <infoLink id="55b4-1551-69f6-09ab" name="Close Protection" hidden="false" targetId="tau0-cb03-d305-2364" type="rule"/>
+                                <infoLink id="6abf-9e8d-75bb-33f4" name="Jetpack" hidden="false" targetId="tau0-ec6a-0dcb-d81f" type="rule"/>
+                                <infoLink id="7ac8-5094-db39-837d" name="Invulnerable Saving Throw" hidden="false" targetId="97b3-810d-a09e-872b" type="rule"/>
                               </infoLinks>
                               <costs>
                                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15.0"/>
                               </costs>
                             </selectionEntry>
-                            <selectionEntry id="719a-3017-f1bc-e3b0" name="Marker Drone" hidden="false" collective="false" import="true" type="upgrade">
+                            <selectionEntry id="c4ee-9b29-e364-0dcb" name="Marker Drone" hidden="false" collective="false" import="true" type="upgrade">
                               <infoLinks>
-                                <infoLink id="tau1-4efb-b9cd-ce52" name="Marker Drone" hidden="false" targetId="tau0-1de0-e7c4-b7ce" type="profile"/>
-                                <infoLink id="tau1-20a6-e574-8fe5" name="Networked Markerlight" hidden="false" targetId="tau0-914c-4e8c-1ca6" type="rule"/>
-                                <infoLink id="tau1-19f7-6bc1-f730" name="Jetpack" hidden="false" targetId="tau0-ec6a-0dcb-d81f" type="rule"/>
-                                <infoLink id="tau1-1cd4-eb30-d57f" name="Markerlight" hidden="false" targetId="93c5-ed67-a327-95e9" type="profile"/>
+                                <infoLink id="0672-85e6-c805-c4e5" name="Marker Drone" hidden="false" targetId="tau0-1de0-e7c4-b7ce" type="profile"/>
+                                <infoLink id="364a-eefe-bd0c-abd2" name="Networked Markerlight" hidden="false" targetId="tau0-914c-4e8c-1ca6" type="rule"/>
+                                <infoLink id="b7f7-df7d-c17b-132a" name="Jetpack" hidden="false" targetId="tau0-ec6a-0dcb-d81f" type="rule"/>
+                                <infoLink id="a65d-ef65-7300-6f03" name="Markerlight" hidden="false" targetId="93c5-ed67-a327-95e9" type="profile"/>
                               </infoLinks>
                               <costs>
                                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30.0"/>
@@ -2659,60 +2697,29 @@ Flyer = 40
                         </selectionEntryGroup>
                       </selectionEntryGroups>
                       <costs>
-                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="eea8-d7ef-40aa-364a" name="Shield Generator" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25a6-9a96-3a90-b7c4" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="tau1-d42c-f847-9e7e" name="Shield Generator" hidden="false" targetId="tau0-5621-8ff1-e373" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="ed45-f685-24cb-8a90" name="Target Lock" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bb2-b3cd-d7fa-c8be" type="max"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink id="tau1-5d77-b713-21a1" name="Target Lock" hidden="false" targetId="tau0-f6e9-89c3-4bf3" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-                <selectionEntryGroup id="bef1-2971-ecf8-67d6" name="Weapon Options" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b768-3c43-82a0-3b91" type="max"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="204b-076d-6021-4dd2" name="Phased Ion Gun" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="tau1-9691-7e1a-fcf4" name="Phased Ion Gun" hidden="false" targetId="6079-b5b3-4073-d6ad" type="profile"/>
-                      </infoLinks>
-                      <costs>
                         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="5fe6-d27b-c0ba-fc0d" name="Fusion Cascade" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="4c06-3c1d-41d0-c26f" name="Shield Generator" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73b5-6e2f-4423-8dbd" type="max"/>
+                      </constraints>
                       <infoLinks>
-                        <infoLink id="tau1-7d82-5373-fafb" name="Fusion Cascade" hidden="false" targetId="5459-98d5-d012-2e90" type="profile"/>
+                        <infoLink id="abab-1818-0446-9d9d" name="Shield Generator" hidden="false" targetId="tau0-5621-8ff1-e373" type="rule"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15.0"/>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="25.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="1560-4f02-0730-fdc7" name="Pulse Submunitions Rifle" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="ecdb-7bd5-e9ad-68e1" name="Target Lock" hidden="false" collective="false" import="true" type="upgrade">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6d6-a75c-ef2d-da6f" type="max"/>
+                      </constraints>
                       <infoLinks>
-                        <infoLink id="tau1-cbcc-5d17-0e51" name="Pulse Submunitions Rifle" hidden="false" targetId="b71a-09c1-19ca-3eb3" type="profile"/>
+                        <infoLink id="8e57-4659-ce97-5c21" name="Target Lock" hidden="false" targetId="tau0-f6e9-89c3-4bf3" type="rule"/>
                       </infoLinks>
                       <costs>
-                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="20.0"/>
+                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="5.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -2757,7 +2764,6 @@ Flyer = 40
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="tau1-9744-a4c6-5ebc" name="Shas&apos;el" hidden="false" targetId="tau0-9a8b-df66-d886" type="profile"/>
         <infoLink id="tau1-e55c-4d05-878b" name="Jetpack" hidden="false" targetId="tau0-ec6a-0dcb-d81f" type="rule"/>
         <infoLink id="tau1-9be3-8198-4f7c" name="Independent Character" hidden="false" targetId="4a60-7f7e-c37f-a4d6" type="rule"/>
         <infoLink id="tau1-611a-016a-afb4" name="Advanced Shield Generator" hidden="false" targetId="tau0-1e7e-493e-962d" type="rule"/>
@@ -2771,6 +2777,7 @@ Flyer = 40
         <infoLink id="tau1-2c68-9fa2-11e7" name="Recoil Absorption" hidden="false" targetId="tau0-299b-863e-1fb1" type="rule"/>
         <infoLink id="tau1-0b4e-221d-e7f5" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
         <infoLink id="tau1-41bc-b9e8-583f" name="Special Character" hidden="false" targetId="tau0-be8a-8bae-1dcd" type="rule"/>
+        <infoLink id="05f9-b40d-544b-72da" name="Shas&apos;o R&apos;Myr" hidden="false" targetId="tau0-e69a-b5ab-22c4" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="tau1-d62a-8ef1-891c" name="New CategoryLink" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="true"/>
@@ -4006,6 +4013,90 @@ A Great Knarloc with no remaining Goads cannot capture table quarters, hold obje
         <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="30c8-70e4-6ef2-bf4f" name="Shas&apos;o R&apos;alai (IA)" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bc68-a0b5-a2ff-c73e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="599b-ea69-e7e0-e76c" name="Experimental Pulse Submunitions Rifle" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
+            <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
+            <characteristic name="AP" typeId="25ce-028f-0aae-2855">5</characteristic>
+            <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 2, Blast</characteristic>
+            <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">No Cover Save, Special Ammunition</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1b00-947a-a5ce-197b" name="Special Ammunition - EMP Shell" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
+            <characteristic name="S" typeId="24d8-2110-08fa-d844">*</characteristic>
+            <characteristic name="AP" typeId="25ce-028f-0aae-2855">-</characteristic>
+            <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 2</characteristic>
+            <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Gets Hot!, Vehicles are hit as if struck by an EMP grenade, no effect on models without an Armour value.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1124-af98-258a-dd65" name="Special Ammunition - Ionic-Cluster-Beam Shell" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="deb8-131d-bdcf-1376">24&quot;</characteristic>
+            <characteristic name="S" typeId="24d8-2110-08fa-d844">4</characteristic>
+            <characteristic name="AP" typeId="25ce-028f-0aae-2855">4</characteristic>
+            <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 2, Blast</characteristic>
+            <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Ordenance Blast, Rending, Gets Hot!</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="43ee-833f-35fd-bf67" name="Special Ammunition - Hyper-Density Sabot" hidden="false" typeId="b399-8a1b-bf0b-c5b7" typeName="Ranged Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="deb8-131d-bdcf-1376">36&quot;</characteristic>
+            <characteristic name="S" typeId="24d8-2110-08fa-d844">9</characteristic>
+            <characteristic name="AP" typeId="25ce-028f-0aae-2855">3</characteristic>
+            <characteristic name="Type" typeId="d3f6-19e8-ac9e-ae13">Assault 2</characteristic>
+            <characteristic name="Abilities" typeId="492d-1f80-b777-26f2">Gets Hot!</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="367c-5b64-d967-581b" name="Special Ammunition" hidden="false">
+          <description>The Experimental Pulse Submunition Rifle may fire using a special ammunition profile instead.</description>
+        </rule>
+        <rule id="4727-238a-1f88-a435" name="&apos;Eclipse&apos; Shield Generator" hidden="false">
+          <description>Provides a 4+ invulnerability save that is increased to 3+ against attackers more than 12&quot; distant.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="0f45-b770-dc8d-4438" name="Shas&apos;o R&apos;alai" hidden="false" targetId="97ca-d844-762a-a73c" type="profile"/>
+        <infoLink id="45ea-1eb9-3bf9-c3e7" name="Jetpack" hidden="false" targetId="tau0-ec6a-0dcb-d81f" type="rule"/>
+        <infoLink id="609f-fe12-7689-2761" name="Independent Character" hidden="false" targetId="4a60-7f7e-c37f-a4d6" type="rule"/>
+        <infoLink id="e50c-47e3-017e-c05e" name="Special Character" hidden="false" targetId="tau0-be8a-8bae-1dcd" type="rule"/>
+        <infoLink id="3469-0b5e-c942-d7a8" name="Blacksun Filter" hidden="false" targetId="tau0-cfd0-1939-ad50" type="rule"/>
+        <infoLink id="d6d9-b5a4-db04-881a" name="Vectored Retro-thrusters" hidden="false" targetId="tau0-8efb-924c-cc99" type="rule"/>
+        <infoLink id="b8fd-e689-e31c-e210" name="Stubborn" hidden="false" targetId="9e00-97b1-f8fe-606a" type="rule"/>
+        <infoLink id="635c-276b-e012-57e3" name="Drone Controller" hidden="false" targetId="tau0-a13f-c004-e8dd" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="376a-e799-6b4d-3cd3" name="New CategoryLink" hidden="false" targetId="a8a7-7a4b-5f7e-2138" primary="true"/>
+        <categoryLink id="d1fb-a0e1-9335-57ab" name="Independent Character" hidden="false" targetId="3c96-248b-affd-e504" primary="false"/>
+        <categoryLink id="a8cc-d53f-2825-a90a" name="Jump Infantry" hidden="false" targetId="b3bf-01b4-c272-3409" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="77a4-ec72-e507-3c21" name="Marker Drone" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65b8-3f7e-4df5-4845" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ad6-1cef-3674-9730" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="a282-9d63-134e-e6a7" name="Networked Markerlight" hidden="false" targetId="tau0-914c-4e8c-1ca6" type="rule"/>
+            <infoLink id="6bff-d42e-9c2a-76a1" name="Blacksun Filter" hidden="false" targetId="tau0-cfd0-1939-ad50" type="rule"/>
+            <infoLink id="f17b-56d7-ab46-ca56" name="Marker Drone" hidden="false" targetId="tau0-1de0-e7c4-b7ce" type="profile"/>
+            <infoLink id="b14e-b27d-1195-d0c3" name="Markerlight" hidden="false" targetId="93c5-ed67-a327-95e9" type="profile"/>
+            <infoLink id="f4aa-477e-649d-7feb" name="Jetpack" hidden="false" targetId="tau0-ec6a-0dcb-d81f" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="190.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="tau1-53c8-88ca-ce9c" name="Battlesuit Wargear" hidden="false" collective="false" import="true">
@@ -4928,53 +5019,9 @@ A Great Knarloc with no remaining Goads cannot capture table quarters, hold obje
               </costs>
             </selectionEntry>
             <selectionEntry id="03f2-2c7b-0d08-a277" name="Drone Controller" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntryGroups>
-                <selectionEntryGroup id="029c-42ea-04ec-fd65" name="Drones" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a86-9dbd-a3f8-fcbb" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8486-e0f7-74b1-a854" type="min"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="62d5-049d-f6fc-5c86" name="Gun Drone" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="tau1-05c9-a92a-4972" name="Gun Drone" hidden="false" targetId="tau0-241a-c6b0-45d6" type="profile"/>
-                        <infoLink id="tau1-1790-07bd-d585" name="Jetpack" hidden="false" targetId="tau0-ec6a-0dcb-d81f" type="rule"/>
-                        <infoLink id="tau1-aa37-4d15-1384" name="Pulse Carbine" hidden="false" targetId="b90e-cd3a-8611-3762" type="profile">
-                          <modifiers>
-                            <modifier type="set" field="name" value="Twin-Linked Pulse Carbine"/>
-                          </modifiers>
-                        </infoLink>
-                        <infoLink id="tau1-c0c5-ebec-6434" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="13e5-8cf0-f7a9-a1ef" name="Shield Drone" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="tau1-7461-5098-07ba" name="Shield Drone" hidden="false" targetId="tau0-d973-733f-edd2" type="profile"/>
-                        <infoLink id="tau1-5a0c-dff4-49df" name="Close Protection" hidden="false" targetId="tau0-cb03-d305-2364" type="rule"/>
-                        <infoLink id="tau1-ffdd-250b-e1fb" name="Jetpack" hidden="false" targetId="tau0-ec6a-0dcb-d81f" type="rule"/>
-                        <infoLink id="tau1-5991-f96a-7003" name="Invulnerable Saving Throw" hidden="false" targetId="97b3-810d-a09e-872b" type="rule"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="45cf-d67e-ba92-c361" name="Marker Drone" hidden="false" collective="false" import="true" type="upgrade">
-                      <infoLinks>
-                        <infoLink id="tau1-ae92-ec36-d6fa" name="Marker Drone" hidden="false" targetId="tau0-1de0-e7c4-b7ce" type="profile"/>
-                        <infoLink id="tau1-a427-22e2-ef32" name="Networked Markerlight" hidden="false" targetId="tau0-914c-4e8c-1ca6" type="rule"/>
-                        <infoLink id="tau1-09ad-5c14-75ed" name="Jetpack" hidden="false" targetId="tau0-ec6a-0dcb-d81f" type="rule"/>
-                        <infoLink id="tau1-1cf4-5b15-f46f" name="Markerlight" hidden="false" targetId="93c5-ed67-a327-95e9" type="profile"/>
-                      </infoLinks>
-                      <costs>
-                        <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="4f57-d12e-6a84-7782" name="Drones" hidden="false" collective="false" import="true" targetId="901e-bfa4-4e5c-bbb4" type="selectionEntryGroup"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="0.0"/>
               </costs>
@@ -5139,6 +5186,51 @@ A Great Knarloc with no remaining Goads cannot capture table quarters, hold obje
           </infoLinks>
           <costs>
             <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="901e-bfa4-4e5c-bbb4" name="Drones" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fca8-f8dd-b4f2-0d52" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6856-9d93-20f7-ee0d" type="min"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="5f7a-3415-f6be-fc05" name="Gun Drone" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="7d33-c32b-483c-e319" name="Gun Drone" hidden="false" targetId="tau0-241a-c6b0-45d6" type="profile"/>
+            <infoLink id="ebdd-a066-8976-9a79" name="Jetpack" hidden="false" targetId="tau0-ec6a-0dcb-d81f" type="rule"/>
+            <infoLink id="94db-8cd2-63f2-b11d" name="Pulse Carbine" hidden="false" targetId="b90e-cd3a-8611-3762" type="profile">
+              <modifiers>
+                <modifier type="set" field="name" value="Twin-Linked Pulse Carbine"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="a8e8-5187-e9ce-938b" name="Twin-Linked" hidden="false" targetId="ebe5-6318-0fba-b84c" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="486c-5c92-abc3-24db" name="Shield Drone" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="2e97-4bbd-7281-86c0" name="Shield Drone" hidden="false" targetId="tau0-d973-733f-edd2" type="profile"/>
+            <infoLink id="d33a-fe8a-cf7d-3a08" name="Close Protection" hidden="false" targetId="tau0-cb03-d305-2364" type="rule"/>
+            <infoLink id="4c07-9719-1227-f944" name="Jetpack" hidden="false" targetId="tau0-ec6a-0dcb-d81f" type="rule"/>
+            <infoLink id="af09-ab24-d064-9414" name="Invulnerable Saving Throw" hidden="false" targetId="97b3-810d-a09e-872b" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0b27-f713-7292-494b" name="Marker Drone" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="81a3-dd4c-a06a-72f5" name="Marker Drone" hidden="false" targetId="tau0-1de0-e7c4-b7ce" type="profile"/>
+            <infoLink id="41f4-4fef-034d-f797" name="Networked Markerlight" hidden="false" targetId="tau0-914c-4e8c-1ca6" type="rule"/>
+            <infoLink id="5159-eb50-4784-b1ca" name="Jetpack" hidden="false" targetId="tau0-ec6a-0dcb-d81f" type="rule"/>
+            <infoLink id="265c-bfa0-4008-912a" name="Markerlight" hidden="false" targetId="93c5-ed67-a327-95e9" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="4ed5-2f92-9abc-2870" value="30.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5745,7 +5837,7 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Jump Infantry (jet pack)</characteristic>
       </characteristics>
     </profile>
-    <profile id="tau0-e69a-b5ab-22c4" name="Shas&apos;o R&apos;Myr" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
+    <profile id="tau0-e69a-b5ab-22c4" name="Shas&apos;o R&apos;myr" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
       <characteristics>
         <characteristic name="WS" typeId="c704-6128-f143-935a">4</characteristic>
         <characteristic name="BS" typeId="7928-3a9b-6080-ed95">5</characteristic>
@@ -5941,6 +6033,20 @@ These increase the model&apos;s Armour Save to 2+, but the additional 6&quot; mo
         <characteristic name="Rear Armor" typeId="99bc-d564-3760-e4b0">10</characteristic>
         <characteristic name="BS" typeId="b109-f88e-dcc7-8a24">3</characteristic>
         <characteristic name="Type" typeId="379b-a138-9399-8aa8">Skimmer</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="97ca-d844-762a-a73c" name="Shas&apos;o R&apos;alai" hidden="false" typeId="1e16-2bd8-7cad-379b" typeName="Unit">
+      <characteristics>
+        <characteristic name="WS" typeId="c704-6128-f143-935a">4</characteristic>
+        <characteristic name="BS" typeId="7928-3a9b-6080-ed95">5</characteristic>
+        <characteristic name="S" typeId="df03-6292-d3f5-f778">5</characteristic>
+        <characteristic name="T" typeId="e5f6-94c4-de8c-5fa8">5</characteristic>
+        <characteristic name="W" typeId="4dc2-c603-0bc5-0561">4</characteristic>
+        <characteristic name="I" typeId="eeda-4fb4-901e-b70d">4</characteristic>
+        <characteristic name="A" typeId="abbf-0d11-fd86-d938">4</characteristic>
+        <characteristic name="Ld" typeId="f47e-b15a-8f58-703c">10</characteristic>
+        <characteristic name="Sv" typeId="b309-5233-122f-82bb">3+</characteristic>
+        <characteristic name="Type" typeId="9d93-cbea-06e5-c0a1">Jump Infantry (jet pack)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
